@@ -1,0 +1,366 @@
+{
+
+    "store.custom#tecnologia": {
+        "children": [
+            "flex-layout.row#tecnologia-1",
+            "flex-layout.row#tecnologia-2",
+            "flex-layout.row#tecnologia-3",
+            "flex-layout.row#tecnologia-4",
+            "flex-layout.row#tecnologia-5",
+             "flex-layout.row#tecnologia-6"
+        ]
+    },
+    
+    
+    // Row 1
+
+    "flex-layout.row#tecnologia-1": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "sobrenos-1"
+            ]
+        },
+        "children": [
+              "flex-layout.col#tecnologia-1"
+        ]
+    },
+        "flex-layout.col#tecnologia-1": {
+            "props": {
+                "rowGap":6
+            },
+            "children": [
+                "rich-text#tecnologia-1-title",
+                "flex-layout.row#tecnologia-1-row"
+            ]
+        },
+            
+            "rich-text#tecnologia-1-title": {
+                "props": {
+                    "text": "## Tecnologia Finamac™\nInovação e Excelência na Fabricação de Sorvetes",
+                    "blockClass":"color-secondary"
+                }
+            },
+
+            "flex-layout.row#tecnologia-1-row": {
+                "props": {
+                    "colGap":8
+                },
+                "children": [
+                    "flex-layout.col#tecnologia-1-1",
+                    "flex-layout.col#tecnologia-1-2"
+                ]
+            },
+                    "flex-layout.col#tecnologia-1-1": {
+                        "props": {
+                            "preventVerticalStretch":true,
+                            "verticalAlign":"middle"
+                        },
+                        "children": [
+                            "image#tecnologia-1-1"
+                        ]
+                    },
+                        "image#tecnologia-1-1": {
+                            "props": {
+                            "src": "assets/institucional/tecnologia-1.webp",
+                            "blockClass":"width100"
+                            }
+                        },
+
+                    "flex-layout.col#tecnologia-1-2": {
+                        "props": {
+                            "preventVerticalStretch":true,
+                            "verticalAlign":"middle"
+                        },
+                        "children": [
+                            "rich-text#tecnologia-1-2"
+                        ]
+                    },
+                        "rich-text#tecnologia-1-2": {
+                            "props": {
+                                "text": "### Modernidade do Design ao Produto Final\n\nNa Finamac™, cada produto é desenvolvido utilizando tecnologia 3D digital avançada, desde a concepção até a fabricação. Softwares de Design, Construção Mecânica, Simulação e Fabricação garantem máxima precisão e qualidade em parceria com escolas e institutos de pesquisa nacionais e internacionais."
+                            }
+                        },
+
+
+    // Row 2
+
+    "flex-layout.row#tecnologia-2": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "sobrenos-2"
+            ],
+            "colGap":8
+        },
+        "children": [
+            "flex-layout.col#tecnologia-2-1",
+            "flex-layout.col#tecnologia-2-2",
+            "flex-layout.col#tecnologia-2-3"
+        ]
+    },
+            "flex-layout.col#tecnologia-2-1": {
+                "props": {
+                    "preventVerticalStretch":true,
+                    "verticalAlign":"top",
+                    "blockClass":"sobrenos-2"
+                },
+                "children": [
+                    "rich-text#tecnologia-2-1"
+                ]
+            },
+                "rich-text#tecnologia-2-1": {
+                    "props": {
+                        "text": "### Design em 3D\n\nPrecisão digital em cada detalhe.",
+                        "textAlignment": "CENTER",
+                        "textPosition": "CENTER",
+                        "blockClass":"color-base"
+                    }
+                },
+
+                "flex-layout.col#tecnologia-2-2": {
+                    "props": {
+                        "preventVerticalStretch":true,
+                        "verticalAlign":"top",
+                        "blockClass":"sobrenos-2"
+                    },
+                    "children": [
+                        "rich-text#tecnologia-2-2"
+                    ]
+                },
+                    "rich-text#tecnologia-2-2": {
+                        "props": {
+                            "text": "### Parcerias Globais\n\nColaborações com instituições renomadas.",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-base"
+                        }
+                    },
+    
+                    "flex-layout.col#tecnologia-2-3": {
+                        "props": {
+                            "preventVerticalStretch":true,
+                            "verticalAlign":"top",
+                            "blockClass":"sobrenos-2"
+                        },
+                        "children": [
+                            "rich-text#tecnologia-2-3"
+                        ]
+                    },
+                        "rich-text#tecnologia-2-3": {
+                            "props": {
+                                "text": "### Inovação Contínua\n\nEquipamentos de última geração conectados diretamente ao processo produtivo.",
+                                "textAlignment": "CENTER",
+                                "textPosition": "CENTER",
+                                "blockClass":"color-base"
+                            }
+                        },
+
+
+    // Row 3
+
+    "flex-layout.row#tecnologia-3": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "padding40vs20"
+            ],
+            "colGap":8
+        },
+        "children": [
+            "flex-layout.col#tecnologia-3-1",
+            "flex-layout.col#tecnologia-3-2"
+        ]
+    },
+            "flex-layout.col#tecnologia-3-1": {
+                "props": {
+                    "preventVerticalStretch":true,
+                    "verticalAlign":"middle"
+                },
+                "children": [
+                     "rich-text#tecnologia-4-1"
+                ]
+            },
+                "rich-text#tecnologia-4-1": {
+                    "props": {
+                        "text": "### A Revolução na Fabricação de Sorvetes\n\nCom tecnologia avançada e mais de 40 patentes, a Finamac™ lidera a inovação no setor."
+                    }
+                },
+
+            "flex-layout.col#tecnologia-3-2": {
+                "props": {
+                    "preventVerticalStretch":true,
+                    "verticalAlign":"middle"
+                },
+                "children": [
+                    "image#tecnologia-3-1"
+                ]
+            },
+                "image#tecnologia-3-1": {
+                    "props": {
+                    "src": "assets/institucional/tecnologia-2.webp",
+                    "blockClass":"width100"
+                    }
+                },
+
+
+    // Row 4
+
+    "flex-layout.row#tecnologia-4": {
+        "props": {
+            "blockClass":["tecnologia-4","padding40vs20"]
+        },
+        "children": [
+            "rich-text#tecnologia-4"
+        ]
+    },
+    "rich-text#tecnologia-4": {
+        "props": {
+            "text": "##### **Todos os nossos fornecedores são rigorosamente homologados por órgãos de qualidade ou passam por aprovação técnica interna criteriosa. Essa atenção aos detalhes garante que cada peça e equipamento fabricado siga padrões internacionais de excelência.**",
+            "blockClass":"color-base",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+
+    // Row 5
+
+    "flex-layout.row#tecnologia-5": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "padding40vs20"
+            ],
+            "colGap":8
+        },
+        "children": [
+             "flex-layout.col#tecnologia-5-1",
+             "flex-layout.col#tecnologia-5-2"
+        ]
+        },
+            
+            "flex-layout.col#tecnologia-5-1": {
+                "props": {
+                    "preventVerticalStretch":true,
+                    "verticalAlign":"middle"
+                },
+                "children": [
+                    "image#tecnologia-5-1"
+                ]
+            },
+            "image#tecnologia-5-1": {
+                    "props": {
+                    "src": "assets/institucional/tecnologia-5.webp",
+                    "blockClass":"width100"
+                    }
+                },
+
+            "flex-layout.col#tecnologia-5-2": {
+                "props": {
+                    "preventVerticalStretch":true,
+                    "verticalAlign":"middle"
+                },
+                "children": [
+                    "rich-text#tecnologia-5-2"
+                ]
+            },
+                "rich-text#tecnologia-5-2": {
+                    "props": {
+                        "text": "## Única Empresa Brasileira com Tecnologia Exclusiva para Sorvetes\n\nCom mais de 40 patentes no setor, a Finamac™ se posiciona como referência global em inovação para fabricação de sorvetes. Nossa equipe de engenheiros, credenciada pelo Conselho Regional de Engenharia e Arquitetura, é responsável por cada avanço que entregamos ao mercado."
+                    }
+                },
+
+    // Row 6
+
+        "flex-layout.row#tecnologia-6": {
+            "props": {
+                "blockClass":[
+                    "1300",
+                    "padding40vs20"
+                ],
+                "rowGap":5
+            },
+            "children": [
+                "flex-layout.col#tecnologia-6"
+            ]
+        },
+            "flex-layout.col#tecnologia-6": {
+                "props": {
+                },
+                "children": [
+                    "rich-text#tecnologia-6-title",
+                     "flex-layout.row#tecnologia-6-row"
+                ]
+            },
+
+                "rich-text#tecnologia-6-title": {
+                    "props": {
+                        "text": "#### **A Escolha Certa para Qualidade e Inovação**",
+                        "textAlignment": "CENTER",
+                        "textPosition": "CENTER"
+                    }
+                },
+
+                "flex-layout.row#tecnologia-6-row": {
+                    "props": {
+                        "colGap":5,
+                        "rowGap":6
+                    },
+                    "children": [
+                        "rich-text#tecnologia-6-1",
+                        "rich-text#tecnologia-6-2",
+                        "rich-text#tecnologia-6-3",
+                        "rich-text#tecnologia-6-4"
+                    ]
+                },
+                    "rich-text#tecnologia-6-1": {
+                        "props": {
+                            "text": "##### 🔬 **Mais de 40 Patentes**\nSomos líderes em inovação no setor.",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"tecnologia-6"
+                        }
+                    },
+
+                    "rich-text#tecnologia-6-2": {
+                        "props": {
+                            "text": "##### 📈 **Tecnologia Avançada**\nEquipamentos modernos e eficientes.",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"tecnologia-6"
+                        }
+                    },
+                    
+                    "rich-text#tecnologia-6-3": {
+                        "props": {
+                            "text": "##### 🌟 **Parcerias Reconhecidas**\nInstituições nacionais e internacionais renomadas.",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"tecnologia-6"
+                        }
+                    },
+                    
+                    "rich-text#tecnologia-6-4": {
+                        "props": {
+                            "text": "##### 🌐 **Exportação Mundial**\nEquipamentos utilizados em diversos países.",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"tecnologia-6"
+                        }
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

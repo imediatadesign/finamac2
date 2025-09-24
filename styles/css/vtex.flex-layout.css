@@ -1,0 +1,815 @@
+/* Country Selector Bar */
+.flexRow--country-selector-bar {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e0e0e0;
+  min-height: 40px;
+}
+
+.flexRowContent--country-selector-bar {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 640px) {
+  .flexRow--country-selector-bar {
+    min-height: 36px;
+  }
+
+  .flexRowContent--country-selector-bar {
+    padding: 0 15px;
+  }
+}
+
+.flexRowContent--footer-row-3 {
+  background-color: #025da6 !important;
+  color: white;
+}
+
+.flexRow--footer-row-3 {
+  background-color: #025da6 !important;
+  margin: 0;
+  max-width: 100%;
+}
+
+.flexRow--footer-row-3 .flexRowContent {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+/* Estilos para links do menu no footer */
+.flexRow--footer-row-3 .vtex-menu-2-x-styledLink {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.875rem;
+}
+
+.flexRow--footer-row-3 .vtex-menu-2-x-styledLink:hover {
+  color: white;
+}
+
+
+
+/* Estilo do botão Consulte nos produtos */
+.flexRow--shelf-consulte-produtos {
+  margin-top: 10px !important;
+  padding-top: 10px;
+  width: 100% !important;
+  display: block !important;
+}
+
+/* Garantir que o botão sempre apareça */
+.flexCol--shelf-complete .flexRow--shelf-consulte-produtos {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Reduzir espaço quando hide price estiver ativo (sem preço) */
+.flexCol--shelf-without-price .flexRow--shelf-consulte-produtos {
+  margin-top: 5px !important;
+  padding-top: 0 !important;
+}
+
+/* Ajustar espaço do rating quando sem preço */
+.flexCol--shelf-without-price .flexRow--shelf-rating {
+  margin-bottom: 5px !important;
+}
+
+/* Estilos para títulos */
+.flexRow--footer-row-3 .vtex-rich-text-0-x-strong--footer-row-3-title {
+  color: white;
+  font-size: 1rem;
+}
+
+/* Estilos para textos */
+.flexRow--footer-row-3 .vtex-rich-text-0-x-paragraph {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.875rem;
+}
+
+.flexRow--footer-row-3 .vtex-rich-text-0-x-link {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Estilos para footer-row-2 (Newsletter) */
+.flexRow--footer-v2-row-2,
+.flexRowContent--footer-v2-row-2 {
+  background-color: #025da6 !important;
+}
+
+.flexRow--footer-v2-row-2 .vtex-rich-text-0-x-paragraph,
+.flexRow--footer-v2-row-2 .vtex-rich-text-0-x-heading {
+  color: white !important;
+}
+
+/* Estilos para footer-row-4 */
+.flexRow--footer-row-4,
+.flexRowContent--footer-row-4 {
+  background-color: #025da6 !important;
+}
+
+.flexRow--footer-row-4 .vtex-rich-text-0-x-paragraph {
+  color: white !important;
+}
+
+/* Estilos para footer-row-5 */
+.flexRow--footer-row-5,
+.flexRowContent--footer-row-5 {
+  background-color: #025da6 !important;
+}
+
+.flexRow--footer-row-5 .vtex-rich-text-0-x-paragraph,
+.flexRow--footer-row-5 .vtex-rich-text-0-x-strong {
+  color: white !important;
+}
+
+.flexRowContent--newsletter {
+  margin: 10px !important;
+}
+
+/* ============================================
+   FOOTER STYLES - Integrado ao flex-layout
+   ============================================ */
+
+.flexRow--footer-info-container {
+  background: #005ea6;
+  color: #ffffff;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.flexRow--footer-info-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #025da6, transparent);
+  opacity: 0.9;
+}
+
+.flexRowContent--footer-info-container {
+  max-width: 1240px !important;
+  margin: 0 auto !important;
+  padding: 0 30px;
+}
+
+.flexCol--footer-info-main {
+  width: 100%;
+  padding: 0;
+}
+
+/* Navegação Principal do Footer */
+.flexRow--footer-navigation {
+  padding: 45px 0 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.flexRowContent--footer-navigation {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+  max-width: 100%;
+  align-items: start;
+}
+
+/* Colunas do Footer */
+.flexCol--footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.flexCol--footer-about {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-right: 30px;
+}
+
+/* Social Media Row */
+.flexRow--footer-social {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  align-items: center;
+}
+
+.flexRowContent--footer-social {
+  justify-content: flex-start;
+  gap: 1rem !important;
+}
+
+/* Seção de Privacidade */
+.flexRow--footer-privacy {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.01) 100%);
+  padding: 25px 0;
+  text-align: center;
+  margin: 30px 0;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.flexRowContent--footer-privacy {
+  max-width: 100%;
+}
+
+.flexCol--footer-privacy-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Seção de Endereços */
+.flexRow--footer-addresses {
+  background: transparent;
+  padding: 35px 0 40px;
+}
+
+.flexRowContent--footer-addresses {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 100%;
+}
+
+.flexCol--footer-address-column {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  min-height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+
+.flexCol--footer-address-column::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(2, 93, 166, 0.08) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.flexCol--footer-address-column:hover {
+  background: rgba(2, 93, 166, 0.08);
+  border-color: rgba(2, 93, 166, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(2, 93, 166, 0.2);
+}
+
+.flexCol--footer-address-column:hover::before {
+  opacity: 1;
+}
+
+/* Newsletter Section */
+.flexRow--newsletter {
+  padding: 30px 20px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+
+.flexRow--newsletter::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 50%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.flexRowContent--newsletter {
+  max-width: 1240px;
+  margin: 0 auto !important;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Footer Row 2 */
+.flexRow--footer-row-2 {
+  background: rgba(2, 93, 166, 0.05);
+  padding: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.flexRowContent--footer-row-2 {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 25px 30px;
+  border-bottom: none;
+}
+
+/* Consultoria Especializada - Estilos Elegantes */
+
+/* Hero Section - Background Azul */
+.flexRow--consultoria-hero-blue-bg,
+.flexRow--consultoria-hero-blue-bg .flexRowContent,
+.flexRow--consultoria-hero-blue-bg .flexRowContent--consultoria-hero-blue-bg {
+  background-color: #025da6 !important;
+  background: linear-gradient(135deg, #025da6 0%, #0073e6 100%) !important;
+}
+
+.flexRow--consultoria-hero-blue-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* Hero Text Styles */
+.flexRow--consultoria-hero-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* White Text Classes */
+:global(.vtex-rich-text-0-x-paragraph--consultoria-white-text),
+:global(.vtex-rich-text-0-x-heading--consultoria-white-text),
+:global(.vtex-rich-text-0-x-strong--consultoria-white-text),
+:global(.vtex-rich-text-0-x-wrapper--consultoria-white-text),
+.flexRow--consultoria-hero-blue-bg :global(.vtex-rich-text-0-x-paragraph),
+.flexRow--consultoria-hero-blue-bg :global(.vtex-rich-text-0-x-heading),
+.flexRow--consultoria-hero-blue-bg :global(.vtex-rich-text-0-x-strong),
+.flexRow--consultoria-hero-blue-bg :global(.vtex-rich-text-0-x-wrapper) {
+  color: #ffffff !important;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--consultoria-hero-subtitle) {
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--consultoria-hero-title) {
+  color: #ffffff;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+:global(.vtex-rich-text-0-x-heading--consultoria-hero-title) {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--consultoria-hero-cta) {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.125rem;
+  font-style: italic;
+}
+
+/* Hero Image */
+:global(.vtex-store-components-3-x-imageElement--consultoria-hero-image) {
+  border-radius: 8px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+:global(.vtex-store-components-3-x-imageElement--consultoria-hero-image):hover {
+  transform: translateY(-5px);
+}
+
+/* Video Section */
+.flexRow--consultoria-video-section {
+  background-color: #f8f9fa;
+}
+
+.flexCol--consultoria-video-simple {
+  display: block !important;
+}
+
+/* Centralizar conteúdo do vídeo */
+.flexRow--consultoria-video-inner {
+  justify-content: center !important;
+}
+
+.flexRowContent--consultoria-video-inner {
+  justify-content: center !important;
+}
+
+.flexCol--consultoria-video-content {
+  align-items: center;
+  text-align: center;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--consultoria-video-title) {
+  color: #025da6;
+  margin-bottom: 1rem;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--consultoria-video-text) {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  color: #666;
+  line-height: 1.8;
+}
+
+:global(.vtex-store-video-1-x-videoContainer--consultoria-youtube) {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Store Video styles */
+:global(.vtex-store-video-1-x-video--consultoria-youtube) {
+  border-radius: 8px;
+  width: 100%;
+  height: 450px;
+}
+
+/* Services Section */
+.flexRow--consultoria-services-bg {
+  background-color: #ffffff;
+}
+
+.flexCol--consultoria-services-wrapper {
+  display: block !important;
+}
+
+/* Centralizar conteúdo dos serviços */
+.flexRow--consultoria-services-inner {
+  justify-content: center !important;
+}
+
+.flexRowContent--consultoria-services-inner {
+  justify-content: center !important;
+}
+
+.flexCol--consultoria-services-content {
+  align-items: center;
+}
+
+.flexRow--consultoria-services-cards {
+  justify-content: center !important;
+  margin: 0 auto;
+}
+
+.flexRowContent--consultoria-services-cards {
+  justify-content: center !important;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Garantir que os cards fiquem centralizados */
+.flexCol--service-card-1,
+.flexCol--service-card-2 {
+  display: flex;
+  justify-content: center;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--consultoria-services-title) {
+  color: #025da6;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--consultoria-services-subtitle) {
+  color: #666;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+/* Service Cards */
+.flexRow--service-card {
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  height: 100%;
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRow--service-card-blue {
+  background-color: #025da6;
+  background: linear-gradient(135deg, #025da6 0%, #0073e6 100%);
+}
+
+.flexRow--service-card-white {
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+}
+
+.flexRow--service-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.flexRow--service-card-blue:hover {
+  box-shadow: 0 20px 40px rgba(2, 93, 166, 0.3);
+}
+
+:global(.vtex-rich-text-0-x-heading--consultoria-services-list) {
+  color: #025da6;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--consultoria-services-list) {
+  line-height: 2.2;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.flexRow--service-card-blue :global(.vtex-rich-text-0-x-heading),
+.flexRow--service-card-blue :global(.vtex-rich-text-0-x-paragraph) {
+  color: #ffffff !important;
+}
+
+.flexRow--service-card-blue :global(.vtex-rich-text-0-x-heading--consultoria-services-list) {
+  text-align: center;
+}
+
+/* Estilo dos cards para melhor apresentação */
+.flexRowContent--service-card {
+  padding: 3rem !important;
+}
+
+@media (max-width: 768px) {
+  .flexRowContent--service-card {
+    padding: 2rem !important;
+  }
+
+  :global(.vtex-rich-text-0-x-heading--consultoria-services-list) {
+    font-size: 1.5rem;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--consultoria-services-list) {
+    font-size: 1rem;
+  }
+}
+
+/* Professionals Section */
+.flexCol--consultoria-professionals-title-wrapper {
+  display: block !important;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--consultoria-professionals-title-text) {
+  color: #025da6;
+  margin-bottom: 0.5rem;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--consultoria-professionals-subtitle) {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* Fernanda Section */
+.flexRow--consultoria-fernanda-section {
+  background-color: #f8f9fa;
+}
+
+/* Centralize inner content */
+.flexRow--consultoria-fernanda-inner {
+  justify-content: center !important;
+}
+
+.flexRowContent--consultoria-fernanda-inner {
+  justify-content: center !important;
+}
+
+/* Fernanda Card */
+.flexRow--consultoria-fernanda-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.flexRowContent--consultoria-fernanda-card {
+  align-items: center !important;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.flexRow--consultoria-card-shadow {
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+}
+
+.flexRow--consultoria-card-shadow:hover {
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18);
+  transform: translateY(-8px) scale(1.01);
+}
+
+:global(.vtex-store-components-3-x-imageElement--consultoria-fernanda-image) {
+  border-radius: 12px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+:global(.vtex-store-components-3-x-imageElement--consultoria-fernanda-image):hover {
+  transform: scale(1.05);
+}
+
+:global(.vtex-rich-text-0-x-wrapper--consultoria-fernanda-name) {
+  color: #025da6;
+  margin-bottom: 0.75rem;
+}
+
+:global(.vtex-rich-text-0-x-heading--consultoria-fernanda-name) {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--consultoria-fernanda-role) {
+  color: #666;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 3px solid #e0f0ff;
+  font-size: 1.125rem;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--consultoria-fernanda-bio) {
+  color: #444;
+  line-height: 1.9;
+  font-size: 1.05rem;
+}
+
+:global(.vtex-rich-text-0-x-strong--consultoria-fernanda-bio) {
+  color: #025da6;
+  font-weight: 700;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .flexRow--consultoria-fernanda-card {
+    text-align: center;
+  }
+
+  :global(.vtex-rich-text-0-x-heading--consultoria-fernanda-name) {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  :global(.vtex-rich-text-0-x-wrapper--consultoria-fernanda-role) {
+    text-align: center;
+  }
+
+  :global(.vtex-rich-text-0-x-wrapper--consultoria-fernanda-bio) {
+    text-align: left;
+  }
+}
+
+/* Form Section */
+.flexRow--consultoria-form-section {
+  background-color: #025da6;
+  background: linear-gradient(135deg, #025da6 0%, #0073e6 100%);
+}
+
+.flexCol--consultoria-form-wrapper {
+  display: block !important;
+}
+
+.flexRow--consultoria-form-bg {
+  background-color: #025da6;
+  background: linear-gradient(135deg, #025da6 0%, #0073e6 100%);
+}
+
+/* Texto branco na seção do formulário */
+.flexRow--consultoria-form-section :global(.vtex-rich-text-0-x-heading),
+.flexRow--consultoria-form-section :global(.vtex-rich-text-0-x-paragraph) {
+  color: #ffffff !important;
+}
+
+.flexRow--consultoria-form-container {
+  position: relative;
+  z-index: 1;
+}
+
+.flexCol--consultoria-form-white-bg {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  :global(.vtex-rich-text-0-x-heading--consultoria-hero-title) {
+    font-size: 2rem;
+  }
+
+  .flexRow--consultoria-hero-inner {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .flexRow--service-card {
+    margin-bottom: 1rem;
+  }
+
+  :global(.vtex-iframe-0-x-container--consultoria-youtube) {
+    height: 300px !important;
+  }
+}
+
+/* Custom scrollbar for form */
+.flexCol--consultoria-form-white-bg ::-webkit-scrollbar {
+  width: 8px;
+}
+
+.flexCol--consultoria-form-white-bg ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.flexCol--consultoria-form-white-bg ::-webkit-scrollbar-thumb {
+  background: #025da6;
+  border-radius: 4px;
+}
+
+.flexCol--consultoria-form-white-bg ::-webkit-scrollbar-thumb:hover {
+  background: #0056b3;
+}
+
+/* =================================================================
+   PDP CONTATO - BOTÕES UM EMBAIXO DO OUTRO
+   ================================================================= */
+
+/* Flex Layout PDP Contato - Botões em coluna */
+.flexRow--pdp-contato {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100%;
+  gap: 12px;
+  align-items: stretch !important;
+}
+
+.flexRowContent--pdp-contato .stretchChildrenWidth {
+  min-width: 100% !important;
+  padding-right: 0 !important;
+  width: -webkit-fill-available;
+}
+
+.flexRowContent--pdp-contato {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100%;
+  margin-top: 1rem;
+  gap: 12px !important;
+  align-items: stretch !important;
+}
+
+/* Forçar elementos filhos diretos a ocuparem largura total */
+.flexRow--pdp-contato :global(.vtex-store-components-3-x-container),
+.flexRowContent--pdp-contato :global(.vtex-store-components-3-x-container),
+.flexRow--pdp-contato :global(.vtex-button),
+.flexRowContent--pdp-contato :global(.vtex-button) {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 1 0 100% !important;
+}
+
+/* Garantir que os botões ocupem 100% da largura */
+.flexRow--pdp-contato .vtex-contact-button,
+.flexRow--pdp-contato .vtex-whatsapp-button {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+}
+
+/* Remover margin-top do WhatsApp button já que o gap cuida disso */
+.flexRow--pdp-contato .vtex-whatsapp-button {
+  margin-top: 0 !important;
+}
+
+/* Mobile - manter o mesmo layout */
+@media (max-width: 640px) {
+  .flexRow--pdp-contato {
+    flex-direction: column !important;
+  }
+
+  .flexRowContent--pdp-contato {
+    flex-direction: column !important;
+  }
+}

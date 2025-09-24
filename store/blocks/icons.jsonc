@@ -1,0 +1,14 @@
+{
+  "icon-caret#down": {
+    "props": {
+      "id": "nav-caret--down",
+      "size": 10
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "id": "nav-caret--up", 
+      "size": 10
+    }
+  }
+}

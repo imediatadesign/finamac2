@@ -1,0 +1,85 @@
+
+.flexRowContent--pdp-descr  :global(.vtex-button){
+    color: var(--primary);
+    background: none;
+    border: none;
+}
+
+.flexRowContent--pdp-descr :global(.vtex-tab-layout-0-x-listItemActive) :global(.vtex-button){
+    border-bottom: solid 2px var(--primary) !important;
+    border-radius: 0 !important;
+}
+
+.flexRowContent--productSpecificationGroup,
+.flexRow--pdp-tab-1
+.flexRow--pdp-tab-3{
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px 0px 40px 0px;
+}
+
+.flexRow--productSpecification:nth-child(odd){
+    background: #f0f0f0
+}
+
+.flexRow--productSpecification:nth-child(even){
+    background: #fafafa;
+}
+
+.flexRowContent--productSpecification{
+    padding: 10px 0px;
+}
+
+:global(.vtex-product-specifications-1-x-specificationName){
+    font-weight: 600;
+}
+
+
+/* MOBILE DISCLOSURE */
+
+
+.flexRow--pdp-descr-mobile{
+    padding: 10px 20px 40px 20px;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--pdp-descr-mobile){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexRow--pdp-descr-mobile :global(.vtex-store-components-3-x-content),
+.flexRow--pdp-descr-mobile  :global(.vtex-product-specifications-1-x-specificationValue),
+.flexRow--pdp-descr-mobile :global(.vtex-product-specifications-1-x-specificationName){
+    font-size: 0.8rem;
+    color: var(--primary);
+}
+
+.flexRow--pdp-descr-mobile .flexCol--productSpecificationName{
+    display: grid;
+    padding-left: 10px;
+    justify-content: left;
+}
+
+.flexRow--pdp-descr-mobile  .flexCol--productSpecificationName,
+.flexRow--pdp-descr-mobile  .flexColChild--productSpecificationValue{
+    align-items: center;
+    display: flex;
+}
+
+.flexColChild--pdp-descr-mobile{
+    border-bottom: solid 1px #adadad;
+}
+
+.flexCol--pdp-descr-mobile{
+    gap: 12px;
+}
+
+.flexRow--pdp-descr-mobile :global(.vtex-disclosure-layout-1-x-content){
+    padding-bottom: 20px;
+}
+
+.flexRow--pdp-descr-mobile :global(.vtex-rich-text-0-x-paragraph){
+    font-size: 0.9rem;
+}

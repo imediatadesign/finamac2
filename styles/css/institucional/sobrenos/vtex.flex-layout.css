@@ -1,0 +1,71 @@
+
+
+/* 1 */
+
+.flexRow--sobrenos-1{
+    background: var(--base2);
+}
+
+.flexRowContent--sobrenos-1{
+    padding: 40px 40px 200px 40px;
+    @media only screen and (max-width: 600px){
+        padding: 20px 20px 100px 20px;
+    } 
+}
+
+/* 2 */
+
+.flexRow--sobrenos-2{
+    margin-top: -180px;
+    @media only screen and (max-width: 600px){
+        margin-top: -100px;
+    } 
+}
+
+.flexRowContent--sobrenos-2{
+    padding: 40px;
+    @media only screen and (max-width: 600px){
+        padding: 20px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    } 
+}
+
+.flexCol--sobrenos-2{
+    background: linear-gradient(180deg, #233f6f 0%, #1C396B 100%);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+/* 3 */
+
+.flexRowContent--sobrenos-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    gap: 10px; /* Espaço entre os itens */
+    text-align: center;
+    padding: 20px;
+    @media only screen and (max-width: 600px){
+        padding: 25px;
+        grid-template-columns: repeat(2, 1fr); /* 3 colunas */
+    } 
+}
+
+:global(.vtex-rich-text-0-x-container--sobrenos-3){
+    align-items: start;
+}
+
+
+/* 4 */
+
+.flexRow--sobrenos-4{
+    background: var(--base2);
+}
+
+.flexRowContent--sobrenos-4{
+    padding: 40px;
+    @media only screen and (max-width: 600px){
+        padding: 20px;
+    } 
+}

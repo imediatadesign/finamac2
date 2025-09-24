@@ -1,0 +1,18 @@
+{
+  "store.blog-post": {
+    "blocks": [
+      "blog-breadcrumb.wordpress-breadcrumb",
+      "flex-layout.row#blog-post-details"
+    ]
+  },
+          // Post
+                
+        "flex-layout.row#blog-post-details": {
+          "props":{
+            "blockClass": ["1200"]
+          },
+          "children": [
+            "blog-post-details.wordpress-post-details"
+          ]
+        }
+}

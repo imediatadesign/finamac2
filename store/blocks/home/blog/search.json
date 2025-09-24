@@ -1,0 +1,11 @@
+{
+  "store.blog-search-result": {
+    "blocks": [
+      "blog-breadcrumb.wordpress-breadcrumb",
+      "blog-search-list.wordpress-search-list"
+    ],
+    "props": {
+      "pagination": "show-more"
+    }
+  }
+}

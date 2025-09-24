@@ -1,0 +1,295 @@
+{
+  // Páginas em Inglês
+  "store.custom#about-us": {
+    "blocks": [
+                 "flex-layout.row#sobrenos-1",
+             "flex-layout.row#sobrenos-2",
+             "flex-layout.row#sobrenos-3-title",
+             "flex-layout.row#sobrenos-3",
+             "flex-layout.row#sobrenos-4"
+    ]
+  },
+  
+  "store.custom#awards": {
+    "blocks": [
+        "flex-layout.row#premiacoes-1",
+        "flex-layout.row#premiacoes-2"
+    ]
+  },
+  
+  "store.custom#technology": {
+    "blocks": [
+                "flex-layout.row#tecnologia-1",
+            "flex-layout.row#tecnologia-2",
+            "flex-layout.row#tecnologia-3",
+            "flex-layout.row#tecnologia-4",
+            "flex-layout.row#tecnologia-5",
+             "flex-layout.row#tecnologia-6"
+    ]
+  },
+  
+  
+  "store.custom#training": {
+    "blocks": [
+                  "flex-layout.row#treinamento-1",
+            "flex-layout.row#treinamento-2",
+            "flex-layout.row#brands-slider"
+    ]
+  },
+  
+  "store.custom#finamac-training": {
+    "blocks": [
+        "flex-layout.row#treinamentofinamac-1",
+            "flex-layout.row#treinamentofinamac-2",
+            "flex-layout.row#treinamentofinamac-3"
+    ]
+  },
+  
+  // Páginas em Espanhol
+  "store.custom#sobre-nosotros": {
+    "blocks": [
+          "flex-layout.row#sobrenos-1",
+             "flex-layout.row#sobrenos-2",
+             "flex-layout.row#sobrenos-3-title",
+             "flex-layout.row#sobrenos-3",
+             "flex-layout.row#sobrenos-4"
+    ]
+  },
+  
+  "store.custom#premios": {
+    "blocks": [
+        "flex-layout.row#premiacoes-1",
+        "flex-layout.row#premiacoes-2"
+    ]
+  },
+  
+  "store.custom#tecnologia-es": {
+    "blocks": [
+         "flex-layout.row#tecnologia-1",
+            "flex-layout.row#tecnologia-2",
+            "flex-layout.row#tecnologia-3",
+            "flex-layout.row#tecnologia-4",
+            "flex-layout.row#tecnologia-5",
+             "flex-layout.row#tecnologia-6"
+    ]
+  },
+  
+  
+  "store.custom#entrenamiento": {
+    "blocks": [
+          "flex-layout.row#treinamento-1",
+            "flex-layout.row#treinamento-2",
+            "flex-layout.row#brands-slider"
+    ]
+  },
+  
+  "store.custom#entrenamiento-finamac": {
+    "blocks": [
+        "flex-layout.row#treinamentofinamac-1",
+            "flex-layout.row#treinamentofinamac-2",
+            "flex-layout.row#treinamentofinamac-3"
+    ]
+  },
+
+  // Páginas de Clientes
+  "store.custom#clientes": {
+    "blocks": [
+        "rich-text#page-title-clientes"
+    ]
+  },
+  
+  "store.custom#clients": {
+    "blocks": [
+        "rich-text#page-title-clientes"
+    ]
+  },
+  /*
+  "store.custom#clientes-es": {
+    "blocks": [
+        "rich-text#page-title-clientes"
+    ]
+  },*/
+
+  // Páginas de Projetos
+  "store.custom#projetos": {
+    "blocks": [
+        "rich-text#page-title-projetos"
+    ]
+  },
+  
+  "store.custom#projects": {
+    "blocks": [
+        "rich-text#page-title-projetos"
+    ]
+  },
+  
+  "store.custom#proyectos": {
+    "blocks": [
+        "rich-text#page-title-projetos"
+    ]
+  },
+
+  // Páginas de Parcerias
+  "store.custom#parcerias": {
+    "blocks": [
+        "rich-text#page-title-parcerias"
+    ]
+  },
+  
+  "store.custom#partners": {
+    "blocks": [
+        "rich-text#page-title-parcerias"
+    ]
+  },
+  
+  "store.custom#asociaciones": {
+    "blocks": [
+        "rich-text#page-title-parcerias"
+    ]
+  },
+
+  // Páginas de Áreas
+  "store.custom#areas": {
+    "blocks": [
+        "rich-text#page-title-areas"
+    ]
+  },
+  
+  "store.custom#areas-en": {
+    "blocks": [
+        "rich-text#page-title-areas"
+    ]
+  },
+  
+  "store.custom#areas-es": {
+    "blocks": [
+        "rich-text#page-title-areas"
+    ]
+  },
+
+  // Páginas de Unidades
+  "store.custom#unidades": {
+    "blocks": [
+        "rich-text#page-title-unidades"
+    ]
+  },
+  
+  "store.custom#units": {
+    "blocks": [
+        "rich-text#page-title-unidades"
+    ]
+  },
+  
+  "store.custom#unidades-es": {
+    "blocks": [
+        "rich-text#page-title-unidades"
+    ]
+  },
+
+  // Páginas de Eventos
+  "store.custom#eventos": {
+    "blocks": [
+        "rich-text#page-title-eventos"
+    ]
+  },
+  
+  "store.custom#events": {
+    "blocks": [
+        "rich-text#page-title-eventos"
+    ]
+  },
+  
+  "store.custom#eventos-es": {
+    "blocks": [
+        "rich-text#page-title-eventos"
+    ]
+  },
+
+  // Páginas de Mídia
+  "store.custom#midia": {
+    "blocks": [
+        "rich-text#page-title-midia"
+    ]
+  },
+  
+  "store.custom#media": {
+    "blocks": [
+        "rich-text#page-title-midia"
+    ]
+  },
+  
+  "store.custom#midia-es": {
+    "blocks": [
+        "rich-text#page-title-midia"
+    ]
+  },
+
+  // Páginas de Cursos
+  // Movido para english-pages.jsonc para evitar duplicação
+  
+  "store.custom#cursos-es": {
+    "blocks": [
+        "rich-text#page-title-cursos"
+    ]
+  },
+
+  // Páginas de Assistência Técnica
+  "store.custom#assistencia-tecnica-finamac": {
+    "blocks": [
+        // "rich-text#page-title-assistencia"
+        "technical-support"
+    ]
+  },
+  
+  "store.custom#technical-support-finamac": {
+    "blocks": [
+        // "rich-text#page-title-assistencia"
+        "technical-support"
+    ]
+  },
+  
+  "store.custom#asistencia-tecnica-finamac": {
+    "blocks": [
+        // "rich-text#page-title-assistencia"
+        "technical-support"
+    ]
+  },
+
+  // Páginas de Políticas
+  "store.custom#politica-de-privacidade": {
+    "blocks": [
+        "rich-text#page-title-privacy"
+    ]
+  },
+  
+  "store.custom#privacy-policy": {
+    "blocks": [
+        "rich-text#page-title-privacy"
+    ]
+  },
+  
+  "store.custom#politica-de-privacidad": {
+    "blocks": [
+        "rich-text#page-title-privacy"
+    ]
+  },
+
+  "store.custom#politica-de-cookies": {
+    "blocks": [
+        "rich-text#page-title-cookies"
+    ]
+  },
+  
+  "store.custom#cookie-policy": {
+    "blocks": [
+        "rich-text#page-title-cookies"
+    ]
+  },
+  
+  "store.custom#politica-de-cookies-es": {
+    "blocks": [
+        "rich-text#page-title-cookies"
+    ]
+  }
+  
+}

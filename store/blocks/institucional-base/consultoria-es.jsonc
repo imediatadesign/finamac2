@@ -1,0 +1,34 @@
+{
+  "store.custom#consultoria-es": {
+    "blocks": [
+      "flex-layout.row#institucional-Consultoria-es"
+    ]
+  },
+
+  "flex-layout.row#institucional-Consultoria-es": {
+    "children": [
+      "flex-layout.col#institucional-Consultoria-es"
+    ],
+    "props": {
+      "blockClass": "institucional-consultoria-es"
+    }
+  },
+
+  "flex-layout.col#institucional-Consultoria-es": {
+    "children": [
+      "rich-text#consultoria-title-es",
+      "app-form-consultoria"
+    ],
+    "props": {
+      "blockClass": "institucional-consultoria-es",
+      "width": "100%"
+    }
+  },
+
+  "rich-text#consultoria-title-es": {
+    "props": {
+      "text": "# Consultoría\n\nComplete el formulario a continuación para solicitar una consultoría especializada de Finamac.",
+      "blockClass": "consultoria-title-es"
+    }
+  }
+}

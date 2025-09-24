@@ -1,0 +1,39 @@
+{
+    "store.custom#consulte-nossos-produtos": {
+        "children": [
+            "flex-layout.row#consulte-nossos-produtos"
+        ]
+    },
+
+    // Banner
+
+    "flex-layout.row#consulte-nossos-produtos": {
+        "props": {
+            "blockClass": "1300",
+            "paddingTop":{
+                "desktop":4,
+                "mobile":2
+            }
+        },
+        "children": [
+          "flex-layout.col#consulte-nossos-produtos"
+        ]
+    },
+
+     "flex-layout.col#consulte-nossos-produtos": {
+        "children": [
+            // "rich-text#consulte-nossos-produtos",
+            "app-form-leads"
+        ]
+      },
+                    
+        "rich-text#consulte-nossos-produtos": {
+                "props": {
+                    "blockClass": "consulte-nossos-produtos",
+                    "text": "### Consulte nossos produtos \n Preenchendo o formulário você terá acesso aos Emails, Telefones e Whatsapp  da nossa equipe imediatamente.",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER"
+                }
+            }
+
+}

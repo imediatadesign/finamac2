@@ -1,0 +1,42 @@
+.flexRow--empty{
+    display: none !important;
+}
+
+.flexRowContent--slider-departamento{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--searchinfo{
+    justify-content: space-between;
+    margin: auto;
+}
+
+.flexRowContent--searchinfomobile{
+    padding: 0px 10px;
+}
+
+.flexRowContent--searchtitle{
+    margin: auto;
+   /* padding: 15px 0px;*/
+    @media only screen and (max-width: 1024px){
+        padding: 0px 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px){
+
+.flexRow--slider-departamento{
+    max-width: 100% !important;
+    margin: auto;
+}
+
+.flexRowContent--searchinfo{
+    display: flex;
+    padding: 0px 10px;
+}
+
+
+
+}

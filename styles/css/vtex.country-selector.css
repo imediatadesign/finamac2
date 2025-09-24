@@ -1,0 +1,199 @@
+.countrySelectorContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.countrySelectorButton {
+  background: #fff;
+  border: 2px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.countrySelectorButton:hover {
+  background-color: #f9f9f9;
+  border-color: #2e7cd6;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.countrySelectorFlag {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.countrySelectorText {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.countrySelectorModal :global(.vtex-modal__modal) {
+  max-width: 600px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.countrySelectorModalContent {
+  padding: 40px;
+  background: #fff;
+}
+
+.countrySelectorModalTitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 32px;
+  font-family: inherit;
+}
+
+.countrySelectorOptions {
+  display: grid;
+  gap: 16px;
+}
+
+.countrySelectorOption {
+  background: #f8f9fa;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  padding: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.countrySelectorOption::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(46, 124, 214, 0.1) 0%, rgba(46, 124, 214, 0) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.countrySelectorOption:hover {
+  background-color: #fff;
+  border-color: #e0e0e0;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.countrySelectorOption:hover::before {
+  opacity: 1;
+}
+
+.countrySelectorOptionActive {
+  background-color: #fff;
+  border-color: #2e7cd6;
+  box-shadow: 0 4px 12px rgba(46, 124, 214, 0.15);
+}
+
+.countrySelectorOptionActive::before {
+  opacity: 1;
+}
+
+.countrySelectorOptionHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.countrySelectorOptionFlag {
+  font-size: 48px;
+  line-height: 1;
+}
+
+.countrySelectorOptionText {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.countrySelectorOptionDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 64px;
+}
+
+.countrySelectorOptionDetail {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.countrySelectorOptionLabel {
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+  min-width: 60px;
+}
+
+.countrySelectorOptionValue {
+  font-size: 14px;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .countrySelectorButton {
+    padding: 6px 12px;
+  }
+  
+  .countrySelectorFlag {
+    font-size: 18px;
+  }
+  
+  .countrySelectorText {
+    font-size: 12px;
+  }
+  
+  .countrySelectorModal :global(.vtex-modal__modal) {
+    max-width: 90%;
+    margin: 20px;
+  }
+  
+  .countrySelectorModalContent {
+    padding: 24px;
+  }
+  
+  .countrySelectorModalTitle {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .countrySelectorOption {
+    padding: 20px;
+  }
+  
+  .countrySelectorOptionFlag {
+    font-size: 40px;
+  }
+  
+  .countrySelectorOptionText {
+    font-size: 18px;
+  }
+  
+  .countrySelectorOptionDetails {
+    padding-left: 56px;
+  }
+  
+  .countrySelectorOptionLabel,
+  .countrySelectorOptionValue {
+    font-size: 13px;
+  }
+}

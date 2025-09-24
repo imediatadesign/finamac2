@@ -1,0 +1,23 @@
+
+
+.flexRowContent--consultorias-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.flexRowContent--consultorias-2 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: calc(23% - 5px) !important;
+    background-color: var(--base2);
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    @media only screen and (max-width:600px){
+        width: 100% !important;
+    }
+}   
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--tabcontent){
+    padding: 0px !important;
+}

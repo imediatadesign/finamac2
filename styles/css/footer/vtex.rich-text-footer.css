@@ -1,0 +1,179 @@
+/* ============================================
+   FOOTER TYPOGRAPHY - Estilo Limpo e Moderno
+   ============================================ */
+
+/* Títulos das Colunas - Branco Puro e Compacto */
+:global(.vtex-rich-text-0-x-container--footer-column-title) {
+  margin: 0 0 20px 0 !important;
+}
+
+:global(.vtex-rich-text-0-x-heading--footer-column-title),
+:global(.vtex-rich-text-0-x-paragraph--footer-column-title) {
+  color: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  margin: 0 !important;
+  padding-bottom: 10px !important;
+  position: relative !important;
+  opacity: 1 !important;
+}
+
+:global(.vtex-rich-text-0-x-heading--footer-column-title)::after,
+:global(.vtex-rich-text-0-x-paragraph--footer-column-title)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background: #025da6;
+  transition: width 0.25s ease;
+  border-radius: 1px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-column:hover) :global(.vtex-rich-text-0-x-heading--footer-column-title)::after,
+:global(.vtex-flex-layout-0-x-flexCol--footer-column:hover) :global(.vtex-rich-text-0-x-paragraph--footer-column-title)::after {
+  width: 45px;
+  background: #0073cc;
+}
+
+/* Descrição About - Texto Limpo e Compacto */
+:global(.vtex-rich-text-0-x-container--footer-column-description) {
+  margin: 0 0 15px 0;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-column-description) {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+/* Título da Seção de Privacidade - Minimalista */
+:global(.vtex-rich-text-0-x-container--footer-privacy-title) {
+  margin: 0 0 12px 0 !important;
+}
+
+:global(.vtex-rich-text-0-x-heading--footer-privacy-title),
+:global(.vtex-rich-text-0-x-paragraph--footer-privacy-title) {
+  color: #ffffff !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1.5px !important;
+  text-transform: uppercase !important;
+  margin: 0 !important;
+  opacity: 0.9 !important;
+}
+
+/* Texto da Privacidade - Ultra Compacto */
+:global(.vtex-rich-text-0-x-container--footer-privacy-text) {
+  margin: 0;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-privacy-text) {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 300;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Títulos de Endereços - Limpo e Branco */
+:global(.vtex-rich-text-0-x-container--footer-address-title) {
+  margin: 0 0 12px 0 !important;
+}
+
+:global(.vtex-rich-text-0-x-heading--footer-address-title),
+:global(.vtex-rich-text-0-x-paragraph--footer-address-title) {
+  color: #ffffff !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  margin: 0 !important;
+  padding-bottom: 8px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Texto dos Endereços - Compacto */
+:global(.vtex-rich-text-0-x-container--footer-address-text) {
+  margin: 0;
+}
+
+
+:global(.vtex-rich-text-0-x-list--footer-address-text),
+:global(.vtex-rich-text-0-x-paragraph--footer-address-text) {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 10px;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 300;
+  white-space: pre-line;
+}
+
+/* Título de Políticas - Minimalista */
+:global(.vtex-rich-text-0-x-container--footer-policies-title) {
+  margin: 25px 0 15px 0 !important;
+}
+
+:global(.vtex-rich-text-0-x-heading--footer-policies-title),
+:global(.vtex-rich-text-0-x-paragraph--footer-policies-title) {
+  color: #ffffff !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  margin: 0 !important;
+  opacity: 0.95 !important;
+  padding-top: 20px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Hover Effects - Sutil */
+:global(.vtex-flex-layout-0-x-flexCol--footer-column:hover) :global(.vtex-rich-text-0-x-paragraph--footer-column-title),
+:global(.vtex-flex-layout-0-x-flexCol--footer-column:hover) :global(.vtex-rich-text-0-x-heading--footer-column-title) {
+  color: #ffffff !important;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-address-column:hover) :global(.vtex-rich-text-0-x-paragraph--footer-address-title),
+:global(.vtex-flex-layout-0-x-flexCol--footer-address-column:hover) :global(.vtex-rich-text-0-x-heading--footer-address-title) {
+  color: #ffffff !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-address-column:hover) :global(.vtex-rich-text-0-x-paragraph--footer-address-text) {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Mobile Adjustments - Ainda Mais Compacto */
+@media (max-width: 768px) {
+
+  :global(.vtex-rich-text-0-x-paragraph--footer-column-title),
+  :global(.vtex-rich-text-0-x-heading--footer-column-title) {
+    font-size: 12px !important;
+    letter-spacing: 0.5px !important;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--footer-column-description) {
+    font-size: 11px !important;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--footer-privacy-text) {
+    font-size: 10px !important;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--footer-address-title),
+  :global(.vtex-rich-text-0-x-heading--footer-address-title) {
+    font-size: 10px !important;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--footer-address-text) {
+    font-size: 9px !important;
+  }
+}

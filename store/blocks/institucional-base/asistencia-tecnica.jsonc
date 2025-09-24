@@ -1,0 +1,16 @@
+{
+  "store.custom#asistencia-tecnica": {
+    "blocks": [
+      "flex-layout.row#asistencia-tecnica"
+    ]
+  },
+
+  "flex-layout.row#asistencia-tecnica": {
+    "children": [
+      "technical-support"
+    ],
+    "props": {
+      "blockClass": "institucional-asistencia-tecnica"
+    }
+  }
+}

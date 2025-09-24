@@ -1,0 +1,118 @@
+{
+  
+ /* Entrar no ADMIN e resetar as páginas de rota */
+
+  "store.blog-home": {
+    "blocks": [
+   //   "blog-search.wordpress-search",
+   //     "flex-layout.row#blog",
+       "flex-layout.row#blog-allposts-title",
+        "flex-layout.row#blog-allposts"
+   //   "blog-category-preview.wordpress-category-preview#test",
+   //   "blog-category-preview.wordpress-category-preview#test2",
+   //   "blog-all-posts.wordpress-all-posts"
+    ]
+  },
+  "blog-search.wordpress-search": {
+    "props": {
+       "title": "Ultimos Posts",
+      "useTextOverlays": true,
+      "customDomainSlug": "blog"
+    }
+  },
+
+  "flex-layout.row#blog": {
+    "props":{
+      "blockClass": ["1300","blog"],
+      "paddingTop":{
+        "desktop":7,
+        "mobile":3
+      }
+    },
+    "children": [
+        "flex-layout.col#blog"
+    ]
+  },
+        "flex-layout.col#blog": {
+          "props":{
+          },
+          "children": [
+              "flex-layout.row#blog-title-home",
+              "blog-latest-posts-preview.wordpress-latest-posts-preview"
+          ]
+        },
+
+  "flex-layout.row#blog-title-home": {
+    "props": {
+    },
+    "children": [
+      "rich-text#blog-title-home"
+    ]
+  },
+      "rich-text#blog-title-home": {
+        "props": {
+          "text": "Dicas para Casa\n\n**Nosso Blog**",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "width": "100%"
+        }
+      },
+
+
+  "blog-latest-posts-preview.wordpress-latest-posts-preview": {
+    "props": {
+  //    "title": "Blog",
+      "useTextOverlays": false,
+      "showExcerpts":true,
+      "showAuthors":false,
+      "showDates":false,
+      "showCategories":false,
+      "customDomainSlug": "https://imediatadesign.com/",
+      "numberOfPosts":4
+    }
+  },
+
+      "blog-category-preview.wordpress-category-preview#conteudos-shelf-1": {
+        "props": {
+        //  "category": 68795977,
+         "description": "Conheça nosso Blog",
+          "useTextOverlays": false,
+          "customDomain": "https://imediatadesign.com/",
+          "customDomainSlug":  "https://imediatadesign.com/"
+        }
+      },
+
+          
+  "flex-layout.row#blog-allposts-title": {
+    "props":{
+      "blockClass": ["1200"],
+      "paddingTop":8
+    },
+    "children": [
+      "rich-text#blog-allposts-title"
+    ]
+  },
+      "rich-text#blog-allposts-title": {
+        "props": {
+          "text": "Dicas para casa\n**Nosso Blog**",
+          "textColor": "c-action-secondary",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "width":"100%"
+        }
+      },
+      
+  "flex-layout.row#blog-allposts": {
+    "props":{
+      "blockClass": ["1200","blog-allposts"]
+    },
+    "children": [
+      "blog-all-posts.wordpress-all-posts"
+    ]
+  },
+      "blog-all-posts.wordpress-all-posts": {
+        "props": {
+          "customDomainSlug": "https://imediatadesign.com/"
+        }
+      }
+}

@@ -1,0 +1,14 @@
+
+@media only screen and (max-width: 1024px){
+
+
+.stackContainer--ImagePdpDeskSt  :global(.vtex-store-components-3-x-swiper-pagination){
+  height: 25px !important;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+
+
+}

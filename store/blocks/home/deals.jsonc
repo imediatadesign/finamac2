@@ -1,0 +1,157 @@
+{
+    
+    // Deals Home 
+
+    "flex-layout.row#deals-home-slider": {
+        "props": {
+            "blockClass":["deals-home-slider","dots-bottom-onlymobile","1300"],
+            "fullWidth":true
+            },
+            "children": [
+                "slider-layout#deals-home"
+            ]
+        },
+            "slider-layout#deals-home": {
+                "props": {
+                  "blockClass":["deals-home","dots-bottom-onlymobile"],
+                  "itemsPerPage": {
+                    "desktop":5,
+                    "tablet":2,
+                    "phone":2
+                  },
+                  "showNavigationArrows": "never",
+                  "showPaginationDots":"never"
+                },
+                "children": [
+                  "flex-layout.col#deals-home-1",
+                  "flex-layout.col#deals-home-2",
+                  "flex-layout.col#deals-home-3",
+                  "flex-layout.col#deals-home-4"
+                ]
+              },
+  
+              // 1
+  
+              "flex-layout.col#deals-home-1": {
+                "props": {
+                    "blockClass":"deals-home",
+                    "preventHorizontalStretch":true,
+                    "preventVerticalStretch":true,
+                    "verticalAlign":"middle"
+                    },
+                    "children": [
+                        "image#deals-home-1",
+                        "rich-text#deals-home-1"
+                    ]
+                },
+                    "image#deals-home-1": {
+                      "props": {
+                      "src": "assets/home/deal-1.svg",
+                      "maxWidth":"60px"
+                      }
+                  },
+                
+                    "rich-text#deals-home-1": {
+                      "props": {
+                        "text": "**ENTREGA GRATUITA***\n Entregas rápidas e ágeis",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "width": "100%",
+                        "blockClass":"color-dark"
+                      }
+                    },
+  
+              // 2
+  
+              "flex-layout.col#deals-home-2": {
+                "props": {
+                  "blockClass":"deals-home",
+                  "preventHorizontalStretch":true,
+                  "preventVerticalStretch":true,
+                  "verticalAlign":"middle",
+                  "horizontalAlign":"CENTER"
+                    },
+                    "children": [
+                        "image#deals-home-2",
+                        "rich-text#deals-home-2"
+                    ]
+                },
+                    "image#deals-home-2": {
+                      "props": {
+                      "src": "assets/home/deal-2.svg",
+                      "maxWidth":"40px"
+                      }
+                  },
+                
+                    "rich-text#deals-home-2": {
+                      "props": {
+                        "text": "**FORMAS DE PAGAMENTO***\nEm até 6x sem juros",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "width": "100%",
+                        "blockClass":"color-dark"
+                      }
+                    },
+  
+              // 3
+  
+              "flex-layout.col#deals-home-3": {
+                "props": {
+                    "blockClass":"deals-home",
+                    "preventHorizontalStretch":true,
+                    "preventVerticalStretch":true,
+                    "verticalAlign":"middle"
+                    },
+                    "children": [
+                        "image#deals-home-3",
+                        "rich-text#deals-home-3"
+                    ]
+                },
+                    "image#deals-home-3": {
+                      "props": {
+                      "src": "assets/home/deal-3.svg",
+                      "maxWidth":"60px"
+                      }
+                  },
+                
+                    "rich-text#deals-home-3": {
+                      "props": {
+                        "text": "**PAGAMENTOS FACILITADOS***\n Diversas formas de pagamento",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "width": "100%",
+                        "blockClass":"color-dark"
+                      }
+                    },
+  
+              // 4
+  
+              "flex-layout.col#deals-home-4": {
+                "props": {
+                    "blockClass":"deals-home",
+                    "preventHorizontalStretch":true,
+                    "preventVerticalStretch":true,
+                    "verticalAlign":"middle"
+                    },
+                    "children": [
+                        "image#deals-home-4",
+                        "rich-text#deals-home-4"
+                    ]
+                },
+                    "image#deals-home-4": {
+                      "props": {
+                      "src": "assets/home/deal-4.svg",
+                      "maxWidth":"60px"
+                      }
+                  },
+                
+                    "rich-text#deals-home-4": {
+                      "props": {
+                        "text": "**VISITE NOSSAS LOJAS**\n E venha para a Finamac",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "width": "100%",
+                        "blockClass":"color-dark"
+                      }
+                    }  
+}

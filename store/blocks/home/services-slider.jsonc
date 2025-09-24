@@ -1,0 +1,346 @@
+{
+  "flex-layout.row#services-slider": {
+    "props": {
+      // "fullWidth": true,
+      "marginTop": 8,
+      "marginBottom": 5
+    },
+    "children": [
+      "slider-layout#services"
+    ]
+  },
+  "slider-layout#services": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "mobileOnly",
+      "fullWidth": false,
+      "arrowSize": 20
+    },
+    "children": [
+      "flex-layout.col#service-machines",
+      "flex-layout.col#service-accessories",
+      "flex-layout.col#service-courses",
+      "flex-layout.col#service-parts",
+      "flex-layout.col#service-inputs",
+      "flex-layout.col#service-services"
+    ]
+  },
+  // Máquinas
+  "flex-layout.col#service-machines": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-machines"
+    ]
+  },
+  "link#service-machines": {
+    "props": {
+      "href": "/maquinas",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
+      "flex-layout.col#service-machines-content"
+    ]
+  },
+  "flex-layout.col#service-machines-content": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-machines-icon",
+      "rich-text#service-machines-title",
+      "rich-text#service-machines-subtitle"
+    ]
+  },
+  "image#service-machines-icon": {
+    "props": {
+      "src": "https://finamac.vtexassets.com/assets/vtex/assets-builder/finamac.themefinamac/1.0.43-beta.0/home/servicos-1___3a23f0d209ce5a4499dd660b752d559c.svg",
+      "width": 50,
+      "height": 35,
+      "blockClass": "service-icon"
+    }
+  },
+  "rich-text#service-machines-title": {
+    "props": {
+      "text": "**Máquinas**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-machines-subtitle": {
+    "props": {
+      "text": "Equipamentos de alta performance.",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Acessórios
+  "flex-layout.col#service-accessories": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-accessories"
+    ]
+  },
+  "link#service-accessories": {
+    "props": {
+      "href": "/acessorios",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
+      "flex-layout.col#service-accessories-content"
+    ]
+  },
+  "flex-layout.col#service-accessories-content": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-accessories-icon",
+      "rich-text#service-accessories-title",
+      "rich-text#service-accessories-subtitle"
+    ]
+  },
+  "image#service-accessories-icon": {
+    "props": {
+      "src": "https://finamac.vtexassets.com/assets/vtex/assets-builder/finamac.themefinamac/1.0.43-beta.0/home/servicos-2___73ad7d0604608f7e9a0e55a5a012fe80.svg",
+      "width": 50,
+      "height": 35,
+      "blockClass": "service-icon"
+    }
+  },
+  "rich-text#service-accessories-title": {
+    "props": {
+      "text": "**Acessórios**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-accessories-subtitle": {
+    "props": {
+      "text": "confira nossos acessorios",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Cursos
+  "flex-layout.col#service-courses": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-courses"
+    ]
+  },
+  "link#service-courses": {
+    "props": {
+      "href": "/cursos",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
+      "flex-layout.col#service-courses-content"
+    ]
+  },
+  "flex-layout.col#service-courses-content": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-courses-icon",
+      "rich-text#service-courses-title",
+      "rich-text#service-courses-subtitle"
+    ]
+  },
+  "image#service-courses-icon": {
+    "props": {
+      "src": "https://finamac.vtexassets.com/assets/vtex/assets-builder/finamac.themefinamac/1.0.43-beta.0/home/servicos-3___b5baa38faaa0748ea341c0854eadd31d.svg",
+      "width": 50,
+      "height": 35,
+      "blockClass": "service-icon"
+    }
+  },
+  "rich-text#service-courses-title": {
+    "props": {
+      "text": "**Cursos**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-courses-subtitle": {
+    "props": {
+      "text": "Treinamento especializado.",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Peças
+  "flex-layout.col#service-parts": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#service-parts-content"
+    ]
+  },
+  "flex-layout.col#service-parts-content": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-parts-icon",
+      "rich-text#service-parts-title",
+      "rich-text#service-parts-subtitle"
+    ]
+  },
+  "image#service-parts-icon": {
+    "props": {
+      "src": "https://finamac.vtexassets.com/assets/vtex/assets-builder/finamac.themefinamac/1.0.43-beta.0/home/servicos-4___a3e29c379281b53d3244263444575bb4.svg",
+      "width": 50,
+      "height": 35,
+      "blockClass": "service-icon"
+    }
+  },
+  "rich-text#service-parts-title": {
+    "props": {
+      "text": "**Peças**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-parts-subtitle": {
+    "props": {
+      "text": "Em breve",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Insumos
+  "flex-layout.col#service-inputs": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#service-inputs-content"
+    ]
+  },
+  "flex-layout.col#service-inputs-content": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-inputs-icon",
+      "rich-text#service-inputs-title",
+      "rich-text#service-inputs-subtitle"
+    ]
+  },
+  "image#service-inputs-icon": {
+    "props": {
+      "src": "https://finamac.vtexassets.com/assets/vtex/assets-builder/finamac.themefinamac/1.0.43-beta.0/home/servicos-5___c5a4a16cdcb519a8dc04aa2018d566be.svg",
+      "width": 50,
+      "height": 35,
+      "blockClass": "service-icon"
+    }
+  },
+  "rich-text#service-inputs-title": {
+    "props": {
+      "text": "**Insumos**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-inputs-subtitle": {
+    "props": {
+      "text": "Em breve",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Serviços
+  "flex-layout.col#service-services": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#service-services-content"
+    ]
+  },
+  "flex-layout.col#service-services-content": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-services-icon",
+      "rich-text#service-services-title",
+      "rich-text#service-services-subtitle"
+    ]
+  },
+  "image#service-services-icon": {
+    "props": {
+      "src": "https://finamac.vtexassets.com/assets/vtex/assets-builder/finamac.themefinamac/1.0.43-beta.0/home/servicos-6___7fb81a25c66de01523dd5fd91d81377f.svg",
+      "width": 50,
+      "height": 35,
+      "blockClass": "service-icon"
+    }
+  },
+  "rich-text#service-services-title": {
+    "props": {
+      "text": "**Serviços**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-services-subtitle": {
+    "props": {
+      "text": "Em breve",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

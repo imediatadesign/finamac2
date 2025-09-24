@@ -1,0 +1,211 @@
+/* Header Desktop */
+
+.logoContainer {
+    padding: 0px;
+}
+
+:global(.vtex-store-icons-0-x-cartIcon) {
+    display: none !important;
+}
+
+:global(.vtex-minicart-2-x-cartIcon) {
+    height: 22px;
+    width: 39px;
+}
+
+:global(.vtex-login-2-x-profileIcon) {
+    height: 18px;
+    width: 22px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--header-desktop) :global(.vtex-button):hover,
+:global(.vtex-flex-layout-0-x-flexRowContent--header-desktop) :global(.vtex-button):focus,
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) :global(.vtex-button):hover,
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) :global(.vtex-button):focus {
+    background: none;
+}
+
+/* Search */
+
+:global(.vtex-store-components-3-x-searchBarContainer) {
+    padding: 30px 15px;
+    min-width: 100%;
+    transition: ease-in-out 0.5s;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input-prefix__group) {
+    border: 0px;
+}
+
+
+.searchIcon {
+    color: var(--primary);
+}
+
+.searchBarInnerContainer {
+    border-bottom: solid 1px #b6b6b6;
+}
+
+/* Overlay */
+
+/*
+:global(.vtex-search-2-x-biggy-autocomplete-wrapper){
+    width: 750px !important;
+}
+*/
+
+.imageElement--header-submenu {
+    max-width: 150px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrack--header-submenu) {
+    gap: 30px;
+}
+
+:global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
+    position: absolute;
+    z-index: +9;
+    width: 100% !important;
+    margin-top: 20px;
+}
+
+.logoContainer :global(.vtex-input__suffix) {
+    background: none;
+}
+
+/* ICONS */
+
+:global(.vtex-store-components-3-x-logoImage),
+:global(.vtex-login-2-x-profileIcon),
+:global(.vtex-sticky-layout-0-x-wrapper--header-desktop) :global(.vtex-login-2-x-label),
+:global(.vtex-locale-switcher-0-x-globeIcon),
+:global(.vtex-locale-switcher-0-x-buttonText),
+:global(.vtex-store-drawer-0-x-menuIcon--menu) {
+    filter: brightness(0) invert(1) !important;
+}
+
+:global(.vtex-locale-switcher-0-x-buttonText) {
+    font-size: 20px;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--header-desktop) :global(.vtex-store-components-3-x-logoImage) {
+    transition: ease-in-out 0.5s;
+
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--header-desktop--stuck) :global(.vtex-store-components-3-x-logoImage) {
+    transform: scale(75%);
+    transition: ease-in-out 0.5s;
+}
+
+/* Remove ALL hover effects from logo */
+:global(.vtex-store-components-3-x-logoLink),
+:global(.vtex-store-components-3-x-logoLink):hover,
+:global(.vtex-store-components-3-x-logoContainer),
+:global(.vtex-store-components-3-x-logoContainer):hover {
+    transform: none !important;
+}
+
+:global(.vtex-store-components-3-x-logoLink) :global(.vtex-store-components-3-x-logoImage),
+:global(.vtex-store-components-3-x-logoLink):hover :global(.vtex-store-components-3-x-logoImage),
+:global(.vtex-store-components-3-x-logoContainer) :global(.vtex-store-components-3-x-logoImage),
+:global(.vtex-store-components-3-x-logoContainer):hover :global(.vtex-store-components-3-x-logoImage),
+:global(.vtex-store-components-3-x-logoImage),
+:global(.vtex-store-components-3-x-logoImage):hover {
+    transform: none !important;
+    transition: none !important;
+}
+
+
+:global(.vtex-sticky-layout-0-x-wrapper--header-desktop--stuck) :global(.vtex-store-drawer-0-x-menuIcon--menu),
+:global(.vtex-locale-switcher-0-x-globeIcon),
+:global(.vtex-locale-switcher-0-x-buttonText) {
+    transform: scale(80%);
+    transition: ease-in-out 0.5s;
+}
+
+
+
+:global(.vtex-sticky-layout-0-x-wrapper--header-desktop--stuck) .searchBarContainer {
+    transform: scale(90%);
+    transition: ease-in-out 0.5s;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--header-desktop--stuck) .flexRowContent--header-desktop {
+    padding: 10px 0px 10px 0px;
+    transition: ease-in-out 0.5s;
+}
+
+/* 
+:global(.vtex-locale-switcher-0-x-container){
+    width: fit-content;
+} */
+/* Drawer */
+
+
+:global(.vtex-store-drawer-0-x-drawer--menu) :global(.vtex-store-components-3-x-logoImage) {
+    filter: none !important;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+
+    :global(.vtex-store-components-3-x-logoContainer) {
+        padding: 0px;
+    }
+
+    :global(.vtex-store-components-3-x-searchBarContainer) {
+        padding: 5px 0px;
+    }
+
+    :global(.vtex-search-2-x-biggy-autocomplete) {
+        width: 95% !important;
+    }
+
+    :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
+        width: 100% !important;
+    }
+
+}
+
+/* Esconde o ícone de busca no mobile */
+@media only screen and (max-width: 767px) {
+    :global(.vtex-flex-layout-0-x-flexCol--search-bar-overlay) {
+        display: none !important;
+    }
+
+    /* Garante que o ícone não apareça mesmo com outras classes */
+    :global(.vtex-overlay-layout-0-x-trigger--search-bar) {
+        display: none !important;
+    }
+
+    /* Remove qualquer imagem de busca no mobile */
+    :global(.vtex-store-components-3-x-imageElement--searchhome) {
+        display: none !important;
+    }
+
+    /* Aumenta a logo no mobile */
+    :global(.vtex-store-components-3-x-logoContainer) {
+        padding: 0 1rem 0 0 !important;
+        max-width: none !important;
+    }
+
+    :global(.vtex-store-components-3-x-logoImage) {
+        max-width: 180px !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    /* Remove restrições da coluna da logo */
+    :global(.vtex-flex-layout-0-x-flexCol--logo-desktop) {
+        max-width: none !important;
+    }
+
+}

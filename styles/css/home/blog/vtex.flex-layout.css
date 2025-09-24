@@ -1,0 +1,40 @@
+
+:global(.vtex-wordpress-integration-2-x-latestPostsBlockFlexItem){
+    width: 25% !important;
+}
+
+:global(.vtex-wordpress-integration-2-x-teaserTitleLink){
+    font-size: 1.1rem;
+    text-decoration: auto;
+    color: var(--primary) !important;
+}
+
+:global(.vtex-wordpress-integration-2-x-teaserTitle),
+:global(.vtex-wordpress-integration-2-x-teaserBody){
+    padding: 0px !important;
+}
+
+:global(.vtex-wordpress-integration-2-x-titleAndExcerptContainer){
+    padding: 10px;
+}
+
+:global(.vtex-wordpress-integration-2-x-teaserBody){
+    font-size: 0.9rem;
+}
+
+:global(.vtex-wordpress-integration-2-x-latestPostsBlockContainer) :global(.vtex-card){
+    box-shadow: none !important;
+}
+
+:global(.vtex-wordpress-integration-2-x-latestPostsBlockContainer){
+    padding: 0px !important;
+}
+
+
+@media only screen and (max-width: 1024px){
+
+:global(.vtex-wordpress-integration-2-x-latestPostsBlockFlexItem){
+    width: 50% !important;
+}
+
+}

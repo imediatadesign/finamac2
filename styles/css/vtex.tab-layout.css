@@ -1,0 +1,18 @@
+
+.listContainer{
+    justify-content: start;
+    @media only screen and (max-width: 1024px){
+        justify-content: center;
+    } 
+}
+
+.listItem{
+    margin: 0px;
+}
+
+/* Estilos para ícones SVG das abas */
+.listItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

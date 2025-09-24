@@ -1,0 +1,255 @@
+{
+    "store.custom#consultorias-page": {
+        "children": [
+            "flex-layout.row#consultorias-1",
+            "flex-layout.row#consultorias-2",
+            "flex-layout.row#consultorias-3"
+        ]
+    },
+    
+    // Row 1
+
+    "flex-layout.row#consultorias-1": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "base2",
+                "padding40vs20"
+            ]
+        },
+        "children": [
+              "flex-layout.col#consultorias-1"
+        ]
+    },
+        "flex-layout.col#consultorias-1": {
+            "props": {
+                "rowGap":6
+            },
+            "children": [
+                "rich-text#consultorias-1-title",
+                "flex-layout.row#consultorias-1-row"
+            ]
+        },
+            
+            "rich-text#consultorias-1-title": {
+                "props": {
+                    "text": "## Consultorias Finamac™\nConte com os especialistas da FinamacTM para chegar ainda mais longe!",
+                    "blockClass":"color-secondary"
+                }
+            },
+
+            "flex-layout.row#consultorias-1-row": {
+                "props": {
+                    "colGap":8
+                },
+                "children": [
+                    "flex-layout.col#consultorias-1-1",
+                    "flex-layout.col#consultorias-1-2"
+                ]
+            },
+                    "flex-layout.col#consultorias-1-1": {
+                        "props": {
+                            "preventVerticalStretch":true,
+                            "verticalAlign":"middle"
+                        },
+                        "children": [
+                             "video#consultorias-1-1"
+                        ]
+                    },
+                        "video#consultorias-1-1": {
+                            "props": {
+                            "height": "300px",
+                            "loop": true,
+                            "autoPlay": false,
+                            "muted": false,
+                            "src": "https://www.youtube.com/watch?v=dYzwhN7cSlQ"
+                            }
+                        },
+
+                    "flex-layout.col#consultorias-1-2": {
+                        "props": {
+                            "preventVerticalStretch":true,
+                            "verticalAlign":"middle"
+                        },
+                        "children": [
+                            "rich-text#consultorias-1-2"
+                        ]
+                    },
+                        "rich-text#consultorias-1-2": {
+                            "props": {
+                                "text": "### A Consultoria Finamac\n\nNossos consultores especialistas em gelados vão te ajudar a atingir o verdadeiro potencial do seu negócio, desenvolvendo receitas inovadoras e exclusivas, seguindo tendências que vão te colocar à frente do mercado, além de auxiliarem na elaboração de melhores estratégias.\n\n💻 **Consultoria Online**\n 👨‍🏫 **Consultoria Presencial**"
+                            }
+                        },
+
+
+    // Row 2
+
+    "flex-layout.row#consultorias-2": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "consultorias-2",
+                "padding40vs20"
+            ]
+        },
+        "children": [
+              "rich-text#consultorias-2-1",
+              "rich-text#consultorias-2-2",
+              "rich-text#consultorias-2-3",
+              "rich-text#consultorias-2-4",
+              "rich-text#consultorias-2-5",
+              "rich-text#consultorias-2-6",
+              "rich-text#consultorias-2-7"
+        ]
+    },
+            "rich-text#consultorias-2-1": {
+                "props": {
+                    "text": "**Análise, elaboração e planejamento de produtos e serviços.**",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER",
+                    "blockClass":"color-secondary"
+                }
+            },
+
+            "rich-text#consultorias-2-2": {
+                "props": {
+                    "text": "**Treinamentos técnicos completos.**",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER",
+                    "blockClass":"color-secondary"
+                }
+            },
+
+            "rich-text#consultorias-2-3": {
+                "props": {
+                    "text": "**Solução de defeitos e problemas.**",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER",
+                    "blockClass":"color-secondary"
+                }
+            },
+
+            "rich-text#consultorias-2-4": {
+                "props": {
+                    "text": "**Correção de receitas, onde você define o que deseja melhorar em seu produto.**",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER",
+                    "blockClass":"color-secondary"
+                }
+            },
+
+            "rich-text#consultorias-2-5": {
+                "props": {
+                    "text": "**Acerte a incorporação de ar, definindo uma receita mais lucrativa ou premium.**",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER",
+                    "blockClass":"color-secondary"
+                }
+            },
+
+            "rich-text#consultorias-2-6": {
+                "props": {
+                    "text": "**Desenvolvimento de novos sabores e receitas.**",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER",
+                    "blockClass":"color-secondary"
+                }
+            },
+
+            "rich-text#consultorias-2-7": {
+                "props": {
+                    "text": "**Elaboração de tabelas nutricionais.**",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER",
+                    "blockClass":"color-secondary"
+                }
+            },
+
+
+    // Row 3
+
+    "flex-layout.row#consultorias-3": {
+        "props": {
+            "blockClass": [
+                "1100",
+                "padding40vs20"
+            ]
+        },
+        "children": [
+              "flex-layout.col#consultorias-3"
+        ]
+    },
+        "flex-layout.col#consultorias-3": {
+            "props": {
+                "rowGap":6
+            },
+            "children": [
+                "rich-text#consultorias-3-title",
+                "flex-layout.row#consultorias-3-row"
+            ]
+        },
+            
+            "rich-text#consultorias-3-title": {
+                "props": {
+                    "text": "## Tenha profissionais gabaritados te orientando.",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER",
+                    "blockClass":"color-secondary"
+                }
+            },
+
+            "flex-layout.row#consultorias-3-row": {
+                "props": {
+                    "colGap":8
+                },
+                "children": [
+                    "flex-layout.col#consultorias-3-1",
+                    "flex-layout.col#consultorias-3-2"
+                ]
+            },
+                    "flex-layout.col#consultorias-3-1": {
+                        "props": {
+                            "preventVerticalStretch":true,
+                            "verticalAlign":"middle"
+                        },
+                        "children": [
+                             "image#consultorias-3-1"
+                        ]
+                    },
+                        "image#consultorias-3-1": {
+                            "props": {
+                            "src": "assets/institucional/consultoria-3.webp"
+                            }
+                        },
+                    "flex-layout.col#consultorias-3-2": {
+                        "props": {
+                            "preventVerticalStretch":true,
+                            "verticalAlign":"middle",
+                            "preventHorizontalStretch":true,
+                            "horizontalAlign":"CENTER"
+                        },
+                        "children": [
+                            "rich-text#consultorias-3-2"
+                        ]
+                    },
+                        "rich-text#consultorias-3-2": {
+                            "props": {
+                                "text": "### Fernanda Miranda\n\nFernanda é engenheira de alimentos formada pela IMT (Instituto Mauá de Tecnologia) e coordena os cursos da FinamacTM no Brasil e Estados Unidos.\nAlém de já ter lecionado internacionalmente, conta com 4 anos de experiência em pesquisa e desenvolvimento.\nJá prestou consultorias para desenvolvimento de produtos no Brasil e exterior."
+                            }
+                        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

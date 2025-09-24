@@ -1,0 +1,115 @@
+{
+  // Página Machinery (Máquinas em inglês)
+  "store.custom#machinery": {
+    "blocks": [
+      "flex-layout.row#machinery-title",
+      "search-result-layout.customQuery#machinery"
+    ]
+  },
+  
+  "flex-layout.row#machinery-title": {
+    "props": {
+      "blockClass": "page-title",
+      "marginTop": 4,
+      "marginBottom": 4
+    },
+    "children": ["rich-text#machinery-title"]
+  },
+  
+  "rich-text#machinery-title": {
+    "props": {
+      "text": "# Machinery",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  
+  "search-result-layout.customQuery#machinery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 12,
+        "queryField": "máquinas",
+        "mapField": "category-1"
+      }
+    }
+  },
+  
+  // Página Services (Serviços em inglês)
+  "store.custom#services": {
+    "blocks": [
+      "flex-layout.row#services-title",
+      "flex-layout.row#services-content"
+    ]
+  },
+  
+  "flex-layout.row#services-title": {
+    "props": {
+      "blockClass": "page-title",
+      "marginTop": 4,
+      "marginBottom": 4
+    },
+    "children": ["rich-text#services-title"]
+  },
+  
+  "rich-text#services-title": {
+    "props": {
+      "text": "# Services",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  
+  "flex-layout.row#services-content": {
+    "props": {
+      "blockClass": "services-content"
+    },
+    "children": ["rich-text#services-description"]
+  },
+  
+  "rich-text#services-description": {
+    "props": {
+      "text": "Explore our wide range of professional services including technical consultancy, equipment maintenance, and specialized training.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  
+  // Página Courses (Cursos em inglês)
+  "store.custom#courses": {
+    "blocks": [
+      "flex-layout.row#courses-title",
+      "search-result-layout.customQuery#courses"
+    ]
+  },
+  
+  "flex-layout.row#courses-title": {
+    "props": {
+      "blockClass": "page-title",
+      "marginTop": 4,
+      "marginBottom": 4
+    },
+    "children": ["rich-text#courses-title"]
+  },
+  
+  "rich-text#courses-title": {
+    "props": {
+      "text": "# Courses",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  
+  "search-result-layout.customQuery#courses": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 12,
+        "queryField": "cursos",
+        "mapField": "category-1"
+      }
+    }
+  }
+}

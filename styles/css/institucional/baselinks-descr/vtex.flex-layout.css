@@ -1,0 +1,15 @@
+
+.flexColChild--baselinks-descr{
+    border: solid 2px #e7e7e7;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.flexRow--baselinks-descr-2 :global(.vtex-slider-layout-0-x-imageElement){
+    max-width: 500px !important;
+    margin: 20px;
+}
+
+.flexRow--baselinks-descr-2 :global(.vtex-slider-layout-0-x-slide){
+    padding: 10px;
+}

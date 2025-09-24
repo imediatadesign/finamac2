@@ -1,0 +1,8 @@
+{
+  "store.custom#consultorias-especializadas-es": {
+    "blocks": [
+      "consultorias-especializadas",
+      "app-form-consultoria"
+    ]
+  }
+}

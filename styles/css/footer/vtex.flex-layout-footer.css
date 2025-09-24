@@ -1,0 +1,267 @@
+/* ============================================
+   FOOTER ELEGANTE - Design Premium
+   ============================================ */
+
+/* Container Principal do Footer - Centralizado e Elegante */
+.flexRow--footer-info-container {
+  background: linear-gradient(180deg, #1a1a1a 0%, #0a0a0a 100%);
+  color: #ffffff;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.flexRow--footer-info-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #025da6, transparent);
+  opacity: 0.9;
+}
+
+.flexRowContent--footer-info-container {
+  max-width: 1240px !important;
+  margin: 0 auto !important;
+  padding: 0 30px;
+}
+
+.flexCol--footer-info-main {
+  width: 100%;
+  padding: 0;
+}
+
+/* Navegação Principal do Footer - Mais Compacta */
+.flexRow--footer-navigation {
+  padding: 45px 0 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.flexRowContent--footer-navigation {
+  /* display: grid; */
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 25px;
+  max-width: 100%;
+  align-items: start;
+}
+
+/* Colunas do Footer - Espaçamento Refinado */
+.flexCol--footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.flexCol--footer-about {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-right: 30px;
+}
+
+/* Social Media Row - Mais Elegante */
+.flexRow--footer-social {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  align-items: center;
+}
+
+.flexRowContent--footer-social {
+  justify-content: flex-start;
+  gap: .5rem;
+}
+
+/* Seção de Privacidade - Ultra Compacta */
+.flexRow--footer-privacy {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.01) 100%);
+  padding: 25px 0;
+  text-align: center;
+  margin: 30px 0;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.flexRowContent--footer-privacy {
+  max-width: 100%;
+}
+
+.flexCol--footer-privacy-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Seção de Endereços - Grid Compacto e Elegante */
+.flexRow--footer-addresses {
+  background: transparent;
+  padding: 35px 0 40px;
+}
+
+.flexRowContent--footer-addresses {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 100%;
+}
+
+.flexCol--footer-address-column {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  min-height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+
+.flexCol--footer-address-column::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(2, 93, 166, 0.08) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.flexCol--footer-address-column:hover {
+  background: rgba(2, 93, 166, 0.08);
+  border-color: rgba(2, 93, 166, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(2, 93, 166, 0.2);
+}
+
+.flexCol--footer-address-column:hover::before {
+  opacity: 1;
+}
+
+/* Newsletter Section - Mais Compacta */
+.flexRow--newsletter {
+  background: linear-gradient(135deg, #025da6 0%, #003d73 100%);
+  padding: 30px 20px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+
+.flexRow--newsletter::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 50%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.flexRowContent--newsletter {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Footer Row 2 - Principal Compacto */
+.flexRow--footer-row-2 {
+  background: rgba(2, 93, 166, 0.05);
+  padding: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.flexRowContent--footer-row-2,
+.flexRowContent--footer-v2-row-2 {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 25px 30px;
+  border-bottom: none;
+}
+
+/* Responsive - Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .flexRow--footer-navigation {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 40px 30px;
+  }
+
+  .flexRow--footer-addresses {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 30px;
+  }
+
+  .flexCol--footer-address-column {
+    min-height: 140px;
+  }
+}
+
+/* Responsive - Mobile */
+@media (max-width: 768px) {
+  .flexRow--footer-navigation {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 30px 20px;
+  }
+
+  .flexCol--footer-column {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .flexRow--footer-privacy {
+    padding: 25px 20px;
+  }
+
+  .flexRow--footer-addresses {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 25px 20px;
+  }
+
+  .flexCol--footer-address-column {
+    min-height: auto;
+  }
+
+  .flexRowContent--newsletter {
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px 20px;
+  }
+
+  .flexRowContent--footer-row-2,
+  .flexRowContent--footer-v2-row-2 {
+    padding: 30px 20px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .flexRow--footer-navigation {
+    padding: 25px 15px;
+  }
+
+  .flexRow--footer-addresses {
+    padding: 20px 15px;
+    gap: 15px;
+  }
+
+  .flexCol--footer-address-column {
+    padding: 15px;
+  }
+}

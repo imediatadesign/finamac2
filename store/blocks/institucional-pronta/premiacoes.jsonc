@@ -1,0 +1,149 @@
+{
+    "store.custom#premiacoes": {
+        "children": [
+            "flex-layout.row#premiacoes-1",
+            "flex-layout.row#premiacoes-2"
+        ]
+    },
+    
+    // Row 1
+
+    "flex-layout.row#premiacoes-1": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "base2",
+                "padding40vs20"
+            ],
+            "colGap":8
+        },
+        "children": [
+             "flex-layout.col#premiacoes-1-1",
+             "flex-layout.col#premiacoes-1-2"
+        ]
+        },
+            
+            "flex-layout.col#premiacoes-1-1": {
+                "props": {
+                    "preventVerticalStretch":true,
+                    "verticalAlign":"middle"
+                },
+                "children": [
+                    "image#premiacoes-1-1"
+                ]
+            },
+                "image#premiacoes-1-1": {
+                    "props": {
+                    "src": "assets/institucional/premiacoes.webp",
+                    "blockClass":"width100"
+                    }
+                },
+
+            "flex-layout.col#premiacoes-1-2": {
+                "props": {
+                    "preventVerticalStretch":true,
+                    "verticalAlign":"middle"
+                },
+                "children": [
+                    "rich-text#premiacoes-1-2"
+                ]
+            },
+                "rich-text#premiacoes-1-2": {
+                    "props": {
+                        "text": "## Premiações Finamac\n\nA Finamac™ tem se destacado globalmente por sua inovação e excelência no setor de máquinas para sorvetes e picolés. \n\nCom o apoio de parceiros internacionais e um compromisso constante com a qualidade, a empresa conquistou importantes prêmios e reconhecimentos ao longo dos anos. Conheça os marcos que destacam nossa trajetória de sucesso."
+                    }
+                },
+
+
+    // Row 2
+
+    "flex-layout.row#premiacoes-2": {
+        "props": {
+            "blockClass": [
+                "premiacoes-2"
+            ],
+            "colGap":8,
+            "rowGap":7
+        },
+        "children": [
+              "flex-layout.col#premiacoes-2-1",
+              "flex-layout.col#premiacoes-2-2"
+        ]
+        },
+            
+            "flex-layout.col#premiacoes-2-1": {
+                "props": {
+                    "preventVerticalStretch":true,
+                    "verticalAlign":"top",
+                    "preventHorizontalStretch":true,
+                    "horizontalAlign":"center",
+                    "rowGap":7
+                },
+                "children": [
+                    "image#premiacoes-2-1",
+                     "rich-text#premiacoes-2-1"
+                ]
+            },
+                "image#premiacoes-2-1": {
+                    "props": {
+                    "src": "assets/institucional/premiacoes-2.webp",
+                    "maxWidth":"200px"
+                    }
+                },
+
+                "rich-text#premiacoes-2-1": {
+                    "props": {
+                        "text": "## Prêmio Design Export (2014)\n\nEm 2014, a Finamac™ foi contemplada com o Prêmio Design Export concedido pela APEX Brasil, órgão brasileiro de incentivo à exportação, sendo caso de sucesso entre os melhores exportadores do país com o projeto revolucionário das picoleteiras RoboPop. \n\nFoi o mesmo ano em que a Finamac™ atingiu a presença em 15 das 17 melhores lojas de picolés dos Estados Unidos e exportou quase 50% da produção para mais de 70 países.",
+                        "blockClass":"color-base",
+                        "textAlignment": "CENTER",
+                        "textPosition": "CENTER"
+                    }
+                },
+
+                
+            "flex-layout.col#premiacoes-2-2": {
+                "props": {
+                    "preventVerticalStretch":true,
+                    "verticalAlign":"top",
+                    "preventHorizontalStretch":true,
+                    "horizontalAlign":"center",
+                    "rowGap":7
+                },
+                "children": [
+                     "image#premiacoes-2-2",
+                     "rich-text#premiacoes-2-2"
+                ]
+            },
+                "image#premiacoes-2-2": {
+                    "props": {
+                    "src": "assets/institucional/premiacoes-2.webp",
+                    "maxWidth":"200px"
+                    }
+                },
+
+                "rich-text#premiacoes-2-2": {
+                    "props": {
+                        "text": "## Prêmio Destaque Pequeno e Médio Exportador (2016)\n\nEm 2015, foi oficialmente inaugurado o escritório de vendas internacionais e planta de produção da Finamac™ em Miami, nos Estados Unidos. No mesmo ano, a Finamac™ aumentou as exportações para 12 novos destinos, com crescimento de 24,5%, merecendo em 2016 ser mais uma vez premiada pela APEX Brasil, dessa vez na categoria de Destaque Pequeno e Médio Exportador. \n\nO prêmio foi entregue a Pedro Arpino, gerente de exportação da Finamac™, por Marcílio Machado, presidente do Sindiex (Sindicato do Comércio de Exportação e Importação do Espírito Santo).",
+                        "blockClass":"color-base",
+                        "textAlignment": "CENTER",
+                        "textPosition": "CENTER"
+                    }
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

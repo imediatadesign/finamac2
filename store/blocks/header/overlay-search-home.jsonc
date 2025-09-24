@@ -1,0 +1,126 @@
+{
+  // Search 
+  "flex-layout.row#search-bar": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "search-bar"
+    },
+    // "children": ["search-bar"]
+    "children": [
+      "flex-layout.col#search-bar"
+    ]
+  },
+  "flex-layout.col#search-bar": {
+    "props": {
+      "width": "15%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle",
+      "paddingRight": 0
+    },
+    "children": [
+      "search-bar"
+    ]
+  },
+  "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      // "openAutocompleteOnFocus": false,
+      "openAutocompleteOnFocus": false,
+      "autocompleteAlignment": "center",
+      "autocompleteFullWidth": true,
+      "autoFocus": false,
+      "blurOnSubmit": true,
+      "containerMode": "container",
+      "disableBlurAndTouchEndHandler": true,
+      "emptyPlaceholder": "Digite sua busca aqui",
+      "hasIconLeft": false,
+      "inputType": "text",
+      // "maxWidth": 100,
+      "minSearchTermLength": 3,
+      "placeholder": "O que você está procurando?",
+      "displayMode": "search-button"
+    }
+  },
+  /* Search Bar */
+  "flex-layout.col#search-bar-overlay": {
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "width": "auto"
+    },
+    "children": [
+      "overlay-trigger#search-bar"
+    ]
+  },
+  "overlay-trigger#search-bar": {
+    "props": {
+      "trigger": "click",
+      // "trigger": "hover",
+      "blockClass": "search-bar"
+    },
+    "children": [
+      "image#searchhome",
+      "overlay-layout#search-bar"
+    ]
+  },
+  "image#searchhome": {
+    "props": {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMSAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5LjcgMTkuN0wxNS4yODUgMTUuMjc3TTE3LjczMiA5LjM2NkMxNy43MzIgMTEuMDIwNiAxNy4yNDEzIDEyLjYzODEgMTYuMzIyMSAxNC4wMTM5QzE1LjQwMjggMTUuMzg5NyAxNC4wOTYyIDE2LjQ2MiAxMi41Njc1IDE3LjA5NTJDMTEuMDM4OCAxNy43Mjg0IDkuMzU2NzIgMTcuODk0MSA3LjczMzg4IDE3LjU3MTJDNi4xMTEwMyAxNy4yNDg0IDQuNjIwMzUgMTYuNDUxNyAzLjQ1MDM1IDE1LjI4MTdDMi4yODAzNCAxNC4xMTE3IDEuNDgzNTYgMTIuNjIxIDEuMTYwNzUgMTAuOTk4MUMwLjgzNzk1IDkuMzc1MjggMS4wMDM2MiA3LjY5MzE2IDEuNjM2ODMgNi4xNjQ0N0MyLjI3MDAzIDQuNjM1NzggMy4zNDIzMiAzLjMyOTE5IDQuNzE4MSAyLjQwOTkzQzYuMDkzODkgMS40OTA2NiA3LjcxMTM3IDEgOS4zNjYgMUMxMC40NjQ2IDEgMTEuNTUyNSAxLjIxNjM5IDEyLjU2NzUgMS42MzY4MkMxMy41ODI1IDIuMDU3MjUgMTQuNTA0OCAyLjY3MzQ5IDE1LjI4MTcgMy40NTAzNEMxNi4wNTg1IDQuMjI3MiAxNi42NzQ3IDUuMTQ5NDYgMTcuMDk1MiA2LjE2NDQ3QzE3LjUxNTYgNy4xNzk0OCAxNy43MzIgOC4yNjczNiAxNy43MzIgOS4zNjZaIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+      "width": "18px"
+    }
+  },
+  // Content 
+  "overlay-layout#search-bar": {
+    "props": {
+      "placement": "bottom",
+      "scrollBehavior": "default",
+      "blockClass": "overlay-search-bar",
+      "showArrow": false,
+      "offsets": {
+        "distance": 20
+      }
+    },
+    "children": [
+      "flex-layout.col#search-bar-content"
+    ]
+  },
+  "flex-layout.col#search-bar-content": {
+    "props": {
+      "width": "grow"
+    },
+    "children": [
+      "search-bar#overlay"
+    ]
+  },
+  "search-bar#overlay": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "autocompleteAlignment": "center",
+      "autocompleteFullWidth": true,
+      "autoFocus": true,
+      "blurOnSubmit": true,
+      "containerMode": "container",
+      "disableBlurAndTouchEndHandler": true,
+      "displayMode": "clear-button",
+      "hasIconLeft": false,
+      "inputType": "text",
+      "minSearchTermLength": 3
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "hideUnavailableItems": true,
+      "maxSuggestedProducts": 2
+      // "__unstableProductOriginVtex":false,
+      // "customBreakpoints":"md"
+    }
+  }
+}

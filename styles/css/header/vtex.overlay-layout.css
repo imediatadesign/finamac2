@@ -1,0 +1,102 @@
+
+.popper--overlay-submenu{
+  padding: 20px 0px; 
+  overflow-x: hidden !important;
+  /*overflow: hidden !important;*/
+  height: 100% !important;
+}
+
+:global(.vtex-menu-2-x-submenu--overlay-submenu) :global(.vtex-overlay-layout-0-x-container){
+  background: none !important;
+  margin-left: 10px;
+}
+
+:global(.vtex-overlay-layout-0-x-container){
+ background: white !important;
+ border: none !important;
+ transition-delay: 300ms !important; 
+ transform: translate3d() none !important;
+
+}
+/*
+:global(.vtex-overlay-layout-0-x-popper){
+  opacity: 1 !important;
+  background: transparent;
+  z-index: -100 !important;
+  transform: translate3d() none !important;
+  width: 100vw !important;
+  transform: translateY(calc(0 - 100%));
+  transition-delay: 100ms !important; 
+  transition: transform .4s ease, opacity .4s ease;
+}
+*/
+ .popper--overlay-search-bar {
+  transition-delay: 300ms !important; 
+  width: 100% !important;
+  transition: transform .4s ease, opacity .9s ease;
+  position: absolute !important;
+  transform: inherit !important;
+  /*top: 124px !important;*/
+} 
+
+:global(.vtex-flex-layout-0-x-flexColChild--col-searchhome) .container{
+  background:none !important;
+  border: none !important;
+  width:900px !important;
+}
+
+.container--overlay-search-bar {
+  border: 0 none;
+  padding: 0 !important;
+  margin: 0 auto;
+  max-width: 1300px !important;
+  width: 100%;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--submenu-desktop){
+  background: none !important;
+  max-width: 1300px !important;
+  width: 100% !important;
+  background: transparent;
+  padding: 30px 0;
+  margin: 0 auto !important;
+  position: relative !important;
+  height:auto !important;
+  transition: height 0.3s ease !important; 
+ }
+ 
+/* // search bar */
+
+
+.outsideClickHandler--overlay-search-bar{
+  background: var(--base);
+  
+}
+.trigger--search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px){
+
+
+.popper--overlay-search-bar {
+  padding-top: 0px;
+  top: 69px !important;
+} 
+
+
+}
+
+/* Esconde o trigger de busca no mobile */
+@media screen and (max-width: 767px){
+  .trigger--search-bar {
+    display: none !important;
+  }
+  
+  .outsideClickHandler--overlay-search-bar {
+    display: none !important;
+  }
+}

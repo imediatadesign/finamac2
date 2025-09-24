@@ -1,0 +1,14 @@
+/* Social Links */
+.link--social-link {
+  display: inline-block;
+  margin-right: 15px;
+  transition: transform 0.3s ease;
+}
+
+.link--social-link:hover {
+  transform: translateY(-2px);
+}
+
+.link--social-link:last-child {
+  margin-right: 0;
+}

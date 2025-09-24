@@ -1,0 +1,44 @@
+
+/* PDP especification */
+
+
+.flexRow--especification-table{
+    background: var(--base2);
+    padding: 30px 30px 50px 30px;
+    @media only screen and (max-width: 600px){
+        padding: 20px;
+    }
+}
+
+.flexRowContent--especification-table{
+    max-width: 1300px;
+    margin: auto;
+    padding: 30px;
+    background: var(--base);
+    @media only screen and (max-width: 600px){
+        padding: 20px;
+    }
+}
+
+.flexRowContent--especification-table :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.flexRowContent--especification-table-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+    background: #F2F2F2;
+    padding: 13px;
+}
+
+.flexColChild--especification-table-1{
+    align-items: center;
+    display: flex
+}
+
+.flexColChild--especification-table-2{
+    padding: 13px;
+}
+
+.flexRowContent--especification-table-row{
+    border-top: solid 1px #cfcccc;
+}

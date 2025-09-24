@@ -1,0 +1,138 @@
+{
+ 
+  "flex-layout.col#institucional-menu": {
+    "props": {
+      "width": "20%",
+      "blockClass": [
+        "institucional",
+        "instmenuMobile"
+      ],
+      "preventVerticalStretch":true
+    },
+    "children": [
+    "flex-layout.col#institucional-menu-reponsive"
+    ]
+  },
+
+    "flex-layout.col#institucional-menu-reponsive": {
+      "props": {
+      },
+      "children": [
+          "responsive-layout.desktop#institucional-menu",
+          "responsive-layout.mobile#institucional-menu"
+      ]
+    },
+
+        "responsive-layout.desktop#institucional-menu": {
+          "children": [
+            "rich-text#institucional-title-sobre",
+            "rich-text#institucional-menu-sobre",
+            "rich-text#institucional-title-politicas",
+            "rich-text#institucional-menu-politicas"
+          ]
+        },
+
+        "responsive-layout.mobile#institucional-menu": {
+          "children": [
+            "disclosure-layout#institucional-menu-1",
+            "disclosure-layout#institucional-menu-2"
+          ]
+        },
+
+  "rich-text#institucional-title-sobre": {
+    "props": {
+      "text": "#### **Quem Somos**",
+      "blockClass": "institucional-menu-title"
+    }
+  },
+
+  "rich-text#institucional-menu-sobre": {
+    "props": {
+      "text": "[Quem Somos](/quemsomos)\n[Nossas Lojas](/nossas-lojas)\n[Retire na Loja](/retire-na-loja)\n[Trabalhe Conosco](/)\n[FAQ](/faq)\n[Blog](/)",
+      "blockClass": "institucional-menu"
+    }
+  },
+
+  "rich-text#institucional-title-politicas": {
+    "props": {
+      "text": "#### **Políticas**",
+      "blockClass": "institucional-menu-title"
+    }
+  },
+  "rich-text#institucional-menu-politicas": {
+    "props": {
+      "text": "[Política de Privacidade](/politica-de-privacidade)\n[Política de Pagamento](/politica-de-pagamento)\n[Política de Entrega](/politica-de-entrega)\n[Termos de Uso](/termos-de-uso)\n[Trocas e Devoluções - Site](/trocas-e-devolucoes)\n[Trocas e Devoluções - Loja Física](/trocas-e-devolucoes-lojas-fisicas)\n[Fale Conosco](/fale-conosco)",
+      "blockClass": "institucional-menu"
+    }
+  },
+
+  // Mobile
+
+  // Menu 1
+
+  "disclosure-layout#institucional-menu-1": {
+    "props": {
+        "initialVisibility":"hidden"
+    },
+    "children": [
+        "disclosure-trigger#institucional-menu-1",
+        "disclosure-content#institucional-menu-1"
+    ]
+},
+
+    "disclosure-trigger#institucional-menu-1": {
+        "props": {
+            "as": "div"
+        },
+        "children": [
+         "rich-text#institucional-title-sobre",
+         "disclosure-state-indicator#institucional-menu"    //NATIVE
+        ]
+    },
+  
+    "disclosure-content#institucional-menu-1": {
+        "props": {
+        },
+        "children": [
+          "rich-text#institucional-menu-sobre"
+        ]
+    },
+
+  // Menu 2
+
+  "disclosure-layout#institucional-menu-2": {
+    "props": {
+        "initialVisibility":"hidden"
+    },
+    "children": [
+        "disclosure-trigger#institucional-menu-2",
+        "disclosure-content#institucional-menu-2"
+    ]
+},
+
+    "disclosure-trigger#institucional-menu-2": {
+        "props": {
+            "as": "div"
+        },
+        "children": [
+         "rich-text#institucional-title-politicas",
+         "disclosure-state-indicator#institucional-menu"    //NATIVE
+        ]
+    },
+  
+    "disclosure-content#institucional-menu-2": {
+        "props": {
+        },
+        "children": [
+          "rich-text#institucional-menu-politicas"
+        ]
+    },
+          "disclosure-state-indicator#institucional-menu": {
+            "props": {
+                "Show": "icon-caret#down",
+                "Hide": "icon-caret#up"
+            }
+        }
+       
+          
+}

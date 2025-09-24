@@ -1,0 +1,43 @@
+
+.flexCol--baselinks{
+    margin: 0px 15px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: var(--base);
+    justify-content: space-between;
+    @media only screen and (max-width: 600px){
+        margin: 0px 0px 25px 0px;
+    }
+}
+
+.flexColChild--baselinks{
+    height: fit-content !important;
+}
+
+.flexColChild--baselinks :global(.vtex-store-components-3-x-imageElement){
+    min-height: 150px !important;
+    max-height: 150px !important;
+    object-fit: cover;
+    min-width: 100% !important;
+}
+
+.flexRowContent--baselinks{
+    padding: 25px 0px;
+    @media only screen and (max-width: 600px){
+        padding: 20px;
+    }
+}
+
+:global(.vtex-rich-text-0-x-headingLevel5--baselinks){
+    color: var(--primary) !important;
+    font-weight: 700;
+}
+:global(.vtex-rich-text-0-x-strong--baselinks){
+    color: var(--tertiary);
+}
+
+:global(.vtex-store-link-0-x-link--baselinks){
+    width: 100% !important;
+    background: var(--primary);
+    border-color: var(--primary);
+}

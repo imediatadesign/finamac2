@@ -1,0 +1,19 @@
+/* Content copied from "checkout5-custom.css" at 2019-03-01T05:12:59.334Z */
+
+/* /files/checkout5-custom.css */
+
+/* Displays the option to enter a foreign document 
+.document-box { display: block; }
+*/
+/* Displays the option to enter an international phone *
+.phone-box { display: block; }
+*/
+
+
+button[data-template-id="progressive-discount-kit"] {
+  padding: 1rem !important;
+  margin-top: .2rem !important;
+  border-radius: 4rem !important;
+  width: 100% !important;
+  font-weight: 600 !important;
+}

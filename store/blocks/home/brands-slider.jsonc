@@ -1,0 +1,130 @@
+{
+  // Container principal do Slider de Marcas/Clientes
+  "flex-layout.row#brands-slider": {
+    "props": {
+      "blockClass": "brands-slider-container",
+      "fullWidth": true,
+      "marginTop": 5,
+      "marginBottom": 5,
+      "preventHorizontalStretch": false,
+      "preserveLayoutOnMobile": false
+    },
+    "children": [
+      "flex-layout.col#brands-content"
+    ]
+  },
+  "flex-layout.col#brands-content": {
+    "props": {
+      "blockClass": "brands-content",
+      "width": "100%",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#brands-title",
+      "rich-text#brands-subtitle",
+      "list-context.image-list#brands"
+    ]
+  },
+  "rich-text#brands-title": {
+    "props": {
+      "text": "## **Clientes**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "brands-main-title"
+    }
+  },
+  "rich-text#brands-subtitle": {
+    "props": {
+      "text": "Líder no Brasil no fornecimento de soluções tecnológicas para sorvetes, picolés e sobremesas geladas, e também a maior exportadora de máquinas do Brasil para o mundo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "brands-subtitle"
+    }
+  },
+  "list-context.image-list#brands": {
+    "children": [
+      "slider-layout#brands"
+    ],
+    "props": {
+      "height": "auto",
+      "preload": true,
+      "blockClass": "brands-list",
+      "images": [
+        {
+          "image": "assets/home/marcas/marca-1.webp",
+          "mobileImage": "assets/home/marcas/marca-1.webp",
+          "altText": "Cliente 1",
+          "width": 150,
+          "height": 80
+        },
+        {
+          "image": "assets/home/marcas/marca-2.webp",
+          "mobileImage": "assets/home/marcas/marca-2.webp",
+          "altText": "Cliente 2",
+          "width": 150,
+          "height": 80
+        },
+        {
+          "image": "assets/home/marcas/marca-3.webp",
+          "mobileImage": "assets/home/marcas/marca-3.webp",
+          "altText": "Cliente 3",
+          "width": 150,
+          "height": 80
+        },
+        {
+          "image": "assets/home/marcas/marca-4.webp",
+          "mobileImage": "assets/home/marcas/marca-4.webp",
+          "altText": "Cliente 4",
+          "width": 150,
+          "height": 80
+        },
+        {
+          "image": "assets/home/marcas/marca-5.webp",
+          "mobileImage": "assets/home/marcas/marca-5.webp",
+          "altText": "Cliente 5",
+          "width": 150,
+          "height": 80
+        },
+        {
+          "image": "assets/home/marcas/marca-6.webp",
+          "mobileImage": "assets/home/marcas/marca-6.webp",
+          "altText": "Cliente 6",
+          "width": 150,
+          "height": 80
+        },
+        {
+          "image": "assets/home/marcas/marca-7.webp",
+          "mobileImage": "assets/home/marcas/marca-7.webp",
+          "altText": "Cliente 7",
+          "width": 150,
+          "height": 80
+        },
+        {
+          "image": "assets/home/marcas/marca-8.webp",
+          "mobileImage": "assets/home/marcas/marca-8.webp",
+          "altText": "Cliente 8",
+          "width": 150,
+          "height": 80
+        }
+      ]
+    }
+  },
+  "slider-layout#brands": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "mobileOnly",
+      "fullWidth": false,
+      // "blockClass": "brands-slider",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

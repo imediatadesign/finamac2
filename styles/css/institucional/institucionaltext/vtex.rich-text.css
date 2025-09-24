@@ -1,0 +1,52 @@
+
+
+.paragraph--institucionaltext-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: calc(45% - 5px) !important;
+    box-sizing: border-box; 
+    padding: 0px 10px;
+    margin: 20px;
+    @media only screen and (max-width:600px){
+        flex-direction: column;
+        text-align: center;
+        width: calc(100% - 5px) !important;
+    }
+}
+
+.strong--institucionaltext-2{
+    font-size: 1rem;
+    display: contents;
+    padding-bottom: 10px;
+}
+
+.image--institucionaltext-2{
+    max-width: 200px;
+}
+
+.paragraph--institucionaltext-2{
+    border: solid 1px #D4D4D4;
+    padding: 20px;
+    border-radius: 15px;
+    background: var(--base);
+    gap: 15px;
+}
+
+.wrapper--institucionaltext-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+:global(.vtex-rich-text-0-x-tableTr){
+    @media only screen and (max-width:600px){
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+:global(.vtex-rich-text-0-x-image){
+    max-width: 150px !important;
+}

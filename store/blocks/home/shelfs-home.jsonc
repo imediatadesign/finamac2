@@ -1,0 +1,113 @@
+{
+  // Shelf 1
+  "flex-layout.row#home-shelf-1": {
+    "props": {
+      "paddingTop": 2,
+      "paddingBottom": 4,
+      "blockClass": [
+        "shelf-home"
+      ],
+      "fullWidth": true
+    },
+    "children": [
+      "list-context.product-list#home-shelf"
+    ]
+  },
+  "list-context.product-list#home-shelf": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#home-shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "width": "100%",
+      "hideUnavailableItems": false,
+      "category": "1"
+    }
+  },
+  "slider-layout#home-shelf": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "blockClass": [
+        "shelf",
+        "dots-bottom"
+      ]
+    }
+  },
+  // Shelf 2
+  "flex-layout.row#home-shelf-2": {
+    "props": {
+      "paddingTop": 7,
+      "paddingBottom": 4,
+      "blockClass": [
+        "shelf-home"
+      ],
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#home-shelf-2",
+      "list-context.product-list#home-shelf-2"
+    ]
+  },
+  "rich-text#home-shelf-2": {
+    "props": {
+      "text": "### **Os mais vendidos**",
+      "width": "100%",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home-bandeja-title"
+    }
+  },
+  "list-context.product-list#home-shelf-2": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#home-shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "width": "100%",
+      "hideUnavailableItems": false
+      // "category":"50/52"
+    }
+  },
+  // Shelf 3
+  "flex-layout.row#home-shelf-3": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 8,
+      "blockClass": [
+        "shelf-home"
+      ],
+      "fullWidth": true
+    },
+    "children": [
+      "list-context.product-list#home-shelf-3"
+    ]
+  },
+  "list-context.product-list#home-shelf-3": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#home-shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "width": "100%",
+      "hideUnavailableItems": false
+      //        "category":"47"
+    }
+  }
+}

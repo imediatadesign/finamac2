@@ -1,0 +1,36 @@
+{
+  "store.custom#consult-our-products": {
+    "blocks": [
+      "flex-layout.row#consult-our-products"
+    ]
+  },
+  
+  "flex-layout.row#consult-our-products": {
+    "props": {
+      "blockClass": "1300",
+      "paddingTop":{
+        "desktop":4,
+        "mobile":2
+      }
+    },
+    "children": [
+      "flex-layout.col#consult-our-products"
+    ]
+  },
+  
+  "flex-layout.col#consult-our-products": {
+    "children": [
+      // "rich-text#consult-our-products-title",
+      "app-form-leads"
+    ]
+  },
+  
+  "rich-text#consult-our-products-title": {
+    "props": {
+      "blockClass": "consult-our-products-title",
+      "text": "### Consult our products \n By filling out the form you will have access to our team's Emails, Phones and WhatsApp immediately.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

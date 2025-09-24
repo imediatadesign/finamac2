@@ -1,0 +1,755 @@
+{
+  // Container principal do Footer Info
+  "flex-layout.row#footer-info": {
+    "props": {
+      "blockClass": "footer-info-container",
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "flex-layout.col#footer-info-content"
+    ]
+  },
+  "flex-layout.col#footer-info-content": {
+    "props": {
+      "blockClass": "footer-info-main"
+    },
+    "children": [
+      "flex-layout.row#footer-navigation",
+      "flex-layout.row#footer-privacy",
+      "flex-layout.row#footer-addresses"
+    ]
+  },
+  // Seção de Navegação do Footer
+  "flex-layout.row#footer-navigation": {
+    "props": {
+      "blockClass": "footer-navigation",
+      "preserveLayoutOnMobile": false,
+      "preventHorizontalStretch": false
+    },
+    "children": [
+      "flex-layout.col#footer-about",
+      "flex-layout.col#footer-institutional",
+      "flex-layout.col#footer-services",
+      "flex-layout.col#footer-account"
+    ]
+  },
+  // Coluna 1 - Sobre a Finamac
+  "flex-layout.col#footer-about": {
+    "props": {
+      "blockClass": "footer-column footer-about",
+      "width": {
+        "desktop": "25%",
+        "mobile": "100%"
+      }
+    },
+    "children": [
+      "rich-text#footer-about-title",
+      "rich-text#footer-about-description",
+      "flex-layout.row#footer-social"
+    ]
+  },
+  "rich-text#footer-about-title": {
+    "props": {
+      "text": "## A FINAMAC",
+      "blockClass": "footer-column-title",
+      "textAlignment": "LEFT"
+    }
+  },
+  "rich-text#footer-about-description": {
+    "props": {
+      "text": "Somos uma equipe que aceita desafíos. Se você compartilha desse mesmo espírito, queremos ser um parceiro à sua altura.",
+      "blockClass": "footer-column-description",
+      "textAlignment": "LEFT"
+    }
+  },
+  // Social Media
+  "flex-layout.row#footer-social": {
+    "props": {
+      "blockClass": "footer-social",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "link#social-instagram",
+      "link#social-facebook",
+      "link#social-linkedin",
+      "link#social-youtube"
+    ]
+  },
+  "link#social-instagram": {
+    "props": {
+      "href": "https://www.instagram.com/finamacglobal/",
+      "target": "_blank",
+      "blockClass": "social-link"
+    },
+    "children": [
+      "image#social-instagram-icon"
+    ]
+  },
+  "image#social-instagram-icon": {
+    "props": {
+      "src": "https://finamac.vtexassets.com/assets/vtex/assets-builder/finamac.themefinamac/1.0.40-beta.0/instagram___1eb4645e59ca93bce34af494eec07e41.svg",
+      "width": 18,
+      "height": 18,
+      "blockClass": "social-icon"
+    }
+  },
+  "link#social-facebook": {
+    "props": {
+      "href": "https://www.facebook.com/FinamacGlobal",
+      "target": "_blank",
+      "blockClass": "social-link"
+    },
+    "children": [
+      "image#social-facebook-icon"
+    ]
+  },
+  "image#social-facebook-icon": {
+    "props": {
+      "src": "https://finamac.vtexassets.com/assets/vtex/assets-builder/finamac.themefinamac/1.0.40-beta.0/facebook___1976c10d97b41d36d848eedfdf14c5b5.svg",
+      "width": 18,
+      "height": 18,
+      "blockClass": "social-icon"
+    }
+  },
+  "link#social-linkedin": {
+    "props": {
+      "href": "https://www.linkedin.com/company/finamacglobal/",
+      "target": "_blank",
+      "blockClass": "social-link"
+    },
+    "children": [
+      "image#social-linkedin-icon"
+    ]
+  },
+  "image#social-linkedin-icon": {
+    "props": {
+      "src": "https://finamac.vtexassets.com/assets/vtex/assets-builder/finamac.themefinamac/1.0.40-beta.0/linkedin___e78cce5bf9fbbaa8462371175733f1ab.svg",
+      "width": 18,
+      "height": 18,
+      "blockClass": "social-icon"
+    }
+  },
+  "link#social-youtube": {
+    "props": {
+      "href": "https://www.youtube.com/user/Finamac",
+      "target": "_blank",
+      "blockClass": "social-link"
+    },
+    "children": [
+      "image#social-youtube-icon"
+    ]
+  },
+  "image#social-youtube-icon": {
+    "props": {
+      "src": "https://finamac.vtexassets.com/assets/vtex/assets-builder/finamac.themefinamac/1.0.40-beta.0/youtube___e5f3de035803862fce57bf54403225a1.svg",
+      "width": 18,
+      "height": 18,
+      "blockClass": "social-icon"
+    }
+  },
+  // Coluna 2 - Institucional
+  "flex-layout.col#footer-institutional": {
+    "props": {
+      "blockClass": "footer-column",
+      "width": {
+        "desktop": "25%",
+        "mobile": "100%"
+      }
+    },
+    "children": [
+      "rich-text#footer-institutional-title",
+      "vtex.menu@2.x:menu#footer-institutional"
+    ]
+  },
+  "rich-text#footer-institutional-title": {
+    "props": {
+      "text": "## Institucional",
+      "blockClass": "footer-column-title",
+      "textAlignment": "LEFT"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-institutional": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-menu"
+    },
+    "children": [
+      "menu-item#footer-about-us",
+      "menu-item#footer-awards",
+      "menu-item#footer-technology",
+      "menu-item#footer-clients",
+      "menu-item#footer-projects",
+      "menu-item#footer-partners",
+      "menu-item#footer-areas",
+      "menu-item#footer-units",
+      "menu-item#footer-events",
+      "menu-item#footer-media",
+      "menu-item#footer-ombudsman"
+    ]
+  },
+  "menu-item#footer-about-us": {
+    "props": {
+      "id": "footer-about-us",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/sobrenos",
+        "text": "Sobre Nós"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-awards": {
+    "props": {
+      "id": "footer-awards",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/premiacoes",
+        "text": "Premiações"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-technology": {
+    "props": {
+      "id": "footer-technology",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/tecnologia",
+        "text": "Tecnologia"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-clients": {
+    "props": {
+      "id": "footer-clients",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/clientes",
+        "text": "Clientes"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-projects": {
+    "props": {
+      "id": "footer-projects",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/projetos",
+        "text": "Projetos"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-partners": {
+    "props": {
+      "id": "footer-partners",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/parcerias",
+        "text": "Parcerias"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-areas": {
+    "props": {
+      "id": "footer-areas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/areas",
+        "text": "Áreas"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-units": {
+    "props": {
+      "id": "footer-units",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/unidades",
+        "text": "Unidades"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-events": {
+    "props": {
+      "id": "footer-events",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/eventos",
+        "text": "Eventos"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-media": {
+    "props": {
+      "id": "footer-media",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/midia",
+        "text": "Mídia"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-ombudsman": {
+    "props": {
+      "id": "footer-ombudsman",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/ouvidoria",
+        "text": "Ouvidoria"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  // Coluna 3 - Serviços
+  "flex-layout.col#footer-services": {
+    "props": {
+      "blockClass": "footer-column",
+      "width": {
+        "desktop": "25%",
+        "mobile": "100%"
+      }
+    },
+    "children": [
+      "rich-text#footer-services-title",
+      "vtex.menu@2.x:menu#footer-services",
+      "rich-text#footer-policies-title",
+      "vtex.menu@2.x:menu#footer-policies"
+    ]
+  },
+  "rich-text#footer-services-title": {
+    "props": {
+      "text": "## Serviços",
+      "blockClass": "footer-column-title",
+      "textAlignment": "LEFT"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-services": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-menu"
+    },
+    "children": [
+      "menu-item#footer-courses",
+      "menu-item#footer-consulting",
+      "menu-item#footer-technical-support",
+      "menu-item#footer-training-videos",
+      "menu-item#footer-finamac-training"
+    ]
+  },
+  "menu-item#footer-courses": {
+    "props": {
+      "id": "footer-courses",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/cursos",
+        "text": "Cursos"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-consulting": {
+    "props": {
+      "id": "footer-consulting",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/consultorias",
+        "text": "Consultorias"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-technical-support": {
+    "props": {
+      "id": "footer-technical-support",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/assistencia-tecnica-finamac",
+        "text": "Assistência Técnica"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-training-videos": {
+    "props": {
+      "id": "footer-training-videos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/treinamento",
+        "text": "Vídeos de Treinamento"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-finamac-training": {
+    "props": {
+      "id": "footer-finamac-training",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/treinamento-finamac",
+        "text": "Treinamento Finamac"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "rich-text#footer-policies-title": {
+    "props": {
+      "text": "## Políticas",
+      "blockClass": "footer-column-title",
+      "textAlignment": "LEFT"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-policies": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-menu"
+    },
+    "children": [
+      "menu-item#footer-privacy-policy",
+      "menu-item#footer-cookie-policy"
+    ]
+  },
+  "menu-item#footer-privacy-policy": {
+    "props": {
+      "id": "footer-privacy-policy",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/politica-de-privacidade",
+        "text": "Política de Privacidade"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-cookie-policy": {
+    "props": {
+      "id": "footer-cookie-policy",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/politica-de-cookies",
+        "text": "Política de Cookies"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  // Coluna 4 - Minha Conta
+  "flex-layout.col#footer-account": {
+    "props": {
+      "blockClass": "footer-column",
+      "width": {
+        "desktop": "25%",
+        "mobile": "100%"
+      }
+    },
+    "children": [
+      "rich-text#footer-account-title",
+      "vtex.menu@2.x:menu#footer-account"
+    ]
+  },
+  "rich-text#footer-account-title": {
+    "props": {
+      "text": "## Minha Conta",
+      "blockClass": "footer-column-title",
+      "textAlignment": "LEFT"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-account": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-menu"
+    },
+    "children": [
+      "menu-item#footer-my-account",
+      "menu-item#footer-my-orders"
+    ]
+  },
+  "menu-item#footer-my-account": {
+    "props": {
+      "id": "footer-my-account",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/account",
+        "text": "Minha Conta"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-my-orders": {
+    "props": {
+      "id": "footer-my-orders",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/account#/orders",
+        "text": "Meus Pedidos"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  // Seção de Privacidade
+  "flex-layout.row#footer-privacy": {
+    "props": {
+      "blockClass": "footer-privacy",
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "flex-layout.col#footer-privacy-content"
+    ]
+  },
+  "flex-layout.col#footer-privacy-content": {
+    "props": {
+      "blockClass": "footer-privacy-content",
+      "width": "100%"
+    },
+    "children": [
+      "rich-text#footer-privacy-title",
+      "rich-text#footer-privacy-text"
+    ]
+  },
+  "rich-text#footer-privacy-title": {
+    "props": {
+      "text": "### PRIVACIDADE E USO DE DADOS",
+      "blockClass": "footer-privacy-title",
+      "textAlignment": "CENTER"
+    }
+  },
+  "rich-text#footer-privacy-text": {
+    "props": {
+      "text": "A FINAMAC valoriza a privacidade dos seus usuários e compromete-se a utilizar os dados pessoais fornecidos pelos usuários exclusivamente para fins de rastreamento de pedidos e atividades de marketing. Ao autenticar-se neste site, você concorda com o uso dos seus dados pessoais para Rastreio, processamento de pedidos e Envio de comunicações de marketing e promoções.",
+      "blockClass": "footer-privacy-text",
+      "textAlignment": "CENTER"
+    }
+  },
+  // Seção de Endereços
+  "flex-layout.row#footer-addresses": {
+    "props": {
+      "blockClass": "footer-addresses",
+      "preserveLayoutOnMobile": false
+    },
+    "children": [
+      "flex-layout.col#address-brazil-sales",
+      "flex-layout.col#address-usa-sales",
+      "flex-layout.col#address-brazil-support",
+      "flex-layout.col#address-usa-support"
+    ]
+  },
+  "flex-layout.col#address-brazil-sales": {
+    "props": {
+      "blockClass": "footer-address-column",
+      "width": {
+        "desktop": "25%",
+        "tablet": "50%",
+        "mobile": "100%"
+      }
+    },
+    "children": [
+      "rich-text#address-brazil-sales-title",
+      "rich-text#address-brazil-sales-content"
+    ]
+  },
+  "rich-text#address-brazil-sales-title": {
+    "props": {
+      "text": "### BRASIL - Vendas",
+      "blockClass": "footer-address-title",
+      "textAlignment": "LEFT"
+    }
+  },
+  "rich-text#address-brazil-sales-content": {
+    "props": {
+      "text": "Avenida Nazaré 1657 - Ipiranga\nCEP: 04263-200\nSão Paulo / SP\nTel: +55 11 2135 6500\nCNPJ: 08.262.762/0001-78\nFinamac Engenharia e Industrialização de Equipamentos LTDA",
+      "blockClass": "footer-address-text",
+      "textAlignment": "LEFT"
+    }
+  },
+  "flex-layout.col#address-usa-sales": {
+    "props": {
+      "blockClass": "footer-address-column",
+      "width": {
+        "desktop": "25%",
+        "tablet": "50%",
+        "mobile": "100%"
+      }
+    },
+    "children": [
+      "rich-text#address-usa-sales-title",
+      "rich-text#address-usa-sales-content"
+    ]
+  },
+  "rich-text#address-usa-sales-title": {
+    "props": {
+      "text": "### EUA - Vendas",
+      "blockClass": "footer-address-title",
+      "textAlignment": "LEFT"
+    }
+  },
+  "rich-text#address-usa-sales-content": {
+    "props": {
+      "text": "11231 NW 20th Street Unit 130\nZIP: 33172\nMiami / FL\nTel: +1-877-342-7458\n Este número não aceita ligações fora dos Estados Unidos\nTel: +1-786-408-0729\nTel/Whatsapp: +1-305-804-8636",
+      "blockClass": "footer-address-text",
+      "textAlignment": "LEFT"
+    }
+  },
+  "flex-layout.col#address-brazil-support": {
+    "props": {
+      "blockClass": "footer-address-column",
+      "width": {
+        "desktop": "25%",
+        "tablet": "50%",
+        "mobile": "100%"
+      }
+    },
+    "children": [
+      "rich-text#address-brazil-support-title",
+      "vtex.menu@2.x:menu#support-brazil-links"
+    ]
+  },
+  "rich-text#address-brazil-support-title": {
+    "props": {
+      "text": "### BRASIL - Suporte Técnico",
+      "blockClass": "footer-address-title",
+      "textAlignment": "LEFT"
+    }
+  },
+  "vtex.menu@2.x:menu#support-brazil-links": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-support-links"
+    },
+    "children": [
+      "menu-item#support-brazil-pt",
+      "menu-item#support-brazil-en",
+      "menu-item#support-brazil-es"
+    ]
+  },
+  "menu-item#support-brazil-pt": {
+    "props": {
+      "id": "support-brazil-pt",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/assistencia-tecnica-finamac/",
+        "text": "🇧🇷 Português"
+      },
+      "blockClass": "footer-support-link"
+    }
+  },
+  "menu-item#support-brazil-en": {
+    "props": {
+      "id": "support-brazil-en",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/technical-support-finamac?__bindingAddress=www.finamac.com/en",
+        "text": "🇺🇸 English"
+      },
+      "blockClass": "footer-support-link"
+    }
+  },
+  "menu-item#support-brazil-es": {
+    "props": {
+      "id": "support-brazil-es",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/asistencia-tecnica-finamac/?__bindingAddress=www.finamac.com/es",
+        "text": "🇪🇸 Español"
+      },
+      "blockClass": "footer-support-link"
+    }
+  },
+  "flex-layout.col#address-usa-support": {
+    "props": {
+      "blockClass": "footer-address-column",
+      "width": {
+        "desktop": "25%",
+        "tablet": "50%",
+        "mobile": "100%"
+      }
+    },
+    "children": [
+      "rich-text#address-usa-support-title",
+      "vtex.menu@2.x:menu#support-usa-links"
+    ]
+  },
+  "rich-text#address-usa-support-title": {
+    "props": {
+      "text": "### EUA - Suporte Técnico",
+      "blockClass": "footer-address-title",
+      "textAlignment": "LEFT"
+    }
+  },
+  "vtex.menu@2.x:menu#support-usa-links": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-support-links"
+    },
+    "children": [
+      "menu-item#support-usa-en",
+      "menu-item#support-usa-es",
+      "menu-item#support-usa-pt"
+    ]
+  },
+  "menu-item#support-usa-en": {
+    "props": {
+      "id": "support-usa-en",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/technical-support-finamac?__bindingAddress=www.finamac.com/en",
+        "text": "🇺🇸 English"
+      },
+      "blockClass": "footer-support-link"
+    }
+  },
+  "menu-item#support-usa-es": {
+    "props": {
+      "id": "support-usa-es",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/asistencia-tecnica-finamac/?__bindingAddress=www.finamac.com/es",
+        "text": "🇪🇸 Español"
+      },
+      "blockClass": "footer-support-link"
+    }
+  },
+  "menu-item#support-usa-pt": {
+    "props": {
+      "id": "support-usa-pt",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/br/assistencia-tecnica-finamac/",
+        "text": "🇧🇷 Português"
+      },
+      "blockClass": "footer-support-link"
+    }
+  }
+}

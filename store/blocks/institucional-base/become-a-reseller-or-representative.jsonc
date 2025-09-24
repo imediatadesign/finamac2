@@ -1,0 +1,36 @@
+{
+  "store.custom#become-a-reseller-or-representative": {
+    "blocks": [
+      "flex-layout.row#institucional-Representative"
+    ]
+  },
+
+  "flex-layout.row#institucional-Representative": {
+    "children": [
+      "flex-layout.col#institucional-Representative"
+    ],
+    "props": {
+      "blockClass": "institucional-representative"
+    }
+  },
+
+  "flex-layout.col#institucional-Representative": {
+    "children": [
+      // "rich-text#representative-title",
+      "app-form-representante"
+    ],
+    "props": {
+      "blockClass": "institucional-representative",
+      "width": "100%"
+    }
+  },
+
+  "rich-text#representative-title": {
+    "props": {
+      "text": "# Become a Reseller or Representative\n\nJoin the Finamac distribution network! Fill out the form below and our team will contact you to discuss partnership opportunities.",
+      "blockClass": "representative-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

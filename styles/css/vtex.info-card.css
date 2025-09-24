@@ -1,0 +1,88 @@
+/* InfoCard Home - Estilo Premium Simplificado */
+
+.infoCardContainer--info-card-home {
+  background: #f8f9fa !important;
+  border-radius: 16px !important;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
+  transition: transform 0.3s ease !important;
+  margin: 2rem auto !important;
+  max-width: 1240px !important;
+  position: relative;
+}
+
+.infoCardContainer--info-card-home:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15) !important;
+}
+
+.infoCardTextContainer--info-card-home {
+  padding: 2.5rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+
+.infoCardHeadline--info-card-home {
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+  color: #025da6 !important;
+  line-height: 1.2 !important;
+  margin-bottom: 1rem !important;
+}
+
+.infoCardSubhead--info-card-home {
+  font-size: 1.1rem !important;
+  line-height: 1.7 !important;
+  color: #546e7a !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.infoCardCallActionContainer--info-card-home .vtex-button {
+  background: #025da6 !important;
+  border: none !important;
+  padding: 12px 28px !important;
+  border-radius: 24px !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+}
+
+.infoCardCallActionContainer--info-card-home .vtex-button:hover {
+  background: #0073cc !important;
+  transform: translateY(-2px) !important;
+}
+
+.infoCardImageContainer--info-card-home {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.infoCardImage--info-card-home {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  transition: transform 0.5s ease !important;
+}
+
+.infoCardContainer--info-card-home:hover .infoCardImage--info-card-home {
+  transform: scale(1.05) !important;
+}
+
+@media (max-width: 768px) {
+  .infoCardContainer--info-card-home {
+    margin: 1rem !important;
+  }
+
+  .infoCardTextContainer--info-card-home {
+    padding: 1.5rem !important;
+    text-align: center !important;
+  }
+
+  .infoCardHeadline--info-card-home {
+    font-size: 2rem !important;
+  }
+
+  .infoCardSubhead--info-card-home {
+    font-size: 1rem !important;
+  }
+}

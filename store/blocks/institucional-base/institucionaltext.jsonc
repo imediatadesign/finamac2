@@ -1,0 +1,323 @@
+{
+    "store.custom#institucionaltext": {
+        "children": [
+             "flex-layout.row#institucionaltext-1",
+             "toggle-layout#institucionaltext-2",
+             "toggle-layout#institucionaltext-3",
+             "toggle-layout#institucionaltext-4",
+             "toggle-layout#institucionaltext-5",
+             "toggle-layout#institucionaltext-6"
+        ]
+    },
+    
+    // Row 1
+
+    "flex-layout.row#institucionaltext-1": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "base2",
+                "padding40vs20"
+            ]
+        },
+        "children": [
+                "rich-text#institucionaltext-title"
+        ]
+    },
+        "rich-text#institucionaltext-title": {
+            "props": {
+                "text": "## Título™\nLorem ipsum dolor sit amet. Quo beatae fugiat aut quod quam et quidem facilis eos voluptatum voluptatem aut quae dolores. Qui velit fuga et impedit ipsum 33 repellat recusandae.",
+                "textAlignment": "LEFT",
+                "textPosition": "LEFT",
+                "blockClass":"color-secondary"
+            }
+        },
+
+    // Row 2
+
+    "toggle-layout#institucionaltext-2": {
+        "children": [
+           "flex-layout.row#institucionaltext-2"
+        ]
+    },
+
+        "flex-layout.row#institucionaltext-2": {
+            "props": {
+                "blockClass": [
+                    "1300",
+                    "padding40vs20"
+                ]
+            },
+            "children": [
+                    "flex-layout.col#institucionaltext-2"
+            ]
+        },
+            "flex-layout.col#institucionaltext-2": {
+                "props": {
+                    "rowGap":5
+                },
+                "children": [
+                    "rich-text#institucionaltext-2-title",
+                    "flex-layout.row#institucionaltext-2-row"
+                ]
+            },
+                "rich-text#institucionaltext-2-title": {
+                    "props": {
+                        "text": "## > Título",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"color-secondary"
+                    }
+                },
+
+            "flex-layout.row#institucionaltext-2-row": {
+                "props": {
+                    "colGap":7,
+                    "blockClass":"institucionaltext"
+                },
+                "children": [
+                   "rich-text#institucionaltext-2-1"
+                ]
+            },
+                    "rich-text#institucionaltext-2-1": {
+                        "props": {
+                            "text": "![alt text](https://placehold.co/200x250)**Titulo**\n Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.\n\n![alt text](https://placehold.co/200x250)**Titulo**\n Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.\n\n![alt text](https://placehold.co/200x250)**Titulo**\n Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.\n\n![alt text](https://placehold.co/200x250)**Titulo**\n Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.",
+                            "textAlignment": "LEFT",
+                            "textPosition": "LEFT",
+                            "blockClass":["color-secondary","institucionaltext-2"]
+                        }
+                    },
+
+    // Row 3
+
+    "toggle-layout#institucionaltext-3": {
+        "children": [
+           "flex-layout.row#institucionaltext-3"
+        ]
+    },
+
+        "flex-layout.row#institucionaltext-3": {
+            "props": {
+                "blockClass": [
+                    "1300",
+                    "padding40vs20",
+                    "base2"
+                ]
+            },
+            "children": [
+                    "flex-layout.col#institucionaltext-3"
+            ]
+        },
+            "flex-layout.col#institucionaltext-3": {
+                "props": {
+                    "rowGap":5
+                },
+                "children": [
+                    "rich-text#institucionaltext-3-title",
+                    "flex-layout.row#institucionaltext-3-row"
+                ]
+            },
+                "rich-text#institucionaltext-3-title": {
+                    "props": {
+                        "text": "## > Título",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"color-secondary"
+                    }
+                },
+
+            "flex-layout.row#institucionaltext-3-row": {
+                "props": {
+                    "colGap":7,
+                    "blockClass":"institucionaltext"
+                },
+                "children": [
+                     "rich-text#institucionaltext-3-1"
+                ]
+            },
+                    "rich-text#institucionaltext-3-1": {
+                        "props": {
+                            "text": "![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.\n\n![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.\n\n![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.\n\n![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.",
+                            "textAlignment": "LEFT",
+                            "textPosition": "LEFT",
+                            "blockClass":["color-secondary","institucionaltext-2"]
+                        }
+                    },
+
+
+
+    // Row 4
+
+    "toggle-layout#institucionaltext-4": {
+        "children": [
+           "flex-layout.row#institucionaltext-4"
+        ]
+    },
+
+        "flex-layout.row#institucionaltext-4": {
+            "props": {
+                "blockClass": [
+                    "1300",
+                    "padding40vs20"
+                ]
+            },
+            "children": [
+                    "flex-layout.col#institucionaltext-4"
+            ]
+        },
+            "flex-layout.col#institucionaltext-4": {
+                "props": {
+                    "rowGap":5
+                },
+                "children": [
+                    "rich-text#institucionaltext-4-title",
+                    "flex-layout.row#institucionaltext-4-row"
+                ]
+            },
+                "rich-text#institucionaltext-4-title": {
+                    "props": {
+                        "text": "## > Título",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"color-secondary"
+                    }
+                },
+
+            "flex-layout.row#institucionaltext-4-row": {
+                "props": {
+                    "colGap":7,
+                    "blockClass":"institucionaltext"
+                },
+                "children": [
+                     "rich-text#institucionaltext-4-1"
+                ]
+            },
+                    "rich-text#institucionaltext-4-1": {
+                        "props": {
+                            "text": "![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.\n\n![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.\n\n![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.\n\n![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.",
+                            "textAlignment": "LEFT",
+                            "textPosition": "LEFT",
+                            "blockClass":["color-secondary","institucionaltext-2"]
+                        }
+                    },
+
+
+    // Row 5
+
+    "toggle-layout#institucionaltext-5": {
+        "children": [
+           "flex-layout.row#institucionaltext-5"
+        ]
+    },
+
+        "flex-layout.row#institucionaltext-5": {
+            "props": {
+                "blockClass": [
+                    "1300",
+                    "padding40vs20",
+                    "base2"
+                ]
+            },
+            "children": [
+                    "flex-layout.col#institucionaltext-5"
+            ]
+        },
+            "flex-layout.col#institucionaltext-5": {
+                "props": {
+                    "rowGap":5
+                },
+                "children": [
+                    "rich-text#institucionaltext-5-title",
+                    "flex-layout.row#institucionaltext-5-row"
+                ]
+            },
+                "rich-text#institucionaltext-5-title": {
+                    "props": {
+                        "text": "## > Título",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"color-secondary"
+                    }
+                },
+
+            "flex-layout.row#institucionaltext-5-row": {
+                "props": {
+                    "colGap":7,
+                    "blockClass":"institucionaltext"
+                },
+                "children": [
+                     "rich-text#institucionaltext-5-1"
+                ]
+            },
+                    "rich-text#institucionaltext-5-1": {
+                        "props": {
+                            "text": "![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.\n\n![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.\n\n![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.\n\n![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.",
+                            "textAlignment": "LEFT",
+                            "textPosition": "LEFT",
+                            "blockClass":["color-secondary","institucionaltext-2"]
+                        }
+                    },
+
+
+    // Row 6
+
+    "toggle-layout#institucionaltext-6": {
+        "children": [
+           "flex-layout.row#institucionaltext-6"
+        ]
+    },
+
+        "flex-layout.row#institucionaltext-6": {
+            "props": {
+                "blockClass": [
+                    "1300",
+                    "padding40vs20"
+                ]
+            },
+            "children": [
+                    "flex-layout.col#institucionaltext-6"
+            ]
+        },
+            "flex-layout.col#institucionaltext-6": {
+                "props": {
+                    "rowGap":5
+                },
+                "children": [
+                    "rich-text#institucionaltext-6-title",
+                    "flex-layout.row#institucionaltext-6-row"
+                ]
+            },
+                "rich-text#institucionaltext-6-title": {
+                    "props": {
+                        "text": "## > Título",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"color-secondary"
+                    }
+                },
+
+            "flex-layout.row#institucionaltext-6-row": {
+                "props": {
+                    "colGap":7,
+                    "blockClass":"institucionaltext"
+                },
+                "children": [
+                     "rich-text#institucionaltext-6-1"
+                ]
+            },
+                    "rich-text#institucionaltext-6-1": {
+                        "props": {
+                            "text": "![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.\n\n![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.\n\n![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.\n\n![alt text](https://placehold.co/200x250) Lorem ipsum dolor sit amet. Aut tenetur cumque et neque enim est quam voluptas ut fugiat aliquid id earum labore in veritatis aliquid sit incidunt quasi.",
+                            "textAlignment": "LEFT",
+                            "textPosition": "LEFT",
+                            "blockClass":["color-secondary","institucionaltext-2"]
+                        }
+                    }
+
+
+
+
+
+}
+
+

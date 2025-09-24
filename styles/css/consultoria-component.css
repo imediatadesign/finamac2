@@ -1,0 +1,243 @@
+/* Estilos do componente ConsultoriasEspecializadas */
+
+/* Hero Section */
+.consultoria-hero-blue-bg {
+  background-color: #1e3a8a;
+  background-image: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+  min-height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.consultoria-hero-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.consultoria-white-text {
+  color: #ffffff !important;
+}
+
+.consultoria-hero-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.consultoria-hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.consultoria-hero-cta {
+  font-size: 1.125rem;
+  margin-bottom: 40px;
+  opacity: 0.9;
+}
+
+.consultoria-hero-image {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.consultoria-hero-image:hover {
+  transform: translateY(-5px);
+}
+
+/* Video Section */
+.consultoria-video-section {
+  background-color: #f8f9fa;
+  padding: 80px 20px;
+}
+
+.consultoria-video-title {
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.consultoria-video-text {
+  color: #64748b;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+/* Services Section */
+.consultoria-services-bg {
+  background-color: #f1f5f9;
+  padding: 80px 20px;
+}
+
+.consultoria-services-title {
+  color: #1e3a8a;
+  margin-bottom: 16px;
+}
+
+.consultoria-services-subtitle {
+  color: #64748b;
+  margin-bottom: 60px;
+}
+
+.consultoria-services-cards {
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.service-card {
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  min-height: 300px;
+}
+
+.service-card-blue {
+  background-color: #2563eb;
+  color: white;
+}
+
+.service-card-white {
+  background-color: white;
+  border: 2px solid #e2e8f0;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.service-card-blue:hover {
+  background-color: #1e40af;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.service-card-blue h3 {
+  color: white;
+}
+
+.consultoria-services-list {
+  line-height: 2;
+  font-size: 1rem;
+}
+
+/* Professionals Section */
+.consultoria-professionals-title-text {
+  color: #1e3a8a;
+  margin-bottom: 16px;
+}
+
+.consultoria-professionals-subtitle {
+  color: #64748b;
+  margin-bottom: 60px;
+}
+
+/* Fernanda Section */
+.consultoria-fernanda-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.consultoria-card-shadow:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.consultoria-fernanda-image {
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.consultoria-fernanda-image:hover {
+  transform: scale(1.05);
+}
+
+.consultoria-fernanda-name {
+  color: #1e3a8a;
+  margin-bottom: 8px;
+}
+
+.consultoria-fernanda-role {
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.consultoria-fernanda-bio {
+  color: #475569;
+  line-height: 1.8;
+}
+
+/* Form Section */
+.consultoria-form-bg {
+  background-color: #1e3a8a;
+  background-image: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+  position: relative;
+  padding: 80px 20px;
+}
+
+.consultoria-form-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+
+.consultoria-form-title {
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.consultoria-form-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  z-index: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .consultoria-hero-inner {
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 20px;
+  }
+  
+  .consultoria-hero-title {
+    font-size: 2rem;
+  }
+  
+  .service-card {
+    margin: 10px 0;
+  }
+  
+  .consultoria-fernanda-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .consultoria-fernanda-card > div:first-child {
+    margin-bottom: 30px;
+  }
+}

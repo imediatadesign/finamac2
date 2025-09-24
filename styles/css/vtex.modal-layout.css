@@ -1,0 +1,10 @@
+
+
+.paperScrollContent{
+  max-height: 65vw !important;
+}
+
+:global(.vtex-store-components-3-x-highQualityProductImageImgElement){
+  max-height: 75vh !important;
+  object-fit: cover;
+}

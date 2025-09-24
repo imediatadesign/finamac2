@@ -1,0 +1,65 @@
+/* WhatsApp Button Styles */
+.vtex-whatsapp-button {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 16px 24px;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 12px;
+  margin-bottom: 0;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-align: center;
+  gap: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.vtex-whatsapp-button:hover {
+  background-color: #1DA851 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: white;
+}
+
+.vtex-whatsapp-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Ícone do WhatsApp */
+.vtex-whatsapp-button svg {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+/* Estilo específico para PDP */
+.pdp-whatsapp-button {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 12px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .vtex-whatsapp-button {
+    font-size: 11px;
+    padding: 14px 20px;
+  }
+
+  .vtex-whatsapp-button svg {
+    width: 18px;
+    height: 18px;
+  }
+}

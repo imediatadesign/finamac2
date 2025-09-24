@@ -1,0 +1,43 @@
+
+
+.flexCol--treinamento-content-slider{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.flexCol--treinamento-content-slider :global(.vtex-store-components-3-x-imageElement){
+    min-width: 100% !important;
+    max-width: 100% !important;
+    max-height: 300px !important;
+    min-height: 300px !important;
+    object-fit: cover !important;
+}
+
+
+.flexRow--treinamento-2 :global(.vtex-slider-layout-0-x-slide--shelf--visible){
+    box-shadow: none !important;
+}
+
+
+.flexRow--treinamento-2 :global(.vtex-store-components-3-x-imageElement){
+    min-width: 100% !important;
+    max-width: 150px !important;
+    max-height: 150px !important;
+    min-height: 150px !important;
+    object-fit: cover !important;
+}
+
+.flexRow--treinamento-2 :global(.vtex-button){
+    background: #0075db8f !important;
+    color: var(--base);
+}
+
+.flexRow--treinamento-2 :global(.vtex-tab-layout-0-x-listItemActive) :global(.vtex-button){
+    background: var(--tertiary) !important;
+}
+
+.flexRow--treinamento-2 :global(.vtex-rich-text-0-x-heading){
+    font-size: 18px;
+}

@@ -1,0 +1,31 @@
+{
+  "store.blog-category": {
+    "blocks": [
+      "flex-layout.row#wordpress-breadcrumb",
+      "flex-layout.row#blog-category-list"
+    ]
+  },
+
+      // Bread Crump
+              
+      "flex-layout.row#wordpress-breadcrumb": {
+        "props":{
+          "blockClass": ["1200"],
+          "paddingTop":8
+        },
+        "children": [
+          "blog-breadcrumb.wordpress-breadcrumb"
+        ]
+      },
+
+      // Category List
+              
+      "flex-layout.row#blog-category-list": {
+        "props":{
+          "blockClass": ["1200","blog-category-list"]
+        },
+        "children": [
+          "blog-category-list.wordpress-category-list"
+        ]
+      }
+}

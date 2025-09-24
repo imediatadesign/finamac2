@@ -1,0 +1,162 @@
+{
+  "flex-layout.row#newsletter": {
+    "props":{
+        "blockClass":"footer-v2-row-2",
+        "paddingTop":7,
+        "paddingBottom":7,
+        "fullWidth":true,
+        "backgroundColor": "#025da6"
+     },
+      "children": [
+          "newsletter-form#form"
+      ]
+    },
+
+      "newsletter-form#form": {
+          "props":{
+            "blockClass":"newsletter-ids"
+          },
+          "children": [
+            "flex-layout.row#news"
+          ]
+        },
+
+        "flex-layout.row#news": {
+            "props":{
+              "blockClass": ["1300", "newsletter"],
+              "marginTop":8
+             },
+          
+              "children": [
+                    "flex-layout.col#newsletter-1",
+                    "flex-layout.col#newsletter-2"
+              ]
+            },
+
+        "flex-layout.col#newsletter-1": {
+            "props":{
+              "width":{
+                "desktop":"45%",
+                "mobile":"100%"
+              },
+              "preventVerticalStretch":true,
+              "verticalAlign":"BOTTOM"
+             },
+
+              "children": [
+                "flex-layout.row#newsletter-1"
+              ]
+            },
+            
+            "flex-layout.row#newsletter-1": {
+              "props":{
+                "preventHorizontalStretch":true,
+                "horizontalAlign":"LEFT",
+                "blockClass":"newsletter-1"
+               },
+                "children": [
+                   "rich-text#newsletter-1"
+                ]
+              },
+            
+                "rich-text#newsletter-1": {
+                  "props": {
+                    "text": "#### **Cadastre-se em nossa Newsletter**\nReceba promoções, novidades e ofertas exclusivas.",
+                    "textAlignment": "BOTTOM",
+                    "textPosition": "LEFT",
+                    "blockClass":"newsletter-1",
+                    "textColor": "c-on-emphasis"
+                  }
+                },
+
+        "flex-layout.col#newsletter-2": {
+          "props":{
+            "width":{
+              "desktop":"55%",
+              "mobile":"100%"
+            },
+              "preventVerticalStretch":true,
+              "verticalAlign":"middle"
+           },
+              "children": [
+                "flex-layout.row#newsletter-col-2"
+              ]
+            },
+                          
+            "flex-layout.row#newsletter-col-2": {
+              "props":{
+              "preventHorizontalStretch":false,
+              "preventVerticalStretch":true,
+              "verticalAlign":"bottom",
+              "colGap":5,
+              "blockClass":"newsletter-col-2"
+               },
+                "children": [
+                  "flex-layout.col#newsletter-col-2-name",
+                  "flex-layout.col#newsletter-col-2-email",
+                  "flex-layout.col#newsletter-col-2-submit"
+                ]
+              },
+
+              "flex-layout.col#newsletter-col-2-email": {
+                "props":{
+                  "width":{
+                    "desktop":"35%",
+                    "mobile":"100%"
+                  }
+                 },
+                  "children": [
+                    "newsletter-input-email"
+                  ]
+                },
+                  "newsletter-input-email":{
+                      "props":{
+                        "inputLabel":"Email"
+                      }
+                  },
+              
+              "flex-layout.col#newsletter-col-2-name": {
+                "props":{
+                  "width":{
+                    "desktop":"35%",
+                    "mobile":"100%"
+                  }
+                 },
+                  "children": [
+                    "newsletter-input-name"
+                  ]
+                },
+                  "newsletter-input-name":{
+                      "props":{
+                        "inputLabel":"Nome"
+                      }
+                  },
+
+              "flex-layout.col#newsletter-col-2-submit": {
+                "props":{
+                  "width":{
+                    "desktop":"30%",
+                    "mobile":"100%"
+                  },
+                  "preventVerticalStretch":true,
+                  "verticalAlign":"bottom"
+                 },
+                  "children": [
+                    "newsletter-submit"
+                  ]
+                },
+                  "newsletter-submit":{
+                    "props": {
+                        "submitButtonLabel": "Cadastrar"
+                        
+                    }
+                  },
+
+
+              "newsletter-checkbox-confirmation":{
+                "props":{
+                  "checkboxLabel":"Receba o e-mail de promoções e novidades da Montreal"
+                }
+              }
+
+}

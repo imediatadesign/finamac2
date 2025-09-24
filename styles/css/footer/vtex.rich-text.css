@@ -1,0 +1,18 @@
+/* news letter */
+
+.paragraph--newsletter-1,
+.heading--newsletter-1{
+    color: #ffffff;
+    margin: 15px 0px;
+}
+
+.paragraph--newsletter-1{
+    margin: 0px;
+}
+
+.container--newsletter-1{
+    align-items: flex-end;
+}
+:global(.vtex-store-newsletter-1-x-newsletterForm--newsletter-ids) :global(.vtex-input__label){
+    color: #ffffff;
+}

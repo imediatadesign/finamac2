@@ -1,0 +1,20 @@
+
+.brandName,
+:global(.vtex-product-price-1-x-listPrice),
+:global(.vtex-product-price-1-x-installments--shelf){
+    font-size: 0.75rem;
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px){
+
+:global(.vtex-product-price-1-x-installments--shelf){
+    font-size: 0.6rem;
+}
+
+
+ 
+
+
+
+}

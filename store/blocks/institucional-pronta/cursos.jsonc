@@ -1,0 +1,304 @@
+{
+
+    "store.custom#cursos": {
+        "children": [
+            "flex-layout.row#cursos-1",
+            "flex-layout.row#cursos-2",
+            "flex-layout.row#brands-slider"
+        ]
+    },
+    
+    // Row 1
+
+    "flex-layout.row#cursos-1": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "base2",
+                "padding40vs20"
+            ],
+            "colGap":8
+        },
+        "children": [
+            "flex-layout.col#cursos-1-1",
+            "flex-layout.col#cursos-1-2"
+        ]
+    },
+        "flex-layout.col#cursos-1-1": {
+            "props": {
+                "preventVerticalStretch":true,
+                "verticalAlign":"middle"
+            },
+            "children": [
+                "image#cursos-1-1"
+            ]
+        },
+            "image#cursos-1-1": {
+                "props": {
+                "src": "assets/institucional/cursos-1.webp",
+                "blockClass":"width100"
+                }
+            },
+
+        "flex-layout.col#cursos-1-2": {
+            "props": {
+                "preventVerticalStretch":true,
+                "verticalAlign":"middle"
+            },
+            "children": [
+                "rich-text#cursos-1-2"
+            ]
+        },
+            "rich-text#cursos-1-2": {
+                "props": {
+                    "text": "## Cursos de Capacitação Para Produção de Gelados Finamac™\n\nA Finamac™ oferece uma série de cursos especializados, desenvolvidos para capacitar profissionais e entusiastas da indústria de sorvetes e picolés. \n\nNossos cursos são elaborados com a experiência e o conhecimento adquiridos ao longo dos anos de inovação no mercado, trazendo as melhores práticas, tecnologias e insights para você."
+                }
+            },
+
+    // 2
+
+    "flex-layout.row#cursos-2": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "padding40vs20"
+            ]
+        },
+        "children": [
+            "flex-layout.col#cursos-2"
+        ]
+    },
+        "flex-layout.col#cursos-2": {
+            "props": {
+                "rowGap":5
+            },
+            "children": [
+                "rich-text#cursos-2",
+                "tab-layout#cursos"
+            ]
+        },
+
+            "rich-text#cursos-2": {
+                "props": {
+                    "text": "## Nossos Cursos",
+                    "textAlignment": "LEFT",
+                    "textPosition": "LEFT",
+                    "blockClass":"color-secondary"
+                }
+            },
+
+            "tab-layout#cursos": {
+                "children": [
+                  "tab-list#cursos",
+                  "tab-content#cursos"
+                ],
+                "props": {
+                  "defaultActiveTabId": "cursos-1"
+                }
+              },
+
+              "tab-list#cursos": {
+                "children": [
+                  "tab-list.item#cursos-1",
+                  "tab-list.item#cursos-2",
+                  "tab-list.item#cursos-3",
+                  "tab-list.item#cursos-4"
+                ]
+              },
+
+              "tab-list.item#cursos-1": {
+                "props": {
+                  "tabId": "cursos-1",
+                  "label": "Presencial",
+                  "defaultActiveTab": true
+                }
+              },
+
+              "tab-list.item#cursos-2": {
+                "props": {
+                  "tabId": "cursos-2",
+                  "label": "Online"
+                }
+              },
+
+              "tab-list.item#cursos-3": {
+                "props": {
+                  "tabId": "cursos-3",
+                  "label": "Livro Digital"
+                }
+              },
+
+
+              "tab-list.item#cursos-4": {
+                "props": {
+                  "tabId": "cursos-4",
+                  "label": "Consultorias"
+                }
+              },
+
+
+              // Content
+
+              "tab-content#cursos": {
+                "children": [
+                  "tab-content.item#cursos-1",
+                  "tab-content.item#cursos-2",
+                  "tab-content.item#cursos-3",
+                  "tab-content.item#cursos-4"
+                ]
+              },
+
+              // 1
+
+              "tab-content.item#cursos-1": {
+                "children": [
+                      "flex-layout.row#cursos-content-1"
+                ],
+                "props": {
+                  "tabId": "cursos-1"
+                }
+              },
+                "flex-layout.row#cursos-content-1": {
+                    "props": {
+                        "paddingTop":3
+                    },
+                    "children": [
+                         "list-context.product-list#cursoscontent-shelf-1"
+                    ]
+                },
+                    "list-context.product-list#cursoscontent-shelf-1": {
+                      "blocks": [
+                        "product-summary.shelf"
+                      ],
+                      "children": [
+                        "slider-layout#cursoscontent-shelf"
+                      ],
+                      "props": {
+                        "orderBy": "OrderByBestDiscountDESC",
+                        "width": "100%",
+                        "hideUnavailableItems":true,
+                        "category":"3/39"
+                      }
+                    },
+                      "slider-layout#cursoscontent-shelf": {
+                        "props": {
+                          "itemsPerPage": {
+                            "desktop": 4,
+                            "tablet": 3,
+                            "phone": 2
+                          },
+                          "infinite": true,
+                          "fullWidth": false,
+                          "showNavigationArrows": "never",
+                          "showPaginationDots": "always",
+                          "blockClass": ["shelf", "dots-bottom","cursoscontent"]
+                        }
+                      },
+  
+
+                
+              // 2 
+
+              "tab-content.item#cursos-2": {
+                "children": [
+                  "flex-layout.row#cursos-content-2"
+                ],
+                "props": {
+                  "tabId": "cursos-2"
+                }
+              },
+                "flex-layout.row#cursos-content-2": {
+                  "props": {
+                      "paddingTop":3
+                  },
+                  "children": [
+                      "list-context.product-list#cursoscontent-shelf-2"
+                  ]
+              },
+                  "list-context.product-list#cursoscontent-shelf-2": {
+                    "blocks": [
+                      "product-summary.shelf"
+                    ],
+                    "children": [
+                      "slider-layout#cursoscontent-shelf"
+                    ],
+                    "props": {
+                      "orderBy": "OrderByBestDiscountDESC",
+                      "width": "100%",
+                      "hideUnavailableItems":true,
+                       "category":"3/40"
+                    }
+                  },
+
+              // 3
+
+              "tab-content.item#cursos-3": {
+                "children": [
+                  "flex-layout.row#cursos-content-3"
+                ],
+                "props": {
+                  "tabId": "cursos-3"
+                }
+              },
+                "flex-layout.row#cursos-content-3": {
+                  "props": {
+                      "paddingTop":3
+                  },
+                  "children": [
+                      "list-context.product-list#cursoscontent-shelf-3"
+                  ]
+              },
+                  "list-context.product-list#cursoscontent-shelf-3": {
+                    "blocks": [
+                      "product-summary.shelf"
+                    ],
+                    "children": [
+                      "slider-layout#cursoscontent-shelf"
+                    ],
+                    "props": {
+                      "orderBy": "OrderByBestDiscountDESC",
+                      "width": "100%",
+                      "hideUnavailableItems":true,
+                      "category":"3/102"
+                    }
+                  },
+              
+              // 4
+
+              "tab-content.item#cursos-4": {
+                "children": [
+                  "flex-layout.row#cursos-content-4"
+                ],
+                "props": {
+                  "tabId": "cursos-4"
+                }
+              },
+                "flex-layout.row#cursos-content-4": {
+                  "props": {
+                      "paddingTop":3
+                  },
+                  "children": [
+                      "list-context.product-list#cursoscontent-shelf-4"
+                  ]
+              },
+                  "list-context.product-list#cursoscontent-shelf-4": {
+                    "blocks": [
+                      "product-summary.shelf"
+                    ],
+                    "children": [
+                      "slider-layout#cursoscontent-shelf"
+                    ],
+                    "props": {
+                      "orderBy": "OrderByBestDiscountDESC",
+                      "width": "100%",
+                      "hideUnavailableItems":true,
+                      "category":"3/41"
+                    }
+                  }
+
+
+
+
+
+
+} 

@@ -1,0 +1,468 @@
+{
+  "store.custom#financing-companies": {
+    "blocks": [
+      "flex-layout.row#financing-hero",
+      "flex-layout.row#financing-content",
+      "flex-layout.row#financing-customers"
+    ]
+  },
+
+  // Hero Section
+  "flex-layout.row#financing-hero": {
+    "props": {
+      "blockClass": "financing-hero",
+      "fullWidth": false,
+      "paddingTop": 8,
+      "paddingBottom": 8
+    },
+    "children": ["flex-layout.col#financing-hero-content"]
+  },
+
+  "flex-layout.col#financing-hero-content": {
+    "props": {
+      "blockClass": "financing-hero-content",
+      "width": "100%",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#financing-subtitle",
+      "rich-text#financing-title"
+    ]
+  },
+
+  "rich-text#financing-subtitle": {
+    "props": {
+      "text": "## Financing Companies",
+      "blockClass": "financing-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#financing-title": {
+    "props": {
+      "text": "### Flexible Financing Solutions: Explore Your Options with Finamac™!",
+      "blockClass": "financing-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  // Content Section
+  "flex-layout.row#financing-content": {
+    "props": {
+      "blockClass": "financing-content",
+      "fullWidth": false,
+      "paddingTop": 6,
+      "paddingBottom": 8
+    },
+    "children": ["flex-layout.col#financing-content-wrapper"]
+  },
+
+  "flex-layout.col#financing-content-wrapper": {
+    "children": [
+      "rich-text#financing-eligibility",
+      "slider-layout#financing-companies"
+    ]
+  },
+
+  "rich-text#financing-eligibility": {
+    "props": {
+      "text": "**Eligibility Requirements:**\n\nTo be eligible you must be a registered business entity within the United States.\n\n**Important Notice:**\n\nThe financing options presented are facilitated by third-party finance companies. Finamac™ assumes no responsibility for any terms or disputes arising from these arrangements.",
+      "blockClass": "financing-eligibility",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  // Slider of Companies - 3 per page desktop, 1 mobile
+  "slider-layout#financing-companies": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "mobileOnly",
+      "blockClass": "financing-companies-slider",
+      "fullWidth": false,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "flex-layout.col#navitas",
+      "flex-layout.col#ascentium",
+      "flex-layout.col#newlane",
+      "flex-layout.col#leaf",
+      "flex-layout.col#envision"
+    ]
+  },
+
+  // Navitas Credit Corp
+  "flex-layout.col#navitas": {
+    "props": {
+      "blockClass": "financing-company-card",
+      "width": "100%"
+    },
+    "children": [
+      "image#navitas-logo",
+      "rich-text#navitas-info",
+      "link#navitas-apply"
+    ]
+  },
+
+  "image#navitas-logo": {
+    "props": {
+      "src": "assets/financing/navitas-logo.png",
+      "alt": "Navitas Credit Corp",
+      "blockClass": "company-logo-block",
+      "maxHeight": 80
+    }
+  },
+
+  "rich-text#navitas-info": {
+    "props": {
+      "text": "**Navitas Credit Corp.**\n\n📍 203 Fort Wade Road Suite 300\nPonte Vedra FL 32081\n✉️ [pwaldron@navitascredit.com](mailto:pwaldron@navitascredit.com)\n📞 866-956-2848 ext. 241",
+      "blockClass": "company-info-block",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  "link#navitas-apply": {
+    "props": {
+      "href": "https://navitex.navitascredit.com/resource_centers/Finamac_RC",
+      "label": "Apply now",
+      "displayMode": "button",
+      "target": "_blank",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "regular"
+      },
+      "blockClass": "apply-button"
+    }
+  },
+
+  // Ascentium Capital
+  "flex-layout.col#ascentium": {
+    "props": {
+      "blockClass": "financing-company-card",
+      "width": "100%"
+    },
+    "children": [
+      "image#ascentium-logo",
+      "rich-text#ascentium-info",
+      "link#ascentium-apply"
+    ]
+  },
+
+  "image#ascentium-logo": {
+    "props": {
+      "src": "assets/financing/ascentium-logo.gif",
+      "alt": "Ascentium Capital",
+      "blockClass": "company-logo-block",
+      "maxHeight": 80
+    }
+  },
+
+  "rich-text#ascentium-info": {
+    "props": {
+      "text": "**Ascentium Capital**\n\n📍 23970 US-59\nKingwood Area, TX 77339\n✉️ [HaydeeFranco@AscentiumCapital.com](mailto:HaydeeFranco@AscentiumCapital.com)\n📞 916-215-8025",
+      "blockClass": "company-info-block",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  "link#ascentium-apply": {
+    "props": {
+      "href": "https://icalcpayment.com/customericalc/4f4ab5b7-fef7-4a87-80f0-5d742888bbe7",
+      "label": "Apply now",
+      "displayMode": "button",
+      "target": "_blank",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "regular"
+      },
+      "blockClass": "apply-button"
+    }
+  },
+
+  // NewLane Finance
+  "flex-layout.col#newlane": {
+    "props": {
+      "blockClass": "financing-company-card",
+      "width": "100%"
+    },
+    "children": [
+      "image#newlane-logo",
+      "rich-text#newlane-info",
+      "link#newlane-apply"
+    ]
+  },
+
+  "image#newlane-logo": {
+    "props": {
+      "src": "assets/financing/newlane-logo.svg",
+      "alt": "NewLane Finance",
+      "blockClass": "company-logo-block",
+      "maxHeight": 80
+    }
+  },
+
+  "rich-text#newlane-info": {
+    "props": {
+      "text": "**NewLane Finance**\n\n📍 123 S. Broad Street, 17th Floor\nPhiladelphia, PA 19109\n✉️ [npreuss@newlanefinance.com](mailto:npreuss@newlanefinance.com)\n📞 267-768-3200",
+      "blockClass": "company-info-block",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  "link#newlane-apply": {
+    "props": {
+      "href": "https://newlanefinance.com/finance-application/?rep=noelle-preuss&company=finamac",
+      "label": "Apply now",
+      "displayMode": "button",
+      "target": "_blank",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "regular"
+      },
+      "blockClass": "apply-button"
+    }
+  },
+
+  // LEAF
+  "flex-layout.col#leaf": {
+    "props": {
+      "blockClass": "financing-company-card",
+      "width": "100%"
+    },
+    "children": [
+      "image#leaf-logo",
+      "rich-text#leaf-info",
+      "link#leaf-apply"
+    ]
+  },
+
+  "image#leaf-logo": {
+    "props": {
+      "src": "assets/financing/leaf-logo.png",
+      "alt": "LEAF",
+      "blockClass": "company-logo-block",
+      "maxHeight": 80
+    }
+  },
+
+  "rich-text#leaf-info": {
+    "props": {
+      "text": "**LEAF**\n\n📍 2005 Market Street, 14th Floor\nPhiladelphia, PA 19103\n✉️ [echesser@leafnow.com](mailto:echesser@leafnow.com)\n📞 410-830-9497",
+      "blockClass": "company-info-block",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  "link#leaf-apply": {
+    "props": {
+      "href": "https://pages.administration-services.com/hospitalityapplication?sales_rep=0051B00000Cb5fVQAR",
+      "label": "Apply now",
+      "displayMode": "button",
+      "target": "_blank",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "regular"
+      },
+      "blockClass": "apply-button"
+    }
+  },
+
+  // Envision
+  "flex-layout.col#envision": {
+    "props": {
+      "blockClass": "financing-company-card",
+      "width": "100%"
+    },
+    "children": [
+      "image#envision-logo",
+      "rich-text#envision-info",
+      "link#envision-apply"
+    ]
+  },
+
+  "image#envision-logo": {
+    "props": {
+      "src": "assets/financing/envision-logo.png",
+      "alt": "Envision",
+      "blockClass": "company-logo-block",
+      "maxHeight": 80
+    }
+  },
+
+  "rich-text#envision-info": {
+    "props": {
+      "text": "**Envision**\n\n📍 29982 Ivy Glenn Drive, 1st Floor\nLaguna Niguel, CA 92677\n✉️ [ricky@ecgllc.com](mailto:ricky@ecgllc.com)\n📞 949-225-1760",
+      "blockClass": "company-info-block",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  "link#envision-apply": {
+    "props": {
+      "href": "https://info.envisioncapitalgroup.com/finamac",
+      "label": "Apply now",
+      "displayMode": "button",
+      "target": "_blank",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "regular"
+      },
+      "blockClass": "apply-button"
+    }
+  },
+
+  // Customers Section
+  "flex-layout.row#financing-customers": {
+    "props": {
+      "blockClass": "financing-customers",
+      "fullWidth": false,
+      "paddingTop": 8,
+      "paddingBottom": 8
+    },
+    "children": ["flex-layout.col#customers-content"]
+  },
+
+  "flex-layout.col#customers-content": {
+    "children": [
+      "rich-text#customers-title",
+      "rich-text#customers-description",
+      "slider-layout#customers-logos"
+    ]
+  },
+
+  "rich-text#customers-title": {
+    "props": {
+      "text": "## Our Customers",
+      "blockClass": "customers-title",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  "rich-text#customers-description": {
+    "props": {
+      "text": "Finamac™ is the number 1 choice of pop stores in the USA, also providing technological solutions for ice cream, ice pops and frozen desserts, exporting machinery worldwide to more than 100 countries.",
+      "blockClass": "customers-description",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  "slider-layout#customers-logos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "customers-carousel",
+      "autoplay": {
+        "timeout": 3500,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#customer1",
+      "image#customer2",
+      "image#customer3",
+      "image#customer4",
+      "image#customer5",
+      "image#customer6",
+      "image#customer7",
+      "image#customer8",
+      "image#customer9",
+      "image#customer10"
+    ]
+  },
+
+  "image#customer1": {
+    "props": {
+      "src": "assets/financing/akopops.jpeg",
+      "alt": "Akopops",
+      "maxHeight": 100
+    }
+  },
+
+  "image#customer2": {
+    "props": {
+      "src": "assets/financing/cliente-kibon.jpeg",
+      "alt": "Kibon",
+      "maxHeight": 100
+    }
+  },
+
+  "image#customer3": {
+    "props": {
+      "src": "assets/financing/cliente-nestle.jpeg",
+      "alt": "Nestle",
+      "maxHeight": 100
+    }
+  },
+
+  "image#customer4": {
+    "props": {
+      "src": "assets/financing/docs.jpeg",
+      "alt": "Docs",
+      "maxHeight": 100
+    }
+  },
+
+  "image#customer5": {
+    "props": {
+      "src": "assets/financing/eskinakitchen.jpeg",
+      "alt": "Eskina Kitchen",
+      "maxHeight": 100
+    }
+  },
+
+  "image#customer6": {
+    "props": {
+      "src": "assets/financing/friofrio.jpeg",
+      "alt": "Frio Frio",
+      "maxHeight": 100
+    }
+  },
+
+  "image#customer7": {
+    "props": {
+      "src": "assets/financing/inzanepops.jpeg",
+      "alt": "Inzane Pops",
+      "maxHeight": 100
+    }
+  },
+
+  "image#customer8": {
+    "props": {
+      "src": "assets/financing/lamichoacana.jpeg",
+      "alt": "La Michoacana",
+      "maxHeight": 100
+    }
+  },
+
+  "image#customer9": {
+    "props": {
+      "src": "assets/financing/lilpopshop.jpeg",
+      "alt": "Lil Pop Shop",
+      "maxHeight": 100
+    }
+  },
+
+  "image#customer10": {
+    "props": {
+      "src": "assets/financing/locopops.jpeg",
+      "alt": "Loco Pops",
+      "maxHeight": 100
+    }
+  }
+}

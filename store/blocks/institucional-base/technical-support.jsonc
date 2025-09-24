@@ -1,0 +1,16 @@
+{
+  "store.custom#technical-support": {
+    "blocks": [
+      "flex-layout.row#technical-support"
+    ]
+  },
+
+  "flex-layout.row#technical-support": {
+    "children": [
+      "technical-support"
+    ],
+    "props": {
+      "blockClass": "institucional-technical-support"
+    }
+  }
+}

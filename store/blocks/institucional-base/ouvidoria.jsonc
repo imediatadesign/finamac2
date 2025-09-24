@@ -1,0 +1,36 @@
+{
+  "store.custom#ouvidoria": {
+    "blocks": [
+      "flex-layout.row#institucional-Ouvidoria"
+    ]
+  },
+
+  "flex-layout.row#institucional-Ouvidoria": {
+    "children": [
+      "flex-layout.col#institucional-Ouvidoria"
+    ],
+    "props": {
+      "blockClass": "institucional-ouvidoria"
+    }
+  },
+
+  "flex-layout.col#institucional-Ouvidoria": {
+    "children": [
+      // "rich-text#ouvidoria-title",
+      "app-form-ouvidoria"
+    ],
+    "props": {
+      "blockClass": "institucional-ouvidoria",
+      "width": "100%"
+    }
+  },
+
+  "rich-text#ouvidoria-title": {
+    "props": {
+      "text": "# Ouvidoria\n\nA Ouvidoria da Finamac é um canal de comunicação direto entre você e nossa empresa. Aqui você pode enviar sugestões, reclamações ou elogios que serão tratados com total confidencialidade.",
+      "blockClass": "ouvidoria-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

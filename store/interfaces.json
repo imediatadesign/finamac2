@@ -1,0 +1,88 @@
+{
+  "app-form-leads": {
+    "component": "formLead"
+  },
+
+  "app-form-consultoria": {
+    "component": "formConsultoria"
+  },
+
+  "app-form-ouvidoria": {
+    "component": "formOuvidoria"
+  },
+
+  "app-form-representante": {
+    "component": "formRepresentante"
+  },
+
+  "simple-binding": {
+    "component": "SimpleBinding"
+  },
+
+  "whatsapp-button": {
+    "component": "WhatsAppButton"
+  },
+
+  "payment-conditions": {
+    "component": "PaymentConditions"
+  },
+
+  "product-context-log": {
+    "component": "ProductContextLog"
+  },
+
+  "technical-support": {
+    "component": "TechnicalSupport"
+  },
+
+  "conditional-display": {
+    "component": "ConditionalDisplay",
+    "composition": "children"
+  },
+
+  "country-selector": {
+    "component": "CountrySelector"
+  },
+
+  "product-api-info": {
+    "component": "ProductApiInfo"
+  },
+
+  "sales-channel-debug": {
+    "component": "SalesChannelDebug"
+  },
+
+  "product-policy-checker": {
+    "component": "ProductPolicyChecker"
+  },
+
+  "shelf-debug": {
+    "component": "ShelfDebug"
+  },
+
+  "binding-debug": {
+    "component": "BindingDebug"
+  },
+
+  "product-summary-wrapper": {
+    "component": "ProductSummaryWrapper"
+  },
+
+  "product-conditional-display": {
+    "component": "ProductConditionalDisplay",
+    "composition": "children"
+  },
+
+  "debug-panel": {
+    "component": "DebugPanel"
+  },
+
+  "product-summary-wrapper2": {
+    "component": "ProductSummaryWrapper2",
+    "composition": "children"
+  },
+
+  "consultorias-especializadas": {
+    "component": "ConsultoriasEspecializadas"
+  }
+}

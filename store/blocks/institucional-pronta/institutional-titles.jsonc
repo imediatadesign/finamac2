@@ -1,0 +1,79 @@
+{
+  // Títulos das páginas institucionais
+  "rich-text#page-title-clientes": {
+    "props": {
+      "text": "# {store/page.clientes}",
+      "blockClass": "page-title"
+    }
+  },
+
+  "rich-text#page-title-projetos": {
+    "props": {
+      "text": "# {store/page.projetos}",
+      "blockClass": "page-title"
+    }
+  },
+
+  "rich-text#page-title-parcerias": {
+    "props": {
+      "text": "# {store/page.parcerias}",
+      "blockClass": "page-title"
+    }
+  },
+
+  "rich-text#page-title-areas": {
+    "props": {
+      "text": "# {store/page.areas}",
+      "blockClass": "page-title"
+    }
+  },
+
+  "rich-text#page-title-unidades": {
+    "props": {
+      "text": "# {store/page.unidades}",
+      "blockClass": "page-title"
+    }
+  },
+
+  "rich-text#page-title-eventos": {
+    "props": {
+      "text": "# {store/page.eventos}",
+      "blockClass": "page-title"
+    }
+  },
+
+  "rich-text#page-title-midia": {
+    "props": {
+      "text": "# {store/page.midia}",
+      "blockClass": "page-title"
+    }
+  },
+
+  "rich-text#page-title-cursos": {
+    "props": {
+      "text": "# {store/page.cursos}",
+      "blockClass": "page-title"
+    }
+  },
+
+  "rich-text#page-title-assistencia": {
+    "props": {
+      "text": "# {store/page.assistencia}",
+      "blockClass": "page-title"
+    }
+  },
+
+  "rich-text#page-title-privacy": {
+    "props": {
+      "text": "# {store/page.privacy}",
+      "blockClass": "page-title"
+    }
+  },
+
+  "rich-text#page-title-cookies": {
+    "props": {
+      "text": "# {store/page.cookies}",
+      "blockClass": "page-title"
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+    
+    // Cursos
+
+    "flex-layout.row#cursos-home": {
+        "props": {
+          "blockClass": [
+           // "1300",
+            "cursos-home"
+          ],
+          "fullWidth":true
+        },   
+        
+        "children": [
+          "flex-layout.col#cursos-home"
+        ]
+      }, 
+          "flex-layout.col#cursos-home": {
+            "props": {  
+              "rowGap":{
+                "desktop":5,
+                "mobile":2
+              }
+            },
+            "children": [
+              "rich-text#cursos-home",
+              "list-context.product-list#cursos-home"
+            //  "slider-layout#cursos-home"
+            ]
+          },
+              "rich-text#cursos-home": {
+                "props": {
+                  "text": "### **Cursos na Finamac**",
+                  "width": "100%",
+                  "textAlignment": "CENTER",
+                  "textPosition": "CENTER",
+                  "blockClass": "home-bandeja-title"
+                }
+              },
+        
+                "list-context.product-list#cursos-home": {
+                  "blocks": [
+                    "product-summary.shelf"
+                  ],
+                  "children": [
+                    "slider-layout#home-shelf"
+                  ],
+                  "props": {
+                    "orderBy": "OrderByBestDiscountDESC",
+                    "width": "100%",
+                    "hideUnavailableItems":false,
+                    "category":"3"
+                  }
+                }
+
+           /*   "slider-layout#cursos-home": {
+                "props": {
+                  "blockClass":["cursos-home"],
+                  "itemsPerPage": {
+                    "desktop":4,
+                    "tablet":2,
+                    "phone":1
+                  },
+                  "showNavigationArrows": "mobileOnly",
+                  "showPaginationDots":"desktopOnly"
+                },
+                "children": [
+                   "toggle-layout#cursos-home-1",
+                   "toggle-layout#cursos-home-2",
+                   "toggle-layout#cursos-home-3",
+                   "toggle-layout#cursos-home-4"
+                ]
+              },
+  
+                  // 1
+
+                  "toggle-layout#cursos-home-1": {
+                    "children": [
+                      "info-card#cursos-home-1"
+                      ]
+                  },
+
+                      "info-card#cursos-home-1": {
+                        "props": {
+                        "id": "info-card",
+                        "isFullModeStyle": false,
+                        "textPosition": "left",
+                        "imageUrl": "assets/home/cursos-1.webp",
+                        "headline": "##### **Curso Express de Gelato**",
+                        "subhead":"**Local:**\nShowroom São Paulo\n\n**Valor:**\nR$ 1500,00",
+                        "callToActionText": "Saiba mais",
+                        "callToActionUrl": "/",
+                        "textAlignment": "left",
+                        "blockClass":["cursos-home"],
+                        "textMode":"Rich-Text"
+                        }
+                    },
+  
+                
+                  // 2
+
+                  "toggle-layout#cursos-home-2": {
+                    "children": [
+                         "info-card#cursos-home-2"
+                      ]
+                  },
+
+                    "info-card#cursos-home-2": {
+                      "props": {
+                      "id": "info-card",
+                      "isFullModeStyle": false,
+                      "textPosition": "left",
+                      "imageUrl": "assets/home/cursos-2.webp",
+                      "headline": "##### **Curso Formação Completa em Sorvetes e Picolés**",
+                      "subhead":"**Local:**\nShowroom São Paulo\n\n**Valor:**\nR$ R$ 890,00",
+                      "callToActionText": "Saiba mais",
+                      "callToActionUrl": "/",
+                      "textAlignment": "left",
+                      "blockClass":["cursos-home"],
+                      "textMode":"Rich-Text"
+                      }
+                  },
+    
+                              
+                  // 3
+  
+                  "toggle-layout#cursos-home-3": {
+                    "children": [
+                         "info-card#cursos-home-3"
+                      ]
+                  },
+                      "info-card#cursos-home-3": {
+                        "props": {
+                        "id": "info-card",
+                        "isFullModeStyle": false,
+                        "textPosition": "left",
+                        "imageUrl": "assets/home/cursos-3.webp",
+                        "headline": "##### **Curso de Produção de Açaí**",
+                        "subhead":"**Local:**\nShowroom São Paulo\n\n**Valor:**\nR$ R$ 890,00",
+                        "callToActionText": "Saiba mais",
+                        "callToActionUrl": "/",
+                        "textAlignment": "left",
+                        "blockClass":["cursos-home"],
+                        "textMode":"Rich-Text"
+                        }
+                    },
+
+                   // 
+                   
+                   "toggle-layout#cursos-home-4": {
+                    "children": [
+                         "info-card#cursos-home-4"
+                      ]
+                  },
+                      "info-card#cursos-home-4": {
+                        "props": {
+                        "id": "info-card",
+                        "isFullModeStyle": false,
+                        "textPosition": "left",
+                        "imageUrl": "assets/home/cursos-4.webp",
+                        "headline": "##### **Curso Online - Sorvetes e Picolés**",
+                        "subhead":"**Local:**\nOnline\n\n**Valor:**\nR$ R$ 690,00",
+                        "callToActionText": "Saiba mais",
+                        "callToActionUrl": "/",
+                        "textAlignment": "left",
+                        "blockClass":["cursos-home"],
+                        "textMode":"Rich-Text"
+                        }
+                    }*/
+  
+      
+}

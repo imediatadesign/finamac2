@@ -1,0 +1,66 @@
+{
+    "store.custom#politicas": {
+        "children": [
+            "toggle-layout#politicas-1",
+            "toggle-layout#politicas-2"
+        ]
+    },
+
+    // Row 1
+
+    "toggle-layout#politicas-1": {
+        "children": [
+            "flex-layout.row#politicas-1"
+          ]
+      },
+
+        "flex-layout.row#politicas-1": {
+            "props": {
+                "blockClass": [
+                    "1300",
+                    "base2",
+                    "padding40vs20"
+                ],
+                "rowGap":4
+            },
+            "children": [
+                    "rich-text#politicas-title"
+            ]
+        },
+            "rich-text#politicas-title": {
+                "props": {
+                    "text": "Garantindo sua segurança\n### Nome da Política",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER",
+                    "blockClass":"color-primary"
+                }
+            },
+
+
+    // Row 2
+
+    "toggle-layout#politicas-2": {
+        "children": [
+            "flex-layout.row#politicas-2"
+          ]
+      },
+        "flex-layout.row#politicas-2": {
+            "props": {
+                "blockClass": [
+                    "1300",
+                    "padding40vs20"
+                ]
+            },
+            "children": [
+               "rich-text#politicas-2"
+            ]
+        },
+                "rich-text#politicas-2": {
+                    "props": {
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT"
+                    }
+                }
+    
+}

@@ -1,0 +1,330 @@
+{
+    "store.custom#sobrenos": {
+        "children": [
+             "flex-layout.row#sobrenos-1",
+             "flex-layout.row#sobrenos-2",
+             "flex-layout.row#sobrenos-3-title",
+             "flex-layout.row#sobrenos-3",
+             "flex-layout.row#sobrenos-4"
+        ]
+    },
+
+    // Row 1
+
+    "flex-layout.row#sobrenos-1": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "sobrenos-1"
+            ]
+        },
+        "children": [
+              "flex-layout.col#sobrenos-1"
+        ]
+    },
+        "flex-layout.col#sobrenos-1": {
+            "props": {
+                "rowGap":6
+            },
+            "children": [
+                "rich-text#sobrenos-1-title",
+                "flex-layout.row#sobrenos-1-row"
+            ]
+        },
+            
+            "rich-text#sobrenos-1-title": {
+                "props": {
+                    "text": "## Sobre Nós",
+                    "blockClass":"color-primary"
+                }
+            },
+
+            "flex-layout.row#sobrenos-1-row": {
+                "props": {
+                    "colGap":8
+                },
+                "children": [
+                    "flex-layout.col#sobrenos-1-1",
+                    "flex-layout.col#sobrenos-1-2"
+                ]
+            },
+                    "flex-layout.col#sobrenos-1-1": {
+                        "props": {
+                            "preventVerticalStretch":true,
+                            "verticalAlign":"middle"
+                        },
+                        "children": [
+                            "image#sobrenos-1-1"
+                        ]
+                    },
+                        "image#sobrenos-1-1": {
+                            "props": {
+                            "src": "assets/institucional/sobrenos-1.webp",
+                            "blockClass":"width100"
+                            }
+                        },
+
+                    "flex-layout.col#sobrenos-1-2": {
+                        "props": {
+                            "preventVerticalStretch":true,
+                            "verticalAlign":"middle"
+                        },
+                        "children": [
+                            "rich-text#sobrenos-1-2"
+                        ]
+                    },
+                        "rich-text#sobrenos-1-2": {
+                            "props": {
+                                "text": "### Fundada no Brasil, em 1985\n\nPor um Engenheiro Aeronáutico com forte vocação empreendedora e experiência na indústria aeroespacial, viabilizando a empresa com seu projeto revolucionário de uma produtora compacta de picolés, inédita no mercado. \n\nA ideia surgiu observando seu pai, um imigrante italiano que chegou ao Brasil em 1954 e iniciou no ramo de sorveteria, para depois prestar serviços como mecânico de refrigeração e, nas horas de folga, montar pequenas máquinas artesanais de sorvete para conhecidos."
+                            }
+                        },
+
+
+    // Row 2
+
+    "flex-layout.row#sobrenos-2": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "sobrenos-2"
+            ],
+            "colGap":8
+        },
+        "children": [
+            "flex-layout.col#sobrenos-2-1",
+            "flex-layout.col#sobrenos-2-2",
+            "flex-layout.col#sobrenos-2-3"
+        ]
+    },
+            "flex-layout.col#sobrenos-2-1": {
+                "props": {
+                    "preventVerticalStretch":true,
+                    "verticalAlign":"top",
+                    "blockClass":"sobrenos-2"
+                },
+                "children": [
+                    "rich-text#sobrenos-2-1"
+                ]
+            },
+                "rich-text#sobrenos-2-1": {
+                    "props": {
+                        "text": "### Visão\n\nSer sinônimo de qualidade, tradição e comprometimento no ramo de equipamentos industriais, atuando com responsabilidade, competência e transparência, buscando inovação e a melhoria contínua em seus produtos e serviços.",
+                        "textAlignment": "CENTER",
+                        "textPosition": "CENTER",
+                        "blockClass":"color-base"
+                    }
+                },
+
+                "flex-layout.col#sobrenos-2-2": {
+                    "props": {
+                        "preventVerticalStretch":true,
+                        "verticalAlign":"top",
+                        "blockClass":"sobrenos-2"
+                    },
+                    "children": [
+                        "rich-text#sobrenos-2-2"
+                    ]
+                },
+                    "rich-text#sobrenos-2-2": {
+                        "props": {
+                            "text": "### Missão\n\nViabilizar os sonhos de nossos clientes com tecnologia, inovação e qualidade, gerando resultados para todos os envolvidos.",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-base"
+                        }
+                    },
+    
+                    "flex-layout.col#sobrenos-2-3": {
+                        "props": {
+                            "preventVerticalStretch":true,
+                            "verticalAlign":"top",
+                            "blockClass":"sobrenos-2"
+                        },
+                        "children": [
+                            "rich-text#sobrenos-2-3"
+                        ]
+                    },
+                        "rich-text#sobrenos-2-3": {
+                            "props": {
+                                "text": "### Valores\n\nTrabalho em equipe, excelência, responsabilidade, respeito.",
+                                "textAlignment": "CENTER",
+                                "textPosition": "CENTER",
+                                "blockClass":"color-base"
+                            }
+                        },
+
+    // Row 3
+
+    "flex-layout.row#sobrenos-3-title": {
+        "props": {
+            "paddingTop":6
+        },
+        "children": [
+            "rich-text#sobrenos-3-title"
+        ]
+    },
+        "rich-text#sobrenos-3-title": {
+            "props": {
+                "text": "## Conheça nossa Trajetória",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "blockClass":"color-primary"
+            }
+        },
+
+    "flex-layout.row#sobrenos-3": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "sobrenos-3",
+                "padding40vs20"
+            ],
+            "colGap":5,
+            "rowGap":10,
+            "preventVerticalStretch":true,
+            "preventHorizontalStretch":true
+        },
+        "children": [
+            "rich-text#sobrenos-3-1",
+            "rich-text#sobrenos-3-2",
+            "rich-text#sobrenos-3-3",
+            "rich-text#sobrenos-3-4",
+            "rich-text#sobrenos-3-5",
+            "rich-text#sobrenos-3-6",
+            "rich-text#sobrenos-3-7",
+            "rich-text#sobrenos-3-8",
+            "rich-text#sobrenos-3-9"
+        ]
+    },
+    
+        "rich-text#sobrenos-3-1": {
+            "props": {
+                "text": "### > 1988\n\nAos 29 anos, esse Engenheiro Aeronáutico construiu os 5 primeiros exemplares da picoleteira inédita num quarto de sua casa, enfrentando um grande desafio e dando início a uma história de sucesso.",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "blockClass":"sobrenos-3"
+            }
+        },
+
+        "rich-text#sobrenos-3-2": {
+            "props": {
+                "text": "### > 2006\n\nIniciou-se a internacionalização da marca FinamacTM e de seus produtos, hoje presentes em mais de 100 países. As inúmeras inovações em máquinas para sorvete renderam diversas aparições nas mídias convencionais e digitais voltadas a negócios.",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "blockClass":"sobrenos-3"
+            }
+        },
+
+        "rich-text#sobrenos-3-3": {
+            "props": {
+                "text": "### > 2013\n\nA Finamac™ recebe apoio da FAPESP para desenvolver uma máquina de sorvetes inovadora, com colaboração de doutores de instituições como ITA, POLI (USP) e CALTECH, e suporte tecnológico de fornecedores internacionais.",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "blockClass":"sobrenos-3"
+            }
+        },
+
+
+        "rich-text#sobrenos-3-4": {
+            "props": {
+                "text": "### > 2014\n\nA Finamac™ é apoiada pelo Programa Design Export da APEX e desenvolveu as picoleteiras ROBOPOP, certificadas por normas de segurança e sanitárias dos EUA e Canadá. A empresa está presente em 15 das 17 melhores lojas de picolés dos EUA e exporta mais de 60% de sua produção.",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "blockClass":"sobrenos-3"
+            }
+        },
+
+        "rich-text#sobrenos-3-5": {
+            "props": {
+                "text": "### > 2015\n\nÉ oficialmente inaugurado o escritório de vendas internacionais e planta de produção da FinamacTM em Miami, Estados Unidos.",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "blockClass":"sobrenos-3"
+            }
+        },
+
+        "rich-text#sobrenos-3-6": {
+            "props": {
+                "text": "### > 2016\n\nA FinamacTM iniciou o desenvolvimento de uma nova tecnologia para produção de picolés que deverá revolucionar o mercado mundial, também com apoio da FAPESP, a ser apresentada em 2021.",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "blockClass":"sobrenos-3"
+            }
+        },
+
+        "rich-text#sobrenos-3-7": {
+            "props": {
+                "text": "### > 2018\n\nNovos projetos do Programa Design Export/Apex são iniciados para oferecer mais equipamentos amplamente diferenciados ao mercado mundial.",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "blockClass":"sobrenos-3"
+            }
+        },
+
+        "rich-text#sobrenos-3-8": {
+            "props": {
+                "text": "### > 2021\n\nA FinamacTM adquire um armazém/planta de fabricação em Miami-EUA e inicia a construção de uma fábrica ultra-moderna em São Paulo.",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "blockClass":"sobrenos-3"
+            }
+        },
+        
+        "rich-text#sobrenos-3-9": {
+            "props": {
+                "text": "### > 2024\n\nA FinamacTM estabeleceu recorde histórico de vendas na Fispal em São Paulo, Brasil, com a apresentação dos novos produtos Finesse, Vista, Speedy Pop, Shape, Flash e Thor. Esses produtos também serão apresentados na NRA Trade Show em Chicago, EUA, em maio de 2025.",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "blockClass":"sobrenos-3"
+            }
+        },
+
+
+    // Row 4
+
+    "flex-layout.row#sobrenos-4": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "sobrenos-4"
+            ],
+            "colGap":8
+        },
+        "children": [
+            "flex-layout.col#sobrenos-4-1",
+            "flex-layout.col#sobrenos-4-2"
+        ]
+    },
+            "flex-layout.col#sobrenos-4-1": {
+                "props": {
+                    "preventVerticalStretch":true,
+                    "verticalAlign":"middle"
+                },
+                "children": [
+                     "image#sobrenos-4-1"
+                ]
+            },
+                "image#sobrenos-4-1": {
+                    "props": {
+                    "src": "assets/institucional/sobrenos-2.webp",
+                    "blockClass":"width100"
+                    }
+                },
+
+            "flex-layout.col#sobrenos-4-2": {
+                "props": {
+                    "preventVerticalStretch":true,
+                    "verticalAlign":"middle"
+                },
+                "children": [
+                    "rich-text#sobrenos-4-2"
+                ]
+            },
+                "rich-text#sobrenos-4-2": {
+                    "props": {
+                        "text": "### Nossa Equipe\n\nA equipe de funcionários da FinamacTM é composta por pessoas dedicadas e competentes que buscam um trabalho duradouro e desafiador, sendo que muitos deles estão na empresa há vários anos ou desde sua fundação. \n\nNossos fornecedores e colaboradores seguem o mesmo princípio e dão solidez e confiabilidade aos nossos produtos e serviços."
+                    }
+                }
+
+
+}

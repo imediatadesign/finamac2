@@ -1,0 +1,97 @@
+{
+    "store.storedetail": {
+        "parent": {
+           },
+        "blocks": [
+          "flex-layout.row#store-detail"
+        ]
+      },
+
+      "flex-layout.row#store-detail": {
+        "props":{
+          "blockClass":"1300",
+          "paddingBottom":{
+            "desktop":3,
+            "mobile":2
+          }
+        },
+        "children": [
+            "flex-layout.col#store-detail"
+        ]
+      },
+          "flex-layout.col#store-detail": {
+            "props":{
+              "preventVerticalStretch":true
+            },
+            "children": [
+                 "rich-text#titleStore",
+                 "store-group"
+            ]
+          },
+          
+            "rich-text#titleStore": {
+                "props": {
+                  "text": "## **Detalhes da Loja**",
+                  "blockClass":"storelocator-title"
+                }
+            },
+
+      "store-group": {
+        "children": [
+          "flex-layout.row#containerStore"
+        ],
+        "props": {
+          "title": "{storeName} Store"
+        }
+      },
+          "flex-layout.row#containerStore": {
+            "props":{
+                "blockClass":"1300",
+                "paddingBottom":{
+                  "desktop":9,
+                  "mobile":5
+                },
+                "marginBottom":{
+                  "desktop":5,
+                  "mobile":1
+                }
+            },
+            "children": [
+              "flex-layout.col#detail"
+          ]
+          },
+
+              "flex-layout.col#detail": {
+                "children": [
+              //   "store-name",
+                  "store-map",
+                  "store-address",
+                  "store-hours",
+                  "store-instructions",
+                  "store-back-link"
+                ],
+                "props": {
+                  "width": "100%",
+                  "preventVerticalStretch": true
+                }
+              },
+
+              "store-hours": {
+                "props": {
+                  "label": "Horário de Funcionamento:",
+                  "format": "24h"
+                }
+              },
+
+              "store-back-link": {
+                "props": {
+                  "label": "⇽ Ver todas lojas"
+                }
+              },
+              
+              "store-instructions": {
+                "props": {
+                  "label": "Observações:  "
+                }
+              }
+}

@@ -1,0 +1,27 @@
+/* =================================================================
+   FINANCING COMPANIES SLIDER STYLES
+   ================================================================= */
+
+/* Slider Adjustments */
+.sliderLayoutContainer--financing-companies-slider {
+  padding: 2rem 0;
+}
+
+.slideChildrenContainer--financing-companies-slider {
+  padding: 0 !important;
+}
+
+/* Customers Logos Carousel */
+.sliderLayoutContainer--customers-carousel {
+  padding: 2rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .flexCol--financing-company-card {
+    margin: 0 5px;
+    padding: 1rem;
+    min-height: 260px;
+  }
+}

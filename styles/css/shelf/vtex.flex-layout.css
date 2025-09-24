@@ -1,0 +1,39 @@
+.flexRowContent--wishlist-shelf {
+    z-index: 1;
+    position: absolute;
+    max-width: 35px;
+}
+
+:global(.vtex-product-highlights-2-x-productHighlightWrapper--collection) {
+    background: var(--secondary);
+    border-radius: 50px;
+    color: var(--base);
+    padding: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) :global(.vtex-product-summary-2-x-element) {
+    gap: 15px;
+}
+
+
+
+.flexRow--product-highlights {
+    min-height: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .flexRowContent--product-price {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+        text-align: left;
+    }
+
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) :global(.vtex-product-summary-2-x-element) {
+        gap: 5px;
+    }
+}

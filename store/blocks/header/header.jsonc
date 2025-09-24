@@ -1,0 +1,228 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#header-desktop"
+    ]
+  },
+  "sticky-layout#header-desktop": {
+    "props": {
+      "blockClass": "header-desktop"
+    },
+    "children": [
+      "flex-layout.row#header-desktop"
+    ]
+  },
+  "flex-layout.row#header-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "header-desktop"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#overlay-menu",
+      "flex-layout.col#translationapp",
+      "flex-layout.col#login-minicart"
+    ]
+  },
+  "flex-layout.col#translationapp": {
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "width": {
+        "desktop": "5%",
+        "mobile": "5%"
+      },
+      "paddingRight": {
+        "desktop": 0,
+        "mobile": 0
+      }
+    },
+    "children": [
+      "binding-selector"
+    ]
+  },
+  "binding-selector": {
+    "props": {
+      "layout": "dropdown",
+      "display": "flag"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "width": {
+        "desktop": "15%",
+        "mobile": "60%"
+      },
+      "paddingRight": {
+        "desktop": 2,
+        "mobile": 1
+      }
+    },
+    "children": [
+      "logo#k"
+    ]
+  },
+  "logo#k": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/header/logo.svg",
+      "width": "160"
+    }
+  },
+  /* Login e Minicart */
+  "flex-layout.col#login-minicart": {
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "width": {
+        "desktop": "10%",
+        "mobile": "grow"
+      }
+    },
+    "children": [
+      "flex-layout.row#login-minicart"
+    ]
+  },
+  "flex-layout.row#login-minicart": {
+    "props": {
+      "blockClass": "login-minicart",
+      "gap": 4,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "right"
+    },
+    "children": [
+      "flex-layout.col#search-bar-overlay",
+      "flex-layout.col#login",
+      "flex-layout.col#minicart"
+    ]
+  },
+  "flex-layout.col#login": {
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "blockClass": "login",
+      "width": {
+        "desktop": "33%",
+        "mobile": "40%"
+      }
+    },
+    "children": [
+      "login"
+    ]
+  },
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true,
+      "logInButtonBehavior": "link"
+    }
+  },
+  "flex-layout.col#minicart": {
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "width": {
+        "desktop": "33%",
+        "phone": "40%"
+      },
+      "marginRight": {
+        "desktop": 2,
+        "mobile": 1
+      }
+    },
+    "children": [
+      "minicart.v2"
+    ]
+  },
+  // Spacer
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#mobile"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "props": {
+      "blockClass": "header-desktop"
+    },
+    "children": [
+      "flex-layout.row#mobile",
+      "flex-layout.row#search-bar"
+    ]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "flex-layout.col#drawer-trigger",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#login-minicart-mobile"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer-trigger": {
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "width": {
+        "desktop": "15%",
+        "mobile": "grow"
+      }
+    },
+    "children": [
+      "drawer#menu"
+    ]
+  },
+  "flex-layout.col#login-minicart-mobile": {
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "width": {
+        "desktop": "20%",
+        "mobile": "grow"
+      }
+    },
+    "children": [
+      "flex-layout.row#login-minicart-mobile"
+    ]
+  },
+  "flex-layout.row#login-minicart-mobile": {
+    "props": {
+      "blockClass": "login-minicart",
+      "gap": 4,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "right"
+    },
+    "children": [
+      "binding-selector",
+      "flex-layout.col#search-bar-overlay",
+      "flex-layout.col#login",
+      "flex-layout.col#minicart"
+    ]
+  }
+}

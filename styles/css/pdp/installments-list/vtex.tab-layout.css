@@ -1,0 +1,105 @@
+
+:global(.vtex-flex-layout-0-x-flexColChild--product-installments) :global(.vtex-button){
+    background: none !important;
+    border: none;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--product-installments) :global(.vtex-button__label){
+    color: var(--dark) !important;
+    font-size: 13px;
+}
+
+.listItem--installments-tab-pix :global(.vtex-button__label),
+.listItem--installments-tab-boleto :global(.vtex-button__label){
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.listItem--installments-tab-pix :global(.vtex-button__label)::before{
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMC4wNzUiIGhlaWdodD0iMjAuMDgxIj48ZyBmaWxsPSIjOTk5Ij48cGF0aCBkYXRhLW5hbWU9IkNhbWluaG8gNDU0NyIgZD0iTTE1LjY2MiAxNS4zMThhMi45MzUgMi45MzUgMCAwMS0yLjExMS0uODg0bC0yLjk5NS0yLjk5NWEuNi42IDAgMDAtLjc4NiAwbC0zLjA0NCAzLjA0NGEzLjA1NiAzLjA1NiAwIDAxLTIuMTExLjg4NGgtLjU4OWwzLjgzIDMuODI1YTMuMDgyIDMuMDgyIDAgMDA0LjMyMSAwbDMuODMtMy44M3oiLz48cGF0aCBkYXRhLW5hbWU9IkNhbWluaG8gNDU0OCIgZD0iTTQuNjY0IDQuNjY0YTIuOTM1IDIuOTM1IDAgMDEyLjExMS44ODRsMy4wNDQgMy4wNDRhLjYuNiAwIDAwLjc4NiAwTDEzLjYgNS42YTMuMDU2IDMuMDU2IDAgMDEyLjExMS0uODg0aC4zNDRsLTMuODMtMy44M2EzLjA4MiAzLjA4MiAwIDAwLTQuMzIxIDBMNC4wNzUgNC43MTNsLjU4OS0uMDQ5eiIvPjxwYXRoIGRhdGEtbmFtZT0iQ2FtaW5obyA0NTQ5IiBkPSJNMTkuMiA3Ljg1NmwtMi4zMDgtMi4zMDhjLS4wNDkgMC0uMS4wNDktLjE0Ny4wNDloLTEuMDM0YTIuMDc5IDIuMDc5IDAgMDAtMS40NzMuNTg5bC0zLjA0NCAyLjk5NWExLjUxNSAxLjUxNSAwIDAxLTIuMDYyIDBMNi4wODggNi4xMzdhMi4wNzkgMi4wNzkgMCAwMC0xLjQ3My0uNTg5SDMuMzg4YS4xOC4xOCAwIDAxLS4xNDgtLjA0OUwuODg0IDcuODU2YTMuMDgyIDMuMDgyIDAgMDAwIDQuMzIxbDIuMzA4IDIuMzA4Yy4wNDkgMCAuMS0uMDQ5LjE0Ny0uMDQ5aDEuMjc2YTIuMDc5IDIuMDc5IDAgMDAxLjQ3My0uNTg5bDMuMDQ0LTMuMDQ4YTEuNTE1IDEuNTE1IDAgMDEyLjA2MiAwbDIuOTk1IDNhMi4wNzkgMi4wNzkgMCAwMDEuNDczLjU4OWgxLjAzMWEuMTguMTggMCAwMS4xNDcuMDQ5bDIuMzA4LTIuMzA4YTIuOTggMi45OCAwIDAwLjA0OS00LjI3MSIvPjwvZz48L3N2Zz4=);
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    width: 19px;
+    height: 19px;
+    background-size: 19px;
+    padding-right: 8px;
+}
+
+.listItem--installments-tab-boleto :global(.vtex-button__label)::before{
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMC43ODkiIGhlaWdodD0iMTkuNSI+PHBhdGggZD0iTTAgMHYxOS41aDMwLjc4OVYwem0yLjA1MyAyLjA1M2gyNi42ODR2MTUuMzk0SDIuMDUzem0yLjA1MyAyLjA1M3YxMS4yODlIOC4yMVY0LjEwNXptNS4xMzIgMHYxMS4yODloMy4wNzlWNC4xMDV6bTQuNTg0IDB2MTEuMjg5aDQuMTA1VjQuMTA1em01LjY3OSAwdjExLjI4OWgxLjAyNlY0LjEwNXptMi4wNTMgMHYxMS4yODloMi4wNTNWNC4xMDV6bTMuMDc5IDB2MTEuMjg5aDIuMDUzVjQuMTA1eiIgZmlsbD0iIzk5OSIvPjwvc3ZnPg==);
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    width: 28px;
+    height: 18px;
+    background-size: 28px;
+    padding-right: 8px;
+}
+
+.listItem--installments-tab-credicard :global(.vtex-button__label)::before{
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMC43ODkiIGhlaWdodD0iMTkuNSI+PHBhdGggZGF0YS1uYW1lPSJjYXJkIDEiIGQ9Ik0wIDB2MTkuNWgzMC43ODlWMHptMi4wNTMgMi4wNTNoMjYuNjg0djMuMDc5SDIuMDUzem0wIDYuMTU4aDI2LjY4NHY4Ljc1OEgyLjA1M3oiIGZpbGw9IiM5OTkiLz48L3N2Zz4=);
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    width: 28px;
+    height: 18px;
+    background-size: 28px;
+    padding-right: 8px;
+}
+
+:global(.vtex-modal-layout-0-x-headerContainer--product-installments){
+    border: solid 1px #f2f2f2;
+    margin: 20px 20px 0px 20px;
+}
+
+:global(.vtex-product-price-1-x-installmentsListContainer--installments-ways){
+    display: grid;
+    line-height: 30px;
+    font-size: 13px;
+}
+  
+:global(.vtex-modal-layout-0-x-container--product-installments) :global(.vtex-product-price-1-x-installments):nth-child(odd){
+    background: #F2F2F2;
+}
+
+:global(.vtex-modal-layout-0-x-container--product-installments) :global(.vtex-product-price-1-x-installments){
+    padding: 5px 10px;
+}
+
+:global(.vtex-modal-layout-0-x-closeIcon--product-installments){
+    border-radius: 5px;
+    background: var(--primary);
+    color: var(--base);
+}
+
+:global(.vtex-modal-layout-0-x-container--product-installments) :global(.vtex-product-price-1-x-paymentSystemName--installments-list-item-pay) {
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 600px){
+
+:global(.vtex-flex-layout-0-x-flexCol--product-installments) :global(.vtex-button__label){
+    padding: 0px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--product-installments) .listContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.listItem--installments-tab-pix,
+.listItem--installments-tab-boleto,
+.listItem--installments-tab-credicard{
+    display: contents;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--product-installments) :global(.vtex-button__label){
+    font-size: 10px;
+}
+:global(.vtex-product-price-1-x-installments--installments-list-item-pay){
+    font-size: 10px;
+    line-height: 20px;
+}
+
+}

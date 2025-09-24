@@ -1,0 +1,414 @@
+{
+
+    "store.custom#treinamento-videos": {
+        "children": [
+            "flex-layout.row#treinamento-videos-1",
+            "flex-layout.row#treinamento-videos-2",
+            "flex-layout.row#brands-slider"
+        ]
+    },
+    
+    // Row 1
+
+    "flex-layout.row#treinamento-videos-1": {
+        "props": {
+            "blockClass": [
+                "800",
+                "base2",
+                "padding40vs20"
+            ],
+            "colGap":8
+        },
+        "children": [
+               "rich-text#treinamento-videos-1"
+        ]
+    },
+            "rich-text#treinamento-videos-1": {
+                "props": {
+                    "text": "Vídeos de Treinamento\n# Aerador e Emulsor de Misturas Para Sorvetes e Picolés\n\nAerador e emulsor de misturas para sorvetes e picolés.",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER",
+                    "blockClass":"color-secondary"
+                }
+            },
+
+    // Row 2
+
+    "flex-layout.row#treinamento-videos-2": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "padding40vs20",
+                "treinamento-videos"
+            ]
+        },
+        "children": [
+            "toggle-layout#treinamentovideos-2-1",
+            "toggle-layout#treinamentovideos-2-2",
+            "toggle-layout#treinamentovideos-2-3",
+            "toggle-layout#treinamentovideos-2-4",
+            "toggle-layout#treinamentovideos-2-5",
+            "toggle-layout#treinamentovideos-2-6",
+            "toggle-layout#treinamentovideos-2-7",
+            "toggle-layout#treinamentovideos-2-8",
+            "toggle-layout#treinamentovideos-2-9",
+            "toggle-layout#treinamentovideos-2-10"
+        ]
+    },
+
+    // 1
+        "toggle-layout#treinamentovideos-2-1": {
+            "children": [
+              "flex-layout.col#treinamentovideos-2-1"
+            ]
+        },
+            "flex-layout.col#treinamentovideos-2-1": {
+                "props": {
+                    "rowGap":5
+                },
+                "children": [
+                    "rich-text#treinamentovideos-2-1",
+                    "video#treinamentovideos-2-1"
+                ]
+            },
+                "rich-text#treinamentovideos-2-1": {
+                    "props": {
+                        "text": "##  Título",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"color-secondary"
+                    }
+                },
+                
+                "video#treinamentovideos-2-1": {
+                    "props": {
+                    "height": "280px",
+                    "loop": true,
+                    "autoPlay": false,
+                    "muted": false,
+                    "src": "https://youtu.be/QKdpAYsJpD4"
+                    }
+                },
+
+
+    // 2
+
+    "toggle-layout#treinamentovideos-2-2": {
+        "children": [
+          "flex-layout.col#treinamentovideos-2-2"
+        ]
+    },
+        "flex-layout.col#treinamentovideos-2-2": {
+            "props": {
+                "rowGap":5
+            },
+            "children": [
+                "rich-text#treinamentovideos-2-2",
+                "video#treinamentovideos-2-2"
+            ]
+        },
+            "rich-text#treinamentovideos-2-2": {
+                "props": {
+                    "text": "##  Título",
+                    "textAlignment": "LEFT",
+                    "textPosition": "LEFT",
+                    "blockClass":"color-secondary"
+                }
+            },
+            
+            "video#treinamentovideos-2-2": {
+                "props": {
+                "height": "280px",
+                "loop": true,
+                "autoPlay": false,
+                "muted": false,
+                "src": "https://youtu.be/QKdpAYsJpD4"
+                }
+            },
+
+
+    // 3
+
+    "toggle-layout#treinamentovideos-2-3": {
+        "children": [
+          "flex-layout.col#treinamentovideos-2-3"
+        ]
+    },
+        "flex-layout.col#treinamentovideos-2-3": {
+            "props": {
+                "rowGap":5
+            },
+            "children": [
+                "rich-text#treinamentovideos-2-3",
+                "video#treinamentovideos-2-3"
+            ]
+        },
+            "rich-text#treinamentovideos-2-3": {
+                "props": {
+                    "text": "##  Título",
+                    "textAlignment": "LEFT",
+                    "textPosition": "LEFT",
+                    "blockClass":"color-secondary"
+                }
+            },
+            
+            "video#treinamentovideos-2-3": {
+                "props": {
+                "height": "280px",
+                "loop": true,
+                "autoPlay": false,
+                "muted": false,
+                "src": "https://youtu.be/QKdpAYsJpD4"
+                }
+            },
+
+    // 4
+
+    "toggle-layout#treinamentovideos-2-4": {
+        "children": [
+          "flex-layout.col#treinamentovideos-2-4"
+        ]
+    },
+        "flex-layout.col#treinamentovideos-2-4": {
+            "props": {
+                "rowGap":5
+            },
+            "children": [
+                "rich-text#treinamentovideos-2-4",
+                "video#treinamentovideos-2-4"
+            ]
+        },
+            "rich-text#treinamentovideos-2-4": {
+                "props": {
+                    "text": "##  Título",
+                    "textAlignment": "LEFT",
+                    "textPosition": "LEFT",
+                    "blockClass":"color-secondary"
+                }
+            },
+            
+            "video#treinamentovideos-2-4": {
+                "props": {
+                "height": "280px",
+                "loop": true,
+                "autoPlay": false,
+                "muted": false,
+                "src": "https://youtu.be/QKdpAYsJpD4"
+                }
+            },
+
+
+    // 5
+
+    "toggle-layout#treinamentovideos-2-5": {
+        "children": [
+          "flex-layout.col#treinamentovideos-2-5"
+        ]
+    },
+        "flex-layout.col#treinamentovideos-2-5": {
+            "props": {
+                "rowGap":5
+            },
+            "children": [
+                "rich-text#treinamentovideos-2-5",
+                "video#treinamentovideos-2-5"
+            ]
+        },
+            "rich-text#treinamentovideos-2-5": {
+                "props": {
+                    "text": "##  Título",
+                    "textAlignment": "LEFT",
+                    "textPosition": "LEFT",
+                    "blockClass":"color-secondary"
+                }
+            },
+            
+            "video#treinamentovideos-2-5": {
+                "props": {
+                "height": "280px",
+                "loop": true,
+                "autoPlay": false,
+                "muted": false,
+                "src": "https://youtu.be/QKdpAYsJpD4"
+                }
+            },
+
+
+    // 6
+
+    "toggle-layout#treinamentovideos-2-6": {
+        "children": [
+          "flex-layout.col#treinamentovideos-2-6"
+        ]
+    },
+        "flex-layout.col#treinamentovideos-2-6": {
+            "props": {
+                "rowGap":5
+            },
+            "children": [
+                "rich-text#treinamentovideos-2-6",
+                "video#treinamentovideos-2-6"
+            ]
+        },
+            "rich-text#treinamentovideos-2-6": {
+                "props": {
+                    "text": "##  Título",
+                    "textAlignment": "LEFT",
+                    "textPosition": "LEFT",
+                    "blockClass":"color-secondary"
+                }
+            },
+            
+            "video#treinamentovideos-2-6": {
+                "props": {
+                "height": "280px",
+                "loop": true,
+                "autoPlay": false,
+                "muted": false,
+                "src": "https://youtu.be/QKdpAYsJpD4"
+                }
+            },
+
+
+    // 7
+
+    "toggle-layout#treinamentovideos-2-7": {
+        "children": [
+          "flex-layout.col#treinamentovideos-2-7"
+        ]
+    },
+        "flex-layout.col#treinamentovideos-2-7": {
+            "props": {
+                "rowGap":5
+            },
+            "children": [
+                "rich-text#treinamentovideos-2-7",
+                "video#treinamentovideos-2-7"
+            ]
+        },
+            "rich-text#treinamentovideos-2-7": {
+                "props": {
+                    "text": "##  Título",
+                    "textAlignment": "LEFT",
+                    "textPosition": "LEFT",
+                    "blockClass":"color-secondary"
+                }
+            },
+            
+            "video#treinamentovideos-2-7": {
+                "props": {
+                "height": "280px",
+                "loop": true,
+                "autoPlay": false,
+                "muted": false,
+                "src": "https://youtu.be/QKdpAYsJpD4"
+                }
+            },
+
+    // 8
+
+    "toggle-layout#treinamentovideos-2-8": {
+        "children": [
+          "flex-layout.col#treinamentovideos-2-8"
+        ]
+    },
+        "flex-layout.col#treinamentovideos-2-8": {
+            "props": {
+                "rowGap":5
+            },
+            "children": [
+                "rich-text#treinamentovideos-2-8",
+                "video#treinamentovideos-2-8"
+            ]
+        },
+            "rich-text#treinamentovideos-2-8": {
+                "props": {
+                    "text": "##  Título",
+                    "textAlignment": "LEFT",
+                    "textPosition": "LEFT",
+                    "blockClass":"color-secondary"
+                }
+            },
+            
+            "video#treinamentovideos-2-8": {
+                "props": {
+                "height": "280px",
+                "loop": true,
+                "autoPlay": false,
+                "muted": false,
+                "src": "https://youtu.be/QKdpAYsJpD4"
+                }
+            },
+
+    // 9
+
+    "toggle-layout#treinamentovideos-2-9": {
+        "children": [
+          "flex-layout.col#treinamentovideos-2-9"
+        ]
+    },
+        "flex-layout.col#treinamentovideos-2-9": {
+            "props": {
+                "rowGap":5
+            },
+            "children": [
+                "rich-text#treinamentovideos-2-9",
+                "video#treinamentovideos-2-9"
+            ]
+        },
+            "rich-text#treinamentovideos-2-9": {
+                "props": {
+                    "text": "##  Título",
+                    "textAlignment": "LEFT",
+                    "textPosition": "LEFT",
+                    "blockClass":"color-secondary"
+                }
+            },
+            
+            "video#treinamentovideos-2-9": {
+                "props": {
+                "height": "280px",
+                "loop": true,
+                "autoPlay": false,
+                "muted": false,
+                "src": "https://youtu.be/QKdpAYsJpD4"
+                }
+            },
+
+    // 10
+
+    "toggle-layout#treinamentovideos-2-10": {
+        "children": [
+          "flex-layout.col#treinamentovideos-2-10"
+        ]
+    },
+        "flex-layout.col#treinamentovideos-2-10": {
+            "props": {
+                "rowGap":5
+            },
+            "children": [
+                "rich-text#treinamentovideos-2-10",
+                "video#treinamentovideos-2-10"
+            ]
+        },
+            "rich-text#treinamentovideos-2-10": {
+                "props": {
+                    "text": "##  Título",
+                    "textAlignment": "LEFT",
+                    "textPosition": "LEFT",
+                    "blockClass":"color-secondary"
+                }
+            },
+            
+            "video#treinamentovideos-2-10": {
+                "props": {
+                "height": "280px",
+                "loop": true,
+                "autoPlay": false,
+                "muted": false,
+                "src": "https://youtu.be/QKdpAYsJpD4"
+                }
+            }
+
+
+} 

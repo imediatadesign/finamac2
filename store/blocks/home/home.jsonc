@@ -1,0 +1,238 @@
+{
+  "store.home": {
+    // "parent": { 
+    //   "header": "header#2"
+    // },
+    "blocks": [
+      "flex-layout.row#slider-home",
+      "flex-layout.row#services-slider",
+      "flex-layout.row#home-shelf-1",
+      "flex-layout.row#infocard-home",
+      "flex-layout.row#cursos-home",
+      "flex-layout.row#home-shelf-2",
+      "flex-layout.row#brands-slider"
+    ]
+  },
+  // Slider
+  "flex-layout.row#slider-home": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "slider-home"
+    },
+    "children": [
+      // "simple-banner"
+      "list-context.image-list#slider-home_"
+    ]
+  },
+  "list-context.image-list#slider-home_": {
+    "children": [
+      "slider-layout#slider-home"
+    ],
+    "props": {
+      // "height": "100%",
+      "preload": true,
+      "images": [
+        {
+          "image": "https://finamac.vtexassets.com/assets/vtex.file-manager-graphql/images/65f97267-6e82-466f-a5ee-15209956997a___a6f2cbeb7dcade725ef5bf1ab22b2764.jpg",
+          "mobileImage": "https://finamac.vtexassets.com/assets/vtex.file-manager-graphql/images/65f97267-6e82-466f-a5ee-15209956997a___a6f2cbeb7dcade725ef5bf1ab22b2764.jpg",
+          "link": {
+            "url": "/",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://finamac.vtexassets.com/assets/vtex.file-manager-graphql/images/7b7c7ecd-acae-49eb-882e-9d336c0b02c9___f06af1b2c89e00d8cd68d12b52311e74.jpg",
+          "mobileImage": "https://finamac.vtexassets.com/assets/vtex.file-manager-graphql/images/7b7c7ecd-acae-49eb-882e-9d336c0b02c9___f06af1b2c89e00d8cd68d12b52311e74.jpg",
+          "link": {
+            "url": "/",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://finamac.vtexassets.com/assets/vtex.file-manager-graphql/images/03ab075f-f05a-4651-8f31-77c66b34f6f7___7a9841cd53f566f7ffc9192da0d815ed.jpg",
+          "mobileImage": "https://finamac.vtexassets.com/assets/vtex.file-manager-graphql/images/03ab075f-f05a-4651-8f31-77c66b34f6f7___7a9841cd53f566f7ffc9192da0d815ed.jpg",
+          "link": {
+            "url": "/",
+            "openNewTab": false
+          }
+        }
+        //   {
+        //   "image":  "https://finamac.vtexassets.com/assets/vtex.file-manager-graphql/images/8b543adb-1017-492e-8add-9c2a1c3b3170___8a750683fea79ea0cbb8ad134b5339be.jpg",
+        //   "mobileImage": "https://finamac.vtexassets.com/assets/vtex.file-manager-graphql/images/8b543adb-1017-492e-8add-9c2a1c3b3170___8a750683fea79ea0cbb8ad134b5339be.jpg",
+        //   "link": {
+        //     "url":"/",
+        //     "openNewTab":false
+        //   }
+        // }
+      ]
+    }
+  },
+  "slider-layout#slider-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 6000,
+        "stopOnHover": true
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": [
+        "slider-home",
+        "fullslider"
+      ],
+      "fullWidth": true
+    }
+  },
+  // Slider 2
+  "flex-layout.row#slider-home-2": {
+    "props": {
+      "blockClass": [
+        "1300",
+        "slider-home-2"
+      ],
+      "paddingBottom": {
+        "desktop": 8,
+        "mobile": 4
+      }
+    },
+    "children": [
+      "list-context.image-list#slider-home-2"
+    ]
+  },
+  "list-context.image-list#slider-home-2": {
+    "children": [
+      "slider-layout#slider-home-2"
+    ],
+    "props": {
+      "height": "100%",
+      "preload": true,
+      "images": [
+        {
+          "image": "https://placehold.co/1200x300",
+          "mobileImage": "https://placehold.co/300x300",
+          "link": {
+            "url": "/",
+            "openNewTab": false
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#slider-home-2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": [
+        "slider-home-2"
+      ],
+      "fullWidth": true
+    }
+  },
+  // Category Home
+  "flex-layout.row#category-home-slider-title": {
+    "props": {
+      "blockClass": "category-home-slider",
+      "paddingTop": 4,
+      "paddingBottom": 2
+    },
+    "children": [
+      "rich-text#category-home-slider-title"
+    ]
+  },
+  "rich-text#category-home-slider-title": {
+    "props": {
+      "text": "#### **COMPRE POR CATEGORIA**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "width": "100%",
+      "blockClass": "color-primary"
+    }
+  },
+  "flex-layout.row#category-home-slider": {
+    "props": {
+      "blockClass": [
+        "category-home-slider",
+        "dots-bottom-onlymobile"
+      ],
+      "paddingTop": {
+        "desktop": 7,
+        "mobile": 6
+      },
+      "paddingBottom": {
+        "desktop": 7,
+        "mobile": 5
+      }
+    },
+    "children": [
+      "list-context.image-list#category-home-slider"
+    ]
+  },
+  "list-context.image-list#category-home-slider": {
+    "children": [
+      "slider-layout#category-home-slider"
+    ],
+    "props": {
+      "height": "100%",
+      "preload": true,
+      "images": [
+        {
+          "image": "https://placehold.co/200x100",
+          "mobileImage": "https://placehold.co/200x100",
+          "link": {
+            "url": "/",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://placehold.co/200x100",
+          "mobileImage": "https://placehold.co/200x100",
+          "link": {
+            "url": "/",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://placehold.co/200x100",
+          "mobileImage": "https://placehold.co/200x100",
+          "link": {
+            "url": "/",
+            "openNewTab": false
+          }
+        },
+        {
+          "image": "https://placehold.co/200x100",
+          "mobileImage": "https://placehold.co/200x100",
+          "link": {
+            "url": "/",
+            "openNewTab": false
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#category-home-slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "fullWidth": true,
+      "blockClass": "category-home"
+    }
+  }
+}

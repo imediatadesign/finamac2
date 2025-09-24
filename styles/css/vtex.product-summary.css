@@ -1,0 +1,161 @@
+/* Padronização de imagens do product-summary */
+:global(.vtex-product-summary-2-x-imageContainer) {
+  width: 100%;
+  height: 160px;
+  /* Reduzido para 160px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+:global(.vtex-product-summary-2-x-imageNormal),
+:global(.vtex-product-summary-2-x-image) {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+:global(.vtex-product-summary-2-x-imageContainer):hover :global(.vtex-product-summary-2-x-imageNormal) {
+  transform: scale(1.05);
+}
+
+/* Remove padding das imagens que estava causando problemas */
+:global(.vtex-product-summary-2-x-image) {
+  padding: 0 !important;
+}
+
+/* Ajuste para manter proporção correta */
+:global(.vtex-product-summary-2-x-imageWrapper) {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsivo - Tablets */
+@media (max-width: 1024px) {
+  :global(.vtex-product-summary-2-x-imageContainer) {
+    height: 140px;
+    /* Reduzido para 140px */
+    padding: 10px;
+  }
+}
+
+/* Responsivo - Mobile */
+@media (max-width: 768px) {
+  :global(.vtex-product-summary-2-x-imageContainer) {
+    height: 120px;
+    /* Reduzido para 120px */
+    padding: 8px;
+  }
+}
+
+/* Ajuste para cards em sliders */
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf) :global(.vtex-product-summary-2-x-imageContainer) {
+  margin: 0;
+}
+
+/* Ajuste para resultados de busca */
+:global(.vtex-search-result-3-x-gallery) :global(.vtex-product-summary-2-x-imageContainer) {
+  margin-bottom: 10px;
+}
+
+/* Padronização do título do produto - 3 linhas com ellipsis */
+:global(.vtex-product-summary-2-x-nameContainer) {
+  height: 65px;
+  /* 3 linhas x 24px (line-height) */
+  overflow: hidden;
+  display: block;
+  /* Mudado de flex para block */
+  margin-bottom: 10px;
+  /* Espaçamento consistente */
+  position: relative;
+}
+
+/* Reduzir margin quando for layout sem preço */
+:global(.vtex-flex-layout-0-x-flexCol--shelf-without-price) :global(.vtex-product-summary-2-x-nameContainer) {
+  margin-bottom: 5px !important;
+}
+
+:global(.vtex-product-summary-2-x-productBrand),
+:global(.vtex-product-summary-2-x-brandName),
+:global(.vtex-product-summary-2-x-productNameContainer) {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  color: #3f3f40;
+  margin: 0;
+  padding: 0;
+  height: 65px;
+  /* Altura fixa */
+  width: 100%;
+  word-break: break-word;
+}
+
+/* Ajuste responsivo para mobile */
+@media (max-width: 768px) {
+  :global(.vtex-product-summary-2-x-nameContainer) {
+    height: 60px;
+    /* 3 linhas x 20px (line-height mobile) */
+  }
+
+  :global(.vtex-product-summary-2-x-productBrand),
+  :global(.vtex-product-summary-2-x-brandName),
+  :global(.vtex-product-summary-2-x-productNameContainer) {
+    font-size: 14px;
+    line-height: 1.43;
+    /* 20px line-height */
+    height: 60px;
+  }
+}
+
+/* Garantir que o link mantenha o comportamento */
+:global(.vtex-product-summary-2-x-nameWrapper) {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hover no título */
+:global(.vtex-product-summary-2-x-nameContainer):hover :global(.vtex-product-summary-2-x-productBrand),
+:global(.vtex-product-summary-2-x-nameContainer):hover :global(.vtex-product-summary-2-x-brandName) {
+  color: #ff6b00;
+  transition: color 0.2s ease;
+}
+
+/* Fallback para navegadores sem suporte a line-clamp */
+@supports not (-webkit-line-clamp: 3) {
+
+  :global(.vtex-product-summary-2-x-productBrand),
+  :global(.vtex-product-summary-2-x-brandName) {
+    overflow: hidden;
+    position: relative;
+  }
+
+  :global(.vtex-product-summary-2-x-productBrand)::after,
+  :global(.vtex-product-summary-2-x-brandName)::after {
+    content: "...";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: white;
+    padding-left: 5px;
+  }
+}
+
+.skuSelectorContainer--shelf {
+  padding-top: .5rem;
+  display: flex;
+}

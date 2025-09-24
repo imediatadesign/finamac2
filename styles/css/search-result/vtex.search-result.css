@@ -1,0 +1,115 @@
+.suggestionListWrapper,
+.suggestionsList{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+/* Order  */
+
+.orderByOptionsContainer{
+    top: 50px;
+}
+.orderByButton{
+    border: none;
+    background: none;
+}
+.totalProducts--layout,
+.orderByButton{
+    padding: 0px;
+    border: none;
+}
+
+.totalProducts--layout{
+    text-align: left;
+}
+
+
+.filterPopupTitle{
+    text-transform: capitalize;
+}
+
+/* Filter  */
+
+.filterIcon{
+    color: black;
+}
+
+.filterAccordionBreadcrumbs{
+    background-color: var(--primary);
+}
+
+.filterAccordionBreadcrumbs .caretIcon{
+    color: var(--base);
+    width: 11px;
+}
+
+.filterBreadcrumbsText{
+    color: var(--base);
+    font-size: 17px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.filterBreadcrumbsItemName{
+    color: var(--base);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.accordionFilterItem {
+    border-bottom: 1px solid var(--primary);
+}
+
+.accordionFilterContainer{
+    padding: 0px 10px 0px 20px;
+}
+.accordionFilterItemTitle,
+.accordionFilterOpen :global(.vtex-checkbox__label){
+    font-size: 13px;
+}
+
+
+.galleryTitle--layout{
+    color: var(--tertiary) !important;
+    font-weight: 700;
+    margin: 0px 0px 10px 0px;
+}
+
+.filterTitleSpan{
+    font-size: 0.9rem;
+}
+
+.filtersWrapper :global(.vtex-checkbox__label){
+    font-size: 0.8rem;
+}
+.caretIcon{
+    width: 10px;
+}
+
+/* Product */
+
+.galleryItem--Grade{
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1024px){
+
+.buttonShowMore{
+    margin-bottom: 30px;
+}
+
+.gallery{
+    padding-left: 0px;
+}
+
+.galleryTitle--layout{
+    color: var(--secondary);
+    font-size: 1.2rem;
+}
+
+.filtersWrapperMobile{
+    justify-content: end;
+}
+
+}
+

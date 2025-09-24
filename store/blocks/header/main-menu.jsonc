@@ -1,0 +1,124 @@
+{
+  // Container principal do menu
+  "flex-layout.row#main-menu": {
+    "props": {
+      "blockClass": "main-menu-container"
+      // "fullWidth": true,
+      // "horizontalAlign": "center",
+      // "preventHorizontalStretch": false
+    },
+    "children": [
+      "vtex.menu@2.x:menu#main-desktop"
+      // "drawer#main-mobile"
+    ]
+  },
+  // ============== MENU DESKTOP SIMPLIFICADO ==============
+  "vtex.menu@2.x:menu#main-desktop": {
+    "props": {
+      "blockClass": "main-menu-desktop"
+      // "orientation": "horizontal"
+      // "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#machines",
+      "menu-item#accessories",
+      "menu-item#services",
+      "menu-item#courses",
+      "menu-item#blog",
+      "menu-item#quote",
+      "menu-item#contact"
+    ]
+  },
+  // Menu Item - Máquinas (sem submenu)
+  "menu-item#machines": {
+    "props": {
+      "id": "menu-machines",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maquinas",
+        "text": "MÁQUINAS"
+      },
+      "blockClass": "main-menu-item"
+    }
+  },
+  // Menu Item - Acessórios (sem submenu)
+  "menu-item#accessories": {
+    "props": {
+      "id": "menu-accessories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "text": "ACESSÓRIOS"
+      },
+      "blockClass": "main-menu-item"
+    }
+  },
+  // Menu Item - Serviços (sem submenu)
+  "menu-item#services": {
+    "props": {
+      "id": "menu-services",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "text": "SERVIÇOS"
+      },
+      "blockClass": "main-menu-item"
+    }
+  },
+  // Menu Item - Cursos (sem submenu)
+  "menu-item#courses": {
+    "props": {
+      "id": "menu-courses",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/cursos",
+        "text": "CURSOS"
+      },
+      "blockClass": "main-menu-item"
+    }
+  },
+  // Menu Item - Blog (sem submenu)
+  "menu-item#blog": {
+    "props": {
+      "id": "menu-blog",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://blog.finamac.com/",
+        "text": "BLOG"
+      },
+      "blockClass": "main-menu-item"
+    }
+  },
+  // Menu Item - Orçamento (destacado)
+  "menu-item#quote": {
+    "props": {
+      "id": "menu-quote",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/consulte-nossos-produtos",
+        "text": "PEDIR UM ORÇAMENTO"
+      },
+      "blockClass": "main-menu-item"
+    }
+  },
+  // Menu Item - Contato (sem submenu)
+  "menu-item#contact": {
+    "props": {
+      "id": "menu-contact",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/assistencia-tecnica-finamac",
+        "text": "CONTATO"
+      },
+      "blockClass": "main-menu-item"
+    }
+  }
+}

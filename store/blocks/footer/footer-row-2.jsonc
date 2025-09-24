@@ -1,0 +1,19 @@
+{
+    
+    "flex-layout.row#footer-row-2": {
+        "props":{
+            "paddingTop":8,
+            "paddingBottom":6,
+            "blockClass":["bg-primary","1300","footer-row-2"],
+            "fullWidth":true,
+            "colGap":3,
+            "backgroundColor": "#025da6"
+         },
+          "children": [
+             "logo#k"
+          ]
+        }
+
+
+
+}

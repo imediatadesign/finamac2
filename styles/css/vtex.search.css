@@ -1,0 +1,21 @@
+
+
+
+.biggy-autocomplete{
+    position: absolute;
+    /*transition: opacity 0.15s ease-in 0.05s, max-height 0.3s ease-out, padding 0.6s ease-out;*/
+    padding: 20px 40px;
+    max-height: 630px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    overflow: auto;
+    display: flex;
+   /* max-width: 649px;
+    margin-top: 3px;*/
+}
+
+.tileListList{
+    padding: 0px 20px !important;
+    gap: 40px;
+}
+

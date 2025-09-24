@@ -1,0 +1,67 @@
+{
+
+  "flex-layout.row#storelocator": {
+      "children": [
+        "store.storelocator"
+      ]
+    },
+
+    "store.storelocator": {
+      "parent": {
+      },
+      "blocks": [
+        "flex-layout.row#store-locator"
+      ]
+    },
+    
+  "flex-layout.row#store-locator": {
+    "props":{
+      "paddingBottom":8,
+      "blockClass":["1300","store-locator"],
+      "preventVerticalStretch":true
+    },
+      "children": [
+        "flex-layout.row#storelocator-title",
+        "flex-layout.row#storelocator-container"
+      ]
+    },
+
+    // Titulo
+
+    "flex-layout.row#storelocator-title": {
+     "props":{
+        "width":"100%"
+     },
+      "children": ["flex-layout.col#storelocator-title"]
+    },
+
+    "flex-layout.col#storelocator-title": {
+        "children": ["rich-text#storelocator-title"],
+        "props": {
+          "preventVerticalStretch": true
+        }
+      },
+      "rich-text#storelocator-title": {
+        "props": {
+        "text": "## **Nossas Lojas**",
+        "blockClass":"storelocator-title"
+        }
+      },
+    
+    // Container
+
+    "flex-layout.row#storelocator-container": {
+     "props":{
+        "width":"100%"
+     },
+      "children": [
+        "store-list"
+    ]
+    },
+
+    "store-list":{
+      "props":{
+        "icon":"assets/location-map.svg"
+      }
+    }
+  }

@@ -1,0 +1,22 @@
+/* Header sempre azul #02579b */
+:global(.vtex-sticky-layout-0-x-wrapper--header-desktop),
+:global(.vtex-sticky-layout-0-x-wrapper--header-desktop--stuck),
+:global(.vtex-sticky-layout-0-x-container--header-desktop),
+:global(.vtex-sticky-layout-0-x-container--header-desktop-2) {
+  background-color: #02579b !important;
+  transition: none !important;
+}
+
+/* Forçar cor azul no flexRow do header */
+.flexRow--header-desktop,
+:global(.vtex-sticky-layout-0-x-wrapper--header-desktop) .flexRow--header-desktop,
+:global(.vtex-sticky-layout-0-x-wrapper--header-desktop--stuck) .flexRow--header-desktop {
+  background-color: #02579b !important;
+  transition: none !important;
+}
+
+/* Remover qualquer transição de cor */
+:global(.vtex-sticky-layout-0-x-wrapper--header-desktop-2--stuck) .flexRow--header-desktop {
+  background-color: #02579b !important;
+  transition: padding 0.5s ease-in-out !important; /* Manter apenas transição de padding */
+}

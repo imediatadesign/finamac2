@@ -1,0 +1,1455 @@
+{
+
+    "store.custom#treinamento": {
+        "children": [
+            "flex-layout.row#treinamento-1",
+            "flex-layout.row#treinamento-2",
+            "flex-layout.row#brands-slider"
+        ]
+    },
+    
+    // Row 1
+
+    "flex-layout.row#treinamento-1": {
+        "props": {
+            "blockClass": [
+                "800",
+                "base2",
+                "padding40vs20"
+            ],
+            "colGap":8
+        },
+        "children": [
+               "rich-text#treinamento-1"
+        ]
+    },
+            "rich-text#treinamento-1": {
+                "props": {
+                    "text": "# **O passo-a-passo da utilização e manutenção básica das suas máquinas FinamacTM.**\n\nAcessível a qualquer um e a qualquer hora do dia, aqui você encontra os vídeos de treinamento de maquinário que complementam o manual e servem como guia visual na hora da dúvida.",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER",
+                    "blockClass":"color-secondary"
+                }
+            },
+
+    // 2
+
+    "flex-layout.row#treinamento-2": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "padding40vs20",
+                "treinamento-2"
+            ]
+        },
+        "children": [
+            "flex-layout.col#treinamento-2"
+        ]
+    },
+        "flex-layout.col#treinamento-2": {
+            "props": {
+                "rowGap":5
+            },
+            "children": [
+                "rich-text#treinamento-2",
+                "tab-layout#treinamento"
+            ]
+        },
+
+            "rich-text#treinamento-2": {
+                "props": {
+                    "text": "## Vídeos de Treinamento",
+                    "textAlignment": "LEFT",
+                    "textPosition": "LEFT",
+                    "blockClass":"color-secondary"
+                }
+            },
+
+            "tab-layout#treinamento": {
+                "children": [
+                  "tab-list#treinamento",
+                  "tab-content#treinamento"
+                ],
+                "props": {
+                  "defaultActiveTabId": "treinamento-3"
+                }
+              },
+
+              "tab-list#treinamento": {
+                "children": [
+                  "toggle-layout#treinamento-1",
+                  "toggle-layout#treinamento-2",
+                  "toggle-layout#treinamento-3",
+                  "toggle-layout#treinamento-4",
+                  "toggle-layout#treinamento-5",
+                  "toggle-layout#treinamento-6"
+                 /* "tab-list.item#treinamento-1",
+                  "tab-list.item#treinamento-2",
+                  "tab-list.item#treinamento-3",
+                  "tab-list.item#treinamento-4",
+                  "tab-list.item#treinamento-5",
+                  "tab-list.item#treinamento-6"*/
+                ]
+              },
+
+            "toggle-layout#treinamento-1": {
+              "children": [
+                "tab-list.item#treinamento-1"
+              ]
+              },
+
+              "tab-list.item#treinamento-1": {
+                "props": {
+                  "tabId": "treinamento-1",
+                  "label": "Mixers"
+                }
+              },
+
+            "toggle-layout#treinamento-2": {
+              "children": [
+                "tab-list.item#treinamento-2"
+              ]
+              },
+
+              "tab-list.item#treinamento-2": {
+                "props": {
+                  "tabId": "treinamento-2",
+                  "label": "Formas"
+                }
+              },
+
+            "toggle-layout#treinamento-3": {
+              "children": [
+                "tab-list.item#treinamento-3"
+              ]
+              },
+
+              "tab-list.item#treinamento-3": {
+                "props": {
+                  "tabId": "treinamento-3",
+                  "label": "Produtoras",
+                  "defaultActiveTab": true
+                }
+              },
+
+            "toggle-layout#treinamento-4": {
+              "children": [
+                "tab-list.item#treinamento-4"
+              ]
+              },
+              
+              "tab-list.item#treinamento-4": {
+                "props": {
+                  "tabId": "treinamento-4",
+                  "label": "Desmoldadoras"
+                }
+              },
+
+            "toggle-layout#treinamento-5": {
+              "children": [
+                "tab-list.item#treinamento-5"
+              ]
+              },
+
+              "tab-list.item#treinamento-5": {
+                "props": {
+                  "tabId": "treinamento-5",
+                  "label": "Seladoras"
+                }
+              },
+
+            "toggle-layout#treinamento-6": {
+              "children": [
+                "tab-list.item#treinamento-6"
+              ]
+            },
+                
+              "tab-list.item#treinamento-6": {
+                "props": {
+                  "tabId": "treinamento-6",
+                  "label": "Embaladoras"
+                }
+              },
+
+              // Content
+
+              "tab-content#treinamento": {
+                "children": [
+                  "tab-content.item#treinamento-1",
+                  "tab-content.item#treinamento-2",
+                  "tab-content.item#treinamento-3",
+                  "tab-content.item#treinamento-4",
+                  "tab-content.item#treinamento-5",
+                  "tab-content.item#treinamento-6"
+                ]
+              },
+
+              // 1
+
+              "tab-content.item#treinamento-1": {
+                "children": [
+                      "flex-layout.row#treinamento-content-1"
+                ],
+                "props": {
+                  "tabId": "treinamento-1"
+                }
+              },
+                "flex-layout.row#treinamento-content-1": {
+                    "props": {
+                        "paddingTop":3
+                    },
+                    "children": [
+                         "slider-layout#treinamento-content-1"
+                    ]
+                },
+
+                // Slider 1
+
+                    "slider-layout#treinamento-content-1": {
+                      "props": {
+                        "itemsPerPage": {
+                          "desktop": 4,
+                          "tablet": 2,
+                          "phone": 1
+                        },
+                        "infinite": true,
+                        "fullWidth": false,
+                        "showNavigationArrows": "always",
+                        "showPaginationDots": "never",
+                        "blockClass": ["shelf","dots-bottom","tabcontent"]
+                      },
+                      "children": [
+                        "toggle-layout#treinamento-content-1-1",
+                        "toggle-layout#treinamento-content-1-2",
+                        "toggle-layout#treinamento-content-1-3",
+                        "toggle-layout#treinamento-content-1-4"
+                      ]
+                    },
+
+                  // 1
+
+                    "toggle-layout#treinamento-content-1-1": {
+                      "children": [
+                        "flex-layout.col#treinamento-content-1-1"
+                      ]
+                  },
+                      "flex-layout.col#treinamento-content-1-1": {
+                          "props": {
+                              "rowGap":5,
+                              "blockClass":"treinamento-content-slider"
+                          },
+                          "children": [
+                              "image#treinamento-content-1-1",
+                              "rich-text#treinamento-content-1-1",
+                              "link#treinamento-content-1-1"
+                          ]
+                      },
+                      
+                          "image#treinamento-content-1-1": {
+                            "props": {
+                            "src": "assets/institucional/treinamento-content-1-1.webp"
+                            }
+                            },
+
+                          "rich-text#treinamento-content-1-1": {
+                              "props": {
+                                  "text": "###  Aerador e Emulsor de Misturas Para Sorvetes e Picolés.",
+                                  "textAlignment": "CENTER",
+                                  "textPosition": "CENTER",
+                                  "blockClass":"color-secondary"
+                              }
+                          },
+
+                          "link#treinamento-content-1-1": {
+                            "props": {
+                              "href": "/aerador-e-emulsor-de-misturas-para-sorvetes-e-picoles",
+                              "label": "SAIBA MAIS",
+                              "displayMode":"button"
+                            }
+                          },
+                
+                  // 2
+
+                  "toggle-layout#treinamento-content-1-2": {
+                    "children": [
+                      "flex-layout.col#treinamento-content-1-2"
+                    ]
+                },
+                    "flex-layout.col#treinamento-content-1-2": {
+                        "props": {
+                            "rowGap":5,
+                            "blockClass":"treinamento-content-slider"
+                        },
+                        "children": [
+                            "image#treinamento-content-1-2",
+                            "rich-text#treinamento-content-1-2",
+                            "link#treinamento-content-1-2"
+                        ]
+                    },
+                    
+                        "image#treinamento-content-1-2": {
+                          "props": {
+                            "src": "https://placehold.co/250x300"
+                          }
+                          },
+
+                        "rich-text#treinamento-content-1-2": {
+                            "props": {
+                                "text": "###  Título",
+                                "textAlignment": "CENTER",
+                                "textPosition": "CENTER",
+                                "blockClass":"color-secondary"
+                            }
+                        },
+
+                        "link#treinamento-content-1-2": {
+                          "props": {
+                            "href": "/",
+                            "label": "SAIBA MAIS",
+                            "displayMode":"button"
+                          }
+                        },
+              
+                  // 3
+
+                  "toggle-layout#treinamento-content-1-3": {
+                    "children": [
+                      "flex-layout.col#treinamento-content-1-3"
+                    ]
+                },
+                    "flex-layout.col#treinamento-content-1-3": {
+                        "props": {
+                            "rowGap":5,
+                            "blockClass":"treinamento-content-slider"
+                        },
+                        "children": [
+                            "image#treinamento-content-1-3",
+                            "rich-text#treinamento-content-1-3",
+                            "link#treinamento-content-1-3"
+                        ]
+                    },
+                    
+                        "image#treinamento-content-1-3": {
+                          "props": {
+                          "src": "https://placehold.co/250x300"
+                          }
+                          },
+
+                        "rich-text#treinamento-content-1-3": {
+                            "props": {
+                                "text": "###  Título",
+                                "textAlignment": "CENTER",
+                                "textPosition": "CENTER",
+                                "blockClass":"color-secondary"
+                            }
+                        },
+
+                        "link#treinamento-content-1-3": {
+                          "props": {
+                            "href": "/",
+                            "label": "SAIBA MAIS",
+                            "displayMode":"button"
+                          }
+                        },
+              
+                  // 4
+
+                  "toggle-layout#treinamento-content-1-4": {
+                    "children": [
+                      "flex-layout.col#treinamento-content-1-4"
+                    ]
+                },
+                    "flex-layout.col#treinamento-content-1-4": {
+                        "props": {
+                            "rowGap":5,
+                            "blockClass":"treinamento-content-slider"
+                        },
+                        "children": [
+                            "image#treinamento-content-1-4",
+                            "rich-text#treinamento-content-1-4",
+                            "link#treinamento-content-1-4"
+                        ]
+                    },
+                    
+                        "image#treinamento-content-1-4": {
+                          "props": {
+                          "src": "https://placehold.co/250x300"
+                          }
+                          },
+
+                        "rich-text#treinamento-content-1-4": {
+                            "props": {
+                                "text": "###  Título",
+                                "textAlignment": "CENTER",
+                                "textPosition": "CENTER",
+                                "blockClass":"color-secondary"
+                            }
+                        },
+
+                        "link#treinamento-content-1-4": {
+                          "props": {
+                            "href": "/",
+                            "label": "SAIBA MAIS",
+                            "displayMode":"button"
+                          }
+                        },
+
+                
+              // 2 
+
+              "tab-content.item#treinamento-2": {
+                "children": [
+                  "flex-layout.row#treinamento-content-2"
+                ],
+                "props": {
+                  "tabId": "treinamento-2"
+                }
+              },
+                "flex-layout.row#treinamento-content-2": {
+                  "props": {
+                      "paddingTop":3
+                  },
+                  "children": [
+                      "slider-layout#treinamento-content-2"
+                  ]
+              },
+          
+                // Slider 1
+
+                "slider-layout#treinamento-content-2": {
+                  "props": {
+                    "itemsPerPage": {
+                      "desktop": 4,
+                      "tablet": 2,
+                      "phone": 1
+                    },
+                    "infinite": true,
+                    "fullWidth": false,
+                    "showNavigationArrows": "always",
+                    "showPaginationDots": "never",
+                    "blockClass": ["shelf","dots-bottom","tabcontent"]
+                  },
+                  "children": [
+                    "toggle-layout#treinamento-content-2-1",
+                    "toggle-layout#treinamento-content-2-2",
+                    "toggle-layout#treinamento-content-2-3",
+                    "toggle-layout#treinamento-content-2-4"
+                  ]
+                },
+
+              // 1
+
+                "toggle-layout#treinamento-content-2-1": {
+                  "children": [
+                    "flex-layout.col#treinamento-content-2-1"
+                  ]
+              },
+                  "flex-layout.col#treinamento-content-2-1": {
+                      "props": {
+                          "rowGap":5,
+                          "blockClass":"treinamento-content-slider"
+                      },
+                      "children": [
+                          "image#treinamento-content-2-1",
+                          "rich-text#treinamento-content-2-1",
+                          "link#treinamento-content-2-1"
+                      ]
+                  },
+                      
+                      "image#treinamento-content-2-1": {
+                        "props": {
+                          "src": "assets/institucional/treinamento-content-2-1.webp"
+                        }
+                        },
+
+                      "rich-text#treinamento-content-2-1": {
+                          "props": {
+                              "text": "###  Formas para Picolés e Paletas - Moldes",
+                              "textAlignment": "CENTER",
+                              "textPosition": "CENTER",
+                              "blockClass":"color-secondary"
+                          }
+                      },
+
+                      "link#treinamento-content-2-1": {
+                        "props": {
+                          "href": "/",
+                          "label": "SAIBA MAIS",
+                          "displayMode":"button"
+                        }
+                      },
+            
+              // 2
+
+              "toggle-layout#treinamento-content-2-2": {
+                "children": [
+                  "flex-layout.col#treinamento-content-2-2"
+                ]
+            },
+                "flex-layout.col#treinamento-content-2-2": {
+                    "props": {
+                        "rowGap":5,
+                        "blockClass":"treinamento-content-slider"
+                    },
+                    "children": [
+                        "image#treinamento-content-2-2",
+                        "rich-text#treinamento-content-2-2",
+                        "link#treinamento-content-2-2"
+                    ]
+                },
+                
+                    "image#treinamento-content-2-2": {
+                      "props": {
+                      "src": "https://placehold.co/250x300"
+                      }
+                      },
+
+                    "rich-text#treinamento-content-2-2": {
+                        "props": {
+                            "text": "###  Título",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-secondary"
+                        }
+                    },
+
+                    "link#treinamento-content-2-2": {
+                      "props": {
+                        "href": "/",
+                        "label": "SAIBA MAIS",
+                        "displayMode":"button"
+                      }
+                    },
+          
+              // 3
+
+              "toggle-layout#treinamento-content-2-3": {
+                "children": [
+                  "flex-layout.col#treinamento-content-2-3"
+                ]
+            },
+                "flex-layout.col#treinamento-content-2-3": {
+                    "props": {
+                        "rowGap":5,
+                        "blockClass":"treinamento-content-slider"
+                    },
+                    "children": [
+                        "image#treinamento-content-2-3",
+                        "rich-text#treinamento-content-2-3",
+                        "link#treinamento-content-2-3"
+                    ]
+                },
+                
+                    "image#treinamento-content-2-3": {
+                      "props": {
+                      "src": "https://placehold.co/250x300"
+                      }
+                      },
+
+                    "rich-text#treinamento-content-2-3": {
+                        "props": {
+                            "text": "###  Título",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-secondary"
+                        }
+                    },
+
+                    "link#treinamento-content-2-3": {
+                      "props": {
+                        "href": "/",
+                        "label": "SAIBA MAIS",
+                        "displayMode":"button"
+                      }
+                    },
+          
+              // 4
+
+              "toggle-layout#treinamento-content-2-4": {
+                "children": [
+                  "flex-layout.col#treinamento-content-2-4"
+                ]
+            },
+                "flex-layout.col#treinamento-content-2-4": {
+                    "props": {
+                        "rowGap":5,
+                        "blockClass":"treinamento-content-slider"
+                    },
+                    "children": [
+                        "image#treinamento-content-2-4",
+                        "rich-text#treinamento-content-2-4",
+                        "link#treinamento-content-2-4"
+                    ]
+                },
+                
+                    "image#treinamento-content-2-4": {
+                      "props": {
+                      "src": "https://placehold.co/250x300"
+                      }
+                      },
+
+                    "rich-text#treinamento-content-2-4": {
+                        "props": {
+                            "text": "###  Título",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-secondary"
+                        }
+                    },
+
+                    "link#treinamento-content-2-4": {
+                      "props": {
+                        "href": "/",
+                        "label": "SAIBA MAIS",
+                        "displayMode":"button"
+                      }
+                    },
+
+
+              // TAB 3
+
+              "tab-content.item#treinamento-3": {
+                "children": [
+                  "flex-layout.row#treinamento-content-3"
+                ],
+                "props": {
+                  "tabId": "treinamento-3"
+                }
+              },
+                "flex-layout.row#treinamento-content-3": {
+                  "props": {
+                      "paddingTop":3
+                  },
+                  "children": [
+                     "slider-layout#treinamento-content-3"
+                  ]
+              },
+            
+                // Slider 3
+
+                "slider-layout#treinamento-content-3": {
+                  "props": {
+                    "itemsPerPage": {
+                      "desktop": 4,
+                      "tablet": 2,
+                      "phone": 3
+                    },
+                    "infinite": true,
+                    "fullWidth": false,
+                    "showNavigationArrows": "always",
+                    "showPaginationDots": "never",
+                    "blockClass": ["shelf", "dots-bottom","tabcontent"]
+                  },
+                  "children": [
+                    "toggle-layout#treinamento-content-3-1",
+                    "toggle-layout#treinamento-content-3-2",
+                   "toggle-layout#treinamento-content-3-3",
+                    "toggle-layout#treinamento-content-3-4"
+                  ]
+                },
+
+              // 1
+
+                "toggle-layout#treinamento-content-3-1": {
+                  "children": [
+                    "flex-layout.col#treinamento-content-3-1"
+                  ]
+              },
+                  "flex-layout.col#treinamento-content-3-1": {
+                      "props": {
+                          "rowGap":5,
+                          "blockClass":"treinamento-content-slider"
+                      },
+                      "children": [
+                          "image#treinamento-content-3-1",
+                          "rich-text#treinamento-content-3-1",
+                          "link#treinamento-content-3-1"
+                      ]
+                  },
+                  
+                      "image#treinamento-content-3-1": {
+                        "props": {
+                          "src": "assets/institucional/treinamento-content-3-1.webp"
+                        }
+                        },
+
+                      "rich-text#treinamento-content-3-1": {
+                          "props": {
+                              "text": "###  Turbo 8",
+                              "textAlignment": "CENTER",
+                              "textPosition": "CENTER",
+                              "blockClass":"color-secondary"
+                          }
+                      },
+
+                      "link#treinamento-content-3-1": {
+                        "props": {
+                          "href": "/",
+                          "label": "SAIBA MAIS",
+                          "displayMode":"button"
+                        }
+                      },
+            
+              // 2
+
+              "toggle-layout#treinamento-content-3-2": {
+                "children": [
+                  "flex-layout.col#treinamento-content-3-2"
+                ]
+            },
+                "flex-layout.col#treinamento-content-3-2": {
+                    "props": {
+                        "rowGap":5,
+                        "blockClass":"treinamento-content-slider"
+                    },
+                    "children": [
+                        "image#treinamento-content-3-2",
+                        "rich-text#treinamento-content-3-2",
+                        "link#treinamento-content-3-2"
+                    ]
+                },
+                
+                    "image#treinamento-content-3-2": {
+                      "props": {
+                        "src": "assets/institucional/treinamento-content-3-2.webp"
+                      }
+                      },
+
+                    "rich-text#treinamento-content-3-2": {
+                        "props": {
+                            "text": "###  RoboPop",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-secondary"
+                        }
+                    },
+
+                    "link#treinamento-content-3-2": {
+                      "props": {
+                        "href": "/",
+                        "label": "SAIBA MAIS",
+                        "displayMode":"button"
+                      }
+                    },
+          
+              // 3
+
+              "toggle-layout#treinamento-content-3-3": {
+                "children": [
+                  "flex-layout.col#treinamento-content-3-3"
+                ]
+            },
+                "flex-layout.col#treinamento-content-3-3": {
+                    "props": {
+                        "rowGap":5,
+                        "blockClass":"treinamento-content-slider"
+                    },
+                    "children": [
+                        "image#treinamento-content-3-3",
+                        "rich-text#treinamento-content-3-3",
+                        "link#treinamento-content-3-3"
+                    ]
+                },
+                
+                    "image#treinamento-content-3-3": {
+                      "props": {
+                      "src": "https://placehold.co/250x300"
+                      }
+                      },
+
+                    "rich-text#treinamento-content-3-3": {
+                        "props": {
+                            "text": "###  Título",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-secondary"
+                        }
+                    },
+
+                    "link#treinamento-content-3-3": {
+                      "props": {
+                        "href": "/",
+                        "label": "SAIBA MAIS",
+                        "displayMode":"button"
+                      }
+                    },
+          
+              // 4
+
+              "toggle-layout#treinamento-content-3-4": {
+                "children": [
+                  "flex-layout.col#treinamento-content-3-4"
+                ]
+            },
+                "flex-layout.col#treinamento-content-3-4": {
+                    "props": {
+                        "rowGap":5,
+                        "blockClass":"treinamento-content-slider"
+                    },
+                    "children": [
+                        "image#treinamento-content-3-4",
+                        "rich-text#treinamento-content-3-4",
+                        "link#treinamento-content-3-4"
+                    ]
+                },
+                
+                    "image#treinamento-content-3-4": {
+                      "props": {
+                      "src": "https://placehold.co/250x300"
+                      }
+                      },
+
+                    "rich-text#treinamento-content-3-4": {
+                        "props": {
+                            "text": "###  Título",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-secondary"
+                        }
+                    },
+
+                    "link#treinamento-content-3-4": {
+                      "props": {
+                        "href": "/",
+                        "label": "SAIBA MAIS",
+                        "displayMode":"button"
+                      }
+                    },
+
+
+              // TAB 4
+
+              "tab-content.item#treinamento-4": {
+                "children": [
+                  "flex-layout.row#treinamento-content-4"
+                ],
+                "props": {
+                  "tabId": "treinamento-4"
+                }
+              },
+                "flex-layout.row#treinamento-content-4": {
+                  "props": {
+                      "paddingTop":3
+                  },
+                  "children": [
+                     "slider-layout#treinamento-content-4"
+                  ]
+              },
+              
+                // Slider 4
+
+                "slider-layout#treinamento-content-4": {
+                  "props": {
+                    "itemsPerPage": {
+                      "desktop": 4,
+                      "tablet": 2,
+                      "phone": 4
+                    },
+                    "infinite": true,
+                    "fullWidth": false,
+                    "showNavigationArrows": "always",
+                    "showPaginationDots": "never",
+                    "blockClass": ["shelf", "dots-bottom","tabcontent"]
+                  },
+                  "children": [
+                    "toggle-layout#treinamento-content-4-1",
+                   "toggle-layout#treinamento-content-4-2",
+                    "toggle-layout#treinamento-content-4-3",
+                    "toggle-layout#treinamento-content-4-4"
+                  ]
+                },
+
+              // 1
+
+                "toggle-layout#treinamento-content-4-1": {
+                  "children": [
+                    "flex-layout.col#treinamento-content-4-1"
+                  ]
+              },
+                  "flex-layout.col#treinamento-content-4-1": {
+                      "props": {
+                          "rowGap":5,
+                          "blockClass":"treinamento-content-slider"
+                      },
+                      "children": [
+                          "image#treinamento-content-4-1",
+                          "rich-text#treinamento-content-4-1",
+                          "link#treinamento-content-4-1"
+                      ]
+                  },
+                  
+                      "image#treinamento-content-4-1": {
+                        "props": {
+                          "src": "assets/institucional/treinamento-content-4-1.webp"
+                        }
+                        },
+
+                      "rich-text#treinamento-content-4-1": {
+                          "props": {
+                              "text": "###  Desenformador Artesanal de Picolés - Flex Unmold Tank",
+                              "textAlignment": "CENTER",
+                              "textPosition": "CENTER",
+                              "blockClass":"color-secondary"
+                          }
+                      },
+
+                      "link#treinamento-content-4-1": {
+                        "props": {
+                          "href": "/",
+                          "label": "SAIBA MAIS",
+                          "displayMode":"button"
+                        }
+                      },
+            
+              // 2
+
+              "toggle-layout#treinamento-content-4-2": {
+                "children": [
+                  "flex-layout.col#treinamento-content-4-2"
+                ]
+            },
+                "flex-layout.col#treinamento-content-4-2": {
+                    "props": {
+                        "rowGap":5,
+                        "blockClass":"treinamento-content-slider"
+                    },
+                    "children": [
+                        "image#treinamento-content-4-2",
+                        "rich-text#treinamento-content-4-2",
+                        "link#treinamento-content-4-2"
+                    ]
+                },
+                
+                    "image#treinamento-content-4-2": {
+                      "props": {
+                      "src": "https://placehold.co/250x400"
+                      }
+                      },
+
+                    "rich-text#treinamento-content-4-2": {
+                        "props": {
+                            "text": "###  Título",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-secondary"
+                        }
+                    },
+
+                    "link#treinamento-content-4-2": {
+                      "props": {
+                        "href": "/",
+                        "label": "SAIBA MAIS",
+                        "displayMode":"button"
+                      }
+                    },
+          
+              // 3
+
+              "toggle-layout#treinamento-content-4-3": {
+                "children": [
+                  "flex-layout.col#treinamento-content-4-3"
+                ]
+            },
+                "flex-layout.col#treinamento-content-4-3": {
+                    "props": {
+                        "rowGap":5,
+                        "blockClass":"treinamento-content-slider"
+                    },
+                    "children": [
+                        "image#treinamento-content-4-3",
+                        "rich-text#treinamento-content-4-3",
+                        "link#treinamento-content-4-3"
+                    ]
+                },
+                
+                    "image#treinamento-content-4-3": {
+                      "props": {
+                      "src": "https://placehold.co/250x400"
+                      }
+                      },
+
+                    "rich-text#treinamento-content-4-3": {
+                        "props": {
+                            "text": "###  Título",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-secondary"
+                        }
+                    },
+
+                    "link#treinamento-content-4-3": {
+                      "props": {
+                        "href": "/",
+                        "label": "SAIBA MAIS",
+                        "displayMode":"button"
+                      }
+                    },
+
+              // 4
+
+              "toggle-layout#treinamento-content-4-4": {
+                "children": [
+                  "flex-layout.col#treinamento-content-4-4"
+                ]
+            },
+                "flex-layout.col#treinamento-content-4-4": {
+                    "props": {
+                        "rowGap":5,
+                        "blockClass":"treinamento-content-slider"
+                    },
+                    "children": [
+                        "image#treinamento-content-4-4",
+                        "rich-text#treinamento-content-4-4",
+                        "link#treinamento-content-4-4"
+                    ]
+                },
+                
+                    "image#treinamento-content-4-4": {
+                      "props": {
+                      "src": "https://placehold.co/250x400"
+                      }
+                      },
+
+                    "rich-text#treinamento-content-4-4": {
+                        "props": {
+                            "text": "###  Título",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-secondary"
+                        }
+                    },
+
+                    "link#treinamento-content-4-4": {
+                      "props": {
+                        "href": "/",
+                        "label": "SAIBA MAIS",
+                        "displayMode":"button"
+                      }
+                    },
+          
+
+              // TAB 5
+
+              "tab-content.item#treinamento-5": {
+                "children": [
+                  "flex-layout.row#treinamento-content-5"
+                ],
+                "props": {
+                  "tabId": "treinamento-5"
+                }
+              },
+                "flex-layout.row#treinamento-content-5": {
+                  "props": {
+                      "paddingTop":3
+                  },
+                  "children": [
+                     "slider-layout#treinamento-content-5"
+                  ]
+              },
+
+                // Slider 
+
+                "slider-layout#treinamento-content-5": {
+                  "props": {
+                    "itemsPerPage": {
+                      "desktop": 4,
+                      "tablet": 2,
+                      "phone": 4
+                    },
+                    "infinite": true,
+                    "fullWidth": false,
+                    "showNavigationArrows": "always",
+                    "showPaginationDots": "never",
+                    "blockClass": ["shelf", "dots-bottom","tabcontent"]
+                  },
+                  "children": [
+                    "toggle-layout#treinamento-content-5-1",
+                    "toggle-layout#treinamento-content-5-2",
+                    "toggle-layout#treinamento-content-5-3",
+                    "toggle-layout#treinamento-content-5-4"
+                  ]
+                },
+
+              // 1
+
+                "toggle-layout#treinamento-content-5-1": {
+                  "children": [
+                    "flex-layout.col#treinamento-content-5-1"
+                  ]
+              },
+                  "flex-layout.col#treinamento-content-5-1": {
+                      "props": {
+                          "rowGap":5,
+                          "blockClass":"treinamento-content-slider"
+                      },
+                      "children": [
+                          "image#treinamento-content-5-1",
+                          "rich-text#treinamento-content-5-1",
+                          "link#treinamento-content-5-1"
+                      ]
+                  },
+                  
+                      "image#treinamento-content-5-1": {
+                        "props": {
+                          "src": "assets/institucional/treinamento-content-5-1.webp"
+                        }
+                        },
+
+                      "rich-text#treinamento-content-5-1": {
+                          "props": {
+                              "text": "###  Seladora de Embalagens Para Picolés - Sealer",
+                              "textAlignment": "CENTER",
+                              "textPosition": "CENTER",
+                              "blockClass":"color-secondary"
+                          }
+                      },
+
+                      "link#treinamento-content-5-1": {
+                        "props": {
+                          "href": "/",
+                          "label": "SAIBA MAIS",
+                          "displayMode":"button"
+                        }
+                      },
+            
+              // 2
+
+              "toggle-layout#treinamento-content-5-2": {
+                "children": [
+                  "flex-layout.col#treinamento-content-5-2"
+                ]
+            },
+                "flex-layout.col#treinamento-content-5-2": {
+                    "props": {
+                        "rowGap":5,
+                        "blockClass":"treinamento-content-slider"
+                    },
+                    "children": [
+                        "image#treinamento-content-5-2",
+                        "rich-text#treinamento-content-5-2",
+                        "link#treinamento-content-5-2"
+                    ]
+                },
+                
+                    "image#treinamento-content-5-2": {
+                      "props": {
+                      "src": "https://placehold.co/250x400"
+                      }
+                      },
+
+                    "rich-text#treinamento-content-5-2": {
+                        "props": {
+                            "text": "###  Título",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-secondary"
+                        }
+                    },
+
+                    "link#treinamento-content-5-2": {
+                      "props": {
+                        "href": "/",
+                        "label": "SAIBA MAIS",
+                        "displayMode":"button"
+                      }
+                    },
+          
+              // 3
+
+              "toggle-layout#treinamento-content-5-3": {
+                "children": [
+                  "flex-layout.col#treinamento-content-5-3"
+                ]
+            },
+                "flex-layout.col#treinamento-content-5-3": {
+                    "props": {
+                        "rowGap":5,
+                        "blockClass":"treinamento-content-slider"
+                    },
+                    "children": [
+                        "image#treinamento-content-5-3",
+                        "rich-text#treinamento-content-5-3",
+                        "link#treinamento-content-5-3"
+                    ]
+                },
+                
+                    "image#treinamento-content-5-3": {
+                      "props": {
+                      "src": "https://placehold.co/250x400"
+                      }
+                      },
+
+                    "rich-text#treinamento-content-5-3": {
+                        "props": {
+                            "text": "###  Título",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-secondary"
+                        }
+                    },
+
+                    "link#treinamento-content-5-3": {
+                      "props": {
+                        "href": "/",
+                        "label": "SAIBA MAIS",
+                        "displayMode":"button"
+                      }
+                    },
+
+              // 4
+
+              "toggle-layout#treinamento-content-5-4": {
+                "children": [
+                  "flex-layout.col#treinamento-content-5-4"
+                ]
+            },
+                "flex-layout.col#treinamento-content-5-4": {
+                    "props": {
+                        "rowGap":5,
+                        "blockClass":"treinamento-content-slider"
+                    },
+                    "children": [
+                        "image#treinamento-content-5-4",
+                        "rich-text#treinamento-content-5-4",
+                        "link#treinamento-content-5-4"
+                    ]
+                },
+                
+                    "image#treinamento-content-5-4": {
+                      "props": {
+                      "src": "https://placehold.co/250x400"
+                      }
+                      },
+
+                    "rich-text#treinamento-content-5-4": {
+                        "props": {
+                            "text": "###  Título",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-secondary"
+                        }
+                    },
+
+                    "link#treinamento-content-5-4": {
+                      "props": {
+                        "href": "/",
+                        "label": "SAIBA MAIS",
+                        "displayMode":"button"
+                      }
+                    },
+          
+                  
+              // 6
+
+              "tab-content.item#treinamento-6": {
+                "children": [
+                  "flex-layout.row#treinamento-content-6"
+                ],
+                "props": {
+                  "tabId": "treinamento-6"
+                }
+              },
+                "flex-layout.row#treinamento-content-6": {
+                  "props": {
+                      "paddingTop":3
+                  },
+                  "children": [
+                      "slider-layout#treinamento-content-6"
+                  ]
+              },
+              
+                // Slider 6
+
+                "slider-layout#treinamento-content-6": {
+                  "props": {
+                    "itemsPerPage": {
+                      "desktop": 4,
+                      "tablet": 2,
+                      "phone": 4
+                    },
+                    "infinite": true,
+                    "fullWidth": false,
+                    "showNavigationArrows": "always",
+                    "showPaginationDots": "never",
+                    "blockClass": ["shelf", "dots-bottom","tabcontent"]
+                  },
+                  "children": [
+                    "toggle-layout#treinamento-content-6-1",
+                    "toggle-layout#treinamento-content-6-2",
+                    "toggle-layout#treinamento-content-6-3",
+                    "toggle-layout#treinamento-content-6-4"
+                  ]
+                },
+
+              // 1
+
+                "toggle-layout#treinamento-content-6-1": {
+                  "children": [
+                    "flex-layout.col#treinamento-content-6-1"
+                  ]
+              },
+                  "flex-layout.col#treinamento-content-6-1": {
+                      "props": {
+                          "rowGap":6,
+                          "blockClass":"treinamento-content-slider"
+                      },
+                      "children": [
+                          "image#treinamento-content-6-1",
+                          "rich-text#treinamento-content-6-1",
+                          "link#treinamento-content-6-1"
+                      ]
+                  },
+                  
+                      "image#treinamento-content-6-1": {
+                        "props": {
+                          "src": "assets/institucional/treinamento-content-6-1.webp"
+                        }
+                        },
+
+                      "rich-text#treinamento-content-6-1": {
+                          "props": {
+                              "text": "###  Pack 5000",
+                              "textAlignment": "CENTER",
+                              "textPosition": "CENTER",
+                              "blockClass":"color-secondary"
+                          }
+                      },
+
+                      "link#treinamento-content-6-1": {
+                        "props": {
+                          "href": "/",
+                          "label": "SAIBA MAIS",
+                          "displayMode":"button"
+                        }
+                      },
+            
+              // 2
+
+              "toggle-layout#treinamento-content-6-2": {
+                "children": [
+                  "flex-layout.col#treinamento-content-6-2"
+                ]
+            },
+                "flex-layout.col#treinamento-content-6-2": {
+                    "props": {
+                        "rowGap":6,
+                        "blockClass":"treinamento-content-slider"
+                    },
+                    "children": [
+                        "image#treinamento-content-6-2",
+                        "rich-text#treinamento-content-6-2",
+                        "link#treinamento-content-6-2"
+                    ]
+                },
+                
+                    "image#treinamento-content-6-2": {
+                      "props": {
+                      "src": "https://placehold.co/250x400"
+                      }
+                      },
+
+                    "rich-text#treinamento-content-6-2": {
+                        "props": {
+                            "text": "###  Título",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-secondary"
+                        }
+                    },
+
+                    "link#treinamento-content-6-2": {
+                      "props": {
+                        "href": "/",
+                        "label": "SAIBA MAIS",
+                        "displayMode":"button"
+                      }
+                    },
+          
+              // 3
+
+              "toggle-layout#treinamento-content-6-3": {
+                "children": [
+                  "flex-layout.col#treinamento-content-6-3"
+                ]
+            },
+                "flex-layout.col#treinamento-content-6-3": {
+                    "props": {
+                        "rowGap":6,
+                        "blockClass":"treinamento-content-slider"
+                    },
+                    "children": [
+                        "image#treinamento-content-6-3",
+                        "rich-text#treinamento-content-6-3",
+                        "link#treinamento-content-6-3"
+                    ]
+                },
+                
+                    "image#treinamento-content-6-3": {
+                      "props": {
+                      "src": "https://placehold.co/250x400"
+                      }
+                      },
+
+                    "rich-text#treinamento-content-6-3": {
+                        "props": {
+                            "text": "###  Título",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-secondary"
+                        }
+                    },
+
+                    "link#treinamento-content-6-3": {
+                      "props": {
+                        "href": "/",
+                        "label": "SAIBA MAIS",
+                        "displayMode":"button"
+                      }
+                    },
+
+              // 4
+
+              "toggle-layout#treinamento-content-6-4": {
+                "children": [
+                  "flex-layout.col#treinamento-content-6-4"
+                ]
+            },
+                "flex-layout.col#treinamento-content-6-4": {
+                    "props": {
+                        "rowGap":6,
+                        "blockClass":"treinamento-content-slider"
+                    },
+                    "children": [
+                        "image#treinamento-content-6-4",
+                        "rich-text#treinamento-content-6-4",
+                        "link#treinamento-content-6-4"
+                    ]
+                },
+                
+                    "image#treinamento-content-6-4": {
+                      "props": {
+                      "src": "https://placehold.co/250x400"
+                      }
+                      },
+
+                    "rich-text#treinamento-content-6-4": {
+                        "props": {
+                            "text": "###  Título",
+                            "textAlignment": "CENTER",
+                            "textPosition": "CENTER",
+                            "blockClass":"color-secondary"
+                        }
+                    },
+
+                    "link#treinamento-content-6-4": {
+                      "props": {
+                        "href": "/",
+                        "label": "SAIBA MAIS",
+                        "displayMode":"button"
+                      }
+                    }
+        
+
+
+
+} 

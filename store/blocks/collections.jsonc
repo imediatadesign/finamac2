@@ -1,0 +1,37 @@
+{
+  "store.custom#collections": { 
+    "blocks": [
+      // "flex-layout.row#banner-collections"
+      "search-result-layout.customQuery"
+    ]
+  },
+
+
+  "flex-layout.row#banner-collections": {
+    "props":{
+    },
+    "children": [
+      "search-result-layout.customQuery"
+    ]
+  },
+
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 30,
+        "queryField": "/brinquedos",
+        "mapField": "ft"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop", 
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}
+ 
+
+

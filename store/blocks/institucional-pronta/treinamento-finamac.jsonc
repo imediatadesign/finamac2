@@ -1,0 +1,127 @@
+{
+    "store.custom#treinamento-finamac": {
+        "children": [
+            "flex-layout.row#treinamentofinamac-1",
+            "flex-layout.row#treinamentofinamac-2",
+            "flex-layout.row#treinamentofinamac-3"
+        ]
+    },
+    
+    // Row 1
+
+    "flex-layout.row#treinamentofinamac-1": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "base2",
+                "padding40vs20"
+            ]
+        },
+        "children": [
+              "flex-layout.col#treinamentofinamac-1"
+        ]
+    },
+        "flex-layout.col#treinamentofinamac-1": {
+            "props": {
+                "rowGap":6
+            },
+            "children": [
+                "rich-text#treinamentofinamac-1-title",
+                "flex-layout.row#treinamentofinamac-1-row"
+            ]
+        },
+            
+            "rich-text#treinamentofinamac-1-title": {
+                "props": {
+                    "text": "## Treinamento Finamac™\nA capacitação para o seu negócio, por quem é referência no segmento",
+                    "blockClass":"color-secondary"
+                }
+            },
+
+            "flex-layout.row#treinamentofinamac-1-row": {
+                "props": {
+                    "colGap":8
+                },
+                "children": [
+                    "flex-layout.col#treinamentofinamac-1-1",
+                    "flex-layout.col#treinamentofinamac-1-2"
+                ]
+            },
+                    "flex-layout.col#treinamentofinamac-1-1": {
+                        "props": {
+                            "preventVerticalStretch":true,
+                            "verticalAlign":"middle"
+                        },
+                        "children": [
+                               "image#treinamento-1-1"
+                        ]
+                    },
+                            "image#treinamento-1-1": {
+                                "props": {
+                                "src": "assets/institucional/treinamentofinamac.webp",
+                                "blockClass":"width100"
+                                }
+                            },
+
+                    "flex-layout.col#treinamentofinamac-1-2": {
+                        "props": {
+                            "preventVerticalStretch":true,
+                            "verticalAlign":"middle"
+                        },
+                        "children": [
+                            "rich-text#treinamentofinamac-1-2"
+                        ]
+                    },
+                        "rich-text#treinamentofinamac-1-2": {
+                            "props": {
+                                "text": "### Como funciona o Treinamento?\n\nReceba treinamentos detalhados para você e sua equipe terem total capacitação ao operar os equipamentos FinamacTM, junto à técnicos especializados que farão você tirar o melhor aproveitamento de sua máquina, evitando erros de operação e otimizando a sua produção.\n\n**Treinamento operacional: uso da máquina.**\n\n**Manutenção Preventiva.**"
+                            }
+                        },
+
+    // Row 2
+
+    "flex-layout.row#treinamentofinamac-2": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "padding40vs20"
+            ]
+        },
+        "children": [
+               "rich-text#treinamentofinamac-2"
+        ]
+    },
+            "rich-text#treinamentofinamac-2": {
+                "props": {
+                    "text": "## Treinamentos Presenciais.\n\nPara a linha de equipamentos em que é possível, o treinamento operacional pode ser realizado nas dependências da FinamacTM. Verifique com seu consultor ou com a área técnica quais linhas de produtos possuem essa facilidade, como agendar e os custos envolvidos.\n\nCaso prefira o treinamento em sua fábrica, o mesmo poderá ser realizado no local da instalação por um técnico da FinamacTM. Os custos de deslocamento, estadia, alimentação e honorários serão definidos no ato da solicitação.",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER"
+                }
+            },
+
+    // Row 3
+
+    "flex-layout.row#treinamentofinamac-3": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "base2",
+                "padding40vs20"
+            ]
+        },
+        "children": [
+             "rich-text#treinamentofinamac-3-form"
+        ]
+    },
+            "rich-text#treinamentofinamac-3-form": {
+                "props": {
+                    "text": "## FORM",
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER",
+                    "blockClass":"color-primary"
+                }
+            }
+
+
+
+}

@@ -1,0 +1,309 @@
+/* WHATSAPP FLUTUANTE */
+
+:global(.vtex-store-components-3-x-imageElementLink--whatsapp-flutuante) {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    padding-right: 15px;
+    padding-bottom: 15px
+}
+
+.flexRowContent--infocard-home-container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 30px 40px;
+
+    @media only screen and (max-width: 600px) {
+        padding: 30px 20px;
+    }
+}
+
+/* Deals Home */
+
+.flexRow--deals-home-slider {
+    background: var(--primary);
+    padding: 10px;
+}
+
+.flexCol--deals-home {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: fit-content;
+    align-items: center;
+}
+
+.flexCol--deals-home :global(.vtex-rich-text-0-x-strong) {
+    font-size: 0.75rem !important;
+    color: var(--base);
+}
+
+.flexCol--deals-home :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 12px;
+    color: var(--base);
+}
+
+/* Serviços */
+
+.flexCol--servicos {
+    padding: 30px 50px;
+
+    @media only screen and (max-width: 600px) {
+        padding: 20px 10px 20px 40px;
+    }
+}
+
+.flexRowContent--produtos-home {
+    @media only screen and (max-width: 600px) {
+        padding: 30px 0px
+    }
+}
+
+.flexColChild--servicos:first-child {
+    padding-bottom: 12px;
+}
+
+:global(.vtex-store-link-0-x-childrenContainer--servicos) {
+    height: 100%;
+}
+
+.flexCol--servicos:hover {
+    background: var(--primary);
+    transition: ease-in-out 0.3s;
+}
+
+.flexCol--servicos:hover :global(.vtex-store-components-3-x-imageElement),
+.flexCol--servicos:hover :global(.vtex-rich-text-0-x-wrapper) {
+    filter: brightness(100);
+    color: var(--base);
+    transition: ease-in-out 0.3s;
+}
+
+:global(.vtex-store-link-0-x-link--servicos) {
+    width: 100% !important;
+    height: 100% !important;
+    border-right: solid 1px #BFC8D6;
+    border-bottom: solid 1px #BFC8D6;
+    border-top: solid 1px #BFC8D6;
+}
+
+/* Infocard Home */
+
+.flexRow--infocard-home {
+    background-color: var(--base2);
+}
+
+.flexRowContent--infocard-home {
+    max-width: 1300px;
+    margin: auto;
+    padding: 30px 40px;
+
+    @media only screen and (max-width: 600px) {
+        padding: 30px 20px;
+    }
+}
+
+
+/* Cursos */
+
+.flexRow--cursos-home {
+    background: var(--base2);
+}
+
+.flexRow--cursos-home :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf),
+.flexRow--cursos-home :global(.vtex-slider-layout-0-x-sliderTrack--shelf) {
+    padding: 0px;
+}
+
+.flexRowContent--cursos-home {
+    padding: 50px;
+    max-width: 1500px;
+    margin: auto;
+
+    @media only screen and (max-width: 600px) {
+        padding: 20px;
+    }
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrack--cursos-home) {
+    gap: 50px;
+    padding: 20px;
+}
+
+/*
+:global(.vtex-slider-layout-0-x-slide--cursos-home--visible){
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+*/
+
+/* Category Home */
+
+:global(.vtex-store-components-3-x-imageElement--category-home) {
+    max-width: 250px;
+    border-radius: .5rem;
+}
+
+.flexRowContent--category-home-slider {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Shelf Home */
+
+.flexRowContent--shelf-home {
+    gap: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    margin: auto;
+
+    @media only screen and (max-width: 600px) {
+        padding: 20px;
+    }
+}
+
+.flexRow--shelf-home :global(.vtex-slider-layout-0-x-slide--shelf) {
+    margin: 0px 8px;
+
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
+    padding-bottom: 30px !important;
+    padding-top: 10px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+
+    @media only screen and (max-width: 1024px) {
+        padding: 0px 0px 30px 0px !important;
+    }
+}
+
+
+/* Slider Marcas */
+
+.flexRow--slider-marcas {
+    padding: 40px;
+    background: var(--base2);
+
+    @media only screen and (max-width: 1024px) {
+        padding: 20px;
+    }
+}
+
+:global(.vtex-store-components-3-x-imageElement--slider-marcas) {
+    max-width: 150px;
+
+    @media only screen and (max-width: 600px) {
+        max-width: 120px;
+    }
+}
+
+:global(.vtex-rich-text-0-x-container--slider-marcas) {
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.flexRowContent--slider-marcas {
+    max-width: 1200px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .flexCol--deals-home :global(.vtex-store-components-3-x-imageElement) {
+        max-width: 28px !important;
+    }
+
+    .flexCol--deals-home :global(.vtex-rich-text-0-x-paragraph),
+    .flexCol--deals-home :global(.vtex-rich-text-0-x-strong) {
+        font-size: 11px !important;
+    }
+
+    .flexRowContent--newsletter :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+
+    .flexCol--info-availability {
+        padding: 0px 20px;
+    }
+
+    .flexRowContent--search-home :global(.vtex-button) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .flexRow--shelf-home :global(.vtex-slider-layout-0-x-slide--shelf) {
+        margin: 0px;
+    }
+
+    .flexRow--deals-home-slider {
+        padding: 10px 0px 20px 0px;
+    }
+
+    /* Category Home */
+
+    :global(.vtex-store-components-3-x-imageElement--category-home) {
+        max-width: 150px;
+    }
+
+    .flexCol--deals-home {
+        gap: 5px;
+    }
+
+}
+
+
+
+
+/* Service Content */
+.flexCol--service-content {
+    gap: .75rem;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+/* Coming Soon Items */
+.flexCol--service-coming-soon {
+    opacity: 0.6;
+    cursor: not-allowed;
+    position: relative;
+}
+
+.flexCol--service-coming-soon::after {
+    content: 'EM BREVE';
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #ff6b6b;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .flexCol--service-item {
+        padding: 2rem 1rem;
+        min-height: 200px;
+        border-radius: 12px;
+    }
+
+    .flexCol--service-item:hover {
+        transform: translateY(-4px) scale(1.01);
+    }
+
+    .flexCol--service-coming-soon::after {
+        font-size: 9px;
+        padding: 3px 6px;
+        top: 10px;
+        right: 10px;
+    }
+}

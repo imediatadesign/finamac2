@@ -1,0 +1,65 @@
+/* News Letter */
+
+.imageElement--newsletter-1{
+    bottom: -32px;
+    position: relative;
+    max-width: 180px;
+    padding-right: 50px;
+}
+
+/* Footer */
+
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--footer-socialmedia){
+    margin-top: 20px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrack--footer-socialmedia){
+    gap: 25px;
+}
+
+.imageElement--footer-socialmedia{
+    filter: brightness(0) invert(1) !important;
+    opacity: 0.8 !important;
+}
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--footer-socialmedia),
+:global(.vtex-slider-layout-0-x-slide--footer-socialmedia){
+    width: fit-content !important;
+}
+
+:global(.vtex-slider-layout-0-x-imageElement--footer-socialmedia){
+    max-width: 11px;
+    min-width: 11px;
+    max-height: 11px !important;
+}
+
+/* Formas de pagamento e selo */
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--footer-row-5-1),
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--footer-row-5-2){
+    width: fit-content !important;
+}
+
+:global(.vtex-store-components-3-x-imageElement--footer-row-5-1){
+    max-width: 22px;
+    opacity: 0.8;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--footer-row-5-1),
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--footer-row-5-2){
+    max-width: 300px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--footer-row-5-2){
+    max-width: 32px;
+    opacity: 0.8;
+}
+
+.imageElement--footer-row-5-1{
+    max-width: 40px;
+    opacity: 0.8;
+}
+
+.imageElement--footer-row-5-2{
+    max-width: 32px;
+    opacity: 0.8;
+}

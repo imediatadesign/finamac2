@@ -1,0 +1,1156 @@
+{
+    "store.custom#baselinks": {
+        "children": [
+             "flex-layout.row#baselinks-1",
+             "toggle-layout#baselinks-2-1",
+             "toggle-layout#baselinks-3-1",
+             "toggle-layout#baselinks-4-1",
+             "toggle-layout#baselinks-5-1",
+             "toggle-layout#baselinks-6-1",
+             "toggle-layout#baselinks-7-1",
+             "toggle-layout#baselinks-8-1",
+             "toggle-layout#baselinks-9-1"
+        ]
+    },
+
+    // Row 1
+
+    "flex-layout.row#baselinks-1": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "base2",
+                "padding40vs20"
+            ]
+        },
+        "children": [
+                "rich-text#baselinks-title"
+        ]
+    },
+        "rich-text#baselinks-title": {
+            "props": {
+                "text": "## Clientes Finamac™\nNossos clientes do mundo todo estão usando as soluções da Finamac™ para trazer mais inovação ao mercado de gelados",
+                "textAlignment": "LEFT",
+                "textPosition": "LEFT",
+                "blockClass":"color-secondary"
+            }
+        },
+
+
+    // Row 2
+
+    
+    "toggle-layout#baselinks-2-1": {
+        "children": [
+             "flex-layout.row#baselinks-2-1"
+          ]
+      },
+            "flex-layout.row#baselinks-2-1": {
+                "props": {
+                    "blockClass": [
+                        "1300",
+                        "baselinks"
+                    ]
+                },
+                "children": [
+                     "toggle-layout#baselinks-col-2-1",
+                     "toggle-layout#baselinks-col-2-2",
+                     "toggle-layout#baselinks-col-2-3"
+                ]
+            },
+            
+
+            // 1
+
+            "toggle-layout#baselinks-col-2-1": {
+                "children": [
+                    "flex-layout.col#baselinks-2-1"
+                  ]
+              },
+
+                "flex-layout.col#baselinks-2-1": {
+                    "props": {
+                        "blockClass":"baselinks"
+                    },
+                    "children": [
+                        "image#baselinks-2-1",
+                        "rich-text#baselinks-2-1",
+                        "link#baselinks-2-1"
+                    ]
+                },
+                    "image#baselinks-2-1": {
+                        "props": {
+                        "src": "https://placehold.co/600x400"
+                        }
+                    },
+
+                    "rich-text#baselinks-2-1": {
+                        "props": {
+                            "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                            "textAlignment": "LEFT",
+                            "textPosition": "LEFT",
+                            "blockClass":"baselinks"
+                        }
+                    },
+
+                    "link#baselinks-2-1": {
+                        "props": {
+                        "href": "/",
+                        "label": "CONHEÇA",
+                        "blockClass":"baselinks",
+                        "displayMode":"button"
+                        }
+                    },
+
+
+            // 2
+            
+            "toggle-layout#baselinks-col-2-2": {
+                "children": [
+                    "flex-layout.col#baselinks-2-2"
+                  ]
+              },
+
+            "flex-layout.col#baselinks-2-2": {
+                "props": {
+                    "blockClass":"baselinks"
+                },
+                "children": [
+                    "image#baselinks-2-2",
+                    "rich-text#baselinks-2-2",
+                    "link#baselinks-2-2"
+                ]
+            },
+                "image#baselinks-2-2": {
+                    "props": {
+                    "src": "https://placehold.co/600x400"
+                    }
+                },
+
+                "rich-text#baselinks-2-2": {
+                    "props": {
+                        "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"baselinks"
+                    }
+                },
+
+                "link#baselinks-2-2": {
+                    "props": {
+                    "href": "/",
+                    "label": "CONHEÇA",
+                    "blockClass":"baselinks",
+                    "displayMode":"button"
+                    }
+                },
+
+
+            // 3
+
+            "toggle-layout#baselinks-col-2-3": {
+                "children": [
+                    "flex-layout.col#baselinks-2-3"
+                  ]
+              },
+            
+            "flex-layout.col#baselinks-2-3": {
+                "props": {
+                    "blockClass":"baselinks"
+                },
+                "children": [
+                    "image#baselinks-2-3",
+                    "rich-text#baselinks-2-3",
+                    "link#baselinks-2-3"
+                ]
+            },
+                "image#baselinks-2-3": {
+                    "props": {
+                    "src": "https://placehold.co/600x400"
+                    }
+                },
+
+                "rich-text#baselinks-2-3": {
+                    "props": {
+                        "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"baselinks"
+                    }
+                },
+
+                "link#baselinks-2-3": {
+                    "props": {
+                    "href": "/",
+                    "label": "CONHEÇA",
+                    "blockClass":"baselinks",
+                    "displayMode":"button"
+                    }
+                },
+
+
+        // Row 3
+
+        "toggle-layout#baselinks-3-1": {
+            "children": [
+                    "flex-layout.row#baselinks-3-2"
+                ]
+            },
+  
+            "flex-layout.row#baselinks-3-2": {
+                "props": {
+                    "blockClass": [
+                        "1300",
+                        "baselinks"
+                    ],
+                    "paddingTop":4
+                },
+                "children": [
+                   "toggle-layout#baselinks-col-3-1",
+                   "toggle-layout#baselinks-col-3-2",
+                   "toggle-layout#baselinks-col-3-3"
+                ]
+            },
+  
+            // 1
+            
+            "toggle-layout#baselinks-col-3-1": {
+                "children": [
+                    "flex-layout.col#baselinks-3-1"
+                  ]
+              },
+            
+                "flex-layout.col#baselinks-3-1": {
+                    "props": {
+                        "blockClass":"baselinks"
+                    },
+                    "children": [
+                        "image#baselinks-3-1",
+                        "rich-text#baselinks-3-1",
+                        "link#baselinks-3-1"
+                    ]
+                },
+                    "image#baselinks-3-1": {
+                        "props": {
+                        "src": "https://placehold.co/600x400"
+                        }
+                    },
+  
+                    "rich-text#baselinks-3-1": {
+                        "props": {
+                            "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                            "textAlignment": "LEFT",
+                            "textPosition": "LEFT",
+                            "blockClass":"baselinks"
+                        }
+                    },
+  
+                    "link#baselinks-3-1": {
+                        "props": {
+                        "href": "/",
+                        "label": "CONHEÇA",
+                        "blockClass":"baselinks",
+                        "displayMode":"button"
+                        }
+                    },
+  
+  
+            // 2
+
+            "toggle-layout#baselinks-col-3-2": {
+                "children": [
+                    "flex-layout.col#baselinks-3-2"
+                  ]
+              },
+            
+            
+            "flex-layout.col#baselinks-3-2": {
+                "props": {
+                    "blockClass":"baselinks"
+                },
+                "children": [
+                    "image#baselinks-3-2",
+                    "rich-text#baselinks-3-2",
+                    "link#baselinks-3-2"
+                ]
+            },
+                "image#baselinks-3-2": {
+                    "props": {
+                    "src": "https://placehold.co/600x400"
+                    }
+                },
+  
+                "rich-text#baselinks-3-2": {
+                    "props": {
+                        "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"baselinks"
+                    }
+                },
+  
+                "link#baselinks-3-2": {
+                    "props": {
+                    "href": "/",
+                    "label": "CONHEÇA",
+                    "blockClass":"baselinks",
+                    "displayMode":"button"
+                    }
+                },
+  
+  
+            // 3
+
+        "toggle-layout#baselinks-col-3-3": {
+            "children": [
+                "flex-layout.col#baselinks-3-3"
+                ]
+            },
+        
+            "flex-layout.col#baselinks-3-3": {
+                "props": {
+                    "blockClass":"baselinks"
+                },
+                "children": [
+                    "image#baselinks-3-3",
+                    "rich-text#baselinks-3-3",
+                    "link#baselinks-3-3"
+                ]
+            },
+                "image#baselinks-3-3": {
+                    "props": {
+                    "src": "https://placehold.co/600x400"
+                    }
+                },
+  
+                "rich-text#baselinks-3-3": {
+                    "props": {
+                        "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"baselinks"
+                    }
+                },
+  
+                "link#baselinks-3-3": {
+                    "props": {
+                    "href": "/",
+                    "label": "CONHEÇA",
+                    "blockClass":"baselinks",
+                    "displayMode":"button"
+                    }
+                },
+
+    // Row 4 
+
+        
+    "toggle-layout#baselinks-4-1": {
+        "children": [
+             "flex-layout.row#baselinks-4-1"
+          ]
+      },
+            "flex-layout.row#baselinks-4-1": {
+                "props": {
+                    "blockClass": [
+                        "1300",
+                        "baselinks"
+                    ]
+                },
+                "children": [
+                    "toggle-layout#baselinks-col-4-1",
+                    "toggle-layout#baselinks-col-4-2",
+                    "toggle-layout#baselinks-col-4-3"
+                ]
+            },
+  
+            // 1
+
+            "toggle-layout#baselinks-col-4-1": {
+                "children": [
+                    "flex-layout.col#baselinks-4-1"
+                    ]
+                },
+  
+                "flex-layout.col#baselinks-4-1": {
+                    "props": {
+                        "blockClass":"baselinks"
+                    },
+                    "children": [
+                        "image#baselinks-4-1",
+                        "rich-text#baselinks-4-1",
+                        "link#baselinks-4-1"
+                    ]
+                },
+                    "image#baselinks-4-1": {
+                        "props": {
+                        "src": "https://placehold.co/600x400"
+                        }
+                    },
+  
+                    "rich-text#baselinks-4-1": {
+                        "props": {
+                            "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                            "textAlignment": "LEFT",
+                            "textPosition": "LEFT",
+                            "blockClass":"baselinks"
+                        }
+                    },
+  
+                    "link#baselinks-4-1": {
+                        "props": {
+                        "href": "/",
+                        "label": "CONHEÇA",
+                        "blockClass":"baselinks",
+                        "displayMode":"button"
+                        }
+                    },
+  
+  
+            // 2
+            
+            "toggle-layout#baselinks-col-4-2": {
+                "children": [
+                    "flex-layout.col#baselinks-4-2"
+                    ]
+                },
+
+            "flex-layout.col#baselinks-4-2": {
+                "props": {
+                    "blockClass":"baselinks"
+                },
+                "children": [
+                    "image#baselinks-4-2",
+                    "rich-text#baselinks-4-2",
+                    "link#baselinks-4-2"
+                ]
+            },
+                "image#baselinks-4-2": {
+                    "props": {
+                    "src": "https://placehold.co/600x400"
+                    }
+                },
+  
+                "rich-text#baselinks-4-2": {
+                    "props": {
+                        "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"baselinks"
+                    }
+                },
+  
+                "link#baselinks-4-2": {
+                    "props": {
+                    "href": "/",
+                    "label": "CONHEÇA",
+                    "blockClass":"baselinks",
+                    "displayMode":"button"
+                    }
+                },
+  
+  
+            // 3
+            
+        "toggle-layout#baselinks-col-4-3": {
+            "children": [
+                "flex-layout.col#baselinks-4-3"
+                ]
+            },
+
+            "flex-layout.col#baselinks-4-3": {
+                "props": {
+                    "blockClass":"baselinks"
+                },
+                "children": [
+                    "image#baselinks-4-3",
+                    "rich-text#baselinks-4-3",
+                    "link#baselinks-4-3"
+                ]
+            },
+                "image#baselinks-4-3": {
+                    "props": {
+                    "src": "https://placehold.co/600x400"
+                    }
+                },
+  
+                "rich-text#baselinks-4-3": {
+                    "props": {
+                        "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"baselinks"
+                    }
+                },
+  
+                "link#baselinks-4-3": {
+                    "props": {
+                    "href": "/",
+                    "label": "CONHEÇA",
+                    "blockClass":"baselinks",
+                    "displayMode":"button"
+                    }
+                },
+
+
+    // Row 5
+
+        
+    "toggle-layout#baselinks-5-1": {
+        "children": [
+             "flex-layout.row#baselinks-5-1"
+          ]
+      },
+            "flex-layout.row#baselinks-5-1": {
+                "props": {
+                    "blockClass": [
+                        "1300",
+                        "baselinks"
+                    ]
+                },
+                "children": [
+                    "toggle-layout#baselinks-col-5-1",
+                    "toggle-layout#baselinks-col-5-2",
+                    "toggle-layout#baselinks-col-5-3"
+                ]
+            },
+  
+            // 1
+
+            "toggle-layout#baselinks-col-5-1": {
+                "children": [
+                    "flex-layout.col#baselinks-5-1"
+                    ]
+                },
+                
+                "flex-layout.col#baselinks-5-1": {
+                    "props": {
+                        "blockClass":"baselinks"
+                    },
+                    "children": [
+                        "image#baselinks-5-1",
+                        "rich-text#baselinks-5-1",
+                        "link#baselinks-5-1"
+                    ]
+                },
+                    "image#baselinks-5-1": {
+                        "props": {
+                        "src": "https://placehold.co/600x400"
+                        }
+                    },
+  
+                    "rich-text#baselinks-5-1": {
+                        "props": {
+                            "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                            "textAlignment": "LEFT",
+                            "textPosition": "LEFT",
+                            "blockClass":"baselinks"
+                        }
+                    },
+  
+                    "link#baselinks-5-1": {
+                        "props": {
+                        "href": "/",
+                        "label": "CONHEÇA",
+                        "blockClass":"baselinks",
+                        "displayMode":"button"
+                        }
+                    },
+  
+  
+            // 2
+
+        "toggle-layout#baselinks-col-5-2": {
+            "children": [
+                "flex-layout.col#baselinks-5-2"
+                ]
+            },
+
+            "flex-layout.col#baselinks-5-2": {
+                "props": {
+                    "blockClass":"baselinks"
+                },
+                "children": [
+                    "image#baselinks-5-2",
+                    "rich-text#baselinks-5-2",
+                    "link#baselinks-5-2"
+                ]
+            },
+                "image#baselinks-5-2": {
+                    "props": {
+                    "src": "https://placehold.co/600x400"
+                    }
+                },
+  
+                "rich-text#baselinks-5-2": {
+                    "props": {
+                        "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"baselinks"
+                    }
+                },
+  
+                "link#baselinks-5-2": {
+                    "props": {
+                    "href": "/",
+                    "label": "CONHEÇA",
+                    "blockClass":"baselinks",
+                    "displayMode":"button"
+                    }
+                },
+  
+  
+            // 3
+
+        "toggle-layout#baselinks-col-5-3": {
+            "children": [
+                "flex-layout.col#baselinks-5-3"
+                ]
+            },
+
+            "flex-layout.col#baselinks-5-3": {
+                "props": {
+                    "blockClass":"baselinks"
+                },
+                "children": [
+                    "image#baselinks-5-3",
+                    "rich-text#baselinks-5-3",
+                    "link#baselinks-5-3"
+                ]
+            },
+                "image#baselinks-5-3": {
+                    "props": {
+                    "src": "https://placehold.co/600x400"
+                    }
+                },
+  
+                "rich-text#baselinks-5-3": {
+                    "props": {
+                        "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"baselinks"
+                    }
+                },
+  
+                "link#baselinks-5-3": {
+                    "props": {
+                    "href": "/",
+                    "label": "CONHEÇA",
+                    "blockClass":"baselinks",
+                    "displayMode":"button"
+                    }
+                },
+
+
+    // Row 6
+        
+    "toggle-layout#baselinks-6-1": {
+        "children": [
+             "flex-layout.row#baselinks-6-1"
+          ]
+      },
+            "flex-layout.row#baselinks-6-1": {
+                "props": {
+                    "blockClass": [
+                        "1300",
+                        "baselinks"
+                    ]
+                },
+                "children": [
+                    "toggle-layout#baselinks-col-6-1",
+                    "toggle-layout#baselinks-col-6-2",
+                    "toggle-layout#baselinks-col-6-3"
+                ]
+            },
+  
+            // 1
+
+            "toggle-layout#baselinks-col-6-1": {
+                "children": [
+                    "flex-layout.col#baselinks-6-1"
+                    ]
+                },
+
+                "flex-layout.col#baselinks-6-1": {
+                    "props": {
+                        "blockClass":"baselinks"
+                    },
+                    "children": [
+                        "image#baselinks-6-1",
+                        "rich-text#baselinks-6-1",
+                        "link#baselinks-6-1"
+                    ]
+                },
+                    "image#baselinks-6-1": {
+                        "props": {
+                        "src": "https://placehold.co/600x400"
+                        }
+                    },
+  
+                    "rich-text#baselinks-6-1": {
+                        "props": {
+                            "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                            "textAlignment": "LEFT",
+                            "textPosition": "LEFT",
+                            "blockClass":"baselinks"
+                        }
+                    },
+  
+                    "link#baselinks-6-1": {
+                        "props": {
+                        "href": "/",
+                        "label": "CONHEÇA",
+                        "blockClass":"baselinks",
+                        "displayMode":"button"
+                        }
+                    },
+  
+  
+            // 2
+            
+        "toggle-layout#baselinks-col-6-2": {
+            "children": [
+                "flex-layout.col#baselinks-6-2"
+                ]
+            },
+
+            "flex-layout.col#baselinks-6-2": {
+                "props": {
+                    "blockClass":"baselinks"
+                },
+                "children": [
+                    "image#baselinks-6-2",
+                    "rich-text#baselinks-6-2",
+                    "link#baselinks-6-2"
+                ]
+            },
+                "image#baselinks-6-2": {
+                    "props": {
+                    "src": "https://placehold.co/600x400"
+                    }
+                },
+  
+                "rich-text#baselinks-6-2": {
+                    "props": {
+                        "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"baselinks"
+                    }
+                },
+  
+                "link#baselinks-6-2": {
+                    "props": {
+                    "href": "/",
+                    "label": "CONHEÇA",
+                    "blockClass":"baselinks",
+                    "displayMode":"button"
+                    }
+                },
+  
+  
+            // 3
+
+        "toggle-layout#baselinks-col-6-3": {
+            "children": [
+                "flex-layout.col#baselinks-6-3"
+                ]
+            },
+            
+            "flex-layout.col#baselinks-6-3": {
+                "props": {
+                    "blockClass":"baselinks"
+                },
+                "children": [
+                    "image#baselinks-6-3",
+                    "rich-text#baselinks-6-3",
+                    "link#baselinks-6-3"
+                ]
+            },
+                "image#baselinks-6-3": {
+                    "props": {
+                    "src": "https://placehold.co/600x400"
+                    }
+                },
+  
+                "rich-text#baselinks-6-3": {
+                    "props": {
+                        "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"baselinks"
+                    }
+                },
+  
+                "link#baselinks-6-3": {
+                    "props": {
+                    "href": "/",
+                    "label": "CONHEÇA",
+                    "blockClass":"baselinks",
+                    "displayMode":"button"
+                    }
+                },
+  
+ 
+    // Row 7
+        
+    "toggle-layout#baselinks-7-1": {
+        "children": [
+             "flex-layout.row#baselinks-7-1"
+          ]
+      },
+            "flex-layout.row#baselinks-7-1": {
+                "props": {
+                    "blockClass": [
+                        "1300",
+                        "baselinks"
+                    ]
+                },
+                "children": [
+                     "toggle-layout#baselinks-col-7-1",
+                     "toggle-layout#baselinks-col-7-2",
+                     "toggle-layout#baselinks-col-7-3"
+                ]
+            },
+  
+            // 1
+  
+            "toggle-layout#baselinks-col-7-1": {
+                "children": [
+                        "flex-layout.col#baselinks-7-1"
+                    ]
+                },
+
+                "flex-layout.col#baselinks-7-1": {
+                    "props": {
+                        "blockClass":"baselinks"
+                    },
+                    "children": [
+                        "image#baselinks-7-1",
+                        "rich-text#baselinks-7-1",
+                        "link#baselinks-7-1"
+                    ]
+                },
+                    "image#baselinks-7-1": {
+                        "props": {
+                        "src": "https://placehold.co/600x400"
+                        }
+                    },
+  
+                    "rich-text#baselinks-7-1": {
+                        "props": {
+                            "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                            "textAlignment": "LEFT",
+                            "textPosition": "LEFT",
+                            "blockClass":"baselinks"
+                        }
+                    },
+  
+                    "link#baselinks-7-1": {
+                        "props": {
+                        "href": "/",
+                        "label": "CONHEÇA",
+                        "blockClass":"baselinks",
+                        "displayMode":"button"
+                        }
+                    },
+  
+  
+            // 2
+            
+            "toggle-layout#baselinks-col-7-2": {
+                "children": [
+                        "flex-layout.col#baselinks-7-2"
+                    ]
+                },
+
+
+            "flex-layout.col#baselinks-7-2": {
+                "props": {
+                    "blockClass":"baselinks"
+                },
+                "children": [
+                    "image#baselinks-7-2",
+                    "rich-text#baselinks-7-2",
+                    "link#baselinks-7-2"
+                ]
+            },
+                "image#baselinks-7-2": {
+                    "props": {
+                    "src": "https://placehold.co/600x400"
+                    }
+                },
+  
+                "rich-text#baselinks-7-2": {
+                    "props": {
+                        "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"baselinks"
+                    }
+                },
+  
+                "link#baselinks-7-2": {
+                    "props": {
+                    "href": "/",
+                    "label": "CONHEÇA",
+                    "blockClass":"baselinks",
+                    "displayMode":"button"
+                    }
+                },
+  
+  
+            // 3
+            
+            "toggle-layout#baselinks-col-7-3": {
+                "children": [
+                        "flex-layout.col#baselinks-7-3"
+                    ]
+                },
+
+
+            "flex-layout.col#baselinks-7-3": {
+                "props": {
+                    "blockClass":"baselinks"
+                },
+                "children": [
+                    "image#baselinks-7-3",
+                    "rich-text#baselinks-7-3",
+                    "link#baselinks-7-3"
+                ]
+            },
+                "image#baselinks-7-3": {
+                    "props": {
+                    "src": "https://placehold.co/600x400"
+                    }
+                },
+  
+                "rich-text#baselinks-7-3": {
+                    "props": {
+                        "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"baselinks"
+                    }
+                },
+  
+                "link#baselinks-7-3": {
+                    "props": {
+                    "href": "/",
+                    "label": "CONHEÇA",
+                    "blockClass":"baselinks",
+                    "displayMode":"button"
+                    }
+                },
+  
+
+    // Row 8
+        
+    "toggle-layout#baselinks-8-1": {
+        "children": [
+             "flex-layout.row#baselinks-8-1"
+          ]
+      },
+            "flex-layout.row#baselinks-8-1": {
+                "props": {
+                    "blockClass": [
+                        "1300",
+                        "baselinks"
+                    ]
+                },
+                "children": [
+                    "toggle-layout#baselinks-col-8-1",
+                    "toggle-layout#baselinks-col-8-2",
+                    "toggle-layout#baselinks-col-8-3"
+                ]
+            },
+  
+            // 1
+
+            "toggle-layout#baselinks-col-8-1": {
+                "children": [
+                    "flex-layout.col#baselinks-8-1"
+                    ]
+                },
+  
+                "flex-layout.col#baselinks-8-1": {
+                    "props": {
+                        "blockClass":"baselinks"
+                    },
+                    "children": [
+                        "image#baselinks-8-1",
+                        "rich-text#baselinks-8-1",
+                        "link#baselinks-8-1"
+                    ]
+                },
+                    "image#baselinks-8-1": {
+                        "props": {
+                        "src": "https://placehold.co/600x400"
+                        }
+                    },
+  
+                    "rich-text#baselinks-8-1": {
+                        "props": {
+                            "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                            "textAlignment": "LEFT",
+                            "textPosition": "LEFT",
+                            "blockClass":"baselinks"
+                        }
+                    },
+  
+                    "link#baselinks-8-1": {
+                        "props": {
+                        "href": "/",
+                        "label": "CONHEÇA",
+                        "blockClass":"baselinks",
+                        "displayMode":"button"
+                        }
+                    },
+  
+  
+            // 2
+
+        "toggle-layout#baselinks-col-8-2": {
+            "children": [
+                "flex-layout.col#baselinks-8-2"
+                ]
+            },
+            
+            "flex-layout.col#baselinks-8-2": {
+                "props": {
+                    "blockClass":"baselinks"
+                },
+                "children": [
+                    "image#baselinks-8-2",
+                    "rich-text#baselinks-8-2",
+                    "link#baselinks-8-2"
+                ]
+            },
+                "image#baselinks-8-2": {
+                    "props": {
+                    "src": "https://placehold.co/600x400"
+                    }
+                },
+  
+                "rich-text#baselinks-8-2": {
+                    "props": {
+                        "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"baselinks"
+                    }
+                },
+  
+                "link#baselinks-8-2": {
+                    "props": {
+                    "href": "/",
+                    "label": "CONHEÇA",
+                    "blockClass":"baselinks",
+                    "displayMode":"button"
+                    }
+                },
+  
+  
+            // 3
+
+        "toggle-layout#baselinks-col-8-3": {
+            "children": [
+                "flex-layout.col#baselinks-8-3"
+                ]
+            },
+            
+            "flex-layout.col#baselinks-8-3": {
+                "props": {
+                    "blockClass":"baselinks"
+                },
+                "children": [
+                    "image#baselinks-8-3",
+                    "rich-text#baselinks-8-3",
+                    "link#baselinks-8-3"
+                ]
+            },
+                "image#baselinks-8-3": {
+                    "props": {
+                    "src": "https://placehold.co/600x400"
+                    }
+                },
+  
+                "rich-text#baselinks-8-3": {
+                    "props": {
+                        "text": "##### Título do item\n\n**LOCAL:**\nNome do item",
+                        "textAlignment": "LEFT",
+                        "textPosition": "LEFT",
+                        "blockClass":"baselinks"
+                    }
+                },
+  
+                "link#baselinks-8-3": {
+                    "props": {
+                    "href": "/",
+                    "label": "CONHEÇA",
+                    "blockClass":"baselinks",
+                    "displayMode":"button"
+                    }
+                },
+  
+
+    // Row 9 - buttons
+    
+    "toggle-layout#baselinks-9-1": {
+        "props":{
+        },
+        "children": [
+             "flex-layout.row#baselinks-9-1"
+          ]
+      },
+            "flex-layout.row#baselinks-9-1": {
+                "props": {
+                    "blockClass": [
+                        "1300",
+                        "baselinks"
+                    ],
+                    "preventHorizontalStretch":true,
+                    "colGap":5,
+                    "rowGap":5,
+                    "paddingBottom":5
+                },
+                "children": [
+                   "toggle-layout#baselinks-9-1-button-1",
+                   "toggle-layout#baselinks-9-1-button-2"
+                ]
+            },
+                
+                "toggle-layout#baselinks-9-1-button-1": {
+                    "children": [
+                         "link#baselinks-9-1-button-1"
+                    ]
+                },
+                    "link#baselinks-9-1-button-1": {
+                        "props": {
+                        "href": "/",
+                        "label": "VOLTAR",
+                        "blockClass":"baselinks",
+                        "displayMode":"button"
+                        }
+                    },
+
+                "toggle-layout#baselinks-9-1-button-2": {
+                    "children": [
+                         "link#baselinks-9-1-button-2"
+                    ]
+                },
+                    "link#baselinks-9-1-button-2": {
+                        "props": {
+                        "href": "/",
+                        "label": "PRÓXIMO",
+                        "blockClass":"baselinks",
+                        "displayMode":"button"
+                        }
+                    }
+
+                
+
+
+
+}

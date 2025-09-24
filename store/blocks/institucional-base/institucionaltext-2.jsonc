@@ -1,0 +1,89 @@
+{
+    "store.custom#institucionaltext-v2": {
+        "children": [
+             "flex-layout.row#institucionaltext-1",
+             "toggle-layout#institucionaltext-v2-2",
+            "toggle-layout#institucionaltext-v2-3",
+             "flex-layout.row#institucionaltext-v2"
+        ]
+    },
+
+    // Row 1
+
+        "flex-layout.row#institucionaltext-v2": {
+            "props": {
+                "blockClass": [
+                    "1300",
+                    "padding40vs20"
+                ]
+            },
+            "children": [
+                   "rich-text#institucionaltext-v2"
+            ]
+        },
+            "rich-text#institucionaltext-v2": {
+                "props": {
+                    "text": "## > Título \n\nLorem ipsum dolor sit amet. Et fugiat officia vel fugiat dicta sit aliquid mollitia et consequatur minima. Ad nesciunt dolores et accusamus voluptatem eum eaque aspernatur eos iusto asperiores et eveniet dignissimos. Eum nemo eius et nihil omnis est doloribus nisi cum accusantium soluta. Id magni atque vel quia earum qui Quis dolor.",
+                    "textAlignment": "LEFT",
+                    "textPosition": "LEFT",
+                    "blockClass":["color-secondary"]
+                }
+            },
+
+    // 2
+            
+    "toggle-layout#institucionaltext-v2-2": {
+        "children": [
+            "flex-layout.row#institucionaltext-v2-2"
+          ]
+      },
+
+        "flex-layout.row#institucionaltext-v2-2": {
+            "props": {
+                "blockClass": [
+                    "1300",
+                    "baselinks-descr-2"
+                ]
+            },
+            "children": [
+               "list-context.image-list#baselinks-descr"
+            ]
+        },
+
+
+    // 3
+
+    "toggle-layout#institucionaltext-v2-3": {
+        "children": [
+            "flex-layout.row#institucionaltext-v2-3"
+          ]
+      },
+        "flex-layout.row#institucionaltext-v2-3": {
+            "props": {
+                "blockClass": [
+                    "1300",
+                    "padding40vs20"
+                ]
+            },
+            "children": [
+                    "video#baselinks-descr-2-inst"
+            ]
+            },
+                "video#baselinks-descr-2-inst": {
+                    "props": {
+                    "height": "480px",
+                    "loop": true,
+                    "autoPlay": false,
+                    "muted": false,
+                    "src": "https://youtu.be/QKdpAYsJpD4",
+                    "blockClass":"baselinks-descr-2"
+                    }
+                }
+
+
+
+
+
+}
+
+

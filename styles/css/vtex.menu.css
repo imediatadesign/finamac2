@@ -1,0 +1,276 @@
+/* 
+ * FLAG "EM BREVE" - INSTRUÇÕES PARA ATIVAR:
+ * 
+ * 1. No arquivo overlay-menu.jsonc, no menu-item#overlay-menu-2:
+ *    - Comentar: "blockClass":"overlay-menu-icon",
+ *    - Descomentar: "blockClass":["overlay-menu-icon", "menu-disabled"],
+ *    - Comentar: "href": "/servicos",
+ *    - Descomentar: "href": "#",
+ *    - Descomentar: "noFollow": true,
+ *    - Descomentar: "tagTitle": "SERVIÇOS - EM BREVE",
+ * 
+ * 2. O CSS abaixo já está pronto para funcionar quando ativado
+ */
+
+/* Menu Desabilitado - Serviços */
+:global(.vtex-menu-2-x-menuItem--menu-disabled) {
+  position: relative;
+  opacity: 0.7;
+  cursor: not-allowed !important;
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-disabled) :global(.vtex-menu-2-x-styledLink) {
+  cursor: not-allowed !important;
+  pointer-events: none;
+}
+
+/* Flag EM BREVE - aparece apenas no hover */
+:global(.vtex-menu-2-x-menuItem--menu-disabled)::after {
+  content: "EM BREVE";
+  position: absolute;
+  top: -8px;
+  right: -5px;
+  background-color: #e74c3c;
+  color: white;
+  font-size: 9px;
+  font-weight: 500;
+  padding: 1px 4px;
+  border-radius: 2px;
+  white-space: nowrap;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+
+
+:global(.vtex-menu-2-x-menuItem--menu-disabled):hover::after {
+  opacity: 1;
+}
+
+/* Remove o submenu desabilitado */
+:global(.vtex-menu-2-x-submenu--overlay-submenu-disabled) {
+  display: none !important;
+}
+
+/* Hover effect para menu desabilitado */
+:global(.vtex-menu-2-x-menuItem--menu-disabled):hover {
+  opacity: 0.7 !important;
+}
+
+/* Footer Menu Styles */
+.menuContainer--footer-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menuItem--footer-menu-item {
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 0;
+  transition: all 0.3s ease;
+}
+
+.menuItem--footer-menu-item::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #025da6, #0073cc);
+  transition: width 0.3s ease;
+}
+
+.menuItem--footer-menu-item:hover::before {
+  width: 12px;
+}
+
+.menuItem--footer-menu-item:hover {
+  padding-left: 8px;
+}
+
+.styledLink--footer-menu-item {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  position: relative;
+}
+
+.styledLink--footer-menu-item::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.8), transparent);
+  transition: width 0.3s ease;
+}
+
+.styledLink--footer-menu-item:hover {
+  color: #ffffff;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.styledLink--footer-menu-item:hover::after {
+  width: 100%;
+}
+
+/* Footer Support Links */
+.menuContainer--footer-support-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menuItem--footer-support-link {
+  margin-bottom: 12px;
+  transition: all 0.3s ease;
+}
+
+.styledLink--footer-support-link {
+  color: rgba(200, 200, 200, 0.9);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 300;
+  transition: all 0.3s ease;
+  display: inline-block;
+  padding: 2px 0;
+  position: relative;
+}
+
+.styledLink--footer-support-link::before {
+  content: '→';
+  position: absolute;
+  left: -20px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.styledLink--footer-support-link:hover {
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+.styledLink--footer-support-link:hover::before {
+  opacity: 1;
+  left: 0;
+}
+
+/* Mobile Footer Accordion Styles */
+@media (max-width: 768px) {
+  .menuContainer--footer-menu {
+    padding-left: 0;
+  }
+
+  .styledLink--footer-menu-item {
+    padding: 8px 0;
+    display: block;
+  }
+}
+
+/* Main Menu Desktop Styles - Menu Simplificado */
+.menuContainer--main-menu-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
+  height: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+/* Main Menu Items - Estilo Limpo e Moderno */
+.menuItem--main-menu-item {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.styledLink--main-menu-item {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+
+.styledLink--main-menu-item:hover {
+  color: #f0f8ff;
+}
+
+
+
+
+/* Menu Simplificado - Remover estilos de submenu não utilizados */
+
+/* Mobile Menu - Hide desktop on mobile */
+@media (max-width: 768px) {
+  .menuContainer--main-menu-desktop {
+    display: none;
+  }
+}
+
+/* Mobile Menu Styles - Simplificado */
+.menuContainer--main-menu-mobile-list {
+  padding: 1rem 0;
+}
+
+.menuItem--mobile-menu-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.styledLink--mobile-menu-item {
+  display: block;
+  padding: 1rem 1.5rem;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  transition: all 0.2s ease;
+}
+
+.styledLink--mobile-menu-item:hover,
+.styledLink--mobile-menu-item:active {
+  background: rgba(2, 93, 166, 0.05);
+  color: #025da6;
+  padding-left: 2rem;
+}
+
+/* Mobile Menu Highlight */
+.styledLink--mobile-menu-highlight {
+  color: #025da6 !important;
+  font-weight: 600;
+  background: rgba(2, 93, 166, 0.05);
+  margin: 0.5rem 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.styledLink--mobile-menu-highlight:hover {
+  background: rgba(2, 93, 166, 0.1);
+}
+
+/* Mobile Menu - Show drawer only on mobile */
+@media (min-width: 769px) {
+  .drawerContainer--main-menu-mobile {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "flex-layout.col#overlay-menu": {
+    "props": {
+      "blockClass": [
+        "overlay-menu"
+      ],
+      "width": "grow"
+    },
+    "children": [
+      "flex-layout.row#main-menu"
+    ]
+  }
+}

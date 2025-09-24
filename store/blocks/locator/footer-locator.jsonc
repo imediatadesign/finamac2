@@ -1,0 +1,53 @@
+{
+
+"flex-layout.row#store-locator-footer": {
+  "props":{
+    "paddingBottom":8,
+    "blockClass":["store-locator-footer","1300"]
+  },
+    "children": [
+      "flex-layout.col#store-locator-footer"
+    ]
+  },
+    "flex-layout.col#store-locator-footer": {
+      "props":{
+      },
+        "children": [
+          "flex-layout.row#storelocator-footer-title",
+          "flex-layout.row#storelocator-footer-container"
+        ]
+      },
+  // Titulo
+
+  "flex-layout.row#storelocator-footer-title": {
+   "props":{
+      "width":"100%"
+   },
+    "children": ["flex-layout.col#storelocator-footer-title"]
+  },
+
+  "flex-layout.col#storelocator-footer-title": {
+      "children": ["rich-text#storelocator-footer-title"],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#storelocator-footer-title": {
+      "props": {
+      "textPosition": "LEFT",
+      "text": "**Encontre uma loja perto de você:**",
+      "blockClass":"storelocator-title-footer"
+      }
+    },
+  
+  // Container
+
+  "flex-layout.row#storelocator-footer-container": {
+   "props":{
+      "width":"100%"
+   },
+    "children": [
+      "store-list"
+  ]
+  }
+}

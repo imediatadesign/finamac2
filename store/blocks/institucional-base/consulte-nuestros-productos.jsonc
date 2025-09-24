@@ -1,0 +1,36 @@
+{
+  "store.custom#consulte-nuestros-productos": {
+    "blocks": [
+      "flex-layout.row#consulte-nuestros-productos"
+    ]
+  },
+  
+  "flex-layout.row#consulte-nuestros-productos": {
+    "props": {
+      "blockClass": "1300",
+      "paddingTop":{
+        "desktop":4,
+        "mobile":2
+      }
+    },
+    "children": [
+      "flex-layout.col#consulte-nuestros-productos"
+    ]
+  },
+  
+  "flex-layout.col#consulte-nuestros-productos": {
+    "children": [
+      // "rich-text#consulte-nuestros-productos-title",
+      "app-form-leads"
+    ]
+  },
+  
+  "rich-text#consulte-nuestros-productos-title": {
+    "props": {
+      "blockClass": "consulte-nuestros-productos-title",
+      "text": "### Consulte nuestros productos \n Al completar el formulario tendrá acceso a los correos electrónicos, teléfonos y WhatsApp de nuestro equipo de inmediato.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

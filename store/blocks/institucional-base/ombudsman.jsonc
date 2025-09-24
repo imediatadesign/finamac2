@@ -1,0 +1,36 @@
+{
+  "store.custom#ombudsman": {
+    "blocks": [
+      "flex-layout.row#institucional-Ombudsman"
+    ]
+  },
+
+  "flex-layout.row#institucional-Ombudsman": {
+    "children": [
+      "flex-layout.col#institucional-Ombudsman"
+    ],
+    "props": {
+      "blockClass": "institucional-ombudsman"
+    }
+  },
+
+  "flex-layout.col#institucional-Ombudsman": {
+    "children": [
+      // "rich-text#ombudsman-title",
+      "app-form-ouvidoria"
+    ],
+    "props": {
+      "blockClass": "institucional-ombudsman",
+      "width": "100%"
+    }
+  },
+
+  "rich-text#ombudsman-title": {
+    "props": {
+      "text": "# Ombudsman\n\nFinamac's Ombudsman is a direct communication channel between you and our company. Here you can send suggestions, complaints or compliments that will be treated with complete confidentiality.",
+      "blockClass": "ombudsman-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

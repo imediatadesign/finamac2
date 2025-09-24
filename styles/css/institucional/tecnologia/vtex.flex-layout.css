@@ -1,0 +1,21 @@
+
+
+.flexRow--tecnologia-4{
+    background: linear-gradient(180deg, #233f6f 0%, #1C396B 100%);
+    padding: 60px;
+    @media only screen and (max-width: 600px){
+        padding: 20px;
+    }
+}
+
+.flexRowContent--tecnologia-4{
+    max-width: 1000px;
+    margin: auto;
+}
+
+:global(.vtex-rich-text-0-x-container--tecnologia-6){
+    border: solid 2px #D4D4D4;
+    padding: 20px 15px;
+    border-radius: 10px;
+    align-items: start;
+}

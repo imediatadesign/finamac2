@@ -1,0 +1,17 @@
+
+
+
+/* 2 */
+
+.flexRow--premiacoes-2{
+    background: linear-gradient(180deg, #233f6f 0%, #1C396B 100%);
+    padding: 70px 50px;
+    @media only screen and (max-width:1024px){
+        padding: 40px 20px;
+    }
+}
+
+.flexRowContent--premiacoes-2{
+    max-width: 1000px;
+    margin: auto;
+}

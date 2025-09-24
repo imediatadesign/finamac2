@@ -1,0 +1,193 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#newsletter",
+      "flex-layout.row#footer-row-2",
+      "flex-layout.row#footer-info"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-mobile-main"
+    ]
+  },
+
+  // FOOTER MOBILE PRINCIPAL
+  "flex-layout.row#footer-mobile-main": {
+    "props": {
+      "blockClass": "footer-mobile-main",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#footer-mobile-content"]
+  },
+
+  "flex-layout.col#footer-mobile-content": {
+    "props": {
+      "blockClass": "footer-mobile-content",
+      "width": "100%"
+    },
+    "children": [
+      "rich-text#footer-mobile-newsletter-title",
+      "newsletter-form#footer-mobile",
+      "rich-text#footer-mobile-divider",
+      "vtex.menu@2.x:menu#footer-mobile-links",
+      "logo#footer-mobile-logo",
+      "flex-layout.row#footer-mobile-social",
+      "rich-text#footer-mobile-copyright"
+    ]
+  },
+
+  // Newsletter
+  "rich-text#footer-mobile-newsletter-title": {
+    "props": {
+      "text": "**ASSINE NOSSA NEWSLETTER**\nReceba novidades e ofertas exclusivas",
+      "blockClass": "footer-mobile-newsletter-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "newsletter-form#footer-mobile": {
+    "props": {
+      "blockClass": "footer-mobile-newsletter"
+    }
+  },
+
+  "rich-text#footer-mobile-divider": {
+    "props": {
+      "text": " ",
+      "blockClass": "footer-mobile-divider"
+    }
+  },
+
+  // Menu Links
+  "vtex.menu@2.x:menu#footer-mobile-links": {
+    "props": {
+      "blockClass": "footer-mobile-links",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-mobile-sobre",
+      "menu-item#footer-mobile-produtos",
+      "menu-item#footer-mobile-contato",
+      "menu-item#footer-mobile-conta",
+      "menu-item#footer-mobile-politicas"
+    ]
+  },
+
+  "menu-item#footer-mobile-sobre": {
+    "props": {
+      "blockClass": "footer-mobile-link",
+      "text": "Sobre Nós",
+      "href": "/institucional/sobre-nos"
+    }
+  },
+
+  "menu-item#footer-mobile-produtos": {
+    "props": {
+      "blockClass": "footer-mobile-link",
+      "text": "Produtos",
+      "href": "/produtos"
+    }
+  },
+
+  "menu-item#footer-mobile-contato": {
+    "props": {
+      "blockClass": "footer-mobile-link",
+      "text": "Contato",
+      "href": "/contato"
+    }
+  },
+
+  "menu-item#footer-mobile-conta": {
+    "props": {
+      "blockClass": "footer-mobile-link",
+      "text": "Minha Conta",
+      "href": "/account"
+    }
+  },
+
+  "menu-item#footer-mobile-politicas": {
+    "props": {
+      "blockClass": "footer-mobile-link",
+      "text": "Políticas",
+      "href": "/politicas"
+    }
+  },
+
+  // Logo
+  "logo#footer-mobile-logo": {
+    "props": {
+      "title": "Finamac",
+      "href": "/",
+      "url": "https://finamac.vtexassets.com/arquivos/logo-finamac.png",
+      "blockClass": "footer-mobile-logo",
+      "width": 150
+    }
+  },
+
+  // Social
+  "flex-layout.row#footer-mobile-social": {
+    "props": {
+      "blockClass": "footer-mobile-social",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "link#footer-mobile-facebook",
+      "link#footer-mobile-instagram",
+      "link#footer-mobile-linkedin",
+      "link#footer-mobile-youtube"
+    ]
+  },
+
+  "link#footer-mobile-facebook": {
+    "props": {
+      "href": "https://facebook.com/finamac",
+      "target": "_blank",
+      "blockClass": "footer-mobile-social-link",
+      "label": "Facebook"
+    }
+  },
+
+  "link#footer-mobile-instagram": {
+    "props": {
+      "href": "https://instagram.com/finamac",
+      "target": "_blank",
+      "blockClass": "footer-mobile-social-link",
+      "label": "Instagram"
+    }
+  },
+
+  "link#footer-mobile-linkedin": {
+    "props": {
+      "href": "https://linkedin.com/company/finamac",
+      "target": "_blank",
+      "blockClass": "footer-mobile-social-link",
+      "label": "LinkedIn"
+    }
+  },
+
+  "link#footer-mobile-youtube": {
+    "props": {
+      "href": "https://youtube.com/finamac",
+      "target": "_blank",
+      "blockClass": "footer-mobile-social-link",
+      "label": "YouTube"
+    }
+  },
+
+  // Copyright
+  "rich-text#footer-mobile-copyright": {
+    "props": {
+      "text": "© 2024 Finamac - Todos os direitos reservados",
+      "blockClass": "footer-mobile-copyright",
+      "textAlignment": "CENTER"
+    }
+  }
+}

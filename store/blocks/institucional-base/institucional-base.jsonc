@@ -1,0 +1,78 @@
+{
+    "store.custom#institucional": {
+        "children": [
+            "flex-layout.row#slider-institucional",
+            "flex-layout.row#text-menu-institucional"
+        ]
+    },
+
+    // Banner
+
+    "flex-layout.row#slider-institucional": {
+        "props": {
+            "blockClass": "1300",
+            "paddingTop":{
+                "desktop":4,
+                "mobile":2
+            }
+        },
+        "children": [
+            "list-context.image-list#slider-institucional"
+        ]
+    },
+            "list-context.image-list#slider-institucional": {
+                "children": ["slider-layout#slider-institucional"],
+                "props": {
+                "height": "100%",
+                "preload": true,
+                "images": [
+                    {
+                    "image":  "https://placehold.co/1600x200",
+                    "mobileImage": "https://placehold.co/400x200"
+                    }
+                ]
+                }
+            },
+                    "slider-layout#slider-institucional": {
+                        "props": {
+                        "itemsPerPage": {
+                            "desktop": 1,
+                            "tablet": 1,
+                            "phone": 1
+                        },
+                        "infinite": true,
+                        "showNavigationArrows": "always",
+                        "blockClass":["slider-home","fullslider"]
+                        }
+                    },
+
+      
+    //
+
+    "flex-layout.row#text-menu-institucional": {
+        "props": {
+            "blockClass": [
+                "1300",
+                "institucional"
+            ]
+        },
+        "children": [
+           "flex-layout.col#institucional-menu", //externo
+            "flex-layout.col#politica-text-institucional"
+        ]
+    },
+    "flex-layout.col#politica-text-institucional": {
+        "props": {
+            "blockClass": "institucional"
+        },
+        "children": [
+            "rich-text#politica-text-institucional"
+        ]
+    },
+    "rich-text#politica-text-institucional": {
+        "props": {
+            "blockClass": "institucional-text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+    }
+}

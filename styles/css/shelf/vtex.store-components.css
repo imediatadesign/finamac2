@@ -1,0 +1,62 @@
+
+:global(.vtex-product-summary-2-x-containerNormal){
+    max-width: 100% !important;
+    @media only screen and (max-width: 1024px){
+        margin: 0px;
+    }
+    
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--shelf) :global(.vtex-product-price-1-x-listPrice),
+:global(.vtex-search-result-3-x-gallery) :global(.vtex-product-price-1-x-listPrice){
+    color: #818181;
+}
+
+/* BADGES */
+
+:global(.vtex-product-specification-badges-0-x-badgeText--loja-turbo){
+    display: none;
+}
+
+:global(.vtex-product-specification-badges-0-x-groupContainer)::before{
+    content: url(https://compresuapeca.vtexassets.com/assets/vtex.file-manager-graphql/images/c69a82d3-f760-4bb2-b9ef-007157129b09___b0c4250e175fd7ae9b666d52c7cf490c.svg);
+}
+
+/* Wishlist */
+
+:global(.vtex-wish-list-1-x-wishlistIcon):hover, :global(.vtex-wish-list-1-x-fill){
+    content: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjMiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMyAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIwLjM1ODUgMi41MTAxN0MxOS4yNDg2IDEuNTc3OTggMTcuODI1MSAxLjEwMzY4IDE2LjM3NzggMS4xODM3N0MxNC45MzA2IDEuMjYzODUgMTMuNTY4MiAxLjg5MjMxIDEyLjU2NzggMi45NDEyN0wxMS43MzEyIDMuNzczOEwxMC45MjQxIDIuOTEyNThDOS45NjA5MiAxLjgyOTM0IDguNjIxMzEgMS4xNTM3MyA3LjE3NzcxIDEuMDIzMThDNS43MzQxMSAwLjg5MjYzMiA0LjI5NSAxLjMxNjk3IDMuMTUzMTcgMi4yMDk4NUMyLjUyOTY0IDIuNzI5NzggMi4wMTgzNSAzLjM3MTA4IDEuNjUwMzggNC4wOTQ3NkMxLjI4MjQxIDQuODE4NDQgMS4wNjU0NCA1LjYwOTM4IDEuMDEyNjcgNi40MTk1MkMwLjk1OTg4NyA3LjIyOTY3IDEuMDcyNDEgOC4wNDIwOCAxLjM0MzM4IDguODA3MzhDMS42MTQzNSA5LjU3MjY4IDIuMDM4MTIgMTAuMjc0OCAyLjU4ODkyIDEwLjg3MTNMMTAuNTExMyAxOS4zNDI4QzEwLjYzMSAxOS40NzI1IDEwLjc3NTggMTkuNTc2NiAxMC45MzY5IDE5LjY0ODhDMTEuMDk4IDE5LjcyMDkgMTEuMjcyMSAxOS43NTk4IDExLjQ0ODYgMTkuNzYyOEMxMS42MjUxIDE5Ljc2NTkgMTEuODAwNCAxOS43MzMyIDExLjk2MzkgMTkuNjY2N0MxMi4xMjc0IDE5LjYwMDIgMTIuMjc1NyAxOS41MDEyIDEyLjQgMTkuMzc1OEwyMC42MTUxIDExLjE5MDlDMjEuMTg3MSAxMC42MTQ2IDIxLjYzNTkgOS45Mjc5NSAyMS45MzQgOS4xNzI3MUMyMi4yMzIyIDguNDE3NDQgMjIuMzczNiA3LjYwOTM4IDIyLjM0OTUgNi43OTc3NEMyMi4zMjU0IDUuOTg2MDkgMjIuMTM2MyA1LjE4Nzg0IDIxLjc5MzkgNC40NTE1OUMyMS40NTE0IDMuNzE1MzQgMjAuOTYyNyAzLjA1NjQ5IDIwLjM1NzQgMi41MTUxNUwyMC4zNTg1IDIuNTEwMTdaIiBmaWxsPSIjMTMyODRDIiBzdHJva2U9IiMxMzI4NEMiLz4KPC9zdmc+Cg==);
+}
+
+:global(.vtex-wish-list-1-x-outline){
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyNCAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIwLjYwMDEgMi42MjgxNEMxOS40OTAxIDEuNjk1OTUgMTguMDY2NyAxLjIyMTY1IDE2LjYxOTQgMS4zMDE3NEMxNS4xNzIxIDEuMzgxODIgMTMuODA5NyAyLjAxMDI4IDEyLjgwOTQgMy4wNTkyNEwxMS45NzI3IDMuODkxNzdMMTEuMTY1NiAzLjAzMDU1QzEwLjIwMjUgMS45NDczMSA4Ljg2Mjg3IDEuMjcxNyA3LjQxOTI3IDEuMTQxMTVDNS45NzU2NyAxLjAxMDYgNC41MzY1NiAxLjQzNDk0IDMuMzk0NzMgMi4zMjc4MkMyLjc3MTIgMi44NDc3NSAyLjI1OTkxIDMuNDg5MDUgMS44OTE5NCA0LjIxMjczQzEuNTIzOTcgNC45MzY0IDEuMzA3IDUuNzI3MzUgMS4yNTQyMyA2LjUzNzQ5QzEuMjAxNDUgNy4zNDc2MyAxLjMxMzk3IDguMTYwMDUgMS41ODQ5NCA4LjkyNTM1QzEuODU1OTEgOS42OTA2NSAyLjI3OTY3IDEwLjM5MjkgMi44MzA0OCAxMC45ODkzTDEwLjc1MjggMTkuNDYwOEMxMC44NzI2IDE5LjU5MDUgMTEuMDE3NCAxOS42OTQ2IDExLjE3ODUgMTkuNzY2OEMxMS4zMzk2IDE5LjgzOSAxMS41MTM2IDE5Ljg3NzggMTEuNjkwMSAxOS44ODA5QzExLjg2NjYgMTkuODgzOSAxMi4wNDE5IDE5Ljg1MTIgMTIuMjA1NSAxOS43ODQ3QzEyLjM2OSAxOS43MTgyIDEyLjUxNzMgMTkuNjE5MiAxMi42NDE1IDE5LjQ5MzhMMjAuODU2NiAxMS4zMDg5QzIxLjQyODcgMTAuNzMyNiAyMS44Nzc1IDEwLjA0NiAyMi4xNzU2IDkuMjkwNjhDMjIuNDczOCA4LjUzNTQxIDIyLjYxNTEgNy43MjczNSAyMi41OTEgNi45MTU3MUMyMi41NjY5IDYuMTA0MDYgMjIuMzc3OSA1LjMwNTgxIDIyLjAzNTQgNC41Njk1NkMyMS42OTMgMy44MzMzMSAyMS4yMDQyIDMuMTc0NDYgMjAuNTk5IDIuNjMzMTJMMjAuNjAwMSAyLjYyODE0WiIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjwvc3ZnPgo=) !important; 
+    transform: scale(0.8)
+}
+
+:global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button){
+    background: none;
+}
+
+:global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button__label){
+    padding: 0px !important;
+}
+
+:global(.vtex-wish-list-1-x-fill):global(.vtex-wish-list-1-x-iconSize){
+    display: inline-block;
+    transform: scale(0.8) !important;
+    background-repeat: no-repeat !important;
+    width: 20.9px !important;
+    height: 20px !important;
+}
+
+:global(.vtex-wish-list-1-x-iconSize){
+    display: inline-block;
+    width: 23px !important;
+     transform: scale(0.8) !important;
+    background-repeat: no-repeat !important;
+    height: 21px !important;
+    top: 0;
+    position: absolute;
+    z-index: 30 !important;
+}
+

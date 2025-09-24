@@ -1,0 +1,35 @@
+:not(:global(.vtex-fake)),
+:global(.vtex-store__template),
+:global(.vtex-modal-layout-0-x-container),
+:global(.vtex-minicart-2-x-drawer),
+:global(.vtex-telemarketing-2-x-portalContainer) {
+  --primary: #005ea6;
+  --secondary: #13284C;
+  --tertiary: #0074DB;
+  --quartenary: #f6921e;
+  --base: #FFF;
+  --base2: #f7f9fc;
+  --white: #fff;
+  --dark: #000;
+  --light-grey: #A1A1A1;
+}
+
+/*
+:global(.vtex-store__template){
+  background-color: #f7f7f7 !important
+}
+
+:global(.vtex-button){
+  border-radius: .35rem !important;
+}
+
+*/
+
+
+:global(.vtex-store-components-3-x-container) {
+  margin: 0 auto !important;
+}
+
+:global(.vtex-search-result-3-x-filter__container--priceRange) {
+  display: none !important;
+}

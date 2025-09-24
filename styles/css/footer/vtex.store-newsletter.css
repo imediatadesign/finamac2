@@ -1,0 +1,24 @@
+/* Newsletter Success Message */
+
+:global(.vtex-store-newsletter-1-x-defaultSuccessMessage) {
+    color: #ffffff !important;
+    font-size: 1.125rem !important;
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+/* Newsletter container styles */
+:global(.vtex-store-newsletter-1-x-container) {
+    color: #ffffff;
+}
+
+/* Newsletter input styles */
+:global(.vtex-store-newsletter-1-x-inputGroup) {
+    margin-bottom: 1rem;
+}
+
+/* Newsletter submit button */
+:global(.vtex-store-newsletter-1-x-buttonContainer) {
+    margin-top: 1rem;
+}

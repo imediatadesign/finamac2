@@ -1,0 +1,150 @@
+{
+  "drawer#menu": {
+    "children": [
+      "menu#drawer"
+    ],
+    "props": {
+      "blockClass": "menu-drawer"
+    }
+  },
+  "menu#drawer": {
+    "children": [
+      "flex-layout.col#menu-drawer"
+    ],
+    "props": {
+      "blockClass": "menu-drawer"
+    }
+  },
+  "flex-layout.col#menu-drawer": {
+    "props": {
+      "blockClass": "menu-drawer-container"
+    },
+    "children": [
+      "flex-layout.col#drawer-menu-items"
+    ]
+  },
+  // Drawer Header
+  "flex-layout.row#drawer-header": {
+    "props": {
+      "blockClass": "drawer-header",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "paddingLeft": 5,
+      "paddingRight": 5
+    },
+    "children": [
+      "rich-text#drawer-title",
+      "drawer-close-button"
+    ]
+  },
+  "rich-text#drawer-title": {
+    "props": {
+      "text": "**MENU**",
+      "blockClass": "drawer-title",
+      "textAlignment": "LEFT"
+    }
+  },
+  "drawer-close-button": {
+    "props": {
+      "blockClass": "drawer-close"
+    }
+  },
+  // Menu Items
+  "flex-layout.col#drawer-menu-items": {
+    "props": {
+      "blockClass": "drawer-menu-items"
+    },
+    "children": [
+      "menu-item#drawer-machines",
+      "flex-layout.row#border-bottom",
+      "menu-item#drawer-accessories",
+      "flex-layout.row#border-bottom",
+      "menu-item#drawer-services",
+      "flex-layout.row#border-bottom",
+      "menu-item#drawer-courses",
+      "flex-layout.row#border-bottom",
+      "menu-item#drawer-blog",
+      "flex-layout.row#border-bottom",
+      "menu-item#drawer-quote",
+      "flex-layout.row#border-bottom",
+      "menu-item#drawer-contact"
+    ]
+  },
+  // Menu Items Individuais
+  "menu-item#drawer-machines": {
+    "props": {
+      "blockClass": "drawer-menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/maquinas",
+        "text": "MÁQUINAS"
+      }
+    }
+  },
+  "menu-item#drawer-accessories": {
+    "props": {
+      "blockClass": "drawer-menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "text": "ACESSÓRIOS"
+      }
+    }
+  },
+  "menu-item#drawer-services": {
+    "props": {
+      "blockClass": "drawer-menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/pecas-de-reposicao",
+        "text": "PEÇAS DE RESPOSIÇÃO"
+      }
+    }
+  },
+  "menu-item#drawer-courses": {
+    "props": {
+      "blockClass": "drawer-menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/cursos",
+        "text": "CURSOS"
+      }
+    }
+  },
+  "menu-item#drawer-blog": {
+    "props": {
+      "blockClass": "drawer-menu-item",
+      "itemProps": {
+        "type": "external",
+        "href": "https://blog.finamac.com/",
+        "text": "BLOG"
+      }
+    }
+  },
+  "menu-item#drawer-quote": {
+    "props": {
+      "blockClass": "drawer-menu-item drawer-menu-highlight",
+      "itemProps": {
+        "type": "internal",
+        "href": "/consulte-nossos-produtos",
+        "text": "PEDIR UM ORÇAMENTO"
+      }
+    }
+  },
+  "menu-item#drawer-contact": {
+    "props": {
+      "blockClass": "drawer-menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/assistencia-tecnica-finamac",
+        "text": "CONTATO"
+      }
+    }
+  },
+  // Border Bottom
+  "flex-layout.row#border-bottom": {
+    "props": {
+      "blockClass": "drawer-border-bottom"
+    }
+  }
+}

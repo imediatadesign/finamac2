@@ -1,0 +1,283 @@
+{
+
+  "store.custom#sobrenos": {
+    "path": "/sobrenos"
+  },
+  "store.custom#premiacoes": {
+    "path": "/premiacoes"
+  },
+  "store.custom#tecnologia": {
+    "path": "/tecnologia"
+  },
+
+  "store.custom#consultorias-page": {
+    "path": "/consultorias"
+  },
+  "store.custom#treinamento": {
+    "path": "/treinamento"
+  },
+  "store.custom#treinamento-finamac": {
+    "path": "/treinamento-finamac"
+  },
+
+
+  "store.custom#baselinks": {
+    "path": "/baselinks"
+  },
+  "store.custom#baselinks-descr": {
+    "path": "/baselinks-descr"
+  },
+  "store.custom#institucionaltext": {
+    "path": "/institucionaltext"
+  },
+  "store.custom#institucionaltext-v2": {
+    "path": "/institucionaltext-v2"
+  },
+  "store.custom#politicas": {
+    "path": "/politicas"
+  },
+  "store.custom#collections": {
+    "path": "/collections"
+  },
+  "store.custom#institucional": {
+    "path": "/institucional"
+  },
+  "store.custom#treinamento-videos": {
+    "path": "/treinamento-videos"
+  },
+  
+
+  
+  "store.storelocator": {
+    "path": "/nossas-lojas"
+  },
+
+  "store.storedetail": {
+    "path": "/nossas-lojas/:slug/:store_id"
+  },
+
+    "store.custom#consulte-nossos-produtos": {
+    "path": "/consulte-nossos-produtos"
+  },
+  
+  "store.custom#consult-our-products": {
+    "path": "/consult-our-products"
+  },
+  
+  "store.custom#consulte-nuestros-productos": {
+    "path": "/consulte-nuestros-productos"
+  },
+  
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  
+  "store.custom#awards": {
+    "path": "/awards"
+  },
+  
+  "store.custom#technology": {
+    "path": "/technology"
+  },
+  
+  "store.custom#consulting": {
+    "path": "/consulting"
+  },
+  
+  "store.custom#training": {
+    "path": "/training"
+  },
+  
+  "store.custom#finamac-training": {
+    "path": "/finamac-training"
+  },
+  
+  "store.custom#sobre-nosotros": {
+    "path": "/sobre-nosotros"
+  },
+  
+  "store.custom#premios": {
+    "path": "/premios"
+  },
+  
+  "store.custom#tecnologia-es": {
+    "path": "/tecnologia-es"
+  },
+  
+  "store.custom#consultorias-es": {
+    "path": "/consultorias-es"
+  },
+  
+  "store.custom#entrenamiento": {
+    "path": "/entrenamiento"
+  },
+  
+  "store.custom#entrenamiento-finamac": {
+    "path": "/entrenamiento-finamac"
+  },
+
+  "store.custom#clientes": {
+    "path": "/clientes"
+  },
+
+  "store.custom#clients": {
+    "path": "/clients"
+  },
+
+  "store.custom#projetos": {
+    "path": "/projetos"
+  },
+
+  "store.custom#projects": {
+    "path": "/projects"
+  },
+
+  "store.custom#proyectos": {
+    "path": "/proyectos"
+  },
+
+  "store.custom#parcerias": {
+    "path": "/parcerias"
+  },
+
+  "store.custom#partners": {
+    "path": "/partners"
+  },
+
+  "store.custom#asociaciones": {
+    "path": "/asociaciones"
+  },
+
+  "store.custom#areas": {
+    "path": "/areas"
+  },
+
+  "store.custom#areas-en": {
+    "path": "/areas-en"
+  },
+
+  "store.custom#areas-es": {
+    "path": "/areas-es"
+  },
+
+  "store.custom#unidades": {
+    "path": "/unidades"
+  },
+
+  "store.custom#units": {
+    "path": "/units"
+  },
+
+  "store.custom#unidades-es": {
+    "path": "/unidades-es"
+  },
+
+  "store.custom#eventos": {
+    "path": "/eventos"
+  },
+
+  "store.custom#events": {
+    "path": "/events"
+  },
+
+  "store.custom#eventos-es": {
+    "path": "/eventos-es"
+  },
+
+  "store.custom#midia": {
+    "path": "/midia"
+  },
+
+  "store.custom#media": {
+    "path": "/media"
+  },
+
+  "store.custom#midia-es": {
+    "path": "/midia-es"
+  },
+
+
+  "store.custom#assistencia-tecnica-finamac": {
+    "path": "/assistencia-tecnica-finamac"
+  },
+
+  "store.custom#technical-support-finamac": {
+    "path": "/technical-support-finamac"
+  },
+
+  "store.custom#asistencia-tecnica-finamac": {
+    "path": "/asistencia-tecnica-finamac"
+  },
+
+  "store.custom#politica-de-privacidade": {
+    "path": "/politica-de-privacidade"
+  },
+
+  "store.custom#privacy-policy": {
+    "path": "/privacy-policy"
+  },
+
+  "store.custom#politica-de-privacidad": {
+    "path": "/politica-de-privacidad"
+  },
+
+  "store.custom#politica-de-cookies": {
+    "path": "/politica-de-cookies"
+  },
+
+  "store.custom#cookie-policy": {
+    "path": "/cookie-policy"
+  },
+
+  "store.custom#financing-companies": {
+    "path": "/financing-companies"
+  },
+
+  "store.custom#politica-de-cookies-es": {
+    "path": "/politica-de-cookies-es"
+  },
+
+  "store.custom#ouvidoria": {
+    "path": "/ouvidoria"
+  },
+
+  "store.custom#ombudsman": {
+    "path": "/ombudsman"
+  },
+
+  "store.custom#defensoria": {
+    "path": "/defensoria"
+  },
+
+  "store.custom#torne-se-um-revendedor-ou-representante": {
+    "path": "/torne-se-um-revendedor-ou-representante"
+  },
+
+  "store.custom#become-a-reseller-or-representative": {
+    "path": "/become-a-reseller-or-representative"
+  },
+
+  "store.custom#conviertase-en-revendedor-o-representante": {
+    "path": "/conviertase-en-revendedor-o-representante"
+  },
+
+  "store.custom#consultoria-es": {
+    "path": "/consultoria-es"
+  },
+
+  "store.custom#consultorias-especializadas": {
+    "path": "/consultorias-especializadas"
+  },
+
+  "store.custom#specialized-consulting": {
+    "path": "/specialized-consulting"
+  },
+
+  "store.custom#consultorias-especializadas-es": {
+    "path": "/consultorias-especializadas-es"
+  }
+  
+
+}
+
+  

@@ -1,0 +1,36 @@
+{
+  "store.custom#torne-se-um-revendedor-ou-representante": {
+    "blocks": [
+      "flex-layout.row#institucional-Representante"
+    ]
+  },
+
+  "flex-layout.row#institucional-Representante": {
+    "children": [
+      "flex-layout.col#institucional-Representante"
+    ],
+    "props": {
+      "blockClass": "institucional-representante"
+    }
+  },
+
+  "flex-layout.col#institucional-Representante": {
+    "children": [
+      // "rich-text#representante-title",
+      "app-form-representante"
+    ],
+    "props": {
+      "blockClass": "institucional-representante",
+      "width": "100%"
+    }
+  },
+
+  "rich-text#representante-title": {
+    "props": {
+      "text": "# Torne-se um Revendedor ou Representante\n\nFaça parte da rede de distribuição Finamac! Preencha o formulário abaixo e nossa equipe entrará em contato para discutir as oportunidades de parceria.",
+      "blockClass": "representante-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

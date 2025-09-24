@@ -1,0 +1,616 @@
+/* Menu Overlay */
+
+:global(.vtex-rich-text-0-x-paragraph--overlay-submenu-col) {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+}
+
+.styledLinkContainer--overlay-submenu {
+    margin: 0px;
+}
+
+.styledLinkContent--overlay-submenu {
+    font-size: 0.8rem;
+    color: #727273;
+}
+
+.menuContainer--overlay-submenu {
+    line-height: 25px;
+}
+
+.submenuWrapper--overlay-submenu,
+.submenuWrapper--overlay-submenu-simple {
+    transition: ease-in-out 0.5s;
+}
+
+.submenuWrapper--overlay-submenu--isOpen {
+    background: none;
+    border: none;
+    transition: ease-in-out 0.5s;
+}
+
+.submenuWrapper--overlay-submenu-simple--isOpen {
+    padding: 25px;
+    transition: ease-in-out 0.5s;
+    min-width: 250px;
+}
+
+.submenu--overlay-submenu {
+    max-width: 1200px;
+    margin: auto;
+    background: var(--base);
+    padding: 30px 40px;
+}
+
+.menuContainerNav--overlay-submenu {
+    width: 100% !important;
+    margin: auto;
+    max-width: 1300px !important;
+}
+
+.menuContainer--overlay-submenu {
+    display: contents;
+}
+
+.styledLinkContent--overlay-menu-icon,
+.styledLinkContent--overlay-menu-no-icon {
+    color: var(--base);
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+}
+
+.styledLink--overlay-menu-icon:hover .styledLinkContent--overlay-menu-icon,
+.styledLink--overlay-menu-no-icon:hover .styledLinkContent--overlay-menu-no-icon {
+    color: var(--quartenary) !important;
+}
+
+.styledLink--overlay-menu-icon:hover .styledLinkContent--overlay-menu-icon::after {
+    color: var(--quartenary) !important;
+}
+
+/*
+.styledLinkContent--overlay-menu-icon::before{
+    content: "☰";
+    color: var(--base);
+    font-size: 20px;
+    margin-right: 10px;
+}
+*/
+
+.styledLinkContent--overlay-menu-icon::after {
+    content: "˅";
+    color: var(--base);
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+
+/* Trigger */
+
+:global(.vtex-overlay-layout-0-x-trigger--overlay-submenu) {
+    max-width: 350px;
+    transition: ease-in-out 0.5s;
+    padding: 10px 20px;
+    cursor: context-menu !important;
+    border-right: solid 1px #bdbdbd;
+}
+
+:global(.vtex-overlay-layout-0-x-trigger--overlay-submenu):hover {
+    background: linear-gradient(to bottom, #005EA6, #002440);
+    transition: ease-in-out 0.5s;
+}
+
+:global(.vtex-overlay-layout-0-x-trigger--overlay-submenu):hover :global(.vtex-rich-text-0-x-wrapper--overlay-submenu-trigger) {
+    color: var(--base);
+}
+
+:global(.vtex-rich-text-0-x-strong--overlay-submenu-trigger) {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--overlay-submenu-trigger) {
+    font-size: 11px !important;
+}
+
+/* Content */
+
+:global(.vtex-overlay-layout-0-x-popper--overlay-submenu) {
+    background: none;
+    transform: none !important;
+    top: 2vw !important;
+    left: 35vw !important;
+    background: none;
+    transition: left 0.5s ease;
+    overflow-y: scroll;
+    max-height: 550px !important;
+    min-width: 400px !important;
+    overflow-x: hidden;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--overlay-content-submenu) {
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+/* Menu Hover */
+
+.menuContainer--menu-header {
+    gap: 0px;
+}
+
+.styledLinkContainer--menuhover-title {
+    margin: 0px;
+}
+
+.styledLinkContent--menuhover-title {
+    color: var(--primary);
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+
+.submenu--sub-menu-header {
+    justify-content: flex-start;
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+.styledLinkContent--sub-menu-accordion {
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.styledLinkContent--sub-menu-header {
+    color: #727273;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding-bottom: 15px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    padding-left: 20px;
+}
+
+.styledLinkContainer--main-menu-item {
+    padding-left: .1rem !important;
+    padding-right: .1rem !important;
+}
+
+
+.styledLinkContainer--sub-menu-accordion {
+    margin: 0px;
+    padding: 10px 0px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.menuItemInnerDiv--sub-menu-accordion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menuItemInnerDiv--sub-menu-accordion::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('assets/home/arrow.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+
+
+
+.styledLinkContainer--menu-drawer-sub {
+    margin: 0px;
+    max-width: 240px;
+}
+
+.menuItem--menu-drawer-sub .submenuAccordion--menu-drawer-sub {
+    margin: 0px;
+}
+
+.submenuAccordion--menu-drawer {
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+}
+
+.styledLinkContainer--menu-drawer-sub-first {
+    margin: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--col2-submenu) {
+    padding-top: 30px;
+}
+
+.styledLinkContainer--sub-menu-header {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*
+.styledLinkContainer--sub-menu-header{
+    border-radius: 4px;
+}
+
+.submenuAccordion--menu-drawer .styledLinkContainer--sub-menu-header{
+    margin: 0px;
+}
+
+.menuContainer--sub-menu-header .styledLinkContainer--sub-menu-header{
+    border-bottom: 1px dashed lightgray !important;
+}
+
+*/
+
+.submenuAccordion--menu-drawer .menuContainer--sub-menu-header-break {
+    display: flex;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--menu-drawer) .styledLinkContent--menu-header {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.menuContainer--sub-menu-header {
+    gap: 5px;
+
+}
+
+
+.menuContainer--sub-menu-header-break {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submenuWrapper--sub-menu-header--isOpen {
+    margin-top: 27px;
+    border-top: solid 1px #efefef;
+    padding: 15px 0px;
+}
+
+.styledLinkContent--menu-header {
+    font-weight: 600;
+    color: var(--base);
+}
+
+.styledLinkContainer--menu-header {
+    padding: 0px;
+    margin-left: .7rem !important;
+    margin-right: .7rem !important;
+}
+
+.menuItem--menu-header {
+    align-items: center;
+    display: flex;
+}
+
+.styledLinkContent--menu-header-highlight2 {
+    background: var(--tertiary);
+    padding: 8px 16px;
+    border-radius: 50px;
+    color: black;
+    font-weight: 600;
+}
+
+.styledLinkContent--menu-header-highlight,
+.styledLinkContent--menu-header-destaque {
+    background: black;
+    padding: 8px 16px;
+    border-radius: 50px;
+    color: var(--base);
+    font-weight: 600;
+}
+
+
+/* Drawer */
+
+.menuContainerNav--sub-menu-header-break {
+    max-height: 100%;
+    overflow-y: scroll;
+}
+
+/*
+.styledLinkContent--menu-drawer-1::before{
+    content: '';
+    background: url(assets/header/drawer-icon-1.svg) no-repeat center;
+    background-size: cover;
+    width: 23px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+.styledLinkContent--menu-drawer-2::before{
+    content: '';
+    background: url(assets/header/drawer-icon-2.svg) no-repeat center;
+    background-size: cover;
+    width: 23px;
+    height: 23px;
+    margin-right: 7px;
+}
+.styledLinkContent--menu-drawer-3::before{
+    content: '';
+    background: url(assets/header/drawer-icon-3.svg) no-repeat center;
+    background-size: cover;
+    width: 23px;
+    height: 28px;
+    margin-right: 7px;
+}
+.styledLinkContent--menu-drawer-4::before{
+    content: '';
+    background: url(assets/header/drawer-icon-4.svg) no-repeat center;
+    background-size: cover;
+    width: 23px;
+    height: 25px;
+    margin-right: 7px;
+}
+.styledLinkContent--menu-drawer-5::before{
+    content: '';
+    background: url(assets/header/drawer-icon-5.svg) no-repeat center;
+    background-size: cover;
+    width: 23px;
+    height: 25px;
+    margin-right: 7px;
+}
+.styledLinkContent--menu-drawer-6::before{
+    content: '';
+    background: url(assets/header/drawer-icon-6.svg) no-repeat center;
+    background-size: cover;
+    width: 23px;
+    height: 25px;
+    margin-right: 7px;
+}
+.styledLinkContent--menu-drawer-7::before{
+    content: '';
+    background: url(assets/header/drawer-icon-7.svg) no-repeat center;
+    background-size: cover;
+    width: 23px;
+    height: 25px;
+    margin-right: 7px;
+}
+*/
+
+.submenuAccordion--menu-drawer {
+    display: flex;
+    flex-direction: column;
+}
+
+.submenuAccordion--menu-drawer-sub {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+:global(.vtex-store-link-0-x-label--menudrawer-vertodos) {
+    font-size: 0.8rem;
+    color: var(--primary);
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+:global(.vtex-store-link-0-x-link--menudrawer-vertodos),
+:global(.vtex-store-link-0-x-link--menudrawer-vertodos-sub) {
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+:global(.vtex-store-link-0-x-label--menudrawer-vertodos-sub) {
+    font-size: 12px;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.styledLinkContent--menu-drawer-sub {
+    font-size: 0.8rem;
+    color: var(--dark);
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1024px) {}
+
+
+
+
+
+
+/********************* CUSTOM START STYLES ********************/
+
+
+
+/* Estilo base para o link do menu */
+.styledLink--menu-header {
+    position: relative;
+    /* Necessário para o posicionamento do ::after */
+    color: #000;
+    /* Cor original do texto */
+    text-decoration: none;
+    /* Remove sublinhado padrão */
+    transition: color 0.3s ease;
+    /* Transição suave para a cor */
+}
+
+.styledLink--menu-header:hover {
+    color: var(--primary);
+    /* Cor do texto ao passar o mouse */
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-header-highlight2) .styledLink--menu-header::after,
+:global(.vtex-menu-2-x-styledLinkContainer--menu-header-highlight) .styledLink--menu-header::after {
+    display: none;
+}
+
+.styledLink--menu-header::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    /* Espessura da linha */
+    background-color: var(--base);
+    left: 0;
+    bottom: -5px;
+    /* Ajuste a posição vertical da linha */
+    transition: width 0.3s ease;
+    /* Transição suave para a animação da linha */
+}
+
+.styledLink--menu-header:hover::after {
+    width: 100%;
+}
+
+
+/* Efeito menu drawer CSS */
+
+/* Estilo base para o container do link em todos os níveis */
+.styledLinkContainer--menu-drawer,
+.styledLinkContainer--menu-drawer-sub,
+.styledLinkContainer--menu-drawer-sub-sub,
+.styledLinkContainer--menu-drawer-sub-first {
+    padding: 6px 10px;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.styledLinkContainer--menu-drawer {
+    border-bottom: 1px solid lightgray;
+
+}
+
+/* Efeito de hover no container em todos os níveis */
+.styledLinkContainer--menu-drawer:hover,
+.styledLinkContainer--menu-drawer-sub:hover,
+.styledLinkContainer--menu-drawer-sub-sub:hover,
+.styledLinkContainer--menu-drawer-sub-first:hover {
+
+    background-color: #ebebeb;
+}
+
+
+
+
+
+
+
+/* Estilo para o ícone '+' ou '-' nos níveis que possuem */
+.accordionIcon--menu-drawer,
+.accordionIcon--menu-drawer-sub,
+.accordionIcon--menu-drawer-sub-sub,
+.accordionIcon--menu-drawer-sub-first {
+    font-size: 16px;
+    /* Ajuste o tamanho conforme necessário */
+    transition: color 0.3s ease;
+    /* Transição suave para a cor */
+}
+
+
+
+/* Ajuste no posicionamento do ícone '+' ou '-' */
+.styledLinkContent--menu-drawer,
+.styledLinkContent--menu-drawer-sub,
+.styledLinkContent--menu-drawer-sub-sub,
+.styledLinkContent--menu-drawer-sub-first,
+.styledLinkContent--footer-v2-row-3,
+.styledLinkContent--footer-v2-row-3-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*
+.styledLink--sub-menu-header{
+    display: flex;
+}
+
+.styledLink--sub-menu-header::before{
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url('assets/home/arrow.svg'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8px; 
+}
+
+*/
+
+.styledLink--sub-menu-header:hover {
+    color: var(--primary);
+    transition: 200ms;
+    font-weight: 600;
+}
+
+
+
+/* Estiliza o contêiner do submenu para no maximo 10 itens por COLUN A*/
+
+/*
+.submenu .menuContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  grid-auto-flow: column;
+  grid-template-rows: repeat(10, auto);
+  gap: 2px 5px; 
+}
+  */
+
+/* Remove margens e paddings extras dos itens */
+.submenu .menuItem {
+    margin: 0;
+    padding: 0;
+}
+
+.accordionIcon {
+    color: var(--primary);
+}
+
+
+.styledLinkContent--menu-drawer-special1 .accordionIcon--menu-drawer,
+.styledLinkContent--menu-drawer-special1 {
+    color: black !important;
+}
+
+.styledLinkContent--menu-drawer-special2 .accordionIcon--menu-drawer,
+.styledLinkContent--menu-drawer-special2 {
+    color: var(--tertiary) !important;
+}
+
+
+/********************* CUSTOM END STYLES ********************/
+
+
+/*
+.menuItem--desable-link{
+    opacity: .4;
+    pointer-events: none;
+}
+
+
+.menuItem--desable-link:hover::after{
+    content: "Em breve";
+    background: #1554AD;
+    font-size: 9px;
+    opacity: 1 !important;
+    color: white;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    position: absolute;
+}
+*/
