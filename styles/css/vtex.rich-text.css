@@ -321,6 +321,7 @@
 /* Título da Seção de Privacidade - Minimalista */
 .container--footer-privacy-title {
   margin: 0 0 12px 0 !important;
+  justify-content: center;
 }
 
 .heading--footer-privacy-title,

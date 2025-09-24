@@ -33,7 +33,8 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#overlay-menu",
+       "flex-layout.col#category-header-desk",
+     // "flex-layout.col#overlay-menu",
       "flex-layout.col#translationapp",
       "flex-layout.col#login-minicart"
     ]

@@ -12,6 +12,9 @@
     display: flex;
    /* max-width: 649px;
     margin-top: 3px;*/
+    @media screen and (max-width: 1024px){
+        padding: 10px 0px;
+    }
 }
 
 .tileListList{

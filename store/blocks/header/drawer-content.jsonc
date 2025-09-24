@@ -1,0 +1,272 @@
+{
+  // Menu Drawer VERÃO
+  "vtex.menu@2.x:menu#footer-mobile_sanfone-category": {
+    "props": {
+      "blockClass": "mobile_sanfone",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#menu-sanfone-category-1",
+      "menu-item#menu-sanfone-category-2",
+      "menu-item#menu-sanfone-category-3",
+      "menu-item#menu-sanfone-category-4",
+      "menu-item#menu-sanfone-category-5"
+    /*  "menu-item#menu-sanfone-category-6",
+      "menu-item#menu-sanfone-category-7"*/
+    ]
+  },
+
+  // nivel 1
+
+  "menu-item#menu-sanfone-category-1": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Máquinas",
+        "text":  "Máquinas",
+        "href": "/maquinas"
+      },
+      "blockClass":["menu-sanfone-category","menu-sanfone-category-1"]
+    },
+   "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-1"
+    ]
+  },
+        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-1": {
+          "children": [
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-1"
+          ]
+        },
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-1": {
+              "props": {
+                "orientation": "vertical",
+                "blockClass":"menusubnivel",
+                "height":"100%"
+              },
+              "children": [
+              "flex-layout.col#sub-menu-1-list-A",
+              "flex-layout.col#sub-menu-1-list-B",
+                "menu-item#menusubnivel-sanfone-category-1-vertodos"
+              ]
+            },
+
+              // VER TODOS 
+
+              "menu-item#menusubnivel-sanfone-category-1-vertodos": {
+                "props": {
+                    "itemProps": {
+                    "tagTitle": "Ver Todos",
+                    "text": "Ver Todos",
+                    "href": "/maquinas"
+                    }
+                }
+            },
+
+            
+  // nivel 2
+
+  "menu-item#menu-sanfone-category-2": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Acessórios",
+        "text":  "Acessórios",
+        "href": "/acessorios"
+      },
+      "blockClass":["menu-sanfone-category","menu-sanfone-category-2"]
+
+    },
+   "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-2"
+    ]
+  },
+        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-2": {
+          "children": [
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-2"
+          ]
+        },
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-2": {
+              "props": {
+                "orientation": "vertical",
+                "blockClass":"menusubnivel"
+              },
+              "children": [
+                 "flex-layout.col#sub-menu-2-list-A",
+                 "flex-layout.col#sub-menu-2-list-B",
+                 "menu-item#menusubnivel-sanfone-category-2-vertodos"
+              ]
+            },
+
+              // VER TODOS 
+
+              "menu-item#menusubnivel-sanfone-category-2-vertodos": {
+                "props": {
+                    "itemProps": {
+                    "tagTitle": "Ver Todos",
+                    "text": "Ver Todos",
+                    "href": "/acessorios"
+                    }
+                }
+            },
+
+
+  // nivel 3
+
+  "menu-item#menu-sanfone-category-3": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Peças de Reposição",
+        "text":  "Peças de Reposição",
+        "href": "/pecas-de-reposição"
+      },
+      "blockClass":["menu-sanfone-category","menu-sanfone-category-3"]
+    },
+   "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-3"
+    ]
+  },
+        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-3": {
+          "children": [
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-3"
+          ]
+        },
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-3": {
+              "props": {
+                "orientation": "vertical",
+                "blockClass":"menusubnivel"
+              },
+              "children": [
+                "flex-layout.col#sub-menu-3-list-A",
+                "menu-item#menusubnivel-sanfone-category-3-vertodos"
+              ]
+            },
+
+              // VER TODOS 
+
+              "menu-item#menusubnivel-sanfone-category-3-vertodos": {
+                "props": {
+                    "itemProps": {
+                    "tagTitle": "Ver Todos",
+                    "text": "Ver Todos",
+                    "href": "/pecas-de-reposição"
+                    }
+                }
+            },
+
+
+  // nivel 4
+
+  "menu-item#menu-sanfone-category-4": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Cursos",
+        "text":  "Cursos",
+        "href": "/cursos"
+      },
+      "blockClass":["menu-sanfone-category","menu-sanfone-category-4"]
+    },
+   "blocks": [
+    //  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-4"
+    ]
+  },
+        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-4": {
+          "children": [
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-4"
+          ]
+        },
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-4": {
+              "props": {
+                "orientation": "vertical",
+                "blockClass":"menusubnivel"
+              },
+              "children": [
+                "menu-item#menusubnivel-sanfone-category-4-vertodos"
+              ]
+            },
+
+              // VER TODOS 
+
+              "menu-item#menusubnivel-sanfone-category-4-vertodos": {
+                "props": {
+                    "itemProps": {
+                    "tagTitle": "Ver Todos",
+                    "text": "Ver Todos",
+                    "href": "/cursos"
+                    }
+                }
+            },
+
+
+  // nivel 5
+
+  "menu-item#menu-sanfone-category-5": {
+    "props": {
+      "blockClass":["menu-sanfone-category","menu-sanfone-category-5"],
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "external",
+          "href": "https://blog.finamac.com/",
+          "noFollow": false,
+          "tagTitle": "Blog",
+          "text": "Blog"
+        }
+    },
+   "blocks": [
+    //  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-5"
+    ]
+  },
+        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-5": {
+          "children": [
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-5"
+          ]
+        },
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-5": {
+              "props": {
+                "orientation": "vertical",
+                "blockClass":"menusubnivel"
+              },
+              "children": [
+                "menu-item#menusubnivel-sanfone-category-5-vertodos"
+              ]
+            },
+
+              // VER TODOS 
+
+              "menu-item#menusubnivel-sanfone-category-5-vertodos": {
+                "props": {
+                    "itemProps": {
+                    "tagTitle": "Ver Todos",
+                    "text": "Ver Todos",
+                    "href": "/pecas-de-reposição"
+                    }
+                }
+            },
+
+
+
+  // Novidades
+
+  "menu-item#menu-drawer-novidades": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Novidades",
+        "text": "Novidades",
+        "href": "/produtos?order=OrderByReleaseDateDESC"
+      }
+    }
+  },
+
+
+  
+  // Novidades
+
+  "menu-item#menu-drawer-lojistas": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Lojistas",
+        "text": "Lojistas",
+        "href": "https://www.natikosb2b.com.br/",
+        "type": "external"
+      }
+    }
+  }
+}

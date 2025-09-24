@@ -1,0 +1,279 @@
+{
+  // Menu Drawer
+  // PRA RESOLVER BUG SANFONA, ENTRE NO ADMIN E TRAGA A CATEGORIA NOVAMENTE
+  // ENTRAR NO MENU VIA EDITOR, E COLOCAR O ID DA CATEGPORIA LA DENTRO, 
+
+  "drawer#menu": {
+    "props": {
+      // "maxWidth": "100%", 
+      // "slideDirection":"vertical",
+      // "isFullWidth":true
+    },
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "flex-layout.col#menu-drawer"
+    ],
+    "props": {
+      "blockClass": "menu-drawer"
+    }
+  },
+  "flex-layout.col#menu-drawer": {
+    "props": {},
+    "children": [
+      /*"authentication-layout-private#home",
+      "authentication-layout-public#home",*/
+      "flex-layout.row#logo-drawer",
+      "flex-layout.row#drawer-menu-title-products",
+     "vtex.menu@2.x:menu#footer-mobile_sanfone-category",
+      "flex-layout.row#drawer-menu-title",
+     "flex-layout.row#link-drawer"
+    ]
+  },
+
+  // LOGO
+
+    "flex-layout.row#logo-drawer": {
+        "props": {
+          "paddingBottom":7,
+          "preventHorizontalStretch":true,
+          "horizontalAlign":"left"
+        },
+        "children": [
+          "image#logo-drawer"
+        ]
+      },
+
+      "image#logo-drawer": {
+        "props": {
+          "src": "https://finamac.vtexassets.com/assets/vtex.file-manager-graphql/images/a76c86e6-31a9-44e8-91a2-ad5554fe289c___739bd23f50db5ff9df29d41b33c0a855.svg",
+          "width": "180px"
+        }
+    },
+
+
+  
+
+  // Link Drawer
+
+  "flex-layout.row#link-drawer": {
+    "props": {
+      "blockClass": "link-drawer",
+      "preventHorizontalStretch":true
+    },
+    "children": [
+      "flex-layout.col#link-drawer-1"
+    //  "flex-layout.col#link-drawer-2"
+    ]
+  },
+
+  // Link 1-1
+  
+  "flex-layout.col#link-drawer-1": {
+    "props": {
+      "blockClass": "link-drawer-1",
+      "width":"100%"
+    },
+    "children": [
+      "link#drawer-link-1-1"
+    ]
+  },
+
+  "link#drawer-link-1-1": {
+    "children": [
+      "image#drawer-link-1-1"
+    ],
+    "props": {
+      "href": "/contato",
+      "label": "FALE COM NOSSO TIME",
+      "blockClass": "link-drawer",
+      "displayMode":"button"
+    }
+  },
+      "image#drawer-link-1-1": {
+        "props": {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAzIiBoZWlnaHQ9IjQwMyIgdmlld0JveD0iMCAwIDQwMyA0MDMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0yOTQuNzMgNDAyLjA2QzI3OS4wODcgNDAxLjk0NCAyNjMuNTEyIDM5OS45OCAyNDguMzMgMzk2LjIxQzE5NS45IDM4My41NiAxNDEuOTEgMzUxLjQ3IDk2LjMzIDMwNS44NUM1MC43NSAyNjAuMjMgMTguNjIgMjA2LjIzIDUuOTcwMDQgMTUzLjg1Qy03LjM0OTk2IDk4Ljc1IDIuMTUwMDQgNTEuNjEgMzIuNjkgMjEuMDdMNDEuNDEgMTIuMzVDNDkuMzIxNiA0LjQ1NDIzIDYwLjA0MjYgMC4wMTk3NzU0IDcxLjIyIDAuMDE5Nzc1NEM4Mi4zOTc1IDAuMDE5Nzc1NCA5My4xMTg0IDQuNDU0MjMgMTAxLjAzIDEyLjM1TDE1MS4xNCA2Mi40NUMxNTkuMDQxIDcwLjM1OSAxNjMuNDc5IDgxLjA4MDkgMTYzLjQ3OSA5Mi4yNkMxNjMuNDc5IDEwMy40MzkgMTU5LjA0MSAxMTQuMTYxIDE1MS4xNCAxMjIuMDdMMTIxLjU0IDE1MS42NkMxMzUuNzMgMTc2LjU2IDE1NS4wMyAyMDEuNDggMTc3Ljg0IDIyNC4yOUMyMDAuNjUgMjQ3LjEgMjI1LjU5IDI2Ni40MSAyNTAuNDggMjgwLjZMMjgwLjA3IDI1MUMyODMuOTg0IDI0Ny4wODQgMjg4LjYzMSAyNDMuOTc4IDI5My43NDYgMjQxLjg1OUMyOTguODYxIDIzOS43NCAzMDQuMzQ0IDIzOC42NDkgMzA5Ljg4IDIzOC42NDlDMzE1LjQxNyAyMzguNjQ5IDMyMC44OTkgMjM5Ljc0IDMyNi4wMTQgMjQxLjg1OUMzMzEuMTI5IDI0My45NzggMzM1Ljc3NiAyNDcuMDg0IDMzOS42OSAyNTFMMzg5Ljc5IDMwMS4xQzM5Ny42OTMgMzA5LjAwNiA0MDIuMTMyIDMxOS43MjcgNDAyLjEzMiAzMzAuOTA1QzQwMi4xMzIgMzQyLjA4MyAzOTcuNjkzIDM1Mi44MDQgMzg5Ljc5IDM2MC43MUwzODEuMDYgMzY5LjQzQzM1OS41MyAzOTEgMzI5LjczIDQwMi4wNiAyOTQuNzMgNDAyLjA2Wk03MS4yMiAzMEM2OS42MjM0IDI5Ljk5MjEgNjguMDQxMiAzMC4zMDI5IDY2LjU2NjIgMzAuOTE0MkM2NS4wOTEyIDMxLjUyNTUgNjMuNzUzIDMyLjQyNSA2Mi42MyAzMy41Nkw1My45IDQyLjI4QzMxLjAzIDY1LjE1IDI0LjM1IDEwMi4yOCAzNS4wOSAxNDYuNzdDNDYuNDYgMTkzLjkgNzUuNzMgMjQyLjg3IDExNy41IDI4NC42M0MxNTkuMjcgMzI2LjM5IDIwOC4yMyAzNTUuNjMgMjU1LjM3IDM2Ny4wNEMyOTkuODcgMzc3Ljc4IDMzNi45OCAzNzEuMSAzNTkuODUgMzQ4LjIzTDM2OC41NyAzMzkuNTFDMzcwLjg0OCAzMzcuMjMgMzcyLjEyOCAzMzQuMTM4IDM3Mi4xMjggMzMwLjkxNUMzNzIuMTI4IDMyNy42OTIgMzcwLjg0OCAzMjQuNiAzNjguNTcgMzIyLjMyTDMxOC40OCAyNzIuMjJDMzE2LjIgMjY5Ljk0MiAzMTMuMTA4IDI2OC42NjIgMzA5Ljg4NSAyNjguNjYyQzMwNi42NjIgMjY4LjY2MiAzMDMuNTcgMjY5Ljk0MiAzMDEuMjkgMjcyLjIyTDI2My43OCAzMDkuNzNDMjYxLjUyOSAzMTEuOTgyIDI1OC42MiAzMTMuNDU5IDI1NS40NzQgMzEzLjk0OEMyNTIuMzI4IDMxNC40MzcgMjQ5LjEwOCAzMTMuOTEzIDI0Ni4yOCAzMTIuNDVDMjE1LjUzIDI5Ni41NSAxODQuNTMgMjczLjQgMTU2LjYzIDI0NS41QzEyOC43MyAyMTcuNiAxMDUuNjMgMTg2LjYyIDg5LjY5IDE1NS44N0M4OC4yMjYyIDE1My4wNDMgODcuNjk5OCAxNDkuODIzIDg4LjE4NyAxNDYuNjc3Qzg4LjY3NDIgMTQzLjUzMSA5MC4xNDk3IDE0MC42MjIgOTIuNCAxMzguMzdMMTI5LjkyIDEwMC44NkMxMzIuMTk4IDk4LjU3OTggMTMzLjQ3OCA5NS40ODgzIDEzMy40NzggOTIuMjY1QzEzMy40NzggODkuMDQxNiAxMzIuMTk4IDg1Ljk1MDIgMTI5LjkyIDgzLjY3TDc5LjgyIDMzLjU2Qzc4LjY5MzUgMzIuNDI2OSA3Ny4zNTMzIDMxLjUyODggNzUuODc3IDMwLjkxNzdDNzQuNDAwNyAzMC4zMDY2IDcyLjgxNzggMjkuOTk0NiA3MS4yMiAzMFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0zMTAuNzUgMjIxLjczQzMwNi43NzIgMjIxLjczIDMwMi45NTYgMjIwLjE1IDMwMC4xNDMgMjE3LjMzN0MyOTcuMzMgMjE0LjUyNCAyOTUuNzUgMjEwLjcwOCAyOTUuNzUgMjA2LjczQzI5NS43MjEgMTgwLjQxNSAyODUuMjU1IDE1NS4xODcgMjY2LjY0OSAxMzYuNTc4QzI0OC4wNDIgMTE3Ljk3IDIyMi44MTUgMTA3LjUwMiAxOTYuNSAxMDcuNDdDMTkyLjUyMiAxMDcuNDcgMTg4LjcwNiAxMDUuODkgMTg1Ljg5MyAxMDMuMDc3QzE4My4wOCAxMDAuMjY0IDE4MS41IDk2LjQ0ODIgMTgxLjUgOTIuNDdDMTgxLjUgODguNDkxOCAxODMuMDggODQuNjc2NCAxODUuODkzIDgxLjg2MzRDMTg4LjcwNiA3OS4wNTA0IDE5Mi41MjIgNzcuNDcgMTk2LjUgNzcuNDdDMjY3Ljc3IDc3LjQ3IDMyNS43NSAxMzUuNDcgMzI1Ljc1IDIwNi43M0MzMjUuNzUgMjEwLjcwOCAzMjQuMTcgMjE0LjUyNCAzMjEuMzU3IDIxNy4zMzdDMzE4LjU0NCAyMjAuMTUgMzE0LjcyOCAyMjEuNzMgMzEwLjc1IDIyMS43M1oiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0zNzQuMTUgMjIxLjczQzM3MC4xNzIgMjIxLjczIDM2Ni4zNTYgMjIwLjE1IDM2My41NDMgMjE3LjMzN0MzNjAuNzMgMjE0LjUyNCAzNTkuMTUgMjEwLjcwOCAzNTkuMTUgMjA2LjczQzM1OS4xNSAxMTcuMDQgMjg2LjE1IDQ0LjA3IDE5Ni41IDQ0LjA3QzE5Mi41MjIgNDQuMDcgMTg4LjcwNiA0Mi40ODk3IDE4NS44OTMgMzkuNjc2NkMxODMuMDggMzYuODYzNiAxODEuNSAzMy4wNDgzIDE4MS41IDI5LjA3QzE4MS41IDI1LjA5MTggMTgzLjA4IDIxLjI3NjUgMTg1Ljg5MyAxOC40NjM0QzE4OC43MDYgMTUuNjUwNCAxOTIuNTIyIDE0LjA3IDE5Ni41IDE0LjA3QzMwMi43MyAxNC4wNyAzODkuMTUgMTAwLjUgMzg5LjE1IDIwNi43M0MzODkuMTUgMjEwLjcwOCAzODcuNTcgMjE0LjUyNCAzODQuNzU3IDIxNy4zMzdDMzgxLjk0NCAyMjAuMTUgMzc4LjEyOCAyMjEuNzMgMzc0LjE1IDIyMS43M1oiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=",
+          "blockClass": "drawer-link"
+        }
+      },
+
+  // Link 1-2
+
+  "flex-layout.col#link-drawer-2": {
+    "props": {
+      "blockClass": "link-drawer-2",
+      "width":"100%"
+    },
+    "children": [
+      "link#drawer-link-1-2"
+    ]
+  },
+      "link#drawer-link-1-2": {
+        "children": [
+          "image#drawer-link-1-2"
+        ],
+        "props": {
+          "href": "/lancamentos",
+          "label": "Nossos Lançamentos",
+          "blockClass": "link-drawer"
+        }
+      },
+      "image#drawer-link-1-2": {
+        "props": {
+          "src": "https://polpabrasil.vtexassets.com/assets/vtex.file-manager-graphql/images/131ebe67-ef06-4a67-9d6b-b72165cf97d2___6cb4b501628762a845cf5733c38492c8.svg",
+          "blockClass": "drawer-link"
+        }
+      },
+
+
+  // Title Menu
+  "flex-layout.row#drawer-menu-title": {
+    "props": {
+      "blockClass": "drawer-menu-title"
+    },
+    "children": [
+      "rich-text#drawer-menu-title"
+    ]
+  },
+  "rich-text#drawer-menu-title": {
+    "props": {
+      "text": "Atalhos",
+      "blockClass": "drawer-menu-title"
+    }
+  },
+  // Titile Products
+  "flex-layout.row#drawer-menu-title-products": {
+    "props": {
+      "blockClass": "drawer-menu-title"
+    },
+    "children": [
+      "rich-text#drawer-menu-title-products"
+    ]
+  },
+  "rich-text#drawer-menu-title-products": {
+    "props": {
+      "text": "[Produtos](/produtos)",
+      "blockClass": "drawer-menu-title"
+    }
+  }
+
+  // NAO AUTENTICADO DE
+/*
+  "authentication-layout-private#home": {
+    "children": [
+      "menu#notAutenticated"
+    ]
+  },
+  "menu#notAutenticated": {
+    "props": {
+      "blockClass": "menuAuthentication"
+    },
+    "children": [
+      "menu-item#my-orders",
+      "menu-item#my-account",
+      "menu-item#my-list",
+      "rich-text#logout"
+    ]
+  },
+  "menu-item#my-orders": {
+    "props": {
+      "blockClass": "menuAuthentication",
+      "id": "menu-item-my-orders",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/orders",
+        "noFollow": false,
+        "tagTitle": "Meus Pedidos",
+        "text": "Meus Pedidos"
+      }
+    }
+  },
+  "menu-item#my-account": {
+    "props": {
+      "blockClass": "menuAuthentication",
+      "id": "menu-item-my-account",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Minha Conta",
+        "text": "Minha Conta"
+      }
+    }
+  },
+  "menu-item#my-list": {
+    "props": {
+      "blockClass": "menuAuthentication",
+      "id": "menu-item-my-list",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/wishlist",
+        "noFollow": false,
+        "tagTitle": "Minha Lista",
+        "text": "Minha Lista"
+      }
+    }
+  },
+  "rich-text#logout": {
+    "props": {
+      "text": "[Sair](/logout)",
+      "blockClass": "menuAuthentication"
+    }
+  },
+  // AUTENTCADO
+  "authentication-layout-public#home": {
+    "children": [
+      "menu#drawer-unauthenticated"
+    ]
+  },
+  "menu#drawer-unauthenticated": {
+    "props": {
+      "blockClass": "menuAuthentication"
+    },
+    "children": [
+      "menu-item#create-account",
+      "menu-item#login"
+    ]
+  },
+  "menu-item#login": {
+    "props": {
+      "blockClass": "menuAuthentication",
+      "id": "menu-item-my-orders",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/login",
+        "noFollow": false,
+        "tagTitle": "Entrar",
+        "text": "Entrar"
+      }
+    }
+  },
+  "menu-item#create-account": {
+    "props": {
+      "blockClass": "menuAuthentication",
+      "id": "menu-item-my-orders",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/login",
+        "noFollow": false,
+        "tagTitle": "Criar minha conta",
+        "text": "Criar minha conta"
+      }
+    }
+  }
+
+  */
+}

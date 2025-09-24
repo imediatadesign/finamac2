@@ -1,0 +1,20 @@
+.label--link-drawer{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--base);
+    padding: 0px 12px;
+    width: fit-content !important;
+}
+
+
+/*
+.styledLinkContent--sub-menu-header{
+    color: var(--primary);
+    font-size: small !important;
+}
+
+.childrenContainer--link-drawer{
+    display: contents;
+}
+
+*/

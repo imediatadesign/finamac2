@@ -33,15 +33,173 @@
       "width": "100%"
     },
     "children": [
-      "rich-text#footer-mobile-newsletter-title",
+       "flex-layout.col#footer-about",
+       "flex-layout.col#accordion-menu-footer",
+       "flex-layout.row#footer-privacy",
+       "flex-layout.row#footer-addresses"
+   /*   "rich-text#footer-mobile-newsletter-title",
       "newsletter-form#footer-mobile",
       "rich-text#footer-mobile-divider",
       "vtex.menu@2.x:menu#footer-mobile-links",
       "logo#footer-mobile-logo",
       "flex-layout.row#footer-mobile-social",
-      "rich-text#footer-mobile-copyright"
+      "rich-text#footer-mobile-copyright"*/
     ]
   },
+
+
+
+  // Accordion Footer
+
+  "flex-layout.col#accordion-menu-footer": {
+    "props": {
+       "blockClass":"accordion-menu-footer"
+    },
+    "children": [
+        "menu-item#menu-footer-mobile-1",
+        "menu-item#menu-footer-mobile-2",
+        "menu-item#menu-footer-mobile-3",
+        "menu-item#menu-footer-mobile-4"
+    ]
+  },
+
+
+  // 1
+
+  "menu-item#menu-footer-mobile-1": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Institucional",
+        "text":  "Institucional"
+      },
+        "blockClass":"menu-footer-mobile"
+    },
+   "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-footer-mobile-1"
+    ]
+  },
+        "vtex.menu@2.x:submenu.accordion#menu-footer-mobile-1": {
+          "children": [
+            "vtex.menu@2.x:menu#menu-footer-mobile-1"
+          ]
+        },
+            "vtex.menu@2.x:menu#menu-footer-mobile-1": {
+              "props": {
+                "orientation": "vertical"
+              },
+              "children": [
+                      "menu-item#footer-about-us",
+                      "menu-item#footer-awards",
+                      "menu-item#footer-technology",
+                      "menu-item#footer-clients",
+                      "menu-item#footer-projects",
+                      "menu-item#footer-partners",
+                      "menu-item#footer-areas",
+                      "menu-item#footer-units",
+                      "menu-item#footer-events",
+                      "menu-item#footer-media",
+                      "menu-item#footer-ombudsman"
+              ]
+            },
+
+  // 2
+
+  "menu-item#menu-footer-mobile-2": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Serviços",
+        "text":  "Serviços"
+      },
+        "blockClass":"menu-footer-mobile"
+    },
+   "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-footer-mobile-2"
+    ]
+  },
+        "vtex.menu@2.x:submenu.accordion#menu-footer-mobile-2": {
+          "children": [
+            "vtex.menu@2.x:menu#menu-footer-mobile-2"
+          ]
+        },
+            "vtex.menu@2.x:menu#menu-footer-mobile-2": {
+              "props": {
+                "orientation": "vertical"
+              },
+              "children": [
+                  "menu-item#footer-courses",
+                  "menu-item#footer-consulting",
+                  "menu-item#footer-technical-support",
+                  "menu-item#footer-training-videos",
+                  "menu-item#footer-finamac-training"
+              ]
+            },
+
+  // 3
+
+  "menu-item#menu-footer-mobile-3": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Políticas",
+        "text":  "Políticas"
+      },
+        "blockClass":"menu-footer-mobile"
+    },
+   "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-footer-mobile-3"
+    ]
+  },
+        "vtex.menu@2.x:submenu.accordion#menu-footer-mobile-3": {
+          "children": [
+            "vtex.menu@2.x:menu#menu-footer-mobile-3"
+          ]
+        },
+            "vtex.menu@2.x:menu#menu-footer-mobile-3": {
+              "props": {
+                "orientation": "vertical"
+              },
+              "children": [
+                  "menu-item#footer-privacy-policy",
+                  "menu-item#footer-cookie-policy"
+              ]
+            },
+
+
+  // 4
+
+  "menu-item#menu-footer-mobile-4": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Minha Conta",
+        "text":  "Minha Conta"
+      },
+        "blockClass":"menu-footer-mobile"
+    },
+   "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-footer-mobile-4"
+    ]
+  },
+        "vtex.menu@2.x:submenu.accordion#menu-footer-mobile-4": {
+          "children": [
+            "vtex.menu@2.x:menu#menu-footer-mobile-4"
+          ]
+        },
+            "vtex.menu@2.x:menu#menu-footer-mobile-4": {
+              "props": {
+                "orientation": "vertical"
+              },
+              "children": [
+                  "menu-item#footer-my-account",
+                  "menu-item#footer-my-orders"
+              ]
+            },
+
+
+
+
+
+
+
+
 
   // Newsletter
   "rich-text#footer-mobile-newsletter-title": {

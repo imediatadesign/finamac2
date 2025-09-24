@@ -19,6 +19,52 @@
 }
 
 
+/* MOBILE */
+
+
+.flexRow--footer-mobile-main{
+    padding: 30px;
+}
+
+.flexColChild--footer-mobile-content{
+    padding: 15px 0px;
+}
+
+.flexColChild--footer-mobile-content :global(.vtex-menu-2-x-styledLinkContainer){
+    margin: 0px;
+}
+.flexColChild--footer-mobile-content :global(.vtex-menu-2-x-styledLinkContent--menu-footer-mobile),
+.flexColChild--footer-mobile-content :global(.vtex-menu-2-x-accordionIcon){
+    color: var(--base);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.flexCol--accordion-menu-footer{
+    gap: 25px;
+}
+
+.flexColChild--footer-mobile-content :global(.vtex-menu-2-x-menuItem--footer-menu-item){
+    margin: 0px;
+}
+
+.flexCol--accordion-menu-footer :global(.vtex-menu-2-x-submenuAccordion){
+    padding: 15px 0px;;
+}
+
+.flexRow--footer-mobile-main .flexRow--footer-addresses{
+    padding: 0px;
+}
+.flexRow--footer-mobile-main .flexRowContent--footer-addresses{
+    flex-direction: column;
+}
+
+.flexRow--footer-mobile-main .flexRowContent--footer-addresses :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 100% !important;
+}
+
+
 /* */
 
 
