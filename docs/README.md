@@ -3,7 +3,7 @@ title: Finamac Theme Docs
 description: Informacoes de uso e configuracao do tema Finamac
 ---
 
-# Visao Geral
+# Visao Geral!
 
 Este tema VTEX IO da Finamac contem configuracoes de loja, assets, mensagens e componentes React.
 
