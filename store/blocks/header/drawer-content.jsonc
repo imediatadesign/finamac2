@@ -164,7 +164,7 @@
       "blockClass":["menu-sanfone-category","menu-sanfone-category-4"]
     },
    "blocks": [
-    //  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-4"
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-4"
     ]
   },
         "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-4": {
@@ -178,7 +178,11 @@
                 "blockClass":"menusubnivel"
               },
               "children": [
-                "menu-item#menusubnivel-sanfone-category-4-vertodos"
+                  "flex-layout.col#sub-menu-4-list-C",
+                  "flex-layout.col#sub-menu-4-list-D",
+                  "flex-layout.col#sub-menu-4-list-A",
+                  "flex-layout.col#sub-menu-4-list-B",
+                  "menu-item#menusubnivel-sanfone-category-4-vertodos"
               ]
             },
 
