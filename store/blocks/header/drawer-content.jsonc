@@ -12,7 +12,9 @@
       "menu-item#menu-sanfone-category-7",
       "menu-item#menu-sanfone-category-3",
       "menu-item#menu-sanfone-category-4",
-      "menu-item#menu-sanfone-category-5"
+      "menu-item#menu-sanfone-category-5",
+      "menu-item#menu-sanfone-category-8",
+      "menu-item#menu-sanfone-category-9"
     /*  "menu-item#menu-sanfone-category-6",
       "menu-item#menu-sanfone-category-7"*/
     ]
@@ -183,7 +185,6 @@
                   "flex-layout.col#sub-menu-4-list-C",
                   "flex-layout.col#sub-menu-4-list-D",
                   "flex-layout.col#sub-menu-4-list-A",
-                  "flex-layout.col#sub-menu-4-list-B",
                   "menu-item#menusubnivel-sanfone-category-4-vertodos"
               ]
             },
@@ -332,6 +333,51 @@
                     "href": "/insumos"
                     }
                 }
+            },
+
+
+  // nivel 8
+
+  "menu-item#menu-sanfone-category-8": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Pedir um Orçamento",
+        "text":  "Pedir um Orçamento",
+        "href": "/consulte-nossos-produtos"
+      },
+      "blockClass":["menu-sanfone-category","menu-sanfone-category-8"]
+    }
+  },
+
+
+  // nivel 9
+
+  "menu-item#menu-sanfone-category-9": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Contato",
+        "text":  "Contato",
+        "href": "/assistencia-tecnica"
+      },
+      "blockClass":["menu-sanfone-category","menu-sanfone-category-9"]
+    },
+   "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-9"
+    ]
+  },
+        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-9": {
+          "children": [
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-9"
+          ]
+        },
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-9": {
+              "props": {
+                "orientation": "vertical",
+                "blockClass":"menusubnivel"
+              },
+              "children": [
+                "flex-layout.col#sub-menu-9-list-A"
+              ]
             },
 
 

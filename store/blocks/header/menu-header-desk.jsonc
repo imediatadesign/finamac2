@@ -21,9 +21,9 @@
       "menu-item#desk-header-menu-7",
       "menu-item#desk-header-menu-3",
       "menu-item#desk-header-menu-4",
-      "menu-item#desk-header-menu-5"
-      /* "menu-item#desk-header-menu-6",
-        "menu-item#desk-header-menu-7"*/
+      "menu-item#desk-header-menu-5",
+      "menu-item#desk-header-menu-8",
+      "menu-item#desk-header-menu-9"
     ]
   },
   // Menu 1
@@ -128,6 +128,43 @@
       }
     }
     //   "blocks": ["vtex.menu@2.x:submenu#desk-header-menu"] // Defining a submenu
+  },
+  "menu-item#desk-header-menu-8": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-8"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/consulte-nossos-produtos",
+        "noFollow": false,
+        "tagTitle": "Pedir um Orçamento",
+        "text": "Pedir um Orçamento"
+      }
+    }
+  },
+  "menu-item#desk-header-menu-9": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-9"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/assistencia-tecnica",
+        "noFollow": false,
+        "tagTitle": "Contato",
+        "text": "Contato"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desk-header-menu-9"
+    ]
   },
   // Menu 6
   "menu-item#desk-header-menu-6": {
@@ -707,8 +744,7 @@
     "children": [
       "flex-layout.col#sub-menu-4-list-C",
       "flex-layout.col#sub-menu-4-list-D",
-      "flex-layout.col#sub-menu-4-list-A",
-      "flex-layout.col#sub-menu-4-list-B"
+      "flex-layout.col#sub-menu-4-list-A"
     ]
   },
   // Categoria A
@@ -728,7 +764,7 @@
       "itemProps": {
         "tagTitle": "Consultoria",
         "text": "Consultoria",
-        "href": "/cursos/consultoria"
+        "href": "/consultorias-especializadas"
       },
       "blockClass": "sub-menu-header-title"
     }
@@ -744,47 +780,14 @@
       "blockClass": "sub-menu-header"
     }
   },
-  // Categoria B
-  "flex-layout.col#sub-menu-4-list-B": {
-    "props": {
-      "width": "100%",
-      "preventVerticalStretch": true,
-      "verticalAlign": "top"
-    },
-    "children": [
-      "menu-item#sub-menu-4-list-1B"
-      //   "menu#sub-menu-4-list-1B"
-    ]
-  },
-  "menu-item#sub-menu-4-list-1B": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Livro Digital",
-        "text": "Livro Digital",
-        "href": "/cursos/livro-digital"
-      },
-      "blockClass": "sub-menu-header-title"
-    }
-  },
-  "menu#sub-menu-4-list-1B": {
-    "props": {
-      "categoryId": "102",
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "sortSubcategories": "name",
-      "orientation": "vertical",
-      "blockClass": "sub-menu-header"
-    }
-  },
+  
   // Categoria C
   "flex-layout.col#sub-menu-4-list-C": {
     "props": {
       "width": "100%"
     },
     "children": [
-      "menu-item#sub-menu-4-list-1C",
-      "menu#sub-menu-4-list-1C"
+      "menu-item#sub-menu-4-list-1C"
     ]
   },
   "menu-item#sub-menu-4-list-1C": {
@@ -792,20 +795,11 @@
       "itemProps": {
         "tagTitle": "Online",
         "text": "Online",
-        "href": "/cursos/online"
+        "type": "external",
+        "href": "https://school.finamac.com/collections/br",
+        "openNewTab": true
       },
       "blockClass": "sub-menu-header-title"
-    }
-  },
-  "menu#sub-menu-4-list-1C": {
-    "props": {
-      "categoryId": "40",
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "sortSubcategories": "name",
-      "orientation": "vertical",
-      "blockClass": "sub-menu-header"
     }
   },
   // Categoria D
@@ -882,9 +876,9 @@
   },
   "flex-layout.col#sub-menu-6-list-A": {
     "props": {
-      "width": "100%",
       "preventVerticalStretch": true,
-      "verticalAlign": "top"
+      "verticalAlign": "top",
+      "blockClass": "submenu-services-column"
     },
     "children": [
       "menu-item#sub-menu-6-list-1",
@@ -897,9 +891,12 @@
       "itemProps": {
         "tagTitle": "Consultoria Técnica",
         "text": "Consultoria Técnica",
-        "href": "/servicos/consultoria-tecnica"
+        "href": "/consultorias-especializadas"
       },
-      "blockClass": "sub-menu-header-title"
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-consultoria"
+      ]
     }
   },
   "menu-item#sub-menu-6-list-2": {
@@ -909,7 +906,10 @@
         "text": "Extensão de Garantia",
         "href": "/servicos/extensao-de-garantia"
       },
-      "blockClass": "sub-menu-header-title"
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-garantia"
+      ]
     }
   },
   "menu-item#sub-menu-6-list-3": {
@@ -919,7 +919,10 @@
         "text": "Manutenção Preventiva",
         "href": "/servicos/manutencao-preventiva"
       },
-      "blockClass": "sub-menu-header-title"
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-manutencao"
+      ]
     }
   },
   // Menu row 7 - Insumos
@@ -985,6 +988,83 @@
         "tagTitle": "Palitos",
         "text": "Palitos",
         "href": "/insumos/palitos"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  // Menu row 9 - Contato
+  "vtex.menu@2.x:submenu#desk-header-menu-9": {
+    "props": {
+      "width": "100%",
+      "blockClass": "sub-menu-header",
+      "onMountBehavior": "open"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desk-header-menu-9"
+    ]
+  },
+  "vtex.menu@2.x:menu#desk-header-menu-9": {
+    "children": [
+      "flex-layout.row#desk-header-submenu-9"
+    ]
+  },
+  "flex-layout.row#desk-header-submenu-9": {
+    "children": [
+      "flex-layout.col#sub-menu-9-list-A"
+    ],
+    "props": {
+      "blockClass": "desk-header-submenu",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#sub-menu-9-list-A": {
+    "props": {
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-9-list-1",
+      "menu-item#sub-menu-9-list-2",
+      "menu-item#sub-menu-9-list-3",
+      "menu-item#sub-menu-9-list-4"
+    ]
+  },
+  "menu-item#sub-menu-9-list-1": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Consulte nossos produtos",
+        "text": "Consulte nossos produtos",
+        "href": "/consulte-nossos-produtos"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#sub-menu-9-list-2": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Torne-se um revendedor ou representante",
+        "text": "Torne-se um revendedor ou representante",
+        "href": "/torne-se-um-revendedor-ou-representante"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#sub-menu-9-list-3": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Assistência Técnica",
+        "text": "Assistência Técnica",
+        "href": "/assistencia-tecnica-finamac"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#sub-menu-9-list-4": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ouvidoria",
+        "text": "Ouvidoria",
+        "href": "/ouvidoria"
       },
       "blockClass": "sub-menu-header-title"
     }

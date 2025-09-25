@@ -27,8 +27,8 @@
       /*"authentication-layout-private#home",
       "authentication-layout-public#home",*/
       "flex-layout.row#logo-drawer",
-      "flex-layout.row#drawer-menu-title-products",
-     "vtex.menu@2.x:menu#footer-mobile_sanfone-category",
+      "flex-layout.row#drawer-menu-all-products",
+      "vtex.menu@2.x:menu#footer-mobile_sanfone-category",
       "flex-layout.row#drawer-menu-title",
      "flex-layout.row#link-drawer"
     ]
@@ -140,23 +140,24 @@
   },
   "rich-text#drawer-menu-title": {
     "props": {
-      "text": "Atalhos",
+      "text": "",
       "blockClass": "drawer-menu-title"
     }
   },
-  // Titile Products
-  "flex-layout.row#drawer-menu-title-products": {
+  
+  // Link: Todos os Produtos
+  "flex-layout.row#drawer-menu-all-products": {
     "props": {
-      "blockClass": "drawer-menu-title"
+      "blockClass": "drawer-menu-all-products"
     },
     "children": [
-      "rich-text#drawer-menu-title-products"
+      "rich-text#drawer-menu-all-products"
     ]
   },
-  "rich-text#drawer-menu-title-products": {
+  "rich-text#drawer-menu-all-products": {
     "props": {
-      "text": "[Produtos](/produtos)",
-      "blockClass": "drawer-menu-title"
+      "text": "[Todos os Produtos](/produtos)",
+      "blockClass": "drawer-menu-all-products"
     }
   }
 

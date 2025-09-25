@@ -79,7 +79,7 @@
       "blockClass": "overlay-search-bar",
       "showArrow": false,
       "offsets": {
-        "distance": 20
+        "distance": 72
       }
     },
     "children": [

@@ -1,26 +1,38 @@
-
-.closeIconContainer{
-    justify-content: end;
+:global(.vtex-store-drawer-0-x-closeIconContainer) {
+    background: #fefefe !important;
 }
 
-.closeIcon{
+
+.closeIconContainer {
+    justify-content: end;
+    position: fixed;
+    right: 0;
+}
+
+.closeIcon {
     color: var(--complementOne);
 }
 
-.drawer{
+.drawer {
     max-width: 420px !important;
 }
 
-.childrenContainer{
+.childrenContainer {
     width: 100% !important;
     display: contents;
 }
 
-.openIconContainer{
+.openIconContainer {
+    transform: scale(.8);
     align-items: center;
     display: flex;
 }
 
-.openIconContainer{
+.openIconContainer {
     color: var(--base);
+}
+
+/* Drawer logo: top padding */
+:global(.vtex-store-components-3-x-imageElement--logo-drawer) {
+  padding-top: 1rem;
 }
