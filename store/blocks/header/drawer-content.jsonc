@@ -7,7 +7,9 @@
     },
     "children": [
       "menu-item#menu-sanfone-category-1",
+      "menu-item#menu-sanfone-category-6",
       "menu-item#menu-sanfone-category-2",
+      "menu-item#menu-sanfone-category-7",
       "menu-item#menu-sanfone-category-3",
       "menu-item#menu-sanfone-category-4",
       "menu-item#menu-sanfone-category-5"
@@ -244,6 +246,95 @@
                     }
                 }
             },
+
+  // nivel 6
+
+  "menu-item#menu-sanfone-category-6": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Serviços",
+        "text":  "Serviços",
+        "href": "/servicos"
+      },
+      "blockClass":["menu-sanfone-category","menu-sanfone-category-6"]
+    },
+   "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-6"
+    ]
+  },
+        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-6": {
+          "children": [
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-6"
+          ]
+        },
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-6": {
+              "props": {
+                "orientation": "vertical",
+                "blockClass":"menusubnivel"
+              },
+              "children": [
+                "flex-layout.col#sub-menu-6-list-A",
+                "menu-item#menusubnivel-sanfone-category-6-vertodos"
+              ]
+            },
+
+              // VER TODOS 
+
+              "menu-item#menusubnivel-sanfone-category-6-vertodos": {
+                "props": {
+                    "itemProps": {
+                    "tagTitle": "Ver Todos",
+                    "text": "Ver Todos",
+                    "href": "/servicos"
+                    }
+                }
+            },
+
+
+  // nivel 7
+
+  "menu-item#menu-sanfone-category-7": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Insumos",
+        "text":  "Insumos",
+        "href": "/insumos"
+      },
+      "blockClass":["menu-sanfone-category","menu-sanfone-category-7"]
+    },
+   "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-7"
+    ]
+  },
+        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-7": {
+          "children": [
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-7"
+          ]
+        },
+            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-7": {
+              "props": {
+                "orientation": "vertical",
+                "blockClass":"menusubnivel"
+              },
+              "children": [
+                "flex-layout.col#sub-menu-7-list-A",
+                "menu-item#menusubnivel-sanfone-category-7-vertodos"
+              ]
+            },
+
+              // VER TODOS 
+
+              "menu-item#menusubnivel-sanfone-category-7-vertodos": {
+                "props": {
+                    "itemProps": {
+                    "tagTitle": "Ver Todos",
+                    "text": "Ver Todos",
+                    "href": "/insumos"
+                    }
+                }
+            },
+
+
 
 
 
