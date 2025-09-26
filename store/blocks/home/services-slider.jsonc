@@ -139,7 +139,7 @@
   },
   "rich-text#service-accessories-subtitle": {
     "props": {
-      "text": "confira nossos acessorios",
+      "text": "Confira nossos acessorios",
       "blockClass": "service-subtitle",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -211,6 +211,16 @@
       "preventVerticalStretch": true
     },
     "children": [
+      "link#service-parts"
+    ]
+  },
+  "link#service-parts": {
+    "props": {
+      "href": "/pecas-de-reposicao",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
       "flex-layout.col#service-parts-content"
     ]
   },
@@ -243,7 +253,7 @@
   },
   "rich-text#service-parts-subtitle": {
     "props": {
-      "text": "Em breve",
+      "text": "Todas as peças e reposições",
       "blockClass": "service-subtitle",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -256,6 +266,16 @@
       "horizontalAlign": "center",
       "verticalAlign": "middle",
       "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-inputs"
+    ]
+  },
+  "link#service-inputs": {
+    "props": {
+      "href": "/insumos",
+      "blockClass": "service-link",
+      "label": " "
     },
     "children": [
       "flex-layout.col#service-inputs-content"
@@ -290,7 +310,7 @@
   },
   "rich-text#service-inputs-subtitle": {
     "props": {
-      "text": "Em breve",
+      "text": "Saiba mais sobre esta linha",
       "blockClass": "service-subtitle",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -303,6 +323,16 @@
       "horizontalAlign": "center",
       "verticalAlign": "middle",
       "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-services"
+    ]
+  },
+  "link#service-services": {
+    "props": {
+      "href": "/servicos",
+      "blockClass": "service-link",
+      "label": " "
     },
     "children": [
       "flex-layout.col#service-services-content"
@@ -337,7 +367,7 @@
   },
   "rich-text#service-services-subtitle": {
     "props": {
-      "text": "Em breve",
+      "text": "Conheça nossos serviços",
       "blockClass": "service-subtitle",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
