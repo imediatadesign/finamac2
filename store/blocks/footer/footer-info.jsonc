@@ -666,7 +666,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/technical-support-finamac?__bindingAddress=www.finamac.com/en",
+        "href": "/technical-support-finamac",
         "text": "🇺🇸 English"
       },
       "blockClass": "footer-support-link"
@@ -678,7 +678,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/asistencia-tecnica-finamac/?__bindingAddress=www.finamac.com/es",
+        "href": "/asistencia-tecnica-finamac",
         "text": "🇪🇸 Español"
       },
       "blockClass": "footer-support-link"
@@ -722,7 +722,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/technical-support-finamac?__bindingAddress=www.finamac.com/en",
+        "href": "/technical-support-finamac",
         "text": "🇺🇸 English"
       },
       "blockClass": "footer-support-link"
@@ -734,7 +734,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/asistencia-tecnica-finamac/?__bindingAddress=www.finamac.com/es",
+        "href": "/asistencia-tecnica-finamac",
         "text": "🇪🇸 Español"
       },
       "blockClass": "footer-support-link"
