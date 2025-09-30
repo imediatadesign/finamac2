@@ -9,383 +9,383 @@
       "menu-item#menu-sanfone-category-1",
       "menu-item#menu-sanfone-category-6",
       "menu-item#menu-sanfone-category-2",
-      "menu-item#menu-sanfone-category-7",
-      "menu-item#menu-sanfone-category-3",
       "menu-item#menu-sanfone-category-4",
       "menu-item#menu-sanfone-category-5",
       "menu-item#menu-sanfone-category-8",
       "menu-item#menu-sanfone-category-9"
-    /*  "menu-item#menu-sanfone-category-6",
+      /*  "menu-item#menu-sanfone-category-6",
       "menu-item#menu-sanfone-category-7"*/
     ]
   },
-
   // nivel 1
-
   "menu-item#menu-sanfone-category-1": {
     "props": {
       "itemProps": {
         "tagTitle": "Máquinas",
-        "text":  "Máquinas",
+        "text": "Máquinas",
         "href": "/maquinas"
       },
-      "blockClass":["menu-sanfone-category","menu-sanfone-category-1"]
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-1"
+      ]
     },
-   "blocks": [
+    "blocks": [
       "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-1"
     ]
   },
-        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-1": {
-          "children": [
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-1"
-          ]
-        },
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-1": {
-              "props": {
-                "orientation": "vertical",
-                "blockClass":"menusubnivel",
-                "height":"100%"
-              },
-              "children": [
-              "flex-layout.col#sub-menu-1-list-A",
-              "flex-layout.col#sub-menu-1-list-B",
-                "menu-item#menusubnivel-sanfone-category-1-vertodos"
-              ]
-            },
-
-              // VER TODOS 
-
-              "menu-item#menusubnivel-sanfone-category-1-vertodos": {
-                "props": {
-                    "itemProps": {
-                    "tagTitle": "Ver Todos",
-                    "text": "Ver Todos",
-                    "href": "/maquinas"
-                    }
-                }
-            },
-
-            
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-1": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-1": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel",
+      "height": "100%"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-1-list-B",
+      "flex-layout.col#sub-menu-1-list-A",
+      "menu-item#menusubnivel-sanfone-category-1-vertodos"
+    ]
+  },
+  // VER TODOS 
+  "menu-item#menusubnivel-sanfone-category-1-vertodos": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos",
+        "href": "/maquinas"
+      }
+    }
+  },
   // nivel 2
-
   "menu-item#menu-sanfone-category-2": {
     "props": {
       "itemProps": {
         "tagTitle": "Acessórios",
-        "text":  "Acessórios",
+        "text": "Acessórios",
         "href": "/acessorios"
       },
-      "blockClass":["menu-sanfone-category","menu-sanfone-category-2"]
-
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-2"
+      ]
     },
-   "blocks": [
+    "blocks": [
       "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-2"
     ]
   },
-        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-2": {
-          "children": [
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-2"
-          ]
-        },
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-2": {
-              "props": {
-                "orientation": "vertical",
-                "blockClass":"menusubnivel"
-              },
-              "children": [
-                 "flex-layout.col#sub-menu-2-list-A",
-                 "flex-layout.col#sub-menu-2-list-B",
-                 "menu-item#menusubnivel-sanfone-category-2-vertodos"
-              ]
-            },
-
-              // VER TODOS 
-
-              "menu-item#menusubnivel-sanfone-category-2-vertodos": {
-                "props": {
-                    "itemProps": {
-                    "tagTitle": "Ver Todos",
-                    "text": "Ver Todos",
-                    "href": "/acessorios"
-                    }
-                }
-            },
-
-
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-2": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-2"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-2": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-2-list-A",
+      "flex-layout.col#sub-menu-2-list-B",
+      "menu-item#menusubnivel-sanfone-category-2-insumos",
+      "menu-item#menusubnivel-sanfone-category-2-vertodos"
+    ]
+  },
+  // VER TODOS 
+  "menu-item#menusubnivel-sanfone-category-2-insumos": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Insumos",
+        "text": "Insumos",
+        "href": "/insumos"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#menusubnivel-sanfone-category-2-vertodos": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos",
+        "href": "/acessorios"
+      }
+    }
+  },
   // nivel 3
-
   "menu-item#menu-sanfone-category-3": {
     "props": {
       "itemProps": {
         "tagTitle": "Peças de Reposição",
-        "text":  "Peças de Reposição",
-        "href": "/pecas-de-reposição"
+        "text": "Peças de Reposição",
+        "href": "/pecas-de-reposicao"
       },
-      "blockClass":["menu-sanfone-category","menu-sanfone-category-3"]
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-3"
+      ]
     },
-   "blocks": [
+    "blocks": [
       "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-3"
     ]
   },
-        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-3": {
-          "children": [
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-3"
-          ]
-        },
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-3": {
-              "props": {
-                "orientation": "vertical",
-                "blockClass":"menusubnivel"
-              },
-              "children": [
-                "flex-layout.col#sub-menu-3-list-A",
-                "menu-item#menusubnivel-sanfone-category-3-vertodos"
-              ]
-            },
-
-              // VER TODOS 
-
-              "menu-item#menusubnivel-sanfone-category-3-vertodos": {
-                "props": {
-                    "itemProps": {
-                    "tagTitle": "Ver Todos",
-                    "text": "Ver Todos",
-                    "href": "/pecas-de-reposição"
-                    }
-                }
-            },
-
-
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-3": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-3"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-3": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-3-list-A",
+      "menu-item#menusubnivel-sanfone-category-3-vertodos"
+    ]
+  },
+  // VER TODOS 
+  "menu-item#menusubnivel-sanfone-category-3-vertodos": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos",
+        "href": "/pecas-de-reposicao"
+      }
+    }
+  },
   // nivel 4
-
   "menu-item#menu-sanfone-category-4": {
     "props": {
       "itemProps": {
         "tagTitle": "Cursos",
-        "text":  "Cursos",
+        "text": "Cursos",
         "href": "/cursos"
       },
-      "blockClass":["menu-sanfone-category","menu-sanfone-category-4"]
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-4"
+      ]
     },
-   "blocks": [
+    "blocks": [
       "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-4"
     ]
   },
-        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-4": {
-          "children": [
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-4"
-          ]
-        },
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-4": {
-              "props": {
-                "orientation": "vertical",
-                "blockClass":"menusubnivel"
-              },
-              "children": [
-                  "flex-layout.col#sub-menu-4-list-C",
-                  "flex-layout.col#sub-menu-4-list-D",
-                  "flex-layout.col#sub-menu-4-list-A",
-                  "menu-item#menusubnivel-sanfone-category-4-vertodos"
-              ]
-            },
-
-              // VER TODOS 
-
-              "menu-item#menusubnivel-sanfone-category-4-vertodos": {
-                "props": {
-                    "itemProps": {
-                    "tagTitle": "Ver Todos",
-                    "text": "Ver Todos",
-                    "href": "/cursos"
-                    }
-                }
-            },
-
-
-  // nivel 5
-
-  "menu-item#menu-sanfone-category-5": {
-    "props": {
-      "blockClass":["menu-sanfone-category","menu-sanfone-category-5"],
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "external",
-          "href": "https://blog.finamac.com/",
-          "noFollow": false,
-          "tagTitle": "Blog",
-          "text": "Blog"
-        }
-    },
-   "blocks": [
-    //  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-5"
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-4": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-4"
     ]
   },
-        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-5": {
-          "children": [
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-5"
-          ]
-        },
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-5": {
-              "props": {
-                "orientation": "vertical",
-                "blockClass":"menusubnivel"
-              },
-              "children": [
-                "menu-item#menusubnivel-sanfone-category-5-vertodos"
-              ]
-            },
-
-              // VER TODOS 
-
-              "menu-item#menusubnivel-sanfone-category-5-vertodos": {
-                "props": {
-                    "itemProps": {
-                    "tagTitle": "Ver Todos",
-                    "text": "Ver Todos",
-                    "href": "/pecas-de-reposição"
-                    }
-                }
-            },
-
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-4": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-4-list-C",
+      "flex-layout.col#sub-menu-4-list-D",
+      "flex-layout.col#sub-menu-4-list-A",
+      "menu-item#menusubnivel-sanfone-category-4-vertodos"
+    ]
+  },
+  // VER TODOS 
+  "menu-item#menusubnivel-sanfone-category-4-vertodos": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos",
+        "href": "/cursos"
+      }
+    }
+  },
+  // nivel 5
+  "menu-item#menu-sanfone-category-5": {
+    "props": {
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-5"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://blog.finamac.com/",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    },
+    "blocks": [
+      //  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-5"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-5": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-5"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-5": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "menu-item#menusubnivel-sanfone-category-5-vertodos"
+    ]
+  },
+  // VER TODOS 
+  "menu-item#menusubnivel-sanfone-category-5-vertodos": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos",
+        "href": "/pecas-de-reposicao"
+      }
+    }
+  },
   // nivel 6
-
   "menu-item#menu-sanfone-category-6": {
     "props": {
       "itemProps": {
         "tagTitle": "Serviços",
-        "text":  "Serviços",
+        "text": "Serviços",
         "href": "/servicos"
       },
-      "blockClass":["menu-sanfone-category","menu-sanfone-category-6"]
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-6"
+      ]
     },
-   "blocks": [
+    "blocks": [
       "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-6"
     ]
   },
-        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-6": {
-          "children": [
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-6"
-          ]
-        },
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-6": {
-              "props": {
-                "orientation": "vertical",
-                "blockClass":"menusubnivel"
-              },
-              "children": [
-                "flex-layout.col#sub-menu-6-list-A",
-                "menu-item#menusubnivel-sanfone-category-6-vertodos"
-              ]
-            },
-
-              // VER TODOS 
-
-              "menu-item#menusubnivel-sanfone-category-6-vertodos": {
-                "props": {
-                    "itemProps": {
-                    "tagTitle": "Ver Todos",
-                    "text": "Ver Todos",
-                    "href": "/servicos"
-                    }
-                }
-            },
-
-
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-6": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-6"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-6": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-6-list-A",
+      "menu-item#menusubnivel-sanfone-category-6-pecas",
+      "menu-item#menusubnivel-sanfone-category-6-vertodos"
+    ]
+  },
+  // VER TODOS
+  "menu-item#menusubnivel-sanfone-category-6-pecas": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Peças de Reposição",
+        "text": "Peças de Reposição",
+        "href": "/pecas-de-reposicao"
+      }
+    }
+  },
+  "menu-item#menusubnivel-sanfone-category-6-vertodos": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos",
+        "href": "/servicos"
+      }
+    }
+  },
   // nivel 7
-
   "menu-item#menu-sanfone-category-7": {
     "props": {
       "itemProps": {
         "tagTitle": "Insumos",
-        "text":  "Insumos",
+        "text": "Insumos",
         "href": "/insumos"
       },
-      "blockClass":["menu-sanfone-category","menu-sanfone-category-7"]
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-7"
+      ]
     },
-   "blocks": [
+    "blocks": [
       "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-7"
     ]
   },
-        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-7": {
-          "children": [
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-7"
-          ]
-        },
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-7": {
-              "props": {
-                "orientation": "vertical",
-                "blockClass":"menusubnivel"
-              },
-              "children": [
-                "flex-layout.col#sub-menu-7-list-A",
-                "menu-item#menusubnivel-sanfone-category-7-vertodos"
-              ]
-            },
-
-              // VER TODOS 
-
-              "menu-item#menusubnivel-sanfone-category-7-vertodos": {
-                "props": {
-                    "itemProps": {
-                    "tagTitle": "Ver Todos",
-                    "text": "Ver Todos",
-                    "href": "/insumos"
-                    }
-                }
-            },
-
-
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-7": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-7"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-7": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-7-list-A",
+      "menu-item#menusubnivel-sanfone-category-7-vertodos"
+    ]
+  },
+  // VER TODOS 
+  "menu-item#menusubnivel-sanfone-category-7-vertodos": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos",
+        "href": "/insumos"
+      }
+    }
+  },
   // nivel 8
-
   "menu-item#menu-sanfone-category-8": {
     "props": {
       "itemProps": {
         "tagTitle": "Pedir um Orçamento",
-        "text":  "Pedir um Orçamento",
+        "text": "Pedir um Orçamento",
         "href": "/consulte-nossos-produtos"
       },
-      "blockClass":["menu-sanfone-category","menu-sanfone-category-8"]
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-8"
+      ]
     }
   },
-
-
   // nivel 9
-
   "menu-item#menu-sanfone-category-9": {
     "props": {
       "itemProps": {
         "tagTitle": "Contato",
-        "text":  "Contato",
+        "text": "Contato",
         "href": "/assistencia-tecnica"
       },
-      "blockClass":["menu-sanfone-category","menu-sanfone-category-9"]
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-9"
+      ]
     },
-   "blocks": [
+    "blocks": [
       "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-9"
     ]
   },
-        "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-9": {
-          "children": [
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-9"
-          ]
-        },
-            "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-9": {
-              "props": {
-                "orientation": "vertical",
-                "blockClass":"menusubnivel"
-              },
-              "children": [
-                "flex-layout.col#sub-menu-9-list-A"
-              ]
-            },
-
-
-
-
-
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-9": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-9"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-9": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-9-list-A"
+    ]
+  },
   // Novidades
-
   "menu-item#menu-drawer-novidades": {
     "props": {
       "itemProps": {
@@ -395,11 +395,7 @@
       }
     }
   },
-
-
-  
   // Novidades
-
   "menu-item#menu-drawer-lojistas": {
     "props": {
       "itemProps": {

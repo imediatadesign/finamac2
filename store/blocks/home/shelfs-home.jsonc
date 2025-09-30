@@ -2,7 +2,7 @@
   // Shelf 1
   "flex-layout.row#home-shelf-1": {
     "props": {
-      "paddingTop": 2,
+      "paddingTop": 7,
       "paddingBottom": 4,
       "blockClass": [
         "shelf-home"
@@ -10,8 +10,18 @@
       "fullWidth": true
     },
     "children": [
+      "rich-text#home-shelf-1",
       "list-context.product-list#home-shelf"
     ]
+  },
+  "rich-text#home-shelf-1": {
+    "props": {
+      "text": "### **Lançamentos**",
+      "width": "100%",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home-bandeja-title"
+    }
   },
   "list-context.product-list#home-shelf": {
     "blocks": [

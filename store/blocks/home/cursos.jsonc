@@ -30,26 +30,44 @@
           },
               "rich-text#cursos-home": {
                 "props": {
-                  "text": "### **Cursos na Finamac**",
+                  "text": "### **Acessórios**",
                   "width": "100%",
                   "textAlignment": "CENTER",
                   "textPosition": "CENTER",
                   "blockClass": "home-bandeja-title"
                 }
               },
-        
+
                 "list-context.product-list#cursos-home": {
                   "blocks": [
                     "product-summary.shelf"
                   ],
                   "children": [
-                    "slider-layout#home-shelf"
+                    "slider-layout#home-shelf-acessorios"
                   ],
                   "props": {
                     "orderBy": "OrderByBestDiscountDESC",
                     "width": "100%",
                     "hideUnavailableItems":false,
-                    "category":"3"
+                    "category":"2"
+                  }
+                },
+                "slider-layout#home-shelf-acessorios": {
+                  "props": {
+                    "itemsPerPage": {
+                      "desktop": 4,
+                      "tablet": 3,
+                      "phone": 2
+                    },
+                    "infinite": true,
+                    "fullWidth": false,
+                    "showNavigationArrows": "desktopOnly",
+                    "showPaginationDots": "always",
+                    "blockClass": [
+                      "shelf",
+                      "shelf-acessorios",
+                      "dots-bottom"
+                    ]
                   }
                 }
 

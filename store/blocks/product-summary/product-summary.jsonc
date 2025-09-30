@@ -261,10 +261,27 @@
   },
   "flex-layout.row#specification-badges-collections": {
     "children": [
-      "product-specification-badges#collection"
+      "product-specification-badges#collection",
+      "vtex.product-highlights@2.x:product-highlights#lancamentos"
     ],
     "props": {
       "blockClass": "specification-badges-collection"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#lancamentos": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "collections": ["155"]
+      }
+    },
+    "children": ["product-highlight-text#lancamentos"]
+  },
+  "product-highlight-text#lancamentos": {
+    "props": {
+      "message": "Lançamentos",
+      "blockClass": "lancamentos-badge"
     }
   },
   "product-specification-badges#collection": {
