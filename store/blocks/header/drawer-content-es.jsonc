@@ -1,0 +1,405 @@
+{
+  // Menu Drawer - ES
+  "vtex.menu@2.x:menu#footer-mobile_sanfone-category-es": {
+    "props": {
+      "blockClass": "mobile_sanfone",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#menu-sanfone-category-1-es",
+      "menu-item#menu-sanfone-category-6-es",
+      "menu-item#menu-sanfone-category-2-es",
+      "menu-item#menu-sanfone-category-4-es",
+      "menu-item#menu-sanfone-category-5-es",
+      "menu-item#menu-sanfone-category-8-es",
+      "menu-item#menu-sanfone-category-9-es"
+    ]
+  },
+  // nivel 1
+  "menu-item#menu-sanfone-category-1-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Máquinas",
+        "text": "Máquinas",
+        "href": "/maquinas"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-1"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-1-es"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-1-es": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-1-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-1-es": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel",
+      "height": "100%"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-1-list-B-es",
+      "flex-layout.col#sub-menu-1-list-A-es",
+      "menu-item#menusubnivel-sanfone-category-1-vertodos-es"
+    ]
+  },
+  // VER TODOS
+  "menu-item#menusubnivel-sanfone-category-1-vertodos-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ver Todo",
+        "text": "Ver Todo",
+        "href": "/maquinas"
+      }
+    }
+  },
+  // nivel 2
+  "menu-item#menu-sanfone-category-2-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Accesorios",
+        "text": "Accesorios",
+        "href": "/accesorios"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-2"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-2-es"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-2-es": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-2-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-2-es": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-2-list-A-es",
+      "flex-layout.col#sub-menu-2-list-B-es",
+      "menu-item#menusubnivel-sanfone-category-2-insumos-es",
+      "menu-item#menusubnivel-sanfone-category-2-vertodos-es"
+    ]
+  },
+  // VER TODOS
+  "menu-item#menusubnivel-sanfone-category-2-insumos-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Insumos",
+        "text": "Insumos",
+        "href": "/insumos"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#menusubnivel-sanfone-category-2-vertodos-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ver Todo",
+        "text": "Ver Todo",
+        "href": "/accesorios"
+      }
+    }
+  },
+  // nivel 3
+  "menu-item#menu-sanfone-category-3-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Piezas de Repuesto",
+        "text": "Piezas de Repuesto",
+        "href": "/piezas-de-repuesto"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-3"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-3-es"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-3-es": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-3-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-3-es": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-3-list-A-es",
+      "menu-item#menusubnivel-sanfone-category-3-vertodos-es"
+    ]
+  },
+  // VER TODOS
+  "menu-item#menusubnivel-sanfone-category-3-vertodos-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ver Todo",
+        "text": "Ver Todo",
+        "href": "/piezas-de-repuesto"
+      }
+    }
+  },
+  // nivel 4
+  "menu-item#menu-sanfone-category-4-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Cursos",
+        "text": "Cursos",
+        "href": "/cursos"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-4"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-4-es"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-4-es": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-4-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-4-es": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-4-list-C-es",
+      "flex-layout.col#sub-menu-4-list-D-es",
+      "flex-layout.col#sub-menu-4-list-A-es",
+      "menu-item#menusubnivel-sanfone-category-4-vertodos-es"
+    ]
+  },
+  // VER TODOS
+  "menu-item#menusubnivel-sanfone-category-4-vertodos-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ver Todo",
+        "text": "Ver Todo",
+        "href": "/cursos"
+      }
+    }
+  },
+  // nivel 5
+  "menu-item#menu-sanfone-category-5-es": {
+    "props": {
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-5"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://blog.finamac.com/es/",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    },
+    "blocks": []
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-5-es": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-5-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-5-es": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "menu-item#menusubnivel-sanfone-category-5-vertodos-es"
+    ]
+  },
+  // VER TODOS
+  "menu-item#menusubnivel-sanfone-category-5-vertodos-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ver Todo",
+        "text": "Ver Todo",
+        "href": "/piezas-de-repuesto"
+      }
+    }
+  },
+  // nivel 6
+  "menu-item#menu-sanfone-category-6-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Servicios",
+        "text": "Servicios",
+        "href": "/servicios"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-6"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-6-es"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-6-es": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-6-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-6-es": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-6-list-A-es",
+      "menu-item#menusubnivel-sanfone-category-6-pecas-es",
+      "menu-item#menusubnivel-sanfone-category-6-vertodos-es"
+    ]
+  },
+  // VER TODOS
+  "menu-item#menusubnivel-sanfone-category-6-pecas-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Piezas de Repuesto",
+        "text": "Piezas de Repuesto",
+        "href": "/piezas-de-repuesto"
+      }
+    }
+  },
+  "menu-item#menusubnivel-sanfone-category-6-vertodos-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ver Todo",
+        "text": "Ver Todo",
+        "href": "/servicios"
+      }
+    }
+  },
+  // nivel 7
+  "menu-item#menu-sanfone-category-7-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Insumos",
+        "text": "Insumos",
+        "href": "/insumos"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-7"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-7-es"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-7-es": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-7-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-7-es": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-7-list-A-es",
+      "menu-item#menusubnivel-sanfone-category-7-vertodos-es"
+    ]
+  },
+  // VER TODOS
+  "menu-item#menusubnivel-sanfone-category-7-vertodos-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ver Todo",
+        "text": "Ver Todo",
+        "href": "/insumos"
+      }
+    }
+  },
+  // nivel 8
+  "menu-item#menu-sanfone-category-8-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Solicitar Presupuesto",
+        "text": "Solicitar Presupuesto",
+        "href": "/solicitar-presupuesto"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-8"
+      ]
+    }
+  },
+  // nivel 9
+  "menu-item#menu-sanfone-category-9-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Contacto",
+        "text": "Contacto",
+        "href": "/asistencia-tecnica"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-9"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-9-es"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-9-es": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-9-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-9-es": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-9-list-A-es"
+    ]
+  },
+  // Novedades
+  "menu-item#menu-drawer-novidades-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Novedades",
+        "text": "Novedades",
+        "href": "/productos?order=OrderByReleaseDateDESC"
+      }
+    }
+  },
+  // Distribuidores
+  "menu-item#menu-drawer-lojistas-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Distribuidores",
+        "text": "Distribuidores",
+        "href": "https://www.natikosb2b.com.br/",
+        "type": "external"
+      }
+    }
+  }
+}

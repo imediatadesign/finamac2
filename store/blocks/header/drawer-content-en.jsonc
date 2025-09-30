@@ -1,0 +1,405 @@
+{
+  // Menu Drawer - EN
+  "vtex.menu@2.x:menu#footer-mobile_sanfone-category-en": {
+    "props": {
+      "blockClass": "mobile_sanfone",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#menu-sanfone-category-1-en",
+      "menu-item#menu-sanfone-category-6-en",
+      "menu-item#menu-sanfone-category-2-en",
+      "menu-item#menu-sanfone-category-4-en",
+      "menu-item#menu-sanfone-category-5-en",
+      "menu-item#menu-sanfone-category-8-en",
+      "menu-item#menu-sanfone-category-9-en"
+    ]
+  },
+  // nivel 1
+  "menu-item#menu-sanfone-category-1-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Machines",
+        "text": "Machines",
+        "href": "/machines"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-1"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-1-en"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-1-en": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-1-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-1-en": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel",
+      "height": "100%"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-1-list-B-en",
+      "flex-layout.col#sub-menu-1-list-A-en",
+      "menu-item#menusubnivel-sanfone-category-1-vertodos-en"
+    ]
+  },
+  // VER TODOS
+  "menu-item#menusubnivel-sanfone-category-1-vertodos-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "View All",
+        "text": "View All",
+        "href": "/machines"
+      }
+    }
+  },
+  // nivel 2
+  "menu-item#menu-sanfone-category-2-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Accessories",
+        "text": "Accessories",
+        "href": "/accessories"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-2"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-2-en"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-2-en": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-2-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-2-en": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-2-list-A-en",
+      "flex-layout.col#sub-menu-2-list-B-en",
+      "menu-item#menusubnivel-sanfone-category-2-insumos-en",
+      "menu-item#menusubnivel-sanfone-category-2-vertodos-en"
+    ]
+  },
+  // VER TODOS
+  "menu-item#menusubnivel-sanfone-category-2-insumos-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Supplies",
+        "text": "Supplies",
+        "href": "/supplies"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#menusubnivel-sanfone-category-2-vertodos-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "View All",
+        "text": "View All",
+        "href": "/accessories"
+      }
+    }
+  },
+  // nivel 3
+  "menu-item#menu-sanfone-category-3-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Replacement Parts",
+        "text": "Replacement Parts",
+        "href": "/replacement-parts"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-3"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-3-en"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-3-en": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-3-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-3-en": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-3-list-A-en",
+      "menu-item#menusubnivel-sanfone-category-3-vertodos-en"
+    ]
+  },
+  // VER TODOS
+  "menu-item#menusubnivel-sanfone-category-3-vertodos-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "View All",
+        "text": "View All",
+        "href": "/replacement-parts"
+      }
+    }
+  },
+  // nivel 4
+  "menu-item#menu-sanfone-category-4-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Courses",
+        "text": "Courses",
+        "href": "/courses"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-4"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-4-en"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-4-en": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-4-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-4-en": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-4-list-C-en",
+      "flex-layout.col#sub-menu-4-list-D-en",
+      "flex-layout.col#sub-menu-4-list-A-en",
+      "menu-item#menusubnivel-sanfone-category-4-vertodos-en"
+    ]
+  },
+  // VER TODOS
+  "menu-item#menusubnivel-sanfone-category-4-vertodos-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "View All",
+        "text": "View All",
+        "href": "/courses"
+      }
+    }
+  },
+  // nivel 5
+  "menu-item#menu-sanfone-category-5-en": {
+    "props": {
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-5"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://blog.finamac.com/en/",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    },
+    "blocks": []
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-5-en": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-5-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-5-en": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "menu-item#menusubnivel-sanfone-category-5-vertodos-en"
+    ]
+  },
+  // VER TODOS
+  "menu-item#menusubnivel-sanfone-category-5-vertodos-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "View All",
+        "text": "View All",
+        "href": "/replacement-parts"
+      }
+    }
+  },
+  // nivel 6
+  "menu-item#menu-sanfone-category-6-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Services",
+        "text": "Services",
+        "href": "/services"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-6"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-6-en"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-6-en": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-6-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-6-en": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-6-list-A-en",
+      "menu-item#menusubnivel-sanfone-category-6-pecas-en",
+      "menu-item#menusubnivel-sanfone-category-6-vertodos-en"
+    ]
+  },
+  // VER TODOS
+  "menu-item#menusubnivel-sanfone-category-6-pecas-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Replacement Parts",
+        "text": "Replacement Parts",
+        "href": "/replacement-parts"
+      }
+    }
+  },
+  "menu-item#menusubnivel-sanfone-category-6-vertodos-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "View All",
+        "text": "View All",
+        "href": "/services"
+      }
+    }
+  },
+  // nivel 7
+  "menu-item#menu-sanfone-category-7-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Supplies",
+        "text": "Supplies",
+        "href": "/supplies"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-7"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-7-en"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-7-en": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-7-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-7-en": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-7-list-A-en",
+      "menu-item#menusubnivel-sanfone-category-7-vertodos-en"
+    ]
+  },
+  // VER TODOS
+  "menu-item#menusubnivel-sanfone-category-7-vertodos-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "View All",
+        "text": "View All",
+        "href": "/supplies"
+      }
+    }
+  },
+  // nivel 8
+  "menu-item#menu-sanfone-category-8-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Request Quote",
+        "text": "Request Quote",
+        "href": "/request-quote"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-8"
+      ]
+    }
+  },
+  // nivel 9
+  "menu-item#menu-sanfone-category-9-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Contact",
+        "text": "Contact",
+        "href": "/technical-assistance"
+      },
+      "blockClass": [
+        "menu-sanfone-category",
+        "menu-sanfone-category-9"
+      ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-9-en"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-sanfone-category-9-en": {
+    "children": [
+      "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-9-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#menusubnivel-menu-sanfone-category-9-en": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menusubnivel"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-9-list-A-en"
+    ]
+  },
+  // News
+  "menu-item#menu-drawer-novidades-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "New Arrivals",
+        "text": "New Arrivals",
+        "href": "/products?order=OrderByReleaseDateDESC"
+      }
+    }
+  },
+  // Dealers
+  "menu-item#menu-drawer-lojistas-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Dealers",
+        "text": "Dealers",
+        "href": "https://www.natikosb2b.com.br/",
+        "type": "external"
+      }
+    }
+  }
+}

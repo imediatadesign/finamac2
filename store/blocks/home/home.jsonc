@@ -1,17 +1,44 @@
 {
   "store.home": {
-    // "parent": { 
+    // "parent": {
     //   "header": "header#2"
     // },
     "blocks": [
       "flex-layout.row#slider-home",
-      "flex-layout.row#services-slider",
+      "condition-layout.binding#services-slider-switcher",
       "flex-layout.row#home-shelf-1",
       "flex-layout.row#infocard-home",
       "flex-layout.row#cursos-home",
       "flex-layout.row#home-shelf-2",
       "flex-layout.row#brands-slider"
     ]
+  },
+
+  // ========== SERVICES SLIDER MULTI-IDIOMA ==========
+  "condition-layout.binding#services-slider-switcher": {
+    "props": {
+      "conditions": [{
+        "subject": "bindingId",
+        "arguments": {
+          "id": "33cd2dcc-c319-4da0-82d5-71aa38b19380"  // PT-BR
+        }
+      }],
+      "Then": "flex-layout.row#services-slider",
+      "Else": "condition-layout.binding#services-slider-en-es"
+    }
+  },
+
+  "condition-layout.binding#services-slider-en-es": {
+    "props": {
+      "conditions": [{
+        "subject": "bindingId",
+        "arguments": {
+          "id": "56fe0518-7750-4e50-ada7-9d9c7e2f41c8"  // EN-US
+        }
+      }],
+      "Then": "flex-layout.row#services-slider--en",
+      "Else": "flex-layout.row#services-slider--es"  // ES-ES fallback
+    }
   },
   // Slider
   "flex-layout.row#slider-home": {

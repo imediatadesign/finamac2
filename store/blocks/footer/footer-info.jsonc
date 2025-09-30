@@ -195,7 +195,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/sobrenos",
+        "href": "/sobrenos",
         "text": "Sobre Nós"
       },
       "blockClass": "footer-menu-item"
@@ -207,7 +207,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/premiacoes",
+        "href": "/premiacoes",
         "text": "Premiações"
       },
       "blockClass": "footer-menu-item"
@@ -219,7 +219,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/tecnologia",
+        "href": "/tecnologia",
         "text": "Tecnologia"
       },
       "blockClass": "footer-menu-item"
@@ -231,7 +231,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/clientes",
+        "href": "/clientes",
         "text": "Clientes"
       },
       "blockClass": "footer-menu-item"
@@ -243,7 +243,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/projetos",
+        "href": "/projetos",
         "text": "Projetos"
       },
       "blockClass": "footer-menu-item"
@@ -255,7 +255,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/parcerias",
+        "href": "/parcerias",
         "text": "Parcerias"
       },
       "blockClass": "footer-menu-item"
@@ -267,7 +267,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/areas",
+        "href": "/areas",
         "text": "Áreas"
       },
       "blockClass": "footer-menu-item"
@@ -279,7 +279,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/unidades",
+        "href": "/unidades",
         "text": "Unidades"
       },
       "blockClass": "footer-menu-item"
@@ -291,7 +291,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/eventos",
+        "href": "/eventos",
         "text": "Eventos"
       },
       "blockClass": "footer-menu-item"
@@ -303,7 +303,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/midia",
+        "href": "/midia",
         "text": "Mídia"
       },
       "blockClass": "footer-menu-item"
@@ -315,7 +315,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/ouvidoria",
+        "href": "/ouvidoria",
         "text": "Ouvidoria"
       },
       "blockClass": "footer-menu-item"
@@ -363,7 +363,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/cursos",
+        "href": "/cursos",
         "text": "Cursos"
       },
       "blockClass": "footer-menu-item"
@@ -375,7 +375,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/consultorias",
+        "href": "/consultorias",
         "text": "Consultorias"
       },
       "blockClass": "footer-menu-item"
@@ -387,7 +387,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/assistencia-tecnica-finamac",
+        "href": "/assistencia-tecnica-finamac",
         "text": "Assistência Técnica"
       },
       "blockClass": "footer-menu-item"
@@ -399,7 +399,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/treinamento",
+        "href": "/treinamento",
         "text": "Vídeos de Treinamento"
       },
       "blockClass": "footer-menu-item"
@@ -411,7 +411,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/treinamento-finamac",
+        "href": "/treinamento-finamac",
         "text": "Treinamento Finamac"
       },
       "blockClass": "footer-menu-item"
@@ -440,7 +440,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/politica-de-privacidade",
+        "href": "/politica-de-privacidade",
         "text": "Política de Privacidade"
       },
       "blockClass": "footer-menu-item"
@@ -452,7 +452,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/politica-de-cookies",
+        "href": "/politica-de-cookies",
         "text": "Política de Cookies"
       },
       "blockClass": "footer-menu-item"
@@ -495,7 +495,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/account",
+        "href": "/account",
         "text": "Minha Conta"
       },
       "blockClass": "footer-menu-item"
@@ -507,7 +507,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/account#/orders",
+        "href": "/account#/orders",
         "text": "Meus Pedidos"
       },
       "blockClass": "footer-menu-item"
@@ -654,7 +654,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/assistencia-tecnica-finamac/",
+        "href": "/assistencia-tecnica-finamac/",
         "text": "🇧🇷 Português"
       },
       "blockClass": "footer-support-link"
@@ -746,7 +746,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/br/assistencia-tecnica-finamac/",
+        "href": "/assistencia-tecnica-finamac/",
         "text": "🇧🇷 Português"
       },
       "blockClass": "footer-support-link"

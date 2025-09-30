@@ -1,0 +1,327 @@
+{
+  "flex-layout.row#services-slider--es": {
+    "props": {
+      "marginTop": 8,
+      "marginBottom": 5
+    },
+    "children": [
+      "slider-layout#services--es"
+    ]
+  },
+  "slider-layout#services--es": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "mobileOnly",
+      "fullWidth": false,
+      "arrowSize": 20
+    },
+    "children": [
+      "flex-layout.col#service-machines--es",
+      "flex-layout.col#service-accessories--es",
+      "flex-layout.col#service-courses--es",
+      "flex-layout.col#service-parts--es",
+      "flex-layout.col#service-inputs--es",
+      "flex-layout.col#service-services--es"
+    ]
+  },
+  // Máquinas
+  "flex-layout.col#service-machines--es": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-machines--es"
+    ]
+  },
+  "link#service-machines--es": {
+    "props": {
+      "href": "/maquinas",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
+      "flex-layout.col#service-machines-content--es"
+    ]
+  },
+  "flex-layout.col#service-machines-content--es": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-machines-icon",
+      "rich-text#service-machines-title--es",
+      "rich-text#service-machines-subtitle--es"
+    ]
+  },
+  "rich-text#service-machines-title--es": {
+    "props": {
+      "text": "**Máquinas**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-machines-subtitle--es": {
+    "props": {
+      "text": "Equipos de alto rendimiento.",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Accesorios
+  "flex-layout.col#service-accessories--es": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-accessories--es"
+    ]
+  },
+  "link#service-accessories--es": {
+    "props": {
+      "href": "/accesorios",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
+      "flex-layout.col#service-accessories-content--es"
+    ]
+  },
+  "flex-layout.col#service-accessories-content--es": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-accessories-icon",
+      "rich-text#service-accessories-title--es",
+      "rich-text#service-accessories-subtitle--es"
+    ]
+  },
+  "rich-text#service-accessories-title--es": {
+    "props": {
+      "text": "**Accesorios**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-accessories-subtitle--es": {
+    "props": {
+      "text": "Consulta nuestros accesorios",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Cursos
+  "flex-layout.col#service-courses--es": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-courses--es"
+    ]
+  },
+  "link#service-courses--es": {
+    "props": {
+      "href": "/cursos",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
+      "flex-layout.col#service-courses-content--es"
+    ]
+  },
+  "flex-layout.col#service-courses-content--es": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-courses-icon",
+      "rich-text#service-courses-title--es",
+      "rich-text#service-courses-subtitle--es"
+    ]
+  },
+  "rich-text#service-courses-title--es": {
+    "props": {
+      "text": "**Cursos**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-courses-subtitle--es": {
+    "props": {
+      "text": "Entrenamiento especializado.",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Piezas
+  "flex-layout.col#service-parts--es": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-parts--es"
+    ]
+  },
+  "link#service-parts--es": {
+    "props": {
+      "href": "/piezas-de-repuesto",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
+      "flex-layout.col#service-parts-content--es"
+    ]
+  },
+  "flex-layout.col#service-parts-content--es": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-parts-icon",
+      "rich-text#service-parts-title--es",
+      "rich-text#service-parts-subtitle--es"
+    ]
+  },
+  "rich-text#service-parts-title--es": {
+    "props": {
+      "text": "**Piezas**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-parts-subtitle--es": {
+    "props": {
+      "text": "Todas las piezas y repuestos",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Insumos
+  "flex-layout.col#service-inputs--es": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-inputs--es"
+    ]
+  },
+  "link#service-inputs--es": {
+    "props": {
+      "href": "/insumos",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
+      "flex-layout.col#service-inputs-content--es"
+    ]
+  },
+  "flex-layout.col#service-inputs-content--es": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-inputs-icon",
+      "rich-text#service-inputs-title--es",
+      "rich-text#service-inputs-subtitle--es"
+    ]
+  },
+  "rich-text#service-inputs-title--es": {
+    "props": {
+      "text": "**Insumos**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-inputs-subtitle--es": {
+    "props": {
+      "text": "Conoce más sobre esta línea",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Servicios
+  "flex-layout.col#service-services--es": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-services--es"
+    ]
+  },
+  "link#service-services--es": {
+    "props": {
+      "href": "/servicios",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
+      "flex-layout.col#service-services-content--es"
+    ]
+  },
+  "flex-layout.col#service-services-content--es": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-services-icon",
+      "rich-text#service-services-title--es",
+      "rich-text#service-services-subtitle--es"
+    ]
+  },
+  "rich-text#service-services-title--es": {
+    "props": {
+      "text": "**Servicios**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-services-subtitle--es": {
+    "props": {
+      "text": "Conoce nuestros servicios",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

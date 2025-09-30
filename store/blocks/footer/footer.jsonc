@@ -9,8 +9,35 @@
     "children": [
       "flex-layout.row#newsletter",
       "flex-layout.row#footer-row-2",
-      "flex-layout.row#footer-info"
+      "condition-layout.binding#footer-switcher"
     ]
+  },
+
+  // ========== FOOTER MULTI-IDIOMA COM CONDITION LAYOUT ==========
+  "condition-layout.binding#footer-switcher": {
+    "props": {
+      "conditions": [{
+        "subject": "bindingId",
+        "arguments": {
+          "id": "33cd2dcc-c319-4da0-82d5-71aa38b19380"  // PT-BR
+        }
+      }],
+      "Then": "flex-layout.row#footer-info",
+      "Else": "condition-layout.binding#footer-en-es"
+    }
+  },
+
+  "condition-layout.binding#footer-en-es": {
+    "props": {
+      "conditions": [{
+        "subject": "bindingId",
+        "arguments": {
+          "id": "56fe0518-7750-4e50-ada7-9d9c7e2f41c8"  // EN-US
+        }
+      }],
+      "Then": "flex-layout.row#footer-info--en",
+      "Else": "flex-layout.row#footer-info--es"  // ES-ES fallback
+    }
   },
   "footer-layout.mobile": {
     "children": [

@@ -1,0 +1,1090 @@
+{
+  // Menu Hover Desk - EN-US
+  "flex-layout.col#category-header-desk--en": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "preventHorizontalStretch": true,
+      "paddingLeft": 6
+    },
+    "children": [
+      "vtex.menu@2.x:menu#websites-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#websites-en": {
+    "props": {},
+    "children": [
+      "drawer#menu",
+      "menu-item#desk-header-menu-1-en",
+      "menu-item#desk-header-menu-6-en",
+      "menu-item#desk-header-menu-2-en",
+      "menu-item#desk-header-menu-4-en",
+      "menu-item#desk-header-menu-5-en",
+      "menu-item#desk-header-menu-8-en",
+      "menu-item#desk-header-menu-9-en"
+    ]
+  },
+  // Menu 1
+  "menu-item#desk-header-menu-1-en": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-1"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/machines",
+        "noFollow": false,
+        "tagTitle": "Machines",
+        "text": "Machines"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desk-header-menu-1-en"
+    ]
+  },
+  // Menu 2
+  "menu-item#desk-header-menu-2-en": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-2"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accessories",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desk-header-menu-2-en"
+    ]
+  },
+  // Menu 3
+  "menu-item#desk-header-menu-3-en": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-3"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/replacement-parts",
+        "noFollow": false,
+        "tagTitle": "Replacement Parts",
+        "text": "Replacement Parts"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desk-header-menu-3-en"
+    ]
+  },
+  // Menu 4
+  "menu-item#desk-header-menu-4-en": {
+    "props": {
+      "type": "custom",
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-4"
+      ],
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Courses",
+        "text": "Courses"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desk-header-menu-4-en"
+    ]
+  },
+  // Menu 5
+  "menu-item#desk-header-menu-5-en": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-5"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://blog.finamac.com/en/",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+  "menu-item#desk-header-menu-8-en": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-8"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/request-quote",
+        "noFollow": false,
+        "tagTitle": "Request Quote",
+        "text": "Request Quote"
+      }
+    }
+  },
+  "menu-item#desk-header-menu-9-en": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-9"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/technical-assistance",
+        "noFollow": false,
+        "tagTitle": "Contact",
+        "text": "Contact"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desk-header-menu-9-en"
+    ]
+  },
+  // Menu 6
+  "menu-item#desk-header-menu-6-en": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-6"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/services",
+        "noFollow": false,
+        "tagTitle": "Services",
+        "text": "Services"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desk-header-menu-6-en"
+    ]
+  },
+  // Menu 7
+  "menu-item#desk-header-menu-7-en": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-7"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/supplies",
+        "noFollow": false,
+        "tagTitle": "Supplies",
+        "text": "Supplies"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desk-header-menu-7-en"
+    ]
+  },
+  // Menu row 1
+  "vtex.menu@2.x:submenu#desk-header-menu-1-en": {
+    "props": {
+      "width": "100%",
+      "blockClass": "sub-menu-header",
+      "onMountBehavior": "open"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desk-header-menu-1-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#desk-header-menu-1-en": {
+    "children": [
+      "flex-layout.row#desk-header-submenu-1-en"
+    ]
+  },
+  "flex-layout.row#desk-header-submenu-1-en": {
+    "children": [
+      "flex-layout.col#col1-submenu-1-en"
+    ],
+    "props": {
+      "blockClass": "desk-header-submenu",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#col1-submenu-1-en": {
+    "props": {
+      "width": "100%",
+      "paddingRight": 8
+    },
+    "children": [
+      "flex-layout.row#sub-menu-header-1-en"
+    ]
+  },
+  "flex-layout.row#sub-menu-header-1-en": {
+    "props": {
+      "blockClass": "sub-menu-padding"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-1-list-B-en",
+      "flex-layout.col#sub-menu-1-list-A-en"
+    ]
+  },
+  // Categoria A
+  "flex-layout.col#sub-menu-1-list-A-en": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-1-list-1A-en",
+      "menu#sub-menu-1-list-1A-en"
+    ]
+  },
+  "menu-item#sub-menu-1-list-1A-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "By Production Process",
+        "text": "By Production Process",
+        "href": "/machines/by-production-process"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu#sub-menu-1-list-1A-en": {
+    "props": {
+      "categoryId": "9",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria B
+  "flex-layout.col#sub-menu-1-list-B-en": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-1-list-1B-en",
+      "menu#sub-menu-1-list-1B-en"
+    ]
+  },
+  "menu-item#sub-menu-1-list-1B-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "By Final Product",
+        "text": "By Final Product",
+        "href": "/machines/by-final-product"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu#sub-menu-1-list-1B-en": {
+    "props": {
+      "categoryId": "8",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria C
+  "flex-layout.col#sub-menu-1-list-C-en": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu#sub-menu-1-list-1C-en"
+    ]
+  },
+  "menu#sub-menu-1-list-1C-en": {
+    "props": {
+      "categoryId": "1",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria D
+  "flex-layout.col#sub-menu-1-list-D-en": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu#sub-menu-1-list-1D-en"
+    ]
+  },
+  "menu#sub-menu-1-list-1D-en": {
+    "props": {
+      "categoryId": "1",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "flex-layout.col#col2-submenu-1-en": {
+    "children": [
+      "image#image-submenu-1-en"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "30%"
+    }
+  },
+  "image#image-submenu-1-en": {
+    "props": {
+      "src": "https://via.placeholder.com/300x320",
+      "maxWidth": 300,
+      "blockClass": "image-submenu"
+    }
+  },
+  // Menu row 2
+  "vtex.menu@2.x:submenu#desk-header-menu-2-en": {
+    "props": {
+      "width": "100%",
+      "blockClass": "sub-menu-header",
+      "onMountBehavior": "open"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desk-header-menu-2-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#desk-header-menu-2-en": {
+    "children": [
+      "flex-layout.row#desk-header-submenu-2-en"
+    ]
+  },
+  "flex-layout.row#desk-header-submenu-2-en": {
+    "children": [
+      "flex-layout.col#col1-submenu-2-en"
+    ],
+    "props": {
+      "blockClass": "desk-header-submenu",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#col1-submenu-2-en": {
+    "props": {
+      "width": "100%",
+      "paddingRight": 8
+    },
+    "children": [
+      "flex-layout.row#sub-menu-header-2-en"
+    ]
+  },
+  "flex-layout.row#sub-menu-header-2-en": {
+    "props": {
+      "blockClass": "sub-menu-padding"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-2-list-A-en",
+      "flex-layout.col#sub-menu-2-list-B-en",
+      "flex-layout.col#sub-menu-2-list-C-insumos-en"
+    ]
+  },
+  // Categoria A
+  "flex-layout.col#sub-menu-2-list-A-en": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-2-list-1A-en",
+      "menu#sub-menu-2-list-1A-en"
+    ]
+  },
+  "menu-item#sub-menu-2-list-1A-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Extractors",
+        "text": "Extractors",
+        "href": "/accessories/extractors"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu#sub-menu-2-list-1A-en": {
+    "props": {
+      "categoryId": "30",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria B
+  "flex-layout.col#sub-menu-2-list-B-en": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-2-list-1B-en",
+      "menu#sub-menu-2-list-1B-en"
+    ]
+  },
+  "menu-item#sub-menu-2-list-1B-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Molds",
+        "text": "Molds",
+        "href": "/accessories/molds"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu#sub-menu-2-list-1B-en": {
+    "props": {
+      "categoryId": "29",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria C
+  "flex-layout.col#sub-menu-2-list-C-en": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu#sub-menu-2-list-1C-en"
+    ]
+  },
+  "menu#sub-menu-2-list-1C-en": {
+    "props": {
+      "categoryId": "1",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria D
+  "flex-layout.col#sub-menu-2-list-D-en": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu#sub-menu-2-list-1D-en"
+    ]
+  },
+  "menu#sub-menu-2-list-1D-en": {
+    "props": {
+      "categoryId": "1",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "flex-layout.col#col2-submenu-2-en": {
+    "children": [
+      "image#image-submenu-2-en"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "30%"
+    }
+  },
+  "image#image-submenu-2-en": {
+    "props": {
+      "src": "https://via.placeholder.com/300x320",
+      "maxWidth": 300,
+      "blockClass": "image-submenu"
+    }
+  },
+  // Categoria C - Insumos (movido do nível principal)
+  "flex-layout.col#sub-menu-2-list-C-insumos-en": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-2-list-1C-insumos-en"
+    ]
+  },
+  "menu-item#sub-menu-2-list-1C-insumos-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Supplies",
+        "text": "Supplies",
+        "href": "/supplies"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  // Menu row 3
+  "vtex.menu@2.x:submenu#desk-header-menu-3-en": {
+    "props": {
+      "width": "100%",
+      "blockClass": "sub-menu-header",
+      "onMountBehavior": "open"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desk-header-menu-3-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#desk-header-menu-3-en": {
+    "children": [
+      "flex-layout.row#desk-header-submenu-3-en"
+    ]
+  },
+  "flex-layout.row#desk-header-submenu-3-en": {
+    "children": [
+      "flex-layout.col#col1-submenu-3-en"
+    ],
+    "props": {
+      "blockClass": "desk-header-submenu",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#col1-submenu-3-en": {
+    "props": {
+      "width": "100%",
+      "paddingRight": 8
+    },
+    "children": [
+      "flex-layout.row#sub-menu-header-3-en"
+    ]
+  },
+  "flex-layout.row#sub-menu-header-3-en": {
+    "props": {
+      "blockClass": "sub-menu-padding"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-3-list-A-en"
+    ]
+  },
+  // Categoria A
+  "flex-layout.col#sub-menu-3-list-A-en": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#sub-menu-3-list-1A-en"
+    ]
+  },
+  "menu-item#sub-menu-3-list-1A-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "By Machines",
+        "text": "By Machines",
+        "href": "/replacement-parts"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu#sub-menu-3-list-1A-en": {
+    "props": {
+      "categoryId": "4",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria B
+  "flex-layout.col#sub-menu-3-list-B-en": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu#sub-menu-3-list-1B-en"
+    ]
+  },
+  "menu#sub-menu-3-list-1B-en": {
+    "props": {
+      "categoryId": "1",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria C
+  "flex-layout.col#sub-menu-3-list-C-en": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu#sub-menu-3-list-1C-en"
+    ]
+  },
+  "menu#sub-menu-3-list-1C-en": {
+    "props": {
+      "categoryId": "1",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria D
+  "flex-layout.col#sub-menu-3-list-D-en": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu#sub-menu-3-list-1D-en"
+    ]
+  },
+  "menu#sub-menu-3-list-1D-en": {
+    "props": {
+      "categoryId": "1",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "flex-layout.col#col2-submenu-3-en": {
+    "children": [
+      "image#image-submenu-3-en"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "30%"
+    }
+  },
+  "image#image-submenu-3-en": {
+    "props": {
+      "src": "https://via.placeholder.com/300x320",
+      "maxWidth": 300,
+      "blockClass": "image-submenu"
+    }
+  },
+  // Menu row 4
+  "vtex.menu@2.x:submenu#desk-header-menu-4-en": {
+    "props": {
+      "width": "100%",
+      "blockClass": "sub-menu-header",
+      "onMountBehavior": "open"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desk-header-menu-4-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#desk-header-menu-4-en": {
+    "children": [
+      "flex-layout.row#desk-header-submenu-4-en"
+    ]
+  },
+  "flex-layout.row#desk-header-submenu-4-en": {
+    "children": [
+      "flex-layout.col#col1-submenu-4-en"
+    ],
+    "props": {
+      "blockClass": "desk-header-submenu",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#col1-submenu-4-en": {
+    "props": {
+      "width": "100%",
+      "paddingRight": 8
+    },
+    "children": [
+      "flex-layout.row#sub-menu-header-4-en"
+    ]
+  },
+  "flex-layout.row#sub-menu-header-4-en": {
+    "props": {
+      "blockClass": "sub-menu-padding"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-4-list-C-en",
+      "flex-layout.col#sub-menu-4-list-D-en",
+      "flex-layout.col#sub-menu-4-list-A-en"
+    ]
+  },
+  // Categoria A
+  "flex-layout.col#sub-menu-4-list-A-en": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-4-list-1A-en"
+    ]
+  },
+  "menu-item#sub-menu-4-list-1A-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Consulting",
+        "text": "Consulting",
+        "href": "/specialized-consulting"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu#sub-menu-4-list-1A-en": {
+    "props": {
+      "categoryId": "41",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria C
+  "flex-layout.col#sub-menu-4-list-C-en": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#sub-menu-4-list-1C-en"
+    ]
+  },
+  "menu-item#sub-menu-4-list-1C-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Online",
+        "text": "Online",
+        "type": "external",
+        "href": "https://school.finamac.com/collections/en",
+        "openNewTab": true
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  // Categoria D
+  "flex-layout.col#sub-menu-4-list-D-en": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#sub-menu-4-list-1D-en",
+      "menu#sub-menu-4-list-1D-en"
+    ]
+  },
+  "menu-item#sub-menu-4-list-1D-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "In-Person",
+        "text": "In-Person",
+        "href": "/courses/in-person"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu#sub-menu-4-list-1D-en": {
+    "props": {
+      "categoryId": "39",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "flex-layout.col#col2-submenu-4-en": {
+    "children": [
+      "image#image-submenu-4-en"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "30%"
+    }
+  },
+  "image#image-submenu-4-en": {
+    "props": {
+      "src": "https://via.placeholder.com/300x320",
+      "maxWidth": 300,
+      "blockClass": "image-submenu"
+    }
+  },
+  // Menu row 6 - Serviços
+  "vtex.menu@2.x:submenu#desk-header-menu-6-en": {
+    "props": {
+      "width": "100%",
+      "blockClass": "sub-menu-header",
+      "onMountBehavior": "open"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desk-header-menu-6-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#desk-header-menu-6-en": {
+    "children": [
+      "flex-layout.row#desk-header-submenu-6-en"
+    ]
+  },
+  "flex-layout.row#desk-header-submenu-6-en": {
+    "children": [
+      "flex-layout.col#sub-menu-6-list-A-en"
+    ],
+    "props": {
+      "blockClass": "desk-header-submenu",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#sub-menu-6-list-A-en": {
+    "props": {
+      "preventVerticalStretch": true,
+      "verticalAlign": "top",
+      "blockClass": "submenu-services-column"
+    },
+    "children": [
+      "menu-item#sub-menu-6-list-1-en",
+      "menu-item#sub-menu-6-list-2-en",
+      "menu-item#sub-menu-6-list-3-en",
+      "menu-item#sub-menu-6-list-4-pecas-en"
+    ]
+  },
+  "menu-item#sub-menu-6-list-1-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Technical Consulting",
+        "text": "Technical Consulting",
+        "href": "/specialized-consulting"
+      },
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-consultoria"
+      ]
+    }
+  },
+  "menu-item#sub-menu-6-list-2-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Extended Warranty",
+        "text": "Extended Warranty",
+        "href": "/services/extended-warranty"
+      },
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-garantia"
+      ]
+    }
+  },
+  "menu-item#sub-menu-6-list-3-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Preventive Maintenance",
+        "text": "Preventive Maintenance",
+        "href": "/services/preventive-maintenance"
+      },
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-manutencao"
+      ]
+    }
+  },
+  "menu-item#sub-menu-6-list-4-pecas-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Replacement Parts",
+        "text": "Replacement Parts",
+        "href": "/replacement-parts"
+      },
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-pecas"
+      ]
+    }
+  },
+  // Menu row 7 - Insumos
+  "vtex.menu@2.x:submenu#desk-header-menu-7-en": {
+    "props": {
+      "width": "100%",
+      "blockClass": "sub-menu-header",
+      "onMountBehavior": "open"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desk-header-menu-7-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#desk-header-menu-7-en": {
+    "children": [
+      "flex-layout.row#desk-header-submenu-7-en"
+    ]
+  },
+  "flex-layout.row#desk-header-submenu-7-en": {
+    "children": [
+      "flex-layout.col#sub-menu-7-list-A-en"
+    ],
+    "props": {
+      "blockClass": "desk-header-submenu",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#sub-menu-7-list-A-en": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-7-list-1-en",
+      "menu-item#sub-menu-7-list-2-en",
+      "menu-item#sub-menu-7-list-3-en"
+    ]
+  },
+  "menu-item#sub-menu-7-list-1-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Packaging",
+        "text": "Packaging",
+        "href": "/supplies/packaging"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#sub-menu-7-list-2-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Fluids",
+        "text": "Fluids",
+        "href": "/supplies/fluids"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#sub-menu-7-list-3-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sticks",
+        "text": "Sticks",
+        "href": "/supplies/sticks"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  // Menu row 9 - Contato
+  "vtex.menu@2.x:submenu#desk-header-menu-9-en": {
+    "props": {
+      "width": "100%",
+      "blockClass": "sub-menu-header",
+      "onMountBehavior": "open"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desk-header-menu-9-en"
+    ]
+  },
+  "vtex.menu@2.x:menu#desk-header-menu-9-en": {
+    "children": [
+      "flex-layout.row#desk-header-submenu-9-en"
+    ]
+  },
+  "flex-layout.row#desk-header-submenu-9-en": {
+    "children": [
+      "flex-layout.col#sub-menu-9-list-A-en"
+    ],
+    "props": {
+      "blockClass": "desk-header-submenu",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#sub-menu-9-list-A-en": {
+    "props": {
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-9-list-1-en",
+      "menu-item#sub-menu-9-list-2-en",
+      "menu-item#sub-menu-9-list-3-en",
+      "menu-item#sub-menu-9-list-4-en"
+    ]
+  },
+  "menu-item#sub-menu-9-list-1-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Request a Quote",
+        "text": "Request a Quote",
+        "href": "/request-quote"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#sub-menu-9-list-2-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Become a Dealer or Representative",
+        "text": "Become a Dealer or Representative",
+        "href": "/become-dealer-representative"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#sub-menu-9-list-3-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Technical Assistance",
+        "text": "Technical Assistance",
+        "href": "/technical-assistance-finamac"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#sub-menu-9-list-4-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ombudsman",
+        "text": "Ombudsman",
+        "href": "/ombudsman"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  }
+}

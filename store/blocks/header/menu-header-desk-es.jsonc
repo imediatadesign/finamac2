@@ -1,0 +1,1090 @@
+{
+  // Menu Hover Desk - ES-ES
+  "flex-layout.col#category-header-desk--es": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "preventHorizontalStretch": true,
+      "paddingLeft": 6
+    },
+    "children": [
+      "vtex.menu@2.x:menu#websites-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#websites-es": {
+    "props": {},
+    "children": [
+      "drawer#menu",
+      "menu-item#desk-header-menu-1-es",
+      "menu-item#desk-header-menu-6-es",
+      "menu-item#desk-header-menu-2-es",
+      "menu-item#desk-header-menu-4-es",
+      "menu-item#desk-header-menu-5-es",
+      "menu-item#desk-header-menu-8-es",
+      "menu-item#desk-header-menu-9-es"
+    ]
+  },
+  // Menu 1
+  "menu-item#desk-header-menu-1-es": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-1"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maquinas",
+        "noFollow": false,
+        "tagTitle": "Máquinas",
+        "text": "Máquinas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desk-header-menu-1-es"
+    ]
+  },
+  // Menu 2
+  "menu-item#desk-header-menu-2-es": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-2"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desk-header-menu-2-es"
+    ]
+  },
+  // Menu 3
+  "menu-item#desk-header-menu-3-es": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-3"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/piezas-de-repuesto",
+        "noFollow": false,
+        "tagTitle": "Piezas de Repuesto",
+        "text": "Piezas de Repuesto"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desk-header-menu-3-es"
+    ]
+  },
+  // Menu 4
+  "menu-item#desk-header-menu-4-es": {
+    "props": {
+      "type": "custom",
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-4"
+      ],
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cursos",
+        "text": "Cursos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desk-header-menu-4-es"
+    ]
+  },
+  // Menu 5
+  "menu-item#desk-header-menu-5-es": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-5"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://blog.finamac.com/es/",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+  "menu-item#desk-header-menu-8-es": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-8"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/solicitar-presupuesto",
+        "noFollow": false,
+        "tagTitle": "Solicitar Presupuesto",
+        "text": "Solicitar Presupuesto"
+      }
+    }
+  },
+  "menu-item#desk-header-menu-9-es": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-9"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/asistencia-tecnica",
+        "noFollow": false,
+        "tagTitle": "Contacto",
+        "text": "Contacto"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desk-header-menu-9-es"
+    ]
+  },
+  // Menu 6
+  "menu-item#desk-header-menu-6-es": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-6"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/servicios",
+        "noFollow": false,
+        "tagTitle": "Servicios",
+        "text": "Servicios"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desk-header-menu-6-es"
+    ]
+  },
+  // Menu 7
+  "menu-item#desk-header-menu-7-es": {
+    "props": {
+      "blockClass": [
+        "desk-menu-title",
+        "desk-menu-title-7"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/insumos",
+        "noFollow": false,
+        "tagTitle": "Insumos",
+        "text": "Insumos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desk-header-menu-7-es"
+    ]
+  },
+  // Menu row 1
+  "vtex.menu@2.x:submenu#desk-header-menu-1-es": {
+    "props": {
+      "width": "100%",
+      "blockClass": "sub-menu-header",
+      "onMountBehavior": "open"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desk-header-menu-1-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#desk-header-menu-1-es": {
+    "children": [
+      "flex-layout.row#desk-header-submenu-1-es"
+    ]
+  },
+  "flex-layout.row#desk-header-submenu-1-es": {
+    "children": [
+      "flex-layout.col#col1-submenu-1-es"
+    ],
+    "props": {
+      "blockClass": "desk-header-submenu",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#col1-submenu-1-es": {
+    "props": {
+      "width": "100%",
+      "paddingRight": 8
+    },
+    "children": [
+      "flex-layout.row#sub-menu-header-1-es"
+    ]
+  },
+  "flex-layout.row#sub-menu-header-1-es": {
+    "props": {
+      "blockClass": "sub-menu-padding"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-1-list-B-es",
+      "flex-layout.col#sub-menu-1-list-A-es"
+    ]
+  },
+  // Categoria A
+  "flex-layout.col#sub-menu-1-list-A-es": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-1-list-1A-es",
+      "menu#sub-menu-1-list-1A-es"
+    ]
+  },
+  "menu-item#sub-menu-1-list-1A-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Por Proceso Productivo",
+        "text": "Por Proceso Productivo",
+        "href": "/maquinas/por-proceso-productivo"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu#sub-menu-1-list-1A-es": {
+    "props": {
+      "categoryId": "9",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria B
+  "flex-layout.col#sub-menu-1-list-B-es": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-1-list-1B-es",
+      "menu#sub-menu-1-list-1B-es"
+    ]
+  },
+  "menu-item#sub-menu-1-list-1B-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Por Producto Final",
+        "text": "Por Producto Final",
+        "href": "/maquinas/por-producto-final"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu#sub-menu-1-list-1B-es": {
+    "props": {
+      "categoryId": "8",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria C
+  "flex-layout.col#sub-menu-1-list-C-es": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu#sub-menu-1-list-1C-es"
+    ]
+  },
+  "menu#sub-menu-1-list-1C-es": {
+    "props": {
+      "categoryId": "1",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria D
+  "flex-layout.col#sub-menu-1-list-D-es": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu#sub-menu-1-list-1D-es"
+    ]
+  },
+  "menu#sub-menu-1-list-1D-es": {
+    "props": {
+      "categoryId": "1",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "flex-layout.col#col2-submenu-1-es": {
+    "children": [
+      "image#image-submenu-1-es"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "30%"
+    }
+  },
+  "image#image-submenu-1-es": {
+    "props": {
+      "src": "https://via.placeholder.com/300x320",
+      "maxWidth": 300,
+      "blockClass": "image-submenu"
+    }
+  },
+  // Menu row 2
+  "vtex.menu@2.x:submenu#desk-header-menu-2-es": {
+    "props": {
+      "width": "100%",
+      "blockClass": "sub-menu-header",
+      "onMountBehavior": "open"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desk-header-menu-2-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#desk-header-menu-2-es": {
+    "children": [
+      "flex-layout.row#desk-header-submenu-2-es"
+    ]
+  },
+  "flex-layout.row#desk-header-submenu-2-es": {
+    "children": [
+      "flex-layout.col#col1-submenu-2-es"
+    ],
+    "props": {
+      "blockClass": "desk-header-submenu",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#col1-submenu-2-es": {
+    "props": {
+      "width": "100%",
+      "paddingRight": 8
+    },
+    "children": [
+      "flex-layout.row#sub-menu-header-2-es"
+    ]
+  },
+  "flex-layout.row#sub-menu-header-2-es": {
+    "props": {
+      "blockClass": "sub-menu-padding"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-2-list-A-es",
+      "flex-layout.col#sub-menu-2-list-B-es",
+      "flex-layout.col#sub-menu-2-list-C-insumos-es"
+    ]
+  },
+  // Categoria A
+  "flex-layout.col#sub-menu-2-list-A-es": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-2-list-1A-es",
+      "menu#sub-menu-2-list-1A-es"
+    ]
+  },
+  "menu-item#sub-menu-2-list-1A-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Extractores",
+        "text": "Extractores",
+        "href": "/accesorios/extractores"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu#sub-menu-2-list-1A-es": {
+    "props": {
+      "categoryId": "30",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria B
+  "flex-layout.col#sub-menu-2-list-B-es": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-2-list-1B-es",
+      "menu#sub-menu-2-list-1B-es"
+    ]
+  },
+  "menu-item#sub-menu-2-list-1B-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Moldes",
+        "text": "Moldes",
+        "href": "/accesorios/moldes"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu#sub-menu-2-list-1B-es": {
+    "props": {
+      "categoryId": "29",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria C
+  "flex-layout.col#sub-menu-2-list-C-es": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu#sub-menu-2-list-1C-es"
+    ]
+  },
+  "menu#sub-menu-2-list-1C-es": {
+    "props": {
+      "categoryId": "1",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria D
+  "flex-layout.col#sub-menu-2-list-D-es": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu#sub-menu-2-list-1D-es"
+    ]
+  },
+  "menu#sub-menu-2-list-1D-es": {
+    "props": {
+      "categoryId": "1",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "flex-layout.col#col2-submenu-2-es": {
+    "children": [
+      "image#image-submenu-2-es"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "30%"
+    }
+  },
+  "image#image-submenu-2-es": {
+    "props": {
+      "src": "https://via.placeholder.com/300x320",
+      "maxWidth": 300,
+      "blockClass": "image-submenu"
+    }
+  },
+  // Categoria C - Insumos (movido do nível principal)
+  "flex-layout.col#sub-menu-2-list-C-insumos-es": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-2-list-1C-insumos-es"
+    ]
+  },
+  "menu-item#sub-menu-2-list-1C-insumos-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Insumos",
+        "text": "Insumos",
+        "href": "/insumos"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  // Menu row 3
+  "vtex.menu@2.x:submenu#desk-header-menu-3-es": {
+    "props": {
+      "width": "100%",
+      "blockClass": "sub-menu-header",
+      "onMountBehavior": "open"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desk-header-menu-3-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#desk-header-menu-3-es": {
+    "children": [
+      "flex-layout.row#desk-header-submenu-3-es"
+    ]
+  },
+  "flex-layout.row#desk-header-submenu-3-es": {
+    "children": [
+      "flex-layout.col#col1-submenu-3-es"
+    ],
+    "props": {
+      "blockClass": "desk-header-submenu",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#col1-submenu-3-es": {
+    "props": {
+      "width": "100%",
+      "paddingRight": 8
+    },
+    "children": [
+      "flex-layout.row#sub-menu-header-3-es"
+    ]
+  },
+  "flex-layout.row#sub-menu-header-3-es": {
+    "props": {
+      "blockClass": "sub-menu-padding"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-3-list-A-es"
+    ]
+  },
+  // Categoria A
+  "flex-layout.col#sub-menu-3-list-A-es": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#sub-menu-3-list-1A-es"
+    ]
+  },
+  "menu-item#sub-menu-3-list-1A-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Por Máquinas",
+        "text": "Por Máquinas",
+        "href": "/piezas-de-repuesto"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu#sub-menu-3-list-1A-es": {
+    "props": {
+      "categoryId": "4",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria B
+  "flex-layout.col#sub-menu-3-list-B-es": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu#sub-menu-3-list-1B-es"
+    ]
+  },
+  "menu#sub-menu-3-list-1B-es": {
+    "props": {
+      "categoryId": "1",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria C
+  "flex-layout.col#sub-menu-3-list-C-es": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu#sub-menu-3-list-1C-es"
+    ]
+  },
+  "menu#sub-menu-3-list-1C-es": {
+    "props": {
+      "categoryId": "1",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria D
+  "flex-layout.col#sub-menu-3-list-D-es": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu#sub-menu-3-list-1D-es"
+    ]
+  },
+  "menu#sub-menu-3-list-1D-es": {
+    "props": {
+      "categoryId": "1",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "flex-layout.col#col2-submenu-3-es": {
+    "children": [
+      "image#image-submenu-3-es"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "30%"
+    }
+  },
+  "image#image-submenu-3-es": {
+    "props": {
+      "src": "https://via.placeholder.com/300x320",
+      "maxWidth": 300,
+      "blockClass": "image-submenu"
+    }
+  },
+  // Menu row 4
+  "vtex.menu@2.x:submenu#desk-header-menu-4-es": {
+    "props": {
+      "width": "100%",
+      "blockClass": "sub-menu-header",
+      "onMountBehavior": "open"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desk-header-menu-4-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#desk-header-menu-4-es": {
+    "children": [
+      "flex-layout.row#desk-header-submenu-4-es"
+    ]
+  },
+  "flex-layout.row#desk-header-submenu-4-es": {
+    "children": [
+      "flex-layout.col#col1-submenu-4-es"
+    ],
+    "props": {
+      "blockClass": "desk-header-submenu",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#col1-submenu-4-es": {
+    "props": {
+      "width": "100%",
+      "paddingRight": 8
+    },
+    "children": [
+      "flex-layout.row#sub-menu-header-4-es"
+    ]
+  },
+  "flex-layout.row#sub-menu-header-4-es": {
+    "props": {
+      "blockClass": "sub-menu-padding"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-4-list-C-es",
+      "flex-layout.col#sub-menu-4-list-D-es",
+      "flex-layout.col#sub-menu-4-list-A-es"
+    ]
+  },
+  // Categoria A
+  "flex-layout.col#sub-menu-4-list-A-es": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-4-list-1A-es"
+    ]
+  },
+  "menu-item#sub-menu-4-list-1A-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Consultoría",
+        "text": "Consultoría",
+        "href": "/consultoria-especializada"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu#sub-menu-4-list-1A-es": {
+    "props": {
+      "categoryId": "41",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  // Categoria C
+  "flex-layout.col#sub-menu-4-list-C-es": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#sub-menu-4-list-1C-es"
+    ]
+  },
+  "menu-item#sub-menu-4-list-1C-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Online",
+        "text": "Online",
+        "type": "external",
+        "href": "https://school.finamac.com/collections/es",
+        "openNewTab": true
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  // Categoria D
+  "flex-layout.col#sub-menu-4-list-D-es": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#sub-menu-4-list-1D-es",
+      "menu#sub-menu-4-list-1D-es"
+    ]
+  },
+  "menu-item#sub-menu-4-list-1D-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Presencial",
+        "text": "Presencial",
+        "href": "/cursos/presencial"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu#sub-menu-4-list-1D-es": {
+    "props": {
+      "categoryId": "39",
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "sortSubcategories": "name",
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "flex-layout.col#col2-submenu-4-es": {
+    "children": [
+      "image#image-submenu-4-es"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "30%"
+    }
+  },
+  "image#image-submenu-4-es": {
+    "props": {
+      "src": "https://via.placeholder.com/300x320",
+      "maxWidth": 300,
+      "blockClass": "image-submenu"
+    }
+  },
+  // Menu row 6 - Serviços
+  "vtex.menu@2.x:submenu#desk-header-menu-6-es": {
+    "props": {
+      "width": "100%",
+      "blockClass": "sub-menu-header",
+      "onMountBehavior": "open"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desk-header-menu-6-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#desk-header-menu-6-es": {
+    "children": [
+      "flex-layout.row#desk-header-submenu-6-es"
+    ]
+  },
+  "flex-layout.row#desk-header-submenu-6-es": {
+    "children": [
+      "flex-layout.col#sub-menu-6-list-A-es"
+    ],
+    "props": {
+      "blockClass": "desk-header-submenu",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#sub-menu-6-list-A-es": {
+    "props": {
+      "preventVerticalStretch": true,
+      "verticalAlign": "top",
+      "blockClass": "submenu-services-column"
+    },
+    "children": [
+      "menu-item#sub-menu-6-list-1-es",
+      "menu-item#sub-menu-6-list-2-es",
+      "menu-item#sub-menu-6-list-3-es",
+      "menu-item#sub-menu-6-list-4-pecas-es"
+    ]
+  },
+  "menu-item#sub-menu-6-list-1-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Consultoría Técnica",
+        "text": "Consultoría Técnica",
+        "href": "/consultoria-especializada"
+      },
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-consultoria"
+      ]
+    }
+  },
+  "menu-item#sub-menu-6-list-2-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Garantía Extendida",
+        "text": "Garantía Extendida",
+        "href": "/servicios/garantia-extendida"
+      },
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-garantia"
+      ]
+    }
+  },
+  "menu-item#sub-menu-6-list-3-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Mantenimiento Preventivo",
+        "text": "Mantenimiento Preventivo",
+        "href": "/servicios/mantenimiento-preventivo"
+      },
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-manutencao"
+      ]
+    }
+  },
+  "menu-item#sub-menu-6-list-4-pecas-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Piezas de Repuesto",
+        "text": "Piezas de Repuesto",
+        "href": "/piezas-de-repuesto"
+      },
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-pecas"
+      ]
+    }
+  },
+  // Menu row 7 - Insumos
+  "vtex.menu@2.x:submenu#desk-header-menu-7-es": {
+    "props": {
+      "width": "100%",
+      "blockClass": "sub-menu-header",
+      "onMountBehavior": "open"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desk-header-menu-7-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#desk-header-menu-7-es": {
+    "children": [
+      "flex-layout.row#desk-header-submenu-7-es"
+    ]
+  },
+  "flex-layout.row#desk-header-submenu-7-es": {
+    "children": [
+      "flex-layout.col#sub-menu-7-list-A-es"
+    ],
+    "props": {
+      "blockClass": "desk-header-submenu",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#sub-menu-7-list-A-es": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-7-list-1-es",
+      "menu-item#sub-menu-7-list-2-es",
+      "menu-item#sub-menu-7-list-3-es"
+    ]
+  },
+  "menu-item#sub-menu-7-list-1-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Embalajes",
+        "text": "Embalajes",
+        "href": "/insumos/embalajes"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#sub-menu-7-list-2-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Fluidos",
+        "text": "Fluidos",
+        "href": "/insumos/fluidos"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#sub-menu-7-list-3-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Palitos",
+        "text": "Palitos",
+        "href": "/insumos/palitos"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  // Menu row 9 - Contato
+  "vtex.menu@2.x:submenu#desk-header-menu-9-es": {
+    "props": {
+      "width": "100%",
+      "blockClass": "sub-menu-header",
+      "onMountBehavior": "open"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desk-header-menu-9-es"
+    ]
+  },
+  "vtex.menu@2.x:menu#desk-header-menu-9-es": {
+    "children": [
+      "flex-layout.row#desk-header-submenu-9-es"
+    ]
+  },
+  "flex-layout.row#desk-header-submenu-9-es": {
+    "children": [
+      "flex-layout.col#sub-menu-9-list-A-es"
+    ],
+    "props": {
+      "blockClass": "desk-header-submenu",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#sub-menu-9-list-A-es": {
+    "props": {
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
+    },
+    "children": [
+      "menu-item#sub-menu-9-list-1-es",
+      "menu-item#sub-menu-9-list-2-es",
+      "menu-item#sub-menu-9-list-3-es",
+      "menu-item#sub-menu-9-list-4-es"
+    ]
+  },
+  "menu-item#sub-menu-9-list-1-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Solicitar Presupuesto",
+        "text": "Solicitar Presupuesto",
+        "href": "/solicitar-presupuesto"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#sub-menu-9-list-2-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Conviértete en Distribuidor o Representante",
+        "text": "Conviértete en Distribuidor o Representante",
+        "href": "/convertirse-distribuidor-representante"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#sub-menu-9-list-3-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Asistencia Técnica",
+        "text": "Asistencia Técnica",
+        "href": "/asistencia-tecnica-finamac"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu-item#sub-menu-9-list-4-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Defensoría del Cliente",
+        "text": "Defensoría del Cliente",
+        "href": "/defensoria"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  }
+}

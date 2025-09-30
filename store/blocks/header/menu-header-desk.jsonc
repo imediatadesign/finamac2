@@ -1,5 +1,5 @@
 {
-  // Menu Hover Desk
+  // Menu Hover Desk - PT-BR
   "flex-layout.col#category-header-desk": {
     "props": {
       "verticalAlign": "middle",
@@ -98,7 +98,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/cursos",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Cursos",
         "text": "Cursos"

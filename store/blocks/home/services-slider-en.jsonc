@@ -1,0 +1,327 @@
+{
+  "flex-layout.row#services-slider--en": {
+    "props": {
+      "marginTop": 8,
+      "marginBottom": 5
+    },
+    "children": [
+      "slider-layout#services--en"
+    ]
+  },
+  "slider-layout#services--en": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "mobileOnly",
+      "fullWidth": false,
+      "arrowSize": 20
+    },
+    "children": [
+      "flex-layout.col#service-machines--en",
+      "flex-layout.col#service-accessories--en",
+      "flex-layout.col#service-courses--en",
+      "flex-layout.col#service-parts--en",
+      "flex-layout.col#service-inputs--en",
+      "flex-layout.col#service-services--en"
+    ]
+  },
+  // Machines
+  "flex-layout.col#service-machines--en": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-machines--en"
+    ]
+  },
+  "link#service-machines--en": {
+    "props": {
+      "href": "/machines",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
+      "flex-layout.col#service-machines-content--en"
+    ]
+  },
+  "flex-layout.col#service-machines-content--en": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-machines-icon",
+      "rich-text#service-machines-title--en",
+      "rich-text#service-machines-subtitle--en"
+    ]
+  },
+  "rich-text#service-machines-title--en": {
+    "props": {
+      "text": "**Machines**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-machines-subtitle--en": {
+    "props": {
+      "text": "High-performance equipment.",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Accessories
+  "flex-layout.col#service-accessories--en": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-accessories--en"
+    ]
+  },
+  "link#service-accessories--en": {
+    "props": {
+      "href": "/accessories",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
+      "flex-layout.col#service-accessories-content--en"
+    ]
+  },
+  "flex-layout.col#service-accessories-content--en": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-accessories-icon",
+      "rich-text#service-accessories-title--en",
+      "rich-text#service-accessories-subtitle--en"
+    ]
+  },
+  "rich-text#service-accessories-title--en": {
+    "props": {
+      "text": "**Accessories**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-accessories-subtitle--en": {
+    "props": {
+      "text": "Check out our accessories",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Courses
+  "flex-layout.col#service-courses--en": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-courses--en"
+    ]
+  },
+  "link#service-courses--en": {
+    "props": {
+      "href": "/courses",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
+      "flex-layout.col#service-courses-content--en"
+    ]
+  },
+  "flex-layout.col#service-courses-content--en": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-courses-icon",
+      "rich-text#service-courses-title--en",
+      "rich-text#service-courses-subtitle--en"
+    ]
+  },
+  "rich-text#service-courses-title--en": {
+    "props": {
+      "text": "**Courses**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-courses-subtitle--en": {
+    "props": {
+      "text": "Specialized training.",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Parts
+  "flex-layout.col#service-parts--en": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-parts--en"
+    ]
+  },
+  "link#service-parts--en": {
+    "props": {
+      "href": "/replacement-parts",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
+      "flex-layout.col#service-parts-content--en"
+    ]
+  },
+  "flex-layout.col#service-parts-content--en": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-parts-icon",
+      "rich-text#service-parts-title--en",
+      "rich-text#service-parts-subtitle--en"
+    ]
+  },
+  "rich-text#service-parts-title--en": {
+    "props": {
+      "text": "**Parts**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-parts-subtitle--en": {
+    "props": {
+      "text": "All parts and replacements",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Supplies
+  "flex-layout.col#service-inputs--en": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-inputs--en"
+    ]
+  },
+  "link#service-inputs--en": {
+    "props": {
+      "href": "/supplies",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
+      "flex-layout.col#service-inputs-content--en"
+    ]
+  },
+  "flex-layout.col#service-inputs-content--en": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-inputs-icon",
+      "rich-text#service-inputs-title--en",
+      "rich-text#service-inputs-subtitle--en"
+    ]
+  },
+  "rich-text#service-inputs-title--en": {
+    "props": {
+      "text": "**Supplies**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-inputs-subtitle--en": {
+    "props": {
+      "text": "Learn more about this line",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Services
+  "flex-layout.col#service-services--en": {
+    "props": {
+      "blockClass": "service-item",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#service-services--en"
+    ]
+  },
+  "link#service-services--en": {
+    "props": {
+      "href": "/services",
+      "blockClass": "service-link",
+      "label": " "
+    },
+    "children": [
+      "flex-layout.col#service-services-content--en"
+    ]
+  },
+  "flex-layout.col#service-services-content--en": {
+    "props": {
+      "blockClass": "service-content",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#service-services-icon",
+      "rich-text#service-services-title--en",
+      "rich-text#service-services-subtitle--en"
+    ]
+  },
+  "rich-text#service-services-title--en": {
+    "props": {
+      "text": "**Services**",
+      "blockClass": "service-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#service-services-subtitle--en": {
+    "props": {
+      "text": "Discover our services",
+      "blockClass": "service-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

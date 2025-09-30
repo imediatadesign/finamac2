@@ -3,16 +3,41 @@
   // PRA RESOLVER BUG SANFONA, ENTRE NO ADMIN E TRAGA A CATEGORIA NOVAMENTE
   // ENTRAR NO MENU VIA EDITOR, E COLOCAR O ID DA CATEGPORIA LA DENTRO, 
 
+  // ========== DRAWER MULTI-IDIOMA ==========
   "drawer#menu": {
-    "props": {
-      // "maxWidth": "100%", 
-      // "slideDirection":"vertical",
-      // "isFullWidth":true
-    },
+    "props": {},
     "children": [
-      "menu#drawer"
+      "condition-layout.binding#drawer-switcher"
     ]
   },
+
+  "condition-layout.binding#drawer-switcher": {
+    "props": {
+      "conditions": [{
+        "subject": "bindingId",
+        "arguments": {
+          "id": "33cd2dcc-c319-4da0-82d5-71aa38b19380"  // PT-BR
+        }
+      }],
+      "Then": "menu#drawer",
+      "Else": "condition-layout.binding#drawer-en-es"
+    }
+  },
+
+  "condition-layout.binding#drawer-en-es": {
+    "props": {
+      "conditions": [{
+        "subject": "bindingId",
+        "arguments": {
+          "id": "56fe0518-7750-4e50-ada7-9d9c7e2f41c8"  // EN-US
+        }
+      }],
+      "Then": "menu#drawer-en",
+      "Else": "menu#drawer-es"  // ES-ES fallback
+    }
+  },
+
+  // DRAWER PT-BR
   "menu#drawer": {
     "children": [
       "flex-layout.col#menu-drawer"
@@ -24,13 +49,51 @@
   "flex-layout.col#menu-drawer": {
     "props": {},
     "children": [
-      /*"authentication-layout-private#home",
-      "authentication-layout-public#home",*/
       "flex-layout.row#logo-drawer",
       "flex-layout.row#drawer-menu-all-products",
       "vtex.menu@2.x:menu#footer-mobile_sanfone-category",
       "flex-layout.row#drawer-menu-title",
      "flex-layout.row#link-drawer"
+    ]
+  },
+
+  // DRAWER EN-US
+  "menu#drawer-en": {
+    "children": [
+      "flex-layout.col#menu-drawer-en"
+    ],
+    "props": {
+      "blockClass": "menu-drawer"
+    }
+  },
+  "flex-layout.col#menu-drawer-en": {
+    "props": {},
+    "children": [
+      "flex-layout.row#logo-drawer",
+      "flex-layout.row#drawer-menu-all-products-en",
+      "vtex.menu@2.x:menu#footer-mobile_sanfone-category-en",
+      "flex-layout.row#drawer-menu-title",
+      "flex-layout.row#link-drawer-en"
+    ]
+  },
+
+  // DRAWER ES-ES
+  "menu#drawer-es": {
+    "children": [
+      "flex-layout.col#menu-drawer-es"
+    ],
+    "props": {
+      "blockClass": "menu-drawer"
+    }
+  },
+  "flex-layout.col#menu-drawer-es": {
+    "props": {},
+    "children": [
+      "flex-layout.row#logo-drawer",
+      "flex-layout.row#drawer-menu-all-products-es",
+      "vtex.menu@2.x:menu#footer-mobile_sanfone-category-es",
+      "flex-layout.row#drawer-menu-title",
+      "flex-layout.row#link-drawer-es"
     ]
   },
 
@@ -158,6 +221,96 @@
     "props": {
       "text": "[Todos os Produtos](/produtos)",
       "blockClass": "drawer-menu-all-products"
+    }
+  },
+
+  // ========== DRAWER EN BLOCKS ==========
+  "flex-layout.row#drawer-menu-all-products-en": {
+    "props": {
+      "blockClass": "drawer-menu-all-products"
+    },
+    "children": [
+      "rich-text#drawer-menu-all-products-en"
+    ]
+  },
+  "rich-text#drawer-menu-all-products-en": {
+    "props": {
+      "text": "[All Products](/products)",
+      "blockClass": "drawer-menu-all-products"
+    }
+  },
+  "flex-layout.row#link-drawer-en": {
+    "props": {
+      "blockClass": "link-drawer",
+      "preventHorizontalStretch":true
+    },
+    "children": [
+      "flex-layout.col#link-drawer-1-en"
+    ]
+  },
+  "flex-layout.col#link-drawer-1-en": {
+    "props": {
+      "blockClass": "link-drawer-1",
+      "width":"100%"
+    },
+    "children": [
+      "link#drawer-link-1-1-en"
+    ]
+  },
+  "link#drawer-link-1-1-en": {
+    "children": [
+      "image#drawer-link-1-1"
+    ],
+    "props": {
+      "href": "/contact",
+      "label": "TALK TO OUR TEAM",
+      "blockClass": "link-drawer",
+      "displayMode":"button"
+    }
+  },
+
+  // ========== DRAWER ES BLOCKS ==========
+  "flex-layout.row#drawer-menu-all-products-es": {
+    "props": {
+      "blockClass": "drawer-menu-all-products"
+    },
+    "children": [
+      "rich-text#drawer-menu-all-products-es"
+    ]
+  },
+  "rich-text#drawer-menu-all-products-es": {
+    "props": {
+      "text": "[Todos los Productos](/productos)",
+      "blockClass": "drawer-menu-all-products"
+    }
+  },
+  "flex-layout.row#link-drawer-es": {
+    "props": {
+      "blockClass": "link-drawer",
+      "preventHorizontalStretch":true
+    },
+    "children": [
+      "flex-layout.col#link-drawer-1-es"
+    ]
+  },
+  "flex-layout.col#link-drawer-1-es": {
+    "props": {
+      "blockClass": "link-drawer-1",
+      "width":"100%"
+    },
+    "children": [
+      "link#drawer-link-1-1-es"
+    ]
+  },
+  "link#drawer-link-1-1-es": {
+    "children": [
+      "image#drawer-link-1-1"
+    ],
+    "props": {
+      "href": "/contacto",
+      "label": "HABLA CON NUESTRO EQUIPO",
+      "blockClass": "link-drawer",
+      "displayMode":"button"
     }
   }
 
