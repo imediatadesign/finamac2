@@ -301,7 +301,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/asistencia-tecnica-finamac",
+        "href": "/asistencia-tecnica",
         "text": "Asistencia Técnica"
       },
       "blockClass": "footer-menu-item"

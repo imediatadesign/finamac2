@@ -35,7 +35,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/machines",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Machines",
         "text": "Machines"
@@ -56,7 +56,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/accessories",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Accessories",
         "text": "Accessories"
@@ -77,7 +77,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/replacement-parts",
+        "href": "/spare-parts",
         "noFollow": false,
         "tagTitle": "Replacement Parts",
         "text": "Replacement Parts"
@@ -153,7 +153,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/technical-assistance",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Contact",
         "text": "Contact"
@@ -174,7 +174,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/services",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Services",
         "text": "Services"
@@ -265,7 +265,7 @@
       "itemProps": {
         "tagTitle": "By Production Process",
         "text": "By Production Process",
-        "href": "/machines/by-production-process"
+        "href": "/machinery/by-production-process"
       },
       "blockClass": "sub-menu-header-title"
     }
@@ -298,19 +298,115 @@
       "itemProps": {
         "tagTitle": "By Final Product",
         "text": "By Final Product",
-        "href": "/machines/by-final-product"
+        "href": "/machinery/by-final-product"
       },
       "blockClass": "sub-menu-header-title"
     }
   },
   "menu#sub-menu-1-list-1B-en": {
     "props": {
-      "categoryId": "8",
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "sortSubcategories": "name",
       "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    },
+    "children": [
+      "menu-item#by-final-ice-cream-en",
+      "menu-item#by-final-gelato-en",
+      "menu-item#by-final-acai-en",
+      "menu-item#by-final-popsicle-en",
+      "menu-item#by-final-coconut-ice-en",
+      "menu-item#by-final-american-ice-cream-en",
+      "menu-item#by-final-frozen-drinks-en",
+      "menu-item#by-final-express-ice-cream-en",
+      "menu-item#by-final-chocolate-tempering-en"
+    ]
+  },
+  "menu-item#by-final-ice-cream-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ice Cream",
+        "text": "Ice Cream",
+        "href": "/machinery/by-final-product/ice-cream"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-gelato-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Gelato",
+        "text": "Gelato",
+        "href": "/machinery/by-final-product/gelato"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-acai-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Açaí",
+        "text": "Açaí",
+        "href": "/machinery/by-final-product/acai"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-popsicle-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Popsicle",
+        "text": "Popsicle",
+        "href": "/machinery/by-final-product/popsicle"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-coconut-ice-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Coconut Ice",
+        "text": "Coconut Ice",
+        "href": "/machinery/by-final-product/coconut-ice"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-american-ice-cream-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "American Ice Cream",
+        "text": "American Ice Cream",
+        "href": "/machinery/by-final-product/american-ice-cream"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-frozen-drinks-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Frozen Drinks",
+        "text": "Frozen Drinks",
+        "href": "/machinery/by-final-product/frozen-drinks"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-express-ice-cream-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Express Ice Cream",
+        "text": "Express Ice Cream",
+        "href": "/machinery/by-final-product/express-ice-cream"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-chocolate-tempering-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Chocolate Tempering Machine",
+        "text": "Chocolate Tempering Machine",
+        "href": "/machinery/by-final-product/chocolate-tempering-machine"
+      },
       "blockClass": "sub-menu-header"
     }
   },
@@ -1080,8 +1176,8 @@
   "menu-item#sub-menu-9-list-4-en": {
     "props": {
       "itemProps": {
-        "tagTitle": "Ombudsman",
-        "text": "Ombudsman",
+        "tagTitle": "Customer Service",
+        "text": "Customer Service",
         "href": "/ombudsman"
       },
       "blockClass": "sub-menu-header-title"

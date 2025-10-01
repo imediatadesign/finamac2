@@ -1,9 +1,10 @@
 # Estrutura de URLs - Finamac Multi-idioma
 
 > **Extraído dos Sitemaps Oficiais**
-> - PT-BR: https://www.finamac-usa.com/br/sitemap.xml
-> - EN-US: https://www.finamac-usa.com/en/sitemap.xml
-> - ES-ES: https://www.finamac-usa.com/es/sitemap.xml
+>
+> - PT-BR: https://www.finamac-usa.com/sitemap.xml
+> - EN-US: https://www.finamac-usa.com/sitemap.xml
+> - ES-ES: https://www.finamac-usa.com/sitemap.xml
 >
 > **Data de extração:** 2025-09-30
 
@@ -12,467 +13,489 @@
 ## PT-BR (/br)
 
 ### Departamentos (1º Nível)
-- `/br/cursos`
-- `/br/maquinas`
-- `/br/pecas-de-reposicao`
+
+- `/cursos`
+- `/maquinas`
+- `/pecas-de-reposicao`
 
 ### Categorias (2º Nível)
-- `/br/cursos/livro-digital`
-- `/br/cursos/online`
-- `/br/cursos/presencial`
-- `/br/maquinas/por-processo-produtivo`
-- `/br/maquinas/por-produto-final`
+
+- `/cursos/livro-digital`
+- `/cursos/online`
+- `/cursos/presencial`
+- `/maquinas/por-processo-produtivo`
+- `/maquinas/por-produto-final`
 
 ### Subcategorias (3º+ Níveis)
 
-#### /br/cursos/online
-  - `/br/cursos/online/acai`
-  - `/br/cursos/online/gelato`
-  - `/br/cursos/online/picole`
+#### /cursos/online
 
-#### /br/cursos/presencial
-  - `/br/cursos/presencial/acai`
+- `/cursos/online/acai`
+- `/cursos/online/gelato`
+- `/cursos/online/picole`
 
-#### /br/maquinas/por-processo-produtivo
-  - `/br/maquinas/por-processo-produtivo/desenvolvedoras`
-  - `/br/maquinas/por-processo-produtivo/dosagem-automatica-de-moldes-de-picole`
-    - `/br/maquinas/por-processo-produtivo/dosagem-automatica-de-moldes-de-picole/dosadoras-gravimetricas-de-liquidos`
-    - `/br/maquinas/por-processo-produtivo/dosagem-automatica-de-moldes-de-picole/dosadoras-volumetricas-de-liquidos`
-  - `/br/maquinas/por-processo-produtivo/embalagem-e-envase`
-    - `/br/maquinas/por-processo-produtivo/embalagem-e-envase/envasadoras`
-    - `/br/maquinas/por-processo-produtivo/embalagem-e-envase/palitador`
-  - `/br/maquinas/por-processo-produtivo/maturacao-de-calda-para-sorvete`
-  - `/br/maquinas/por-processo-produtivo/pasteurizacao-e-homogeneizacao`
-    - `/br/maquinas/por-processo-produtivo/pasteurizacao-e-homogeneizacao/pasteurizadores`
-  - `/br/maquinas/por-processo-produtivo/pos-congelamento`
-  - `/br/maquinas/por-processo-produtivo/preparacao-da-calda-para-sorvete-e-trituradores-de-acai`
-  - `/br/maquinas/por-processo-produtivo/producao---congelamento`
-    - `/br/maquinas/por-processo-produtivo/producao---congelamento/produtoras-continuas-industriais`
-    - `/br/maquinas/por-processo-produtivo/producao---congelamento/produtoras-de-gelato`
-    - `/br/maquinas/por-processo-produtivo/producao---congelamento/produtoras-de-picoles-artesanais`
-    - `/br/maquinas/por-processo-produtivo/producao---congelamento/produtoras-de-picoles-industriais`
-    - `/br/maquinas/por-processo-produtivo/producao---congelamento/produtoras-descontinuas-horizontais`
-  - `/br/maquinas/por-processo-produtivo/torres-de-resfriamento`
+#### /cursos/presencial
 
-#### /br/maquinas/por-produto-final
-  - `/br/maquinas/por-produto-final/acai`
-  - `/br/maquinas/por-produto-final/maquina-de-temperar-chocolate`
-    - `/br/maquinas/por-produto-final/maquina-de-temperar-chocolate/4-kg-de-chocolate-temperado-por-ciclo`
-  - `/br/maquinas/por-produto-final/picole`
-    - `/br/maquinas/por-produto-final/picole/artesanal-ate-200-picoles-h`
-    - `/br/maquinas/por-produto-final/picole/industrial-a-partir-de-1000-picoles-h`
-  - `/br/maquinas/por-produto-final/sorvete`
-  - `/br/maquinas/por-produto-final/sorvete-expresso`
-    - `/br/maquinas/por-produto-final/sorvete-expresso/maquinas-de-bancada`
-    - `/br/maquinas/por-produto-final/sorvete/artesanal-ate-120-litros-hora`
-    - `/br/maquinas/por-produto-final/sorvete/industrial-a-partir-de-120-litros-hora`
+- `/cursos/presencial/acai`
+
+#### /maquinas/por-processo-produtivo
+
+- `/maquinas/por-processo-produtivo/desenvolvedoras`
+- `/maquinas/por-processo-produtivo/dosagem-automatica-de-moldes-de-picole`
+  - `/maquinas/por-processo-produtivo/dosagem-automatica-de-moldes-de-picole/dosadoras-gravimetricas-de-liquidos`
+  - `/maquinas/por-processo-produtivo/dosagem-automatica-de-moldes-de-picole/dosadoras-volumetricas-de-liquidos`
+- `/maquinas/por-processo-produtivo/embalagem-e-envase`
+  - `/maquinas/por-processo-produtivo/embalagem-e-envase/envasadoras`
+  - `/maquinas/por-processo-produtivo/embalagem-e-envase/palitador`
+- `/maquinas/por-processo-produtivo/maturacao-de-calda-para-sorvete`
+- `/maquinas/por-processo-produtivo/pasteurizacao-e-homogeneizacao`
+  - `/maquinas/por-processo-produtivo/pasteurizacao-e-homogeneizacao/pasteurizadores`
+- `/maquinas/por-processo-produtivo/pos-congelamento`
+- `/maquinas/por-processo-produtivo/preparacao-da-calda-para-sorvete-e-trituradores-de-acai`
+- `/maquinas/por-processo-produtivo/producao---congelamento`
+  - `/maquinas/por-processo-produtivo/producao---congelamento/produtoras-continuas-industriais`
+  - `/maquinas/por-processo-produtivo/producao---congelamento/produtoras-de-gelato`
+  - `/maquinas/por-processo-produtivo/producao---congelamento/produtoras-de-picoles-artesanais`
+  - `/maquinas/por-processo-produtivo/producao---congelamento/produtoras-de-picoles-industriais`
+  - `/maquinas/por-processo-produtivo/producao---congelamento/produtoras-descontinuas-horizontais`
+- `/maquinas/por-processo-produtivo/torres-de-resfriamento`
+
+#### /maquinas/por-produto-final
+
+- `/maquinas/por-produto-final/acai`
+- `/maquinas/por-produto-final/maquina-de-temperar-chocolate`
+  - `/maquinas/por-produto-final/maquina-de-temperar-chocolate/4-kg-de-chocolate-temperado-por-ciclo`
+- `/maquinas/por-produto-final/picole`
+  - `/maquinas/por-produto-final/picole/artesanal-ate-200-picoles-h`
+  - `/maquinas/por-produto-final/picole/industrial-a-partir-de-1000-picoles-h`
+- `/maquinas/por-produto-final/sorvete`
+- `/maquinas/por-produto-final/sorvete-expresso`
+  - `/maquinas/por-produto-final/sorvete-expresso/maquinas-de-bancada`
+  - `/maquinas/por-produto-final/sorvete/artesanal-ate-120-litros-hora`
+  - `/maquinas/por-produto-final/sorvete/industrial-a-partir-de-120-litros-hora`
 
 ### User Routes (Páginas Customizadas)
-- `/br/aerador-e-emulsor-de-misturas-para-sorvetes-e-picoles`
-- `/br/aiko-pops`
-- `/br/alpina-gelateria`
-- `/br/areas`
-- `/br/assistencia-tecnica`
-- `/br/bachir`
-- `/br/ciao-gelato-and-caffe`
-- `/br/ciesp-tecnologia-e-design-na-producao-de-sorvetes`
-- `/br/clientes`
-- `/br/clientes-2`
-- `/br/clientes-3`
-- `/br/coko`
-- `/br/conecon-2025`
-- `/br/conheca-a-ice-clean`
-- `/br/dellaporto-sorvetes`
-- `/br/desenformador-artesanal-de-picoles-flex-unmold-tank`
-- `/br/detroit-pop-shop`
-- `/br/dfruta-la-vida`
-- `/br/di-rossi-gelateria`
-- `/br/divinos-sorvetes`
-- `/br/dliras-paleteria`
-- `/br/entrevista-ciencia-e-empreendedorismo`
-- `/br/eventos`
-- `/br/finamac-llc`
-- `/br/finamac-no-pequenas-empresas-grandes-negocios`
-- `/br/finamac-santo-andre`
-- `/br/finamac-sao-paulo`
-- `/br/fispal-2025`
-- `/br/formas-para-picoles-e-paletas-moldes`
-- `/br/friends-and-co`
-- `/br/friofrio`
-- `/br/gaafer-chocolateria`
-- `/br/gelao-de-coco`
-- `/br/gelateria-krings`
-- `/br/gelateria-lobuono`
-- `/br/gelateria-pituccio`
-- `/br/gelatissimo`
-- `/br/gelato-repeteco`
-- `/br/goloso-gelateria`
-- `/br/gostosinho-da-fruta`
-- `/br/heroos-gelato`
-- `/br/hora-do-faro`
-- `/br/ice-kitchen`
-- `/br/inzane-pops`
-- `/br/itabau`
-- `/br/ital-instituto-de-tecnologia-de-alimentos`
-- `/br/jonny-pops`
-- `/br/kgelateria`
-- `/br/king-of-pops`
-- `/br/la-michoacana`
-- `/br/la-ola-pop-shop`
-- `/br/le-sorvetes`
-- `/br/levessa-sorveteria`
-- `/br/lick-a-lix`
-- `/br/lil-pop-shop`
-- `/br/lil-pop-shop-2`
-- `/br/marvi-alimentos`
-- `/br/midia`
-- `/br/mom-pops`
-- `/br/morelia-ice-cream-paletas`
-- `/br/nafem-2025`
-- `/br/national-restaurant-association-show-2025`
-- `/br/ono-pops`
-- `/br/pack-5000`
-- `/br/padaria-vitoria-regia`
-- `/br/paletuba`
-- `/br/parcerias`
-- `/br/pegn-como-ganhar-dinheiro-com-a-revolucao-digital`
-- `/br/peoples-pops`
-- `/br/pequenas-empresas-grandes-negocios`
-- `/br/pib-delicias-geladas-vendas-quentes`
-- `/br/politica-de-cookies`
-- `/br/politica-de-privacidade`
-- `/br/popcircle-at-solid-edge-2021-presentation`
-- `/br/popsy`
-- `/br/produtos`
-- `/br/projeto-fapesp`
-- `/br/projetos`
-- `/br/q-mel-sorveteria`
-- `/br/robopop`
-- `/br/rua-do-bolo`
-- `/br/seladora-de-embalagens-para-picoles-sealer`
-- `/br/siber-sorveteria`
-- `/br/siemens`
-- `/br/sigep-2025`
-- `/br/sorveteria-docs`
-- `/br/sorvetoni`
-- `/br/sorvetty`
-- `/br/steel-city-pops`
-- `/br/stonia-ice-creamland`
-- `/br/the-hyppo`
-- `/br/the-paleta-bar`
-- `/br/the-pop-nation`
-- `/br/the-pop-shop`
-- `/br/turbo-8`
-- `/br/unidades`
-- `/br/vabene-confeitaria`
+
+- `/aerador-e-emulsor-de-misturas-para-sorvetes-e-picoles`
+- `/aiko-pops`
+- `/alpina-gelateria`
+- `/areas`
+- `/assistencia-tecnica`
+- `/bachir`
+- `/ciao-gelato-and-caffe`
+- `/ciesp-tecnologia-e-design-na-producao-de-sorvetes`
+- `/clientes`
+- `/clientes-2`
+- `/clientes-3`
+- `/coko`
+- `/conecon-2025`
+- `/conheca-a-ice-clean`
+- `/dellaporto-sorvetes`
+- `/desenformador-artesanal-de-picoles-flex-unmold-tank`
+- `/detroit-pop-shop`
+- `/dfruta-la-vida`
+- `/di-rossi-gelateria`
+- `/divinos-sorvetes`
+- `/dliras-paleteria`
+- `/entrevista-ciencia-e-empreendedorismo`
+- `/eventos`
+- `/finamac-llc`
+- `/finamac-no-pequenas-empresas-grandes-negocios`
+- `/finamac-santo-andre`
+- `/finamac-sao-paulo`
+- `/fispal-2025`
+- `/formas-para-picoles-e-paletas-moldes`
+- `/friends-and-co`
+- `/friofrio`
+- `/gaafer-chocolateria`
+- `/gelao-de-coco`
+- `/gelateria-krings`
+- `/gelateria-lobuono`
+- `/gelateria-pituccio`
+- `/gelatissimo`
+- `/gelato-repeteco`
+- `/goloso-gelateria`
+- `/gostosinho-da-fruta`
+- `/heroos-gelato`
+- `/hora-do-faro`
+- `/ice-kitchen`
+- `/inzane-pops`
+- `/itabau`
+- `/ital-instituto-de-tecnologia-de-alimentos`
+- `/jonny-pops`
+- `/kgelateria`
+- `/king-of-pops`
+- `/la-michoacana`
+- `/la-ola-pop-shop`
+- `/le-sorvetes`
+- `/levessa-sorveteria`
+- `/lick-a-lix`
+- `/lil-pop-shop`
+- `/lil-pop-shop-2`
+- `/marvi-alimentos`
+- `/midia`
+- `/mom-pops`
+- `/morelia-ice-cream-paletas`
+- `/nafem-2025`
+- `/national-restaurant-association-show-2025`
+- `/ono-pops`
+- `/pack-5000`
+- `/padaria-vitoria-regia`
+- `/paletuba`
+- `/parcerias`
+- `/pegn-como-ganhar-dinheiro-com-a-revolucao-digital`
+- `/peoples-pops`
+- `/pequenas-empresas-grandes-negocios`
+- `/pib-delicias-geladas-vendas-quentes`
+- `/politica-de-cookies`
+- `/politica-de-privacidade`
+- `/popcircle-at-solid-edge-2021-presentation`
+- `/popsy`
+- `/produtos`
+- `/projeto-fapesp`
+- `/projetos`
+- `/q-mel-sorveteria`
+- `/robopop`
+- `/rua-do-bolo`
+- `/seladora-de-embalagens-para-picoles-sealer`
+- `/siber-sorveteria`
+- `/siemens`
+- `/sigep-2025`
+- `/sorveteria-docs`
+- `/sorvetoni`
+- `/sorvetty`
+- `/steel-city-pops`
+- `/stonia-ice-creamland`
+- `/the-hyppo`
+- `/the-paleta-bar`
+- `/the-pop-nation`
+- `/the-pop-shop`
+- `/turbo-8`
+- `/unidades`
+- `/vabene-confeitaria`
 
 ---
 
 ## EN-US (/en)
 
 ### Departments (1st Level)
-- `/en/courses`
-- `/en/machinery`
-- `/en/spare-parts`
+
+- `/courses`
+- `/machinery`
+- `/spare-parts`
 
 ### Categories (2nd Level)
-- `/en/courses/digital-book`
-- `/en/courses/online`
-- `/en/courses/presential`
-- `/en/machinery/by-final-product`
-- `/en/machinery/by-production-process`
+
+- `/coursdigital-book`
+- `/coursonline`
+- `/courspresential`
+- `/machinery/by-final-product`
+- `/machinery/by-production-process`
 
 ### Subcategories (3rd+ Levels)
 
-#### /en/courses/online
-  - `/en/courses/online/acai`
-  - `/en/courses/online/gelato`
-  - `/en/courses/online/popsicle`
+#### /coursonline
 
-#### /en/machinery/by-final-product
-  - `/en/machinery/by-final-product/acai`
-  - `/en/machinery/by-final-product/chocolate-tempering-machine`
-    - `/en/machinery/by-final-product/chocolate-tempering-machine/4-kg-of-tempered-chocolate-per-cycle`
-  - `/en/machinery/by-final-product/express-ice-cream`
-    - `/en/machinery/by-final-product/express-ice-cream/benchtop-machines`
-  - `/en/machinery/by-final-product/ice-cream`
-    - `/en/machinery/by-final-product/ice-cream/artisanal-ate-120-liters-hour`
-    - `/en/machinery/by-final-product/ice-cream/industrial-from-120-liters-hour`
-    - `/en/machinery/by-final-product/ice-cream/premium`
-  - `/en/machinery/by-final-product/popsicle`
-    - `/en/machinery/by-final-product/popsicle/artisanal-up-to-200-popsicles-h`
-    - `/en/machinery/by-final-product/popsicle/industrial-from-1000-popsicles-h`
+- `/coursonline/acai`
+- `/coursonline/gelato`
+- `/coursonline/popsicle`
 
-#### /en/machinery/by-production-process
-  - `/en/machinery/by-production-process/automatic-dosing-of-popsicle-molds`
-    - `/en/machinery/by-production-process/automatic-dosing-of-popsicle-molds/gravity-liquid-dispensers`
-  - `/en/machinery/by-production-process/cooling-towers`
-  - `/en/machinery/by-production-process/developers`
-  - `/en/machinery/by-production-process/maturation-of-ice-cream-syrup`
-  - `/en/machinery/by-production-process/packaging-and-bottling`
-    - `/en/machinery/by-production-process/packaging-and-bottling/packers`
-    - `/en/machinery/by-production-process/packaging-and-bottling/toothpick`
-  - `/en/machinery/by-production-process/pasteurization-and-homogenization`
-    - `/en/machinery/by-production-process/pasteurization-and-homogenization/pasteurizers`
-  - `/en/machinery/by-production-process/post-freezing`
-  - `/en/machinery/by-production-process/production---freezing`
-    - `/en/machinery/by-production-process/production---freezing/artisanal-popsicle-producers`
-    - `/en/machinery/by-production-process/production---freezing/continuous-industrial-producers`
-    - `/en/machinery/by-production-process/production---freezing/discontinuous-horizontal-producers`
-    - `/en/machinery/by-production-process/production---freezing/gelato-producers`
-    - `/en/machinery/by-production-process/production---freezing/industrial-popsicle-producers`
+#### /machinery/by-final-product
+
+- `/machinery/by-final-product/acai`
+- `/machinery/by-final-product/chocolate-tempering-machine`
+  - `/machinery/by-final-product/chocolate-tempering-machine/4-kg-of-tempered-chocolate-per-cycle`
+- `/machinery/by-final-product/express-ice-cream`
+  - `/machinery/by-final-product/express-ice-cream/benchtop-machines`
+- `/machinery/by-final-product/ice-cream`
+  - `/machinery/by-final-product/ice-cream/artisanal-ate-120-liters-hour`
+  - `/machinery/by-final-product/ice-cream/industrial-from-120-liters-hour`
+  - `/machinery/by-final-product/ice-cream/premium`
+- `/machinery/by-final-product/popsicle`
+  - `/machinery/by-final-product/popsicle/artisanal-up-to-200-popsicles-h`
+  - `/machinery/by-final-product/popsicle/industrial-from-1000-popsicles-h`
+
+#### /machinery/by-production-process
+
+- `/machinery/by-production-process/automatic-dosing-of-popsicle-molds`
+  - `/machinery/by-production-process/automatic-dosing-of-popsicle-molds/gravity-liquid-dispensers`
+- `/machinery/by-production-process/cooling-towers`
+- `/machinery/by-production-process/developers`
+- `/machinery/by-production-process/maturation-of-ice-cream-syrup`
+- `/machinery/by-production-process/packaging-and-bottling`
+  - `/machinery/by-production-process/packaging-and-bottling/packers`
+  - `/machinery/by-production-process/packaging-and-bottling/toothpick`
+- `/machinery/by-production-process/pasteurization-and-homogenization`
+  - `/machinery/by-production-process/pasteurization-and-homogenization/pasteurizers`
+- `/machinery/by-production-process/post-freezing`
+- `/machinery/by-production-process/production---freezing`
+  - `/machinery/by-production-process/production---freezing/artisanal-popsicle-producers`
+  - `/machinery/by-production-process/production---freezing/continuous-industrial-producers`
+  - `/machinery/by-production-process/production---freezing/discontinuous-horizontal-producers`
+  - `/machinery/by-production-process/production---freezing/gelato-producers`
+  - `/machinery/by-production-process/production---freezing/industrial-popsicle-producers`
 
 #### Other Subcategories
-- `/en/machinery/by-process-production/preparing-the-mixture-for-ice-cream-and-acai-crushers`
+
+- `/machinery/by-process-production/preparing-the-mixture-for-ice-cream-and-acai-crushers`
 
 ### User Routes (Custom Pages)
-- `/en/aiko-pops`
-- `/en/alpina-gelateria`
-- `/en/areas`
-- `/en/bachir`
-- `/en/ciao-gelato-and-caffe`
-- `/en/clients`
-- `/en/clients-2`
-- `/en/clients-3`
-- `/en/coko`
-- `/en/conecon-2025`
-- `/en/contact-us`
-- `/en/cookie-policy`
-- `/en/dellaporto-sorvetes`
-- `/en/detroit-pop-shop`
-- `/en/dfruta-la-vida`
-- `/en/di-rossi-gelateria`
-- `/en/divinos-sorvetes`
-- `/en/dliras-paleteria`
-- `/en/engineeringcom`
-- `/en/events`
-- `/en/finamac-llc`
-- `/en/finamac-santo-andre`
-- `/en/finamac-sao-paulo`
-- `/en/fispal-2025`
-- `/en/friends-and-co`
-- `/en/friofrio`
-- `/en/gaafer-chocolateria`
-- `/en/gelao-de-coco`
-- `/en/gelateria-krings`
-- `/en/gelateria-lobuono`
-- `/en/gelateria-pituccio`
-- `/en/gelatissimo`
-- `/en/gelato-repeteco`
-- `/en/goloso-ice-cream-shop`
-- `/en/gostosinho-da-fruta`
-- `/en/heroos-gelato`
-- `/en/how-its-made-popsy-popsicle`
-- `/en/ice-kitchen`
-- `/en/inzane-pops`
-- `/en/itabau`
-- `/en/ital-institute-of-food-technology`
-- `/en/jonny-pops`
-- `/en/kgelateria`
-- `/en/king-of-pops`
-- `/en/la-michoacana`
-- `/en/la-ola-pop-shop`
-- `/en/le-sorvetes`
-- `/en/levessa-sorveteria`
-- `/en/lick-a-lix`
-- `/en/lil-pop-shop`
-- `/en/lil-pop-shop-usa`
-- `/en/marvi-alimentos`
-- `/en/media`
-- `/en/meet-ice-clean`
-- `/en/mom-pops`
-- `/en/morelia-ice-cream-paletas`
-- `/en/nafem-2025`
-- `/en/national-restaurant-association-show-2025`
-- `/en/ono-pops`
-- `/en/pack-5000`
-- `/en/padaria-vitoria-regiao`
-- `/en/paletuba`
-- `/en/partners`
-- `/en/peoples-pops`
-- `/en/popcircle-at-solid-edge-2021-presentation`
-- `/en/popsy`
-- `/en/privacy-policy`
-- `/en/products`
-- `/en/projects`
-- `/en/q-mel-sorveteria`
-- `/en/rua-do-bolo`
-- `/en/sealing-machine-for-ice-pops`
-- `/en/sealing-machine-for-ice-pops-sealer`
-- `/en/siber-sorveteria`
-- `/en/siemens-solid-edge-blog`
-- `/en/sigep-2025`
-- `/en/sorveteria-docs`
-- `/en/sorvetoni`
-- `/en/sorvetty`
-- `/en/steel-city-pops`
-- `/en/stonia-ice-creamland`
-- `/en/technical-assistance`
-- `/en/the-hyppo`
-- `/en/the-paleta-bar`
-- `/en/the-pop-nation`
-- `/en/the-pop-shop`
-- `/en/turbo-8`
-- `/en/units`
-- `/en/unmold-machine-for-ice-pops-flex-unmold-tank`
-- `/en/vabene-confeitaria`
+
+- `/aiko-pops`
+- `/alpina-gelateria`
+- `/areas`
+- `/bachir`
+- `/ciao-gelato-and-caffe`
+- `/clients`
+- `/clients-2`
+- `/clients-3`
+- `/coko`
+- `/conecon-2025`
+- `/contact-us`
+- `/cookie-policy`
+- `/dellaporto-sorvetes`
+- `/detroit-pop-shop`
+- `/dfruta-la-vida`
+- `/di-rossi-gelateria`
+- `/divinos-sorvetes`
+- `/dliras-paleteria`
+- `/engineeringcom`
+- `/events`
+- `/finamac-llc`
+- `/finamac-santo-andre`
+- `/finamac-sao-paulo`
+- `/fispal-2025`
+- `/friends-and-co`
+- `/friofrio`
+- `/gaafer-chocolateria`
+- `/gelao-de-coco`
+- `/gelateria-krings`
+- `/gelateria-lobuono`
+- `/gelateria-pituccio`
+- `/gelatissimo`
+- `/gelato-repeteco`
+- `/goloso-ice-cream-shop`
+- `/gostosinho-da-fruta`
+- `/heroos-gelato`
+- `/how-its-made-popsy-popsicle`
+- `/ice-kitchen`
+- `/inzane-pops`
+- `/itabau`
+- `/ital-institute-of-food-technology`
+- `/jonny-pops`
+- `/kgelateria`
+- `/king-of-pops`
+- `/la-michoacana`
+- `/la-ola-pop-shop`
+- `/le-sorvetes`
+- `/levessa-sorveteria`
+- `/lick-a-lix`
+- `/lil-pop-shop`
+- `/lil-pop-shop-usa`
+- `/marvi-alimentos`
+- `/media`
+- `/meet-ice-clean`
+- `/mom-pops`
+- `/morelia-ice-cream-paletas`
+- `/nafem-2025`
+- `/national-restaurant-association-show-2025`
+- `/ono-pops`
+- `/pack-5000`
+- `/padaria-vitoria-regiao`
+- `/paletuba`
+- `/partners`
+- `/peoples-pops`
+- `/popcircle-at-solid-edge-2021-presentation`
+- `/popsy`
+- `/privacy-policy`
+- `/products`
+- `/projects`
+- `/q-mel-sorveteria`
+- `/rua-do-bolo`
+- `/sealing-machine-for-ice-pops`
+- `/sealing-machine-for-ice-pops-sealer`
+- `/siber-sorveteria`
+- `/siemens-solid-edge-blog`
+- `/sigep-2025`
+- `/sorveteria-docs`
+- `/sorvetoni`
+- `/sorvetty`
+- `/steel-city-pops`
+- `/stonia-ice-creamland`
+- `/technical-assistance`
+- `/the-hyppo`
+- `/the-paleta-bar`
+- `/the-pop-nation`
+- `/the-pop-shop`
+- `/turbo-8`
+- `/units`
+- `/unmold-machine-for-ice-pops-flex-unmold-tank`
+- `/vabene-confeitaria`
 
 ---
 
 ## ES-ES (/es)
 
 ### Departamentos (1er Nivel)
-- `/es/cursos`
-- `/es/maquinaria`
-- `/es/piezas-de-repuesto`
+
+- `/cursos`
+- `/maquinaria`
+- `/piezas-de-repuesto`
 
 ### Categorías (2do Nivel)
-- `/es/cursos/en-linea`
-- `/es/cursos/en-persona`
-- `/es/cursos/libro-digital`
-- `/es/maquinaria/por-proceso-de-produccion`
-- `/es/maquinaria/por-producto-final`
+
+- `/cursos/en-linea`
+- `/cursos/en-persona`
+- `/cursos/libro-digital`
+- `/maquinaria/por-proceso-de-produccion`
+- `/maquinaria/por-producto-final`
 
 ### Subcategorías (3er+ Niveles)
 
-#### /es/cursos/en-linea
-  - `/es/cursos/en-linea/acai`
-  - `/es/cursos/en-linea/gelato`
-  - `/es/cursos/en-linea/paleta-de-hielo`
+#### /cursos/en-linea
 
-#### /es/cursos/en-persona
-  - `/es/cursos/en-persona/acai`
+- `/cursos/en-linea/acai`
+- `/cursos/en-linea/gelato`
+- `/cursos/en-linea/paleta-de-hielo`
 
-#### /es/maquinaria/por-proceso-de-produccion
-  - `/es/maquinaria/por-proceso-de-produccion/desarrolladores`
-  - `/es/maquinaria/por-proceso-de-produccion/dosificacion-automatica-de-moldes-de-paletas`
-    - `/es/maquinaria/por-proceso-de-produccion/dosificacion-automatica-de-moldes-de-paletas/dispensadores-de-liquido-por-gravedad`
-    - `/es/maquinaria/por-proceso-de-produccion/dosificacion-automatica-de-moldes-de-paletas/dispensadores-gravimetricos-de-liquidos`
-  - `/es/maquinaria/por-proceso-de-produccion/envasado-y-embotellado`
-    - `/es/maquinaria/por-proceso-de-produccion/envasado-y-embotellado/empacadores`
-    - `/es/maquinaria/por-proceso-de-produccion/envasado-y-embotellado/palillero`
-  - `/es/maquinaria/por-proceso-de-produccion/maduracion-de-jarabe-para-helado`
-  - `/es/maquinaria/por-proceso-de-produccion/pasteurizacion-y-homogeneizacion`
-    - `/es/maquinaria/por-proceso-de-produccion/pasteurizacion-y-homogeneizacion/pasteurizadores`
-  - `/es/maquinaria/por-proceso-de-produccion/post-congelacion`
-  - `/es/maquinaria/por-proceso-de-produccion/preparacion-de-la-mezcla-para-helado-y-trituradores-de-acai`
-  - `/es/maquinaria/por-proceso-de-produccion/produccion---congelacion`
-    - `/es/maquinaria/por-proceso-de-produccion/produccion---congelacion/productores-de-gelato`
-    - `/es/maquinaria/por-proceso-de-produccion/produccion---congelacion/productores-de-paletas-artesanales`
-    - `/es/maquinaria/por-proceso-de-produccion/produccion---congelacion/productores-discontinuos-horizontales`
-    - `/es/maquinaria/por-proceso-de-produccion/produccion---congelacion/productores-industriales-continuos`
-    - `/es/maquinaria/por-proceso-de-produccion/produccion---congelacion/productores-industriales-de-paletas`
-  - `/es/maquinaria/por-proceso-de-produccion/torres-de-enfriamiento`
+#### /cursos/en-persona
 
-#### /es/maquinaria/por-producto-final
-  - `/es/maquinaria/por-producto-final/acai`
-  - `/es/maquinaria/por-producto-final/helado-express`
-    - `/es/maquinaria/por-producto-final/helado-express/maquinas-de-sobremesa`
-  - `/es/maquinaria/por-producto-final/helados`
-    - `/es/maquinaria/por-producto-final/helados/artesanal-hasta-120-litros-hora`
-    - `/es/maquinaria/por-producto-final/helados/industrial-a-partir-de-120-litros-hora`
-    - `/es/maquinaria/por-producto-final/helados/premium`
-  - `/es/maquinaria/por-producto-final/maquina-de-templado-de-chocolate`
-    - `/es/maquinaria/por-producto-final/maquina-de-templado-de-chocolate/4-kg-de-chocolate-templado-por-ciclo`
-  - `/es/maquinaria/por-producto-final/paleta-de-hielo`
-    - `/es/maquinaria/por-producto-final/paleta-de-hielo/artesanal-hasta-200-paletas-h`
-    - `/es/maquinaria/por-producto-final/paleta-de-hielo/industrial-a-partir-de-1000-paletas-h`
+- `/cursos/en-persona/acai`
+
+#### /maquinaria/por-proceso-de-produccion
+
+- `/maquinaria/por-proceso-de-produccion/desarrolladores`
+- `/maquinaria/por-proceso-de-produccion/dosificacion-automatica-de-moldes-de-paletas`
+  - `/maquinaria/por-proceso-de-produccion/dosificacion-automatica-de-moldes-de-paletas/dispensadores-de-liquido-por-gravedad`
+  - `/maquinaria/por-proceso-de-produccion/dosificacion-automatica-de-moldes-de-paletas/dispensadores-gravimetricos-de-liquidos`
+- `/maquinaria/por-proceso-de-produccion/envasado-y-embotellado`
+  - `/maquinaria/por-proceso-de-produccion/envasado-y-embotellado/empacadores`
+  - `/maquinaria/por-proceso-de-produccion/envasado-y-embotellado/palillero`
+- `/maquinaria/por-proceso-de-produccion/maduracion-de-jarabe-para-helado`
+- `/maquinaria/por-proceso-de-produccion/pasteurizacion-y-homogeneizacion`
+  - `/maquinaria/por-proceso-de-produccion/pasteurizacion-y-homogeneizacion/pasteurizadores`
+- `/maquinaria/por-proceso-de-produccion/post-congelacion`
+- `/maquinaria/por-proceso-de-produccion/preparacion-de-la-mezcla-para-helado-y-trituradores-de-acai`
+- `/maquinaria/por-proceso-de-produccion/produccion---congelacion`
+  - `/maquinaria/por-proceso-de-produccion/produccion---congelacion/productores-de-gelato`
+  - `/maquinaria/por-proceso-de-produccion/produccion---congelacion/productores-de-paletas-artesanales`
+  - `/maquinaria/por-proceso-de-produccion/produccion---congelacion/productores-discontinuos-horizontales`
+  - `/maquinaria/por-proceso-de-produccion/produccion---congelacion/productores-industriales-continuos`
+  - `/maquinaria/por-proceso-de-produccion/produccion---congelacion/productores-industriales-de-paletas`
+- `/maquinaria/por-proceso-de-produccion/torres-de-enfriamiento`
+
+#### /maquinaria/por-producto-final
+
+- `/maquinaria/por-producto-final/acai`
+- `/maquinaria/por-producto-final/helado-express`
+  - `/maquinaria/por-producto-final/helado-express/maquinas-de-sobremesa`
+- `/maquinaria/por-producto-final/helados`
+  - `/maquinaria/por-producto-final/helados/artesanal-hasta-120-litros-hora`
+  - `/maquinaria/por-producto-final/helados/industrial-a-partir-de-120-litros-hora`
+  - `/maquinaria/por-producto-final/helados/premium`
+- `/maquinaria/por-producto-final/maquina-de-templado-de-chocolate`
+  - `/maquinaria/por-producto-final/maquina-de-templado-de-chocolate/4-kg-de-chocolate-templado-por-ciclo`
+- `/maquinaria/por-producto-final/paleta-de-hielo`
+  - `/maquinaria/por-producto-final/paleta-de-hielo/artesanal-hasta-200-paletas-h`
+  - `/maquinaria/por-producto-final/paleta-de-hielo/industrial-a-partir-de-1000-paletas-h`
 
 ### User Routes (Páginas Personalizadas)
-- `/es/aiko-pops`
-- `/es/alpina-gelateria`
-- `/es/areas`
-- `/es/asistencia-tecnica`
-- `/es/asociaciones`
-- `/es/bachir`
-- `/es/ciao-gelato-and-caffe`
-- `/es/clientes`
-- `/es/clientes-2`
-- `/es/clientes-3`
-- `/es/coko`
-- `/es/conecon-2025`
-- `/es/conoce-ice-clean`
-- `/es/contactanos`
-- `/es/cursos-es`
-- `/es/dellaporto-sorvetes`
-- `/es/detroit-pop-shop`
-- `/es/dfruta-la-vida`
-- `/es/di-rossi-gelateria`
-- `/es/divinos-sorvetes`
-- `/es/dliras-paleteria`
-- `/es/empacadora-manual-de-paletas-sealer`
-- `/es/eventos`
-- `/es/finamac-llc`
-- `/es/finamac-santo-andre`
-- `/es/finamac-sao-paulo`
-- `/es/fispal-2025`
-- `/es/friends-and-co`
-- `/es/friofrio`
-- `/es/gaafer-chocolateria`
-- `/es/gelao-de-coco`
-- `/es/gelateria-krings`
-- `/es/gelateria-lobuono`
-- `/es/gelateria-pituccio`
-- `/es/gelatissimo`
-- `/es/gelato-repeteco`
-- `/es/goloso-gelateria`
-- `/es/gostosinho-da-fruta`
-- `/es/heroos-gelato`
-- `/es/ice-kitchen`
-- `/es/inzane-pops`
-- `/es/itabau`
-- `/es/ital-instituto-de-tecnologia-de-alimentos`
-- `/es/jonny-pops`
-- `/es/kgelateria`
-- `/es/king-of-pops`
-- `/es/la-michoacana`
-- `/es/la-ola-pop-shop`
-- `/es/le-sorvetes`
-- `/es/levessa-sorveteria`
-- `/es/lick-a-lix`
-- `/es/lil-pop-shop`
-- `/es/maquina-desmoldadora-de-paletas-flex-unmold-tank`
-- `/es/marvi-alimentos`
-- `/es/midia`
-- `/es/mom-pops`
-- `/es/morelia-ice-cream-paletas`
-- `/es/nafem-2025`
-- `/es/national-restaurant-association-show-2025`
-- `/es/ono-pops`
-- `/es/pack-5000`
-- `/es/padaria-vitoria-regia`
-- `/es/paletuba`
-- `/es/peoples-pops`
-- `/es/pib-golosinas-congeladas-ventas-calientes`
-- `/es/politica-de-cookies`
-- `/es/politica-de-cookies-es`
-- `/es/politica-de-privacidad`
-- `/es/popsy`
-- `/es/productos`
-- `/es/proyectos`
-- `/es/q-mel-sorveteria`
-- `/es/robopop`
-- `/es/rua-do-bolo`
-- `/es/siber-sorveteria`
-- `/es/sigep-2025`
-- `/es/sorveteria-docs`
-- `/es/sorvetoni`
-- `/es/sorvetty`
-- `/es/steel-city-pops`
-- `/es/stonia-ice-creamland`
-- `/es/the-hyppo`
-- `/es/the-paleta-bar`
-- `/es/the-pop-nation`
-- `/es/the-pop-shop`
-- `/es/turbo-8`
-- `/es/unidades`
-- `/es/vabene-confeitaria`
+
+- `/aiko-pops`
+- `/alpina-gelateria`
+- `/areas`
+- `/asistencia-tecnica`
+- `/asociaciones`
+- `/bachir`
+- `/ciao-gelato-and-caffe`
+- `/clientes`
+- `/clientes-2`
+- `/clientes-3`
+- `/coko`
+- `/conecon-2025`
+- `/conoce-ice-clean`
+- `/contactanos`
+- `/cursos-es`
+- `/dellaporto-sorvetes`
+- `/detroit-pop-shop`
+- `/dfruta-la-vida`
+- `/di-rossi-gelateria`
+- `/divinos-sorvetes`
+- `/dliras-paleteria`
+- `/empacadora-manual-de-paletas-sealer`
+- `/eventos`
+- `/finamac-llc`
+- `/finamac-santo-andre`
+- `/finamac-sao-paulo`
+- `/fispal-2025`
+- `/friends-and-co`
+- `/friofrio`
+- `/gaafer-chocolateria`
+- `/gelao-de-coco`
+- `/gelateria-krings`
+- `/gelateria-lobuono`
+- `/gelateria-pituccio`
+- `/gelatissimo`
+- `/gelato-repeteco`
+- `/goloso-gelateria`
+- `/gostosinho-da-fruta`
+- `/heroos-gelato`
+- `/ice-kitchen`
+- `/inzane-pops`
+- `/itabau`
+- `/ital-instituto-de-tecnologia-de-alimentos`
+- `/jonny-pops`
+- `/kgelateria`
+- `/king-of-pops`
+- `/la-michoacana`
+- `/la-ola-pop-shop`
+- `/le-sorvetes`
+- `/levessa-sorveteria`
+- `/lick-a-lix`
+- `/lil-pop-shop`
+- `/maquina-desmoldadora-de-paletas-flex-unmold-tank`
+- `/marvi-alimentos`
+- `/midia`
+- `/mom-pops`
+- `/morelia-ice-cream-paletas`
+- `/nafem-2025`
+- `/national-restaurant-association-show-2025`
+- `/ono-pops`
+- `/pack-5000`
+- `/padaria-vitoria-regia`
+- `/paletuba`
+- `/peoples-pops`
+- `/pib-golosinas-congeladas-ventas-calientes`
+- `/politica-de-cookies`
+- `/politica-de-cookies-es`
+- `/politica-de-privacidad`
+- `/popsy`
+- `/productos`
+- `/proyectos`
+- `/q-mel-sorveteria`
+- `/robopop`
+- `/rua-do-bolo`
+- `/siber-sorveteria`
+- `/sigep-2025`
+- `/sorveteria-docs`
+- `/sorvetoni`
+- `/sorvetty`
+- `/steel-city-pops`
+- `/stonia-ice-creamland`
+- `/the-hyppo`
+- `/the-paleta-bar`
+- `/the-pop-nation`
+- `/the-pop-shop`
+- `/turbo-8`
+- `/unidades`
+- `/vabene-confeitaria`
 
 ---
 
 ## Estatísticas
 
 ### PT-BR
+
 - **Departamentos:** 3
 - **Categorias:** 5
 - **Subcategorias:** 34
@@ -480,6 +503,7 @@
 - **Total:** 139
 
 ### EN-US
+
 - **Departments:** 3
 - **Categories:** 5
 - **Subcategories:** 33
@@ -487,6 +511,7 @@
 - **Total:** 131
 
 ### ES-ES
+
 - **Departamentos:** 3
 - **Categorías:** 5
 - **Subcategorías:** 35
@@ -494,6 +519,7 @@
 - **Total:** 131
 
 ### TOTAL GERAL
+
 - **URLs de Categorias:** 126
 - **URLs de User Routes:** 275
 - **TOTAL DE URLs:** 401

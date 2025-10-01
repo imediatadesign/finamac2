@@ -35,7 +35,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Maquinas",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Maquinas",
         "text": "Maquinas"
@@ -56,7 +56,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/acessorios",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Acessórios",
         "text": "Acessórios"
@@ -154,7 +154,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/assistencia-tecnica",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Contato",
         "text": "Contato"
@@ -175,7 +175,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/servicos",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Serviços",
         "text": "Serviços"
@@ -310,12 +310,108 @@
   },
   "menu#sub-menu-1-list-1B": {
     "props": {
-      "categoryId": "8",
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "sortSubcategories": "name",
       "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    },
+    "children": [
+      "menu-item#by-final-sorvete",
+      "menu-item#by-final-gelato",
+      "menu-item#by-final-acai",
+      "menu-item#by-final-picole",
+      "menu-item#by-final-gelo-coco",
+      "menu-item#by-final-sorvete-americano",
+      "menu-item#by-final-frozen-drinks",
+      "menu-item#by-final-sorvete-expresso",
+      "menu-item#by-final-temperadeira-chocolate"
+    ]
+  },
+  "menu-item#by-final-sorvete": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sorvete",
+        "text": "Sorvete",
+        "href": "/maquinas/por-produto-final/sorvete"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-gelato": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Gelatos",
+        "text": "Gelatos",
+        "href": "/maquinas/por-produto-final/gelatos"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-acai": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Açaí",
+        "text": "Açaí",
+        "href": "/maquinas/por-produto-final/acai"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-picole": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Picolé",
+        "text": "Picolé",
+        "href": "/maquinas/por-produto-final/picole"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-gelo-coco": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Gelo de Coco",
+        "text": "Gelo de Coco",
+        "href": "/maquinas/por-produto-final/gelo-de-coco"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-sorvete-americano": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sorvete Americano",
+        "text": "Sorvete Americano",
+        "href": "/maquinas/por-produto-final/sorvete-americano"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-frozen-drinks": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Frozen Drinks",
+        "text": "Frozen Drinks",
+        "href": "/maquinas/por-produto-final/frozen-drinks"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-sorvete-expresso": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sorvete Expresso",
+        "text": "Sorvete Expresso",
+        "href": "/maquinas/por-produto-final/sorvete-expresso"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-temperadeira-chocolate": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Temperadeira de Chocolate",
+        "text": "Temperadeira de Chocolate",
+        "href": "/maquinas/por-produto-final/maquina-de-temperar-chocolate"
+      },
       "blockClass": "sub-menu-header"
     }
   },

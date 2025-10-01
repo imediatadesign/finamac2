@@ -21,7 +21,7 @@
       "itemProps": {
         "tagTitle": "Machines",
         "text": "Machines",
-        "href": "/machines"
+        "href": "/machinery"
       },
       "blockClass": [
         "menu-sanfone-category",
@@ -55,7 +55,7 @@
       "itemProps": {
         "tagTitle": "View All",
         "text": "View All",
-        "href": "/machines"
+        "href": "/machinery"
       }
     }
   },
@@ -119,7 +119,7 @@
       "itemProps": {
         "tagTitle": "Replacement Parts",
         "text": "Replacement Parts",
-        "href": "/replacement-parts"
+        "href": "/spare-parts"
       },
       "blockClass": [
         "menu-sanfone-category",
@@ -151,7 +151,7 @@
       "itemProps": {
         "tagTitle": "View All",
         "text": "View All",
-        "href": "/replacement-parts"
+        "href": "/spare-parts"
       }
     }
   },
@@ -238,7 +238,7 @@
       "itemProps": {
         "tagTitle": "View All",
         "text": "View All",
-        "href": "/replacement-parts"
+        "href": "/spare-parts"
       }
     }
   },
@@ -248,7 +248,7 @@
       "itemProps": {
         "tagTitle": "Services",
         "text": "Services",
-        "href": "/services"
+        "href": "#"
       },
       "blockClass": [
         "menu-sanfone-category",
@@ -281,7 +281,7 @@
       "itemProps": {
         "tagTitle": "Replacement Parts",
         "text": "Replacement Parts",
-        "href": "/replacement-parts"
+        "href": "/spare-parts"
       }
     }
   },
@@ -290,7 +290,7 @@
       "itemProps": {
         "tagTitle": "View All",
         "text": "View All",
-        "href": "/services"
+        "href": "#"
       }
     }
   },

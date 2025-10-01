@@ -34,6 +34,15 @@
     font-weight: 400;
 }
 
+/* Remover cursor pointer dos menus sem link (apenas trigger de submenu) */
+.styledLinkContent--desk-menu-title-1,
+.styledLinkContent--desk-menu-title-2,
+.styledLinkContent--desk-menu-title-4,
+.styledLinkContent--desk-menu-title-6,
+.styledLinkContent--desk-menu-title-9 {
+    cursor: default;
+}
+
 .styledLinkContainer--desk-menu-title {
     margin-left: .5rem !important;
     margin-right: .5rem !important;
@@ -554,6 +563,15 @@
     color: var(--base);
     transition: color 0.3s ease;
     cursor: pointer;
+}
+
+/* Remover cursor pointer dos menus sem link - segunda declaração */
+.styledLinkContent--desk-menu-title-1,
+.styledLinkContent--desk-menu-title-2,
+.styledLinkContent--desk-menu-title-4,
+.styledLinkContent--desk-menu-title-6,
+.styledLinkContent--desk-menu-title-9 {
+    cursor: default;
 }
 
 .styledLinkContent--desk-menu-title::after {

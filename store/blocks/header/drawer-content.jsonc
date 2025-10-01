@@ -252,7 +252,7 @@
       "itemProps": {
         "tagTitle": "Serviços",
         "text": "Serviços",
-        "href": "/servicos"
+        "href": "#"
       },
       "blockClass": [
         "menu-sanfone-category",
@@ -294,7 +294,7 @@
       "itemProps": {
         "tagTitle": "Ver Todos",
         "text": "Ver Todos",
-        "href": "/servicos"
+        "href": "#"
       }
     }
   },

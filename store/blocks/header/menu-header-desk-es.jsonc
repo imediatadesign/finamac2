@@ -35,7 +35,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/maquinas",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Máquinas",
         "text": "Máquinas"
@@ -56,7 +56,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/accesorios",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Accesorios",
         "text": "Accesorios"
@@ -153,7 +153,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/asistencia-tecnica",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Contacto",
         "text": "Contacto"
@@ -174,7 +174,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/servicios",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Servicios",
         "text": "Servicios"
@@ -265,7 +265,7 @@
       "itemProps": {
         "tagTitle": "Por Proceso Productivo",
         "text": "Por Proceso Productivo",
-        "href": "/maquinas/por-proceso-productivo"
+        "href": "/maquinaria/por-proceso-de-produccion"
       },
       "blockClass": "sub-menu-header-title"
     }
@@ -298,19 +298,115 @@
       "itemProps": {
         "tagTitle": "Por Producto Final",
         "text": "Por Producto Final",
-        "href": "/maquinas/por-producto-final"
+        "href": "/maquinaria/por-producto-final"
       },
       "blockClass": "sub-menu-header-title"
     }
   },
   "menu#sub-menu-1-list-1B-es": {
     "props": {
-      "categoryId": "8",
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "sortSubcategories": "name",
       "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    },
+    "children": [
+      "menu-item#by-final-helado-es",
+      "menu-item#by-final-gelato-es",
+      "menu-item#by-final-acai-es",
+      "menu-item#by-final-paleta-es",
+      "menu-item#by-final-hielo-coco-es",
+      "menu-item#by-final-helado-americano-es",
+      "menu-item#by-final-bebidas-congeladas-es",
+      "menu-item#by-final-helado-expresso-es",
+      "menu-item#by-final-templar-chocolate-es"
+    ]
+  },
+  "menu-item#by-final-helado-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Helado",
+        "text": "Helado",
+        "href": "/maquinaria/por-producto-final/helados"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-gelato-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Gelato",
+        "text": "Gelato",
+        "href": "/maquinaria/por-producto-final/gelato"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-acai-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Açaí",
+        "text": "Açaí",
+        "href": "/maquinaria/por-producto-final/acai"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-paleta-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Paleta de hielo",
+        "text": "Paleta de hielo",
+        "href": "/maquinaria/por-producto-final/paleta-de-hielo"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-hielo-coco-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Hielo de coco",
+        "text": "Hielo de coco",
+        "href": "/maquinaria/por-producto-final/hielo-de-coco"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-helado-americano-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Helado americano",
+        "text": "Helado americano",
+        "href": "/maquinaria/por-producto-final/helado-americano"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-bebidas-congeladas-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Bebidas congeladas",
+        "text": "Bebidas congeladas",
+        "href": "/maquinaria/por-producto-final/bebidas-congeladas"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-helado-expresso-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Helado Express",
+        "text": "Helado Express",
+        "href": "/maquinaria/por-producto-final/helado-express"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#by-final-templar-chocolate-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Máquina para templar chocolate",
+        "text": "Máquina para templar chocolate",
+        "href": "/maquinaria/por-producto-final/maquina-de-templado-de-chocolate"
+      },
       "blockClass": "sub-menu-header"
     }
   },

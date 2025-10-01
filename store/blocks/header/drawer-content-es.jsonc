@@ -21,7 +21,7 @@
       "itemProps": {
         "tagTitle": "Máquinas",
         "text": "Máquinas",
-        "href": "/maquinas"
+        "href": "/maquinaria"
       },
       "blockClass": [
         "menu-sanfone-category",
@@ -55,7 +55,7 @@
       "itemProps": {
         "tagTitle": "Ver Todo",
         "text": "Ver Todo",
-        "href": "/maquinas"
+        "href": "/maquinaria"
       }
     }
   },
@@ -248,7 +248,7 @@
       "itemProps": {
         "tagTitle": "Servicios",
         "text": "Servicios",
-        "href": "/servicios"
+        "href": "#"
       },
       "blockClass": [
         "menu-sanfone-category",
@@ -290,7 +290,7 @@
       "itemProps": {
         "tagTitle": "Ver Todo",
         "text": "Ver Todo",
-        "href": "/servicios"
+        "href": "#"
       }
     }
   },
