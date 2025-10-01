@@ -34,6 +34,7 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
+      "flex-layout.col#search-bar-overlay",
       "flex-layout.col#spacer",
       "flex-layout.col#translationapp",
       "flex-layout.col#login-minicart"
@@ -160,7 +161,6 @@
       "horizontalAlign": "right"
     },
     "children": [
-      "flex-layout.col#search-bar-overlay",
       "flex-layout.col#login",
       "flex-layout.col#minicart"
     ]
