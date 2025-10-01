@@ -272,12 +272,141 @@
   },
   "menu#sub-menu-1-list-1A-es": {
     "props": {
-      "categoryId": "9",
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "sortSubcategories": "name",
       "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    },
+    "children": [
+      "menu-item#process-preparacao-es",
+      "menu-item#process-pasteurizacao-es",
+      "menu-item#process-maturacao-es",
+      "menu-item#process-dosagem-es",
+      "menu-item#process-producao-es",
+      "menu-item#process-pos-congelamento-es",
+      "menu-item#process-envase-es",
+      "menu-item#process-vitrines-es",
+      "menu-item#process-torres-es",
+      "menu-item#process-tempera-es",
+      "menu-item#process-dispensador-es",
+      "menu-item#process-desenvolvedoras-es"
+    ]
+  },
+  "menu-item#process-preparacao-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Preparación de la mezcla para helado y trituradores de açaí",
+        "text": "Preparación de la mezcla para helado y trituradores de açaí",
+        "href": "/maquinaria/por-proceso-de-produccion/preparacion-de-la-mezcla-para-helado-y-trituradores-de-acai"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-pasteurizacao-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Pasteurización y homogeneización",
+        "text": "Pasteurización y homogeneización",
+        "href": "/maquinaria/por-proceso-de-produccion/pasteurizacion-y-homogeneizacion"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-maturacao-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Maduración del jarabe de helado",
+        "text": "Maduración del jarabe de helado",
+        "href": "/maquinaria/por-proceso-de-produccion/maduracion-de-jarabe-para-helado"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-dosagem-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Dosificación automática de moldes para paletas",
+        "text": "Dosificación automática de moldes para paletas",
+        "href": "/maquinaria/por-proceso-de-produccion/dosificacion-automatica-de-moldes-de-paletas"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-producao-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Producción / Congelación",
+        "text": "Producción / Congelación",
+        "href": "/maquinaria/por-proceso-de-produccion/produccion---congelacion"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-pos-congelamento-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Postcongelación",
+        "text": "Postcongelación",
+        "href": "/maquinaria/por-proceso-de-produccion/post-congelacion"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-envase-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Envasado y embotellado",
+        "text": "Envasado y embotellado",
+        "href": "/maquinaria/por-proceso-de-produccion/envasado-y-embotellado"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-vitrines-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Escaparates",
+        "text": "Escaparates",
+        "href": "/maquinaria/por-proceso-de-produccion/escaparates"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-torres-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Torres de enfriamiento",
+        "text": "Torres de enfriamiento",
+        "href": "/maquinaria/por-proceso-de-produccion/torres-de-enfriamiento"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-tempera-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Templado de chocolate",
+        "text": "Templado de chocolate",
+        "href": "/maquinaria/por-proceso-de-produccion/templado-de-chocolate"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-dispensador-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Dispensador de paletas",
+        "text": "Dispensador de paletas",
+        "href": "/maquinaria/por-proceso-de-produccion/dispensador-de-paletas"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-desenvolvedoras-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Desarrolladores",
+        "text": "Desarrolladores",
+        "href": "/maquinaria/por-proceso-de-produccion/desarrolladores"
+      },
       "blockClass": "sub-menu-header"
     }
   },

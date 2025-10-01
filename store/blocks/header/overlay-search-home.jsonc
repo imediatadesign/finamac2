@@ -26,7 +26,6 @@
       "autocomplete-result-list.v2"
     ],
     "props": {
-      // "openAutocompleteOnFocus": false,
       "openAutocompleteOnFocus": false,
       "autocompleteAlignment": "center",
       "autocompleteFullWidth": true,
@@ -37,9 +36,48 @@
       "emptyPlaceholder": "Digite sua busca aqui",
       "hasIconLeft": false,
       "inputType": "text",
-      // "maxWidth": 100,
       "minSearchTermLength": 3,
       "placeholder": "O que você está procurando?",
+      "displayMode": "search-button"
+    }
+  },
+  "search-bar#en": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": false,
+      "autocompleteAlignment": "center",
+      "autocompleteFullWidth": true,
+      "autoFocus": false,
+      "blurOnSubmit": true,
+      "containerMode": "container",
+      "disableBlurAndTouchEndHandler": true,
+      "emptyPlaceholder": "Enter your search here",
+      "hasIconLeft": false,
+      "inputType": "text",
+      "minSearchTermLength": 3,
+      "placeholder": "What are you looking for?",
+      "displayMode": "search-button"
+    }
+  },
+  "search-bar#es": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": false,
+      "autocompleteAlignment": "center",
+      "autocompleteFullWidth": true,
+      "autoFocus": false,
+      "blurOnSubmit": true,
+      "containerMode": "container",
+      "disableBlurAndTouchEndHandler": true,
+      "emptyPlaceholder": "Ingrese su búsqueda aquí",
+      "hasIconLeft": false,
+      "inputType": "text",
+      "minSearchTermLength": 3,
+      "placeholder": "¿Qué estás buscando?",
       "displayMode": "search-button"
     }
   },
@@ -51,18 +89,58 @@
       "width": "auto"
     },
     "children": [
-      "overlay-trigger#search-bar"
+      "condition-layout.binding#search-bar"
+    ]
+  },
+  "condition-layout.binding#search-bar": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "bindingId",
+          "arguments": { "id": "33cd2dcc-c319-4da0-82d5-71aa38b19380" },
+          "toBe": { "type": "equals" }
+        },
+        {
+          "subject": "bindingId",
+          "arguments": { "id": "1fe4f6bc-dc38-44c6-b840-b330a71693df" },
+          "toBe": { "type": "equals" }
+        }
+      ]
+    },
+    "children": [
+      "overlay-trigger#search-bar",
+      "overlay-trigger#search-bar-en",
+      "overlay-trigger#search-bar-es"
     ]
   },
   "overlay-trigger#search-bar": {
     "props": {
       "trigger": "click",
-      // "trigger": "hover",
       "blockClass": "search-bar"
     },
     "children": [
       "image#searchhome",
       "overlay-layout#search-bar"
+    ]
+  },
+  "overlay-trigger#search-bar-en": {
+    "props": {
+      "trigger": "click",
+      "blockClass": "search-bar"
+    },
+    "children": [
+      "image#searchhome",
+      "overlay-layout#search-bar-en"
+    ]
+  },
+  "overlay-trigger#search-bar-es": {
+    "props": {
+      "trigger": "click",
+      "blockClass": "search-bar"
+    },
+    "children": [
+      "image#searchhome",
+      "overlay-layout#search-bar-es"
     ]
   },
   "image#searchhome": {
@@ -71,7 +149,7 @@
       "width": "18px"
     }
   },
-  // Content 
+  // Content PT-BR
   "overlay-layout#search-bar": {
     "props": {
       "placement": "bottom",
@@ -109,7 +187,95 @@
       "displayMode": "clear-button",
       "hasIconLeft": false,
       "inputType": "text",
-      "minSearchTermLength": 3
+      "minSearchTermLength": 3,
+      "placeholder": "O que você está procurando?",
+      "emptyPlaceholder": "Digite sua busca aqui"
+    }
+  },
+  // Content EN-US
+  "overlay-layout#search-bar-en": {
+    "props": {
+      "placement": "bottom",
+      "scrollBehavior": "default",
+      "blockClass": "overlay-search-bar",
+      "showArrow": false,
+      "offsets": {
+        "distance": 72
+      }
+    },
+    "children": [
+      "flex-layout.col#search-bar-content-en"
+    ]
+  },
+  "flex-layout.col#search-bar-content-en": {
+    "props": {
+      "width": "grow"
+    },
+    "children": [
+      "search-bar#overlay-en"
+    ]
+  },
+  "search-bar#overlay-en": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "autocompleteAlignment": "center",
+      "autocompleteFullWidth": true,
+      "autoFocus": true,
+      "blurOnSubmit": true,
+      "containerMode": "container",
+      "disableBlurAndTouchEndHandler": true,
+      "displayMode": "clear-button",
+      "hasIconLeft": false,
+      "inputType": "text",
+      "minSearchTermLength": 3,
+      "placeholder": "What are you looking for?",
+      "emptyPlaceholder": "Enter your search here"
+    }
+  },
+  // Content ES-ES
+  "overlay-layout#search-bar-es": {
+    "props": {
+      "placement": "bottom",
+      "scrollBehavior": "default",
+      "blockClass": "overlay-search-bar",
+      "showArrow": false,
+      "offsets": {
+        "distance": 72
+      }
+    },
+    "children": [
+      "flex-layout.col#search-bar-content-es"
+    ]
+  },
+  "flex-layout.col#search-bar-content-es": {
+    "props": {
+      "width": "grow"
+    },
+    "children": [
+      "search-bar#overlay-es"
+    ]
+  },
+  "search-bar#overlay-es": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "autocompleteAlignment": "center",
+      "autocompleteFullWidth": true,
+      "autoFocus": true,
+      "blurOnSubmit": true,
+      "containerMode": "container",
+      "disableBlurAndTouchEndHandler": true,
+      "displayMode": "clear-button",
+      "hasIconLeft": false,
+      "inputType": "text",
+      "minSearchTermLength": 3,
+      "placeholder": "¿Qué estás buscando?",
+      "emptyPlaceholder": "Ingrese su búsqueda aquí"
     }
   },
   "autocomplete-result-list.v2": {

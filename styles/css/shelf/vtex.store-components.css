@@ -1,10 +1,12 @@
 
 :global(.vtex-product-summary-2-x-containerNormal){
     max-width: 100% !important;
+    min-height: auto !important;
+    height: auto !important;
     @media only screen and (max-width: 1024px){
         margin: 0px;
     }
-    
+
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--shelf) :global(.vtex-product-price-1-x-listPrice),

@@ -68,8 +68,7 @@
 
 /* Padronização do título do produto - 3 linhas com ellipsis */
 :global(.vtex-product-summary-2-x-nameContainer) {
-  height: 65px;
-  /* 3 linhas x 24px (line-height) */
+  min-height: auto;
   overflow: hidden;
   display: block;
   /* Mudado de flex para block */
@@ -97,8 +96,7 @@
   color: #3f3f40;
   margin: 0;
   padding: 0;
-  height: 65px;
-  /* Altura fixa */
+  min-height: auto;
   width: 100%;
   word-break: break-word;
 }
@@ -106,8 +104,7 @@
 /* Ajuste responsivo para mobile */
 @media (max-width: 768px) {
   :global(.vtex-product-summary-2-x-nameContainer) {
-    height: 60px;
-    /* 3 linhas x 20px (line-height mobile) */
+    min-height: auto;
   }
 
   :global(.vtex-product-summary-2-x-productBrand),
@@ -116,7 +113,7 @@
     font-size: 14px;
     line-height: 1.43;
     /* 20px line-height */
-    height: 60px;
+    min-height: auto;
   }
 }
 

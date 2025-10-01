@@ -277,12 +277,141 @@
   },
   "menu#sub-menu-1-list-1A": {
     "props": {
-      "categoryId": "9",
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "sortSubcategories": "name",
       "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    },
+    "children": [
+      "menu-item#process-preparacao",
+      "menu-item#process-pasteurizacao",
+      "menu-item#process-maturacao",
+      "menu-item#process-dosagem",
+      "menu-item#process-producao",
+      "menu-item#process-pos-congelamento",
+      "menu-item#process-envase",
+      "menu-item#process-vitrines",
+      "menu-item#process-torres",
+      "menu-item#process-tempera",
+      "menu-item#process-dispensador",
+      "menu-item#process-desenvolvedoras"
+    ]
+  },
+  "menu-item#process-preparacao": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Preparação da Mistura de Sorvete e Trituradores de Açaí",
+        "text": "Preparação da Mistura de Sorvete e Trituradores de Açaí",
+        "href": "/maquinas/por-processo-produtivo/preparacao-da-calda-para-sorvete-e-trituradores-de-acai"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-pasteurizacao": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Pasteurização e Homogeneização",
+        "text": "Pasteurização e Homogeneização",
+        "href": "/maquinas/por-processo-produtivo/pasteurizacao-e-homogeneizacao"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-maturacao": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Maturação da Calda de Sorvete",
+        "text": "Maturação da Calda de Sorvete",
+        "href": "/maquinas/por-processo-produtivo/maturacao-de-calda-para-sorvete"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-dosagem": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Dosagem Automática de Moldes de Picolé",
+        "text": "Dosagem Automática de Moldes de Picolé",
+        "href": "/maquinas/por-processo-produtivo/dosagem-automatica-de-moldes-de-picole"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-producao": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Produção / Congelamento",
+        "text": "Produção / Congelamento",
+        "href": "/maquinas/por-processo-produtivo/producao---congelamento"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-pos-congelamento": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Pós-congelamento",
+        "text": "Pós-congelamento",
+        "href": "/maquinas/por-processo-produtivo/pos-congelamento"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-envase": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Envase e envasamento",
+        "text": "Envase e envasamento",
+        "href": "/maquinas/por-processo-produtivo/embalagem-e-envase"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-vitrines": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Vitrines de exposição",
+        "text": "Vitrines de exposição",
+        "href": "/maquinas/por-processo-produtivo/vitrines-de-exposicao"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-torres": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Torres de resfriamento",
+        "text": "Torres de resfriamento",
+        "href": "/maquinas/por-processo-produtivo/torres-de-resfriamento"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-tempera": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Tempera de chocolate",
+        "text": "Tempera de chocolate",
+        "href": "/maquinas/por-processo-produtivo/tempera-de-chocolate"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-dispensador": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Dispensador de picolé",
+        "text": "Dispensador de picolé",
+        "href": "/maquinas/por-processo-produtivo/dispensador-de-picole"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-desenvolvedoras": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Desenvolvedoras",
+        "text": "Desenvolvedoras",
+        "href": "/maquinas/por-processo-produtivo/desenvolvedoras"
+      },
       "blockClass": "sub-menu-header"
     }
   },

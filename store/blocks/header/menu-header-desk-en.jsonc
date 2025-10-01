@@ -272,12 +272,141 @@
   },
   "menu#sub-menu-1-list-1A-en": {
     "props": {
-      "categoryId": "9",
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "sortSubcategories": "name",
       "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    },
+    "children": [
+      "menu-item#process-preparacao-en",
+      "menu-item#process-pasteurizacao-en",
+      "menu-item#process-maturacao-en",
+      "menu-item#process-dosagem-en",
+      "menu-item#process-producao-en",
+      "menu-item#process-pos-congelamento-en",
+      "menu-item#process-envase-en",
+      "menu-item#process-vitrines-en",
+      "menu-item#process-torres-en",
+      "menu-item#process-tempera-en",
+      "menu-item#process-dispensador-en",
+      "menu-item#process-desenvolvedoras-en"
+    ]
+  },
+  "menu-item#process-preparacao-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Preparing the Ice Cream Mixture and Açaí Crushers",
+        "text": "Preparing the Ice Cream Mixture and Açaí Crushers",
+        "href": "/machinery/by-process-production/preparing-the-mixture-for-ice-cream-and-acai-crushers"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-pasteurizacao-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Pasteurization and Homogenization",
+        "text": "Pasteurization and Homogenization",
+        "href": "/machinery/by-production-process/pasteurization-and-homogenization"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-maturacao-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Maturation of Ice Cream Syrup",
+        "text": "Maturation of Ice Cream Syrup",
+        "href": "/machinery/by-production-process/maturation-of-ice-cream-syrup"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-dosagem-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Automatic Dosing of Popsicle Molds",
+        "text": "Automatic Dosing of Popsicle Molds",
+        "href": "/machinery/by-production-process/automatic-dosing-of-popsicle-molds"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-producao-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Production / Freezing",
+        "text": "Production / Freezing",
+        "href": "/machinery/by-production-process/production---freezing"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-pos-congelamento-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Post-freezing",
+        "text": "Post-freezing",
+        "href": "/machinery/by-production-process/post-freezing"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-envase-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Packaging and Filling",
+        "text": "Packaging and Filling",
+        "href": "/machinery/by-production-process/packaging-and-bottling"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-vitrines-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Display Cases",
+        "text": "Display Cases",
+        "href": "/machinery/by-production-process/display-windows"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-torres-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Cooling towers",
+        "text": "Cooling towers",
+        "href": "/machinery/by-production-process/cooling-towers"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-tempera-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Chocolate tempering",
+        "text": "Chocolate tempering",
+        "href": "/machinery/by-production-process/chocolate-tempering"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-dispensador-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ice Pop Packaging",
+        "text": "Ice Pop Packaging",
+        "href": "/machinery/by-production-process/ice-pop-packaging"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#process-desenvolvedoras-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Incorporators",
+        "text": "Incorporators",
+        "href": "/machinery/by-production-process/developers"
+      },
       "blockClass": "sub-menu-header"
     }
   },
@@ -343,8 +472,8 @@
   "menu-item#by-final-acai-en": {
     "props": {
       "itemProps": {
-        "tagTitle": "Açaí",
-        "text": "Açaí",
+        "tagTitle": "Acai",
+        "text": "Acai",
         "href": "/machinery/by-final-product/acai"
       },
       "blockClass": "sub-menu-header"
@@ -393,8 +522,8 @@
   "menu-item#by-final-express-ice-cream-en": {
     "props": {
       "itemProps": {
-        "tagTitle": "Express Ice Cream",
-        "text": "Express Ice Cream",
+        "tagTitle": "Soft Serve",
+        "text": "Soft Serve",
         "href": "/machinery/by-final-product/express-ice-cream"
       },
       "blockClass": "sub-menu-header"

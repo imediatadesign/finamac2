@@ -44,8 +44,8 @@
 }
 
 .styledLinkContainer--desk-menu-title {
-    margin-left: .5rem !important;
-    margin-right: .5rem !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
 }
 
 .styledLinkContent--desk-menu-title::after {
@@ -78,7 +78,7 @@
 .styledLink--sub-menu-header-title {
     font-weight: 700 !important;
     padding-bottom: 6px;
-    font-size: 0.98rem;
+    font-size: 1.12rem;
     color: var(--secondary);
     display: inline-flex;
     align-items: center;
@@ -386,8 +386,14 @@
     padding: 0px 20px;
 }
 
+/* Menu principal desktop */
+.menuContainer:not(.menuContainer--menu-drawer):not(.menuContainer--menuAuthentication):not(.menuContainer--mobile_sanfone) {
+    display: flex;
+    justify-content: space-around;
+}
+
 .styledLinkContent--sub-menu-header {
-    font-size: 0.81rem !important;
+    font-size: 0.89rem !important;
     font-weight: 400 !important;
 
     @media only screen and (max-width: 1024px) {
@@ -415,7 +421,7 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    padding: 8px 12px;
+    padding: 8px 16px;
     border-radius: 12px;
     transition: background-color .2s ease, transform .2s ease;
 }

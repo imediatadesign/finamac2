@@ -12,7 +12,7 @@
       "product-price-savings#shelf",
       "flex-layout.row#product-price",
       "flex-layout.row#product-installments-shelf",
-      "product-summary-sku-selector#shelf",
+      // "product-summary-sku-selector#shelf",
       "flex-layout.col#shelf-buttons"
     ]
   },
