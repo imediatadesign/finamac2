@@ -981,18 +981,18 @@
       "blockClass": "submenu-services-column"
     },
     "children": [
+      "menu-item#sub-menu-6-list-4-pecas-es",
       "menu-item#sub-menu-6-list-1-es",
       "menu-item#sub-menu-6-list-2-es",
-      "menu-item#sub-menu-6-list-3-es",
-      "menu-item#sub-menu-6-list-4-pecas-es"
+      "menu-item#sub-menu-6-list-3-es"
     ]
   },
   "menu-item#sub-menu-6-list-1-es": {
     "props": {
       "itemProps": {
-        "tagTitle": "Consultoría Técnica",
-        "text": "Consultoría Técnica",
-        "href": "/consultoria-especializada"
+        "tagTitle": "Consultoría Técnica - PRÓXIMAMENTE",
+        "text": "Consultoría Técnica - PRÓXIMAMENTE",
+        "href": "#"
       },
       "blockClass": [
         "sub-menu-header-title",
@@ -1003,9 +1003,9 @@
   "menu-item#sub-menu-6-list-2-es": {
     "props": {
       "itemProps": {
-        "tagTitle": "Garantía Extendida",
-        "text": "Garantía Extendida",
-        "href": "/servicios/garantia-extendida"
+        "tagTitle": "Garantía Extendida - PRÓXIMAMENTE",
+        "text": "Garantía Extendida - PRÓXIMAMENTE",
+        "href": "#"
       },
       "blockClass": [
         "sub-menu-header-title",
@@ -1016,9 +1016,9 @@
   "menu-item#sub-menu-6-list-3-es": {
     "props": {
       "itemProps": {
-        "tagTitle": "Mantenimiento Preventivo",
-        "text": "Mantenimiento Preventivo",
-        "href": "/servicios/mantenimiento-preventivo"
+        "tagTitle": "Mantenimiento Preventivo - PRÓXIMAMENTE",
+        "text": "Mantenimiento Preventivo - PRÓXIMAMENTE",
+        "href": "#"
       },
       "blockClass": [
         "sub-menu-header-title",

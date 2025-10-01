@@ -690,11 +690,18 @@
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0a CBkPSJN NCA1SDIwQzIxLjEgNSAyMiA1LjkgMjIgN1YxN0MyMiAxOC4xIDIxLjEgMTkgMjAgMTlINEMyLjkgMTkgMiAxOC4xIDIgMTdWN0MyIDUuOSAyLjkgNSA0IDVaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpbmFsbj0iMS42IiBzdHJva2Ut bGluZWNjYT0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0a CBkPSJNMjIgN0wxMiAxM0wyIDciIHN0cm9rZT0iY3VycmVudEN vbG9yIiBzdHJva2Utd2lkdGg9IjEuNiIgc3Ryb2tlLXdpbmFsbj0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=);
 }
 
-/* Exibir setinhas também para itens de Serviços */
+/* Exibir setinhas também para itens de Serviços - usar chevron padrão */
 .styledLink--sub-menu-service-consultoria.styledLink--sub-menu-header-title::before,
 .styledLink--sub-menu-service-garantia.styledLink--sub-menu-header-title::before,
-.styledLink--sub-menu-service-manutencao.styledLink--sub-menu-header-title::before {
-    display: inline-block;
+.styledLink--sub-menu-service-manutencao.styledLink--sub-menu-header-title::before,
+.styledLink--sub-menu-service-pecas.styledLink--sub-menu-header-title::before {
+    display: inline-block !important;
+    background-image: url(assets/icons/chevron-right.svg) !important;
+    width: 16px !important;
+    height: 16px !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    opacity: 0.9 !important;
 }
 
 :global(.vtex-slider-layout-0-x-caretIcon--desk-header-submenu) {

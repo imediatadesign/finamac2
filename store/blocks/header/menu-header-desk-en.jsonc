@@ -353,8 +353,8 @@
   "menu-item#by-final-popsicle-en": {
     "props": {
       "itemProps": {
-        "tagTitle": "Popsicle",
-        "text": "Popsicle",
+        "tagTitle": "Ice Pops",
+        "text": "Ice Pops",
         "href": "/machinery/by-final-product/popsicle"
       },
       "blockClass": "sub-menu-header"
@@ -981,18 +981,18 @@
       "blockClass": "submenu-services-column"
     },
     "children": [
+      "menu-item#sub-menu-6-list-4-pecas-en",
       "menu-item#sub-menu-6-list-1-en",
       "menu-item#sub-menu-6-list-2-en",
-      "menu-item#sub-menu-6-list-3-en",
-      "menu-item#sub-menu-6-list-4-pecas-en"
+      "menu-item#sub-menu-6-list-3-en"
     ]
   },
   "menu-item#sub-menu-6-list-1-en": {
     "props": {
       "itemProps": {
-        "tagTitle": "Technical Consulting",
-        "text": "Technical Consulting",
-        "href": "/specialized-consulting"
+        "tagTitle": "Technical Consulting - COMING SOON",
+        "text": "Technical Consulting - COMING SOON",
+        "href": "#"
       },
       "blockClass": [
         "sub-menu-header-title",
@@ -1003,9 +1003,9 @@
   "menu-item#sub-menu-6-list-2-en": {
     "props": {
       "itemProps": {
-        "tagTitle": "Extended Warranty",
-        "text": "Extended Warranty",
-        "href": "/services/extended-warranty"
+        "tagTitle": "Extended Warranty - COMING SOON",
+        "text": "Extended Warranty - COMING SOON",
+        "href": "#"
       },
       "blockClass": [
         "sub-menu-header-title",
@@ -1016,9 +1016,9 @@
   "menu-item#sub-menu-6-list-3-en": {
     "props": {
       "itemProps": {
-        "tagTitle": "Preventive Maintenance",
-        "text": "Preventive Maintenance",
-        "href": "/services/preventive-maintenance"
+        "tagTitle": "Preventive Maintenance - COMING SOON",
+        "text": "Preventive Maintenance - COMING SOON",
+        "href": "#"
       },
       "blockClass": [
         "sub-menu-header-title",

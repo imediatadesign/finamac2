@@ -410,7 +410,7 @@
       "itemProps": {
         "tagTitle": "Temperadeira de Chocolate",
         "text": "Temperadeira de Chocolate",
-        "href": "/maquinas/por-produto-final/maquina-de-temperar-chocolate"
+        "href": "/maquinas/por-produto-final/tempera-de-chocolate?initialMap=c,c&initialQuery=maquinas/por-produto-final&map=category-1,category-2,category-3"
       },
       "blockClass": "sub-menu-header"
     }
@@ -996,18 +996,18 @@
       "blockClass": "submenu-services-column"
     },
     "children": [
+      "menu-item#sub-menu-6-list-4-pecas",
       "menu-item#sub-menu-6-list-1",
       "menu-item#sub-menu-6-list-2",
-      "menu-item#sub-menu-6-list-3",
-      "menu-item#sub-menu-6-list-4-pecas"
+      "menu-item#sub-menu-6-list-3"
     ]
   },
   "menu-item#sub-menu-6-list-1": {
     "props": {
       "itemProps": {
-        "tagTitle": "Consultoria Técnica",
-        "text": "Consultoria Técnica",
-        "href": "/consultorias-especializadas"
+        "tagTitle": "Consultoria Técnica - EM BREVE",
+        "text": "Consultoria Técnica - EM BREVE",
+        "href": "#"
       },
       "blockClass": [
         "sub-menu-header-title",
@@ -1018,9 +1018,9 @@
   "menu-item#sub-menu-6-list-2": {
     "props": {
       "itemProps": {
-        "tagTitle": "Extensão de Garantia",
-        "text": "Extensão de Garantia",
-        "href": "/servicos/extensao-de-garantia"
+        "tagTitle": "Extensão de Garantia - EM BREVE",
+        "text": "Extensão de Garantia - EM BREVE",
+        "href": "#"
       },
       "blockClass": [
         "sub-menu-header-title",
@@ -1031,9 +1031,9 @@
   "menu-item#sub-menu-6-list-3": {
     "props": {
       "itemProps": {
-        "tagTitle": "Manutenção Preventiva",
-        "text": "Manutenção Preventiva",
-        "href": "/servicos/manutencao-preventiva"
+        "tagTitle": "Manutenção Preventiva - EM BREVE",
+        "text": "Manutenção Preventiva - EM BREVE",
+        "href": "#"
       },
       "blockClass": [
         "sub-menu-header-title",
