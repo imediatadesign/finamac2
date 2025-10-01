@@ -33,7 +33,7 @@
   "store/common.search": "Search",
   "store/common.search-placeholder": "What are you looking for?",
   "store/search.placeholder": "What are you looking for?",
-  "store/search.emptyPlaceholder": "Type your search here",
+  "store/search.emptyPlaceholder": "Enter your search here",
   "store/common.my-account": "My account",
   "store/common.login": "Sign in",
   "store/common.logout": "Sign out",
