@@ -708,7 +708,9 @@
 .styledLink--sub-menu-service-consultoria.styledLink--sub-menu-header-title::before,
 .styledLink--sub-menu-service-garantia.styledLink--sub-menu-header-title::before,
 .styledLink--sub-menu-service-manutencao.styledLink--sub-menu-header-title::before,
-.styledLink--sub-menu-service-pecas.styledLink--sub-menu-header-title::before {
+.styledLink--sub-menu-service-pecas.styledLink--sub-menu-header-title::before,
+.styledLink--sub-menu-service-videos-treinamento.styledLink--sub-menu-header-title::before,
+.styledLink--sub-menu-service-finamac-training.styledLink--sub-menu-header-title::before {
     display: inline-block !important;
     background-image: url(assets/icons/chevron-right.svg) !important;
     width: 16px !important;
