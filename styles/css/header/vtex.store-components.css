@@ -39,9 +39,18 @@
 
 .searchIcon{
     color: var(--primary);
+    display: block !important;
+    visibility: visible !important;
 }
 .searchBarInnerContainer{
     border-bottom: solid 1px #b6b6b6;
+}
+:global(.vtex-store-components-3-x-prefixContainer){
+    display: flex !important;
+    visibility: visible !important;
+}
+:global(.vtex-store-components-3-x-searchIcon){
+    filter: brightness(0) invert(1) !important;
 }
 
 /* Overlay */

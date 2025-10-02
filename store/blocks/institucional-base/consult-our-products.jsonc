@@ -4,27 +4,28 @@
       "flex-layout.row#consult-our-products"
     ]
   },
-  
   "flex-layout.row#consult-our-products": {
     "props": {
       "blockClass": "1300",
-      "paddingTop":{
-        "desktop":4,
-        "mobile":2
+      "paddingTop": {
+        "desktop": 4,
+        "mobile": 2
       }
     },
     "children": [
       "flex-layout.col#consult-our-products"
     ]
   },
-  
   "flex-layout.col#consult-our-products": {
     "children": [
-      // "rich-text#consult-our-products-title",
-      "app-form-leads"
+      "app-form-leads#en"
     ]
   },
-  
+  "app-form-leads#en": {
+    "props": {
+      "language": "en-US"
+    }
+  },
   "rich-text#consult-our-products-title": {
     "props": {
       "blockClass": "consult-our-products-title",

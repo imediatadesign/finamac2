@@ -15,9 +15,7 @@
       "blockClass": "footer-info-main"
     },
     "children": [
-      "flex-layout.row#footer-navigation",
-      "flex-layout.row#footer-privacy",
-      "flex-layout.row#footer-addresses"
+      "flex-layout.row#footer-navigation"
     ]
   },
   // Seção de Navegação do Footer
@@ -513,243 +511,87 @@
       "blockClass": "footer-menu-item"
     }
   },
-  // Seção de Privacidade
-  "flex-layout.row#footer-privacy": {
-    "props": {
-      "blockClass": "footer-privacy",
-      "preserveLayoutOnMobile": true
-    },
-    "children": [
-      "flex-layout.col#footer-privacy-content"
-    ]
-  },
-  "flex-layout.col#footer-privacy-content": {
-    "props": {
-      "blockClass": "footer-privacy-content",
-      "width": "100%"
-    },
-    "children": [
-      "rich-text#footer-privacy-title",
-      "rich-text#footer-privacy-text"
-    ]
-  },
-  "rich-text#footer-privacy-title": {
-    "props": {
-      "text": "### PRIVACIDADE E USO DE DADOS",
-      "blockClass": "footer-privacy-title",
-      "textAlignment": "CENTER"
-    }
-  },
-  "rich-text#footer-privacy-text": {
-    "props": {
-      "text": "A FINAMAC valoriza a privacidade dos seus usuários e compromete-se a utilizar os dados pessoais fornecidos pelos usuários exclusivamente para fins de rastreamento de pedidos e atividades de marketing. Ao autenticar-se neste site, você concorda com o uso dos seus dados pessoais para Rastreio, processamento de pedidos e Envio de comunicações de marketing e promoções.",
-      "blockClass": "footer-privacy-text",
-      "textAlignment": "CENTER"
-    }
-  },
-  // Seção de Endereços
+  // Seção de Endereços - 2 Colunas Unificadas
   "flex-layout.row#footer-addresses": {
     "props": {
       "blockClass": "footer-addresses",
       "preserveLayoutOnMobile": false
     },
     "children": [
-      "flex-layout.col#address-brazil-sales",
-      "flex-layout.col#address-usa-sales",
-      "flex-layout.col#address-brazil-support",
-      "flex-layout.col#address-usa-support"
+      "flex-layout.col#address-brazil-unified",
+      "flex-layout.col#address-usa-unified"
     ]
   },
-  "flex-layout.col#address-brazil-sales": {
+  "flex-layout.col#address-brazil-unified": {
     "props": {
-      "blockClass": "footer-address-column",
+      "blockClass": "footer-address-unified",
       "width": {
-        "desktop": "25%",
-        "tablet": "50%",
+        "desktop": "50%",
+        "tablet": "100%",
         "mobile": "100%"
       }
     },
     "children": [
-      "rich-text#address-brazil-sales-title",
-      "rich-text#address-brazil-sales-content"
+      "rich-text#address-brazil-title",
+      "rich-text#address-brazil-sales",
+      "link#address-brazil-support-button"
     ]
   },
-  "rich-text#address-brazil-sales-title": {
+  "rich-text#address-brazil-title": {
     "props": {
-      "text": "### BRASIL - Vendas",
-      "blockClass": "footer-address-title",
+      "text": "### BRAZIL - Sales",
+      "blockClass": "footer-address-main-title",
       "textAlignment": "LEFT"
     }
   },
-  "rich-text#address-brazil-sales-content": {
+  "rich-text#address-brazil-sales": {
     "props": {
-      "text": "Avenida Nazaré 1657 - Ipiranga\nCEP: 04263-200\nSão Paulo / SP\nTel: +55 11 2135 6500\nCNPJ: 08.262.762/0001-78\nFinamac Engenharia e Industrialização de Equipamentos LTDA",
-      "blockClass": "footer-address-text",
+      "text": "Avenida Nazaré 1657 - Ipiranga\nZIP: 04263-200 - São Paulo / SP\nPhone: +55 11 2135 6500\nWhatsApp: +55 11 98846-5990",
+      "blockClass": "footer-address-content",
       "textAlignment": "LEFT"
     }
   },
-  "flex-layout.col#address-usa-sales": {
+  "link#address-brazil-support-button": {
     "props": {
-      "blockClass": "footer-address-column",
+      "href": "/assistencia-tecnica-finamac",
+      "label": "BRAZIL - Technical Support",
+      "blockClass": "footer-support-button"
+    }
+  },
+  "flex-layout.col#address-usa-unified": {
+    "props": {
+      "blockClass": "footer-address-unified",
       "width": {
-        "desktop": "25%",
-        "tablet": "50%",
+        "desktop": "50%",
+        "tablet": "100%",
         "mobile": "100%"
       }
     },
     "children": [
-      "rich-text#address-usa-sales-title",
-      "rich-text#address-usa-sales-content"
+      "rich-text#address-usa-title",
+      "rich-text#address-usa-sales",
+      "link#address-usa-support-button"
     ]
   },
-  "rich-text#address-usa-sales-title": {
+  "rich-text#address-usa-title": {
     "props": {
-      "text": "### EUA - Vendas",
-      "blockClass": "footer-address-title",
+      "text": "### USA & Other Countries - Sales",
+      "blockClass": "footer-address-main-title",
       "textAlignment": "LEFT"
     }
   },
-  "rich-text#address-usa-sales-content": {
+  "rich-text#address-usa-sales": {
     "props": {
-      "text": "11231 NW 20th Street Unit 130\nZIP: 33172\nMiami / FL\nTel: +1-877-342-7458\n Este número não aceita ligações fora dos Estados Unidos\nTel: +1-786-408-0729\nTel/Whatsapp: +1-305-804-8636",
-      "blockClass": "footer-address-text",
+      "text": "11231 NW 20th Street Unit 130\nZIP: 33172 - Miami / FL\nPhone: +1-786-408-0729\nWhatsApp: +1-305-804-8636",
+      "blockClass": "footer-address-content",
       "textAlignment": "LEFT"
     }
   },
-  "flex-layout.col#address-brazil-support": {
+  "link#address-usa-support-button": {
     "props": {
-      "blockClass": "footer-address-column",
-      "width": {
-        "desktop": "25%",
-        "tablet": "50%",
-        "mobile": "100%"
-      }
-    },
-    "children": [
-      "rich-text#address-brazil-support-title",
-      "vtex.menu@2.x:menu#support-brazil-links"
-    ]
-  },
-  "rich-text#address-brazil-support-title": {
-    "props": {
-      "text": "### BRASIL - Suporte Técnico",
-      "blockClass": "footer-address-title",
-      "textAlignment": "LEFT"
-    }
-  },
-  "vtex.menu@2.x:menu#support-brazil-links": {
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "footer-support-links"
-    },
-    "children": [
-      "menu-item#support-brazil-pt",
-      "menu-item#support-brazil-en",
-      "menu-item#support-brazil-es"
-    ]
-  },
-  "menu-item#support-brazil-pt": {
-    "props": {
-      "id": "support-brazil-pt",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/assistencia-tecnica-finamac/",
-        "text": "🇧🇷 Português"
-      },
-      "blockClass": "footer-support-link"
-    }
-  },
-  "menu-item#support-brazil-en": {
-    "props": {
-      "id": "support-brazil-en",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/technical-support-finamac",
-        "text": "🇺🇸 English"
-      },
-      "blockClass": "footer-support-link"
-    }
-  },
-  "menu-item#support-brazil-es": {
-    "props": {
-      "id": "support-brazil-es",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/asistencia-tecnica-finamac",
-        "text": "🇪🇸 Español"
-      },
-      "blockClass": "footer-support-link"
-    }
-  },
-  "flex-layout.col#address-usa-support": {
-    "props": {
-      "blockClass": "footer-address-column",
-      "width": {
-        "desktop": "25%",
-        "tablet": "50%",
-        "mobile": "100%"
-      }
-    },
-    "children": [
-      "rich-text#address-usa-support-title",
-      "vtex.menu@2.x:menu#support-usa-links"
-    ]
-  },
-  "rich-text#address-usa-support-title": {
-    "props": {
-      "text": "### EUA - Suporte Técnico",
-      "blockClass": "footer-address-title",
-      "textAlignment": "LEFT"
-    }
-  },
-  "vtex.menu@2.x:menu#support-usa-links": {
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "footer-support-links"
-    },
-    "children": [
-      "menu-item#support-usa-en",
-      "menu-item#support-usa-es",
-      "menu-item#support-usa-pt"
-    ]
-  },
-  "menu-item#support-usa-en": {
-    "props": {
-      "id": "support-usa-en",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/technical-support-finamac",
-        "text": "🇺🇸 English"
-      },
-      "blockClass": "footer-support-link"
-    }
-  },
-  "menu-item#support-usa-es": {
-    "props": {
-      "id": "support-usa-es",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/asistencia-tecnica-finamac",
-        "text": "🇪🇸 Español"
-      },
-      "blockClass": "footer-support-link"
-    }
-  },
-  "menu-item#support-usa-pt": {
-    "props": {
-      "id": "support-usa-pt",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/assistencia-tecnica-finamac/",
-        "text": "🇧🇷 Português"
-      },
-      "blockClass": "footer-support-link"
+      "href": "/technical-support-finamac",
+      "label": "USA - Technical Support",
+      "blockClass": "footer-support-button"
     }
   }
 }

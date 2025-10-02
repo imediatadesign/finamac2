@@ -45,6 +45,13 @@
     gap: 25px;
 }
 
+/* Ocultar accordion no desktop - só deve aparecer no mobile */
+@media only screen and (min-width: 1025px) {
+    .flexCol--accordion-menu-footer {
+        display: none !important;
+    }
+}
+
 .flexColChild--footer-mobile-content :global(.vtex-menu-2-x-menuItem--footer-menu-item){
     margin: 0px;
 }
@@ -143,4 +150,42 @@
 .flexRow--footer-row-2{
     max-width: 1300px !important;
     margin: 0 auto;
+}
+
+/* Seção de Endereços - Layout Elegante */
+.flexRow--footer-addresses {
+    margin: 0;
+    padding: 40px 0;
+    background: linear-gradient(135deg, #025da6 0%, #014178 100%);
+}
+
+.flexRowContent--footer-addresses {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 60px;
+}
+
+.flexCol--footer-address-unified {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.flexCol--footer-address-unified:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.flexRowContent--footer-support-languages {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
 }

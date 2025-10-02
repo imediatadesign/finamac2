@@ -192,24 +192,24 @@
       // "flex-layout.row#add-to-cart",
       // "flex-layout.row#buy-now",
       "flex-layout.row#consulte-produtos-pdp",
-      "flex-layout.row#shipping-simulator",
-      "product-assembly-options"
+      "flex-layout.row#shipping-simulator"
+      // "product-assembly-options"
     ]
   },
-  "product-assembly-options": {
-    "props": {
-      "initiallyOpened": "always"
-    },
-    "children": [
-      "assembly-option-item-image",
-      "assembly-option-item-quantity-selector",
-      "assembly-option-item-name",
-      "assembly-option-item-price",
-      "assembly-option-item-customize",
-      "assembly-option-item-children-description",
-      "assembly-option-input-values"
-    ]
-  },
+  // "product-assembly-options": {
+  //   "props": {
+  //     "initiallyOpened": "always"
+  //   },
+  //   "children": [
+  //     "assembly-option-item-image",
+  //     "assembly-option-item-quantity-selector",
+  //     "assembly-option-item-name",
+  //     "assembly-option-item-price",
+  //     "assembly-option-item-customize",
+  //     "assembly-option-item-children-description",
+  //     "assembly-option-input-values"
+  //   ]
+  // },
   "flex-layout.col#pdp-without-price": {
     "props": {
       "rowGap": 0
@@ -959,8 +959,8 @@
       "flex-layout.row#sku-selector",
       // "flex-layout.row#right-col-descr",
       "availability-notify",
-      "shipping-simulator",
-      "product-assembly-options"
+      "shipping-simulator"
+      // "product-assembly-options"
       //   "flex-layout.row#rightcol-reviews"
     ]
   },

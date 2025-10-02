@@ -17,11 +17,16 @@
   "flex-layout.col#institucional-Representative": {
     "children": [
       // "rich-text#representative-title",
-      "app-form-representante"
+      "app-form-representante#en"
     ],
     "props": {
       "blockClass": "institucional-representative",
       "width": "100%"
+    }
+  },
+  "app-form-representante#en": {
+    "props": {
+      "language": "en-US"
     }
   },
 

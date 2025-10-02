@@ -98,7 +98,7 @@
   color: #333;
   border: 1px solid #ddd;
   padding: 0 24px;
-  font-size: 14px;
+  font-size: 13px;
   text-transform: uppercase;
   transition: all 0.3s ease;
   display: flex;
@@ -109,4 +109,29 @@
 .link--consulte-produtos-button-pdp .vtex-button:hover {
   background-color: #e0e0e0;
   border-color: #ccc;
+}
+
+.label--footer-support-button {
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  color: #ffffff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  transition: all 0.3s ease !important;
+  position: relative !important;
+  padding-left: 30px !important;
+}
+
+.label--footer-support-button::before {
+  content: "→" !important;
+  position: absolute !important;
+  left: 0 !important;
+  color: #ffffff !important;
+  font-size: 1.3rem !important;
+  transition: all 0.3s ease !important;
+}
+
+.link--footer-support-button:hover .label--footer-support-button {
+  color: #ffffff !important;
+  text-decoration: underline !important;
 }

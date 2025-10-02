@@ -11,7 +11,7 @@
   padding: 0 20px;
 }
 
-.flexRowContent--1300{
+.flexRowContent--1300 {
   max-width: 1300px;
   margin: auto;
 }
@@ -181,6 +181,11 @@
   gap: 40px;
   max-width: 100%;
   align-items: start;
+}
+
+
+.flexRowContent--footer-navigation .stretchChildrenWidth {
+  width: 75% !important;
 }
 
 /* Colunas do Footer */

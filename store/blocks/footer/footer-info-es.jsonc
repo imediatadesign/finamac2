@@ -15,9 +15,7 @@
       "blockClass": "footer-info-main"
     },
     "children": [
-      "flex-layout.row#footer-navigation--es",
-      "flex-layout.row#footer-privacy--es",
-      "flex-layout.row#footer-addresses--es"
+      "flex-layout.row#footer-navigation--es"
     ]
   },
   // Seção de Navegação do Footer
@@ -427,149 +425,87 @@
       "blockClass": "footer-menu-item"
     }
   },
-  // Seção de Privacidade
-  "flex-layout.row#footer-privacy--es": {
-    "props": {
-      "blockClass": "footer-privacy",
-      "preserveLayoutOnMobile": true
-    },
-    "children": [
-      "flex-layout.col#footer-privacy-content--es"
-    ]
-  },
-  "flex-layout.col#footer-privacy-content--es": {
-    "props": {
-      "blockClass": "footer-privacy-content",
-      "width": "100%"
-    },
-    "children": [
-      "rich-text#footer-privacy-title--es",
-      "rich-text#footer-privacy-text--es"
-    ]
-  },
-  "rich-text#footer-privacy-title--es": {
-    "props": {
-      "text": "### PRIVACIDAD Y USO DE DATOS",
-      "blockClass": "footer-privacy-title",
-      "textAlignment": "CENTER"
-    }
-  },
-  "rich-text#footer-privacy-text--es": {
-    "props": {
-      "text": "FINAMAC valora la privacidad de sus usuarios y se compromete a utilizar los datos personales proporcionados por los usuarios exclusivamente para el seguimiento de pedidos y actividades de marketing. Al autenticarse en este sitio web, usted acepta el uso de sus datos personales para Seguimiento de Pedidos, Procesamiento de Pedidos y Envío de comunicaciones de marketing y promociones.",
-      "blockClass": "footer-privacy-text",
-      "textAlignment": "CENTER"
-    }
-  },
-  // Seção de Endereços
+  // Seção de Endereços - 2 Colunas Unificadas (ES)
   "flex-layout.row#footer-addresses--es": {
     "props": {
       "blockClass": "footer-addresses",
       "preserveLayoutOnMobile": false
     },
     "children": [
-      "flex-layout.col#address-brazil-sales--es",
-      "flex-layout.col#address-usa-sales--es",
-      "flex-layout.col#address-brazil-support--es",
-      "flex-layout.col#address-usa-support--es"
+      "flex-layout.col#address-brazil-unified--es",
+      "flex-layout.col#address-usa-unified--es"
     ]
   },
-  "flex-layout.col#address-brazil-sales--es": {
+  "flex-layout.col#address-brazil-unified--es": {
     "props": {
-      "blockClass": "footer-address-column",
+      "blockClass": "footer-address-unified",
       "width": {
-        "desktop": "25%",
-        "tablet": "50%",
+        "desktop": "50%",
+        "tablet": "100%",
         "mobile": "100%"
       }
     },
     "children": [
-      "rich-text#address-brazil-sales-title--es",
-      "rich-text#address-brazil-sales-content--es"
+      "rich-text#address-brazil-title--es",
+      "rich-text#address-brazil-sales--es",
+      "link#address-brazil-support-button--es"
     ]
   },
-  "rich-text#address-brazil-sales-title--es": {
+  "rich-text#address-brazil-title--es": {
     "props": {
       "text": "### BRASIL - Ventas",
-      "blockClass": "footer-address-title",
+      "blockClass": "footer-address-main-title",
       "textAlignment": "LEFT"
     }
   },
-  "rich-text#address-brazil-sales-content--es": {
+  "rich-text#address-brazil-sales--es": {
     "props": {
-      "text": "Avenida Nazaré 1657 - Ipiranga\nCEP: 04263-200\nSão Paulo / SP\nTeléfono: +55 11 2135 6500\nCNPJ: 08.262.762/0001-78\nFinamac Engenharia e Industrialização de Equipamentos LTDA",
-      "blockClass": "footer-address-text",
+      "text": "Avenida Nazaré 1657 - Ipiranga\nZIP: 04263-200 - São Paulo / SP\nTeléfono: +55 11 2135 6500\nWhatsApp: +55 11 98846-5990",
+      "blockClass": "footer-address-content",
       "textAlignment": "LEFT"
     }
   },
-  "flex-layout.col#address-usa-sales--es": {
+  "link#address-brazil-support-button--es": {
     "props": {
-      "blockClass": "footer-address-column",
+      "href": "/asistencia-tecnica-finamac",
+      "label": "BRASIL - Soporte Técnico",
+      "blockClass": "footer-support-button"
+    }
+  },
+  "flex-layout.col#address-usa-unified--es": {
+    "props": {
+      "blockClass": "footer-address-unified",
       "width": {
-        "desktop": "25%",
-        "tablet": "50%",
+        "desktop": "50%",
+        "tablet": "100%",
         "mobile": "100%"
       }
     },
     "children": [
-      "rich-text#address-usa-sales-title--es",
-      "rich-text#address-usa-sales-content--es"
+      "rich-text#address-usa-title--es",
+      "rich-text#address-usa-sales--es",
+      "link#address-usa-support-button--es"
     ]
   },
-  "rich-text#address-usa-sales-title--es": {
+  "rich-text#address-usa-title--es": {
     "props": {
-      "text": "### EE.UU. - Ventas",
-      "blockClass": "footer-address-title",
+      "text": "### EE.UU. y Otros Países - Ventas",
+      "blockClass": "footer-address-main-title",
       "textAlignment": "LEFT"
     }
   },
-  "rich-text#address-usa-sales-content--es": {
+  "rich-text#address-usa-sales--es": {
     "props": {
-      "text": "11231 NW 20th Street Unit 130\nZIP: 33172\nMiami / FL\nTeléfono: +1-877-342-7458\nEste número no acepta llamadas desde fuera de Estados Unidos\nTeléfono: +1-786-408-0729\nTeléfono/Whatsapp: +1-305-804-8636",
-      "blockClass": "footer-address-text",
+      "text": "11231 NW 20th Street Unit 130\nZIP: 33172 - Miami / FL\nTeléfono: +1-786-408-0729\nWhatsApp: +1-305-804-8636",
+      "blockClass": "footer-address-content",
       "textAlignment": "LEFT"
     }
   },
-  "flex-layout.col#address-brazil-support--es": {
+  "link#address-usa-support-button--es": {
     "props": {
-      "blockClass": "footer-address-column",
-      "width": {
-        "desktop": "25%",
-        "tablet": "50%",
-        "mobile": "100%"
-      }
-    },
-    "children": [
-      "rich-text#address-brazil-support-title--es",
-      "vtex.menu@2.x:menu#support-brazil-links"
-    ]
-  },
-  "rich-text#address-brazil-support-title--es": {
-    "props": {
-      "text": "### BRASIL - Soporte Técnico",
-      "blockClass": "footer-address-title",
-      "textAlignment": "LEFT"
-    }
-  },
-  "flex-layout.col#address-usa-support--es": {
-    "props": {
-      "blockClass": "footer-address-column",
-      "width": {
-        "desktop": "25%",
-        "tablet": "50%",
-        "mobile": "100%"
-      }
-    },
-    "children": [
-      "rich-text#address-usa-support-title--es",
-      "vtex.menu@2.x:menu#support-usa-links"
-    ]
-  },
-  "rich-text#address-usa-support-title--es": {
-    "props": {
-      "text": "### EE.UU. - Soporte Técnico",
-      "blockClass": "footer-address-title",
-      "textAlignment": "LEFT"
+      "href": "/asistencia-tecnica-finamac",
+      "label": "EE.UU. - Soporte Técnico",
+      "blockClass": "footer-support-button"
     }
   }
 }

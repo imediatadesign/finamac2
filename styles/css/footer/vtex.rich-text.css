@@ -1,18 +1,61 @@
 /* news letter */
 
 .paragraph--newsletter-1,
-.heading--newsletter-1{
+.heading--newsletter-1 {
     color: #ffffff;
     margin: 15px 0px;
 }
 
-.paragraph--newsletter-1{
+.paragraph--newsletter-1 {
     margin: 0px;
 }
 
-.container--newsletter-1{
+.container--newsletter-1 {
     align-items: flex-end;
 }
-:global(.vtex-store-newsletter-1-x-newsletterForm--newsletter-ids) :global(.vtex-input__label){
+
+:global(.vtex-store-newsletter-1-x-newsletterForm--newsletter-ids) :global(.vtex-input__label) {
     color: #ffffff;
+}
+
+/* Endereços Footer - Títulos e Conteúdo */
+.heading--footer-address-main-title {
+    color: #ffffff !important;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.paragraph--footer-address-content {
+    color: #ffffff !important;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin: 0 0 25px 0;
+    font-weight: 400;
+}
+
+.paragraph--footer-address-content.paragraph--footer-address-content {
+    font-weight: 400;
+}
+
+/* Links dentro do conteúdo de endereço */
+.link--footer-address-content {
+    color: #4fc3f7 !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link--footer-address-content:hover {
+    color: #81d4fa !important;
+    text-decoration: underline;
+}
+
+.paragraph--footer-support-title {
+    color: #ffffff !important;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 25px 0 15px 0;
+    text-transform: uppercase;
 }

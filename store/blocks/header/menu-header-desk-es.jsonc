@@ -16,8 +16,8 @@
     "children": [
       "drawer#menu",
       "menu-item#desk-header-menu-1-es",
-      "menu-item#desk-header-menu-6-es",
       "menu-item#desk-header-menu-2-es",
+      "menu-item#desk-header-menu-6-es",
       "menu-item#desk-header-menu-4-es",
       "menu-item#desk-header-menu-5-es",
       "menu-item#desk-header-menu-8-es",
@@ -136,7 +136,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/solicitar-presupuesto",
+        "href": "/consulte-nuestros-productos",
         "noFollow": false,
         "tagTitle": "Solicitar Presupuesto",
         "text": "Solicitar Presupuesto"
@@ -293,8 +293,8 @@
   "menu-item#process-preparacao-es": {
     "props": {
       "itemProps": {
-        "tagTitle": "Preparación de la mezcla para helado y trituradores de açaí",
-        "text": "Preparación de la mezcla para helado y trituradores de açaí",
+        "tagTitle": "Preparación de la mezcla para helado y trituradores",
+        "text": "Preparación de la mezcla para helado y trituradores",
         "href": "/maquinaria/por-proceso-de-produccion/preparacion-de-la-mezcla-para-helado-y-trituradores-de-acai"
       },
       "blockClass": "sub-menu-header"
@@ -313,8 +313,8 @@
   "menu-item#process-maturacao-es": {
     "props": {
       "itemProps": {
-        "tagTitle": "Maduración del jarabe de helado",
-        "text": "Maduración del jarabe de helado",
+        "tagTitle": "Maduración del helado",
+        "text": "Maduración del helado",
         "href": "/maquinaria/por-proceso-de-produccion/maduracion-de-jarabe-para-helado"
       },
       "blockClass": "sub-menu-header"
@@ -353,8 +353,8 @@
   "menu-item#process-envase-es": {
     "props": {
       "itemProps": {
-        "tagTitle": "Envasado y embotellado",
-        "text": "Envasado y embotellado",
+        "tagTitle": "Empaque y envasado",
+        "text": "Empaque y envasado",
         "href": "/maquinaria/por-proceso-de-produccion/envasado-y-embotellado"
       },
       "blockClass": "sub-menu-header"
@@ -363,8 +363,8 @@
   "menu-item#process-vitrines-es": {
     "props": {
       "itemProps": {
-        "tagTitle": "Escaparates",
-        "text": "Escaparates",
+        "tagTitle": "Vitrina",
+        "text": "Vitrina",
         "href": "/maquinaria/por-proceso-de-produccion/escaparates"
       },
       "blockClass": "sub-menu-header"
@@ -403,8 +403,8 @@
   "menu-item#process-desenvolvedoras-es": {
     "props": {
       "itemProps": {
-        "tagTitle": "Desarrolladores",
-        "text": "Desarrolladores",
+        "tagTitle": "Incorporadoras",
+        "text": "Incorporadoras",
         "href": "/maquinaria/por-proceso-de-produccion/desarrolladores"
       },
       "blockClass": "sub-menu-header"
@@ -482,8 +482,8 @@
   "menu-item#by-final-paleta-es": {
     "props": {
       "itemProps": {
-        "tagTitle": "Paleta de hielo",
-        "text": "Paleta de hielo",
+        "tagTitle": "Paletas",
+        "text": "Paletas",
         "href": "/maquinaria/por-producto-final/paleta-de-hielo"
       },
       "blockClass": "sub-menu-header"
@@ -640,7 +640,7 @@
     "children": [
       "flex-layout.col#sub-menu-2-list-A-es",
       "flex-layout.col#sub-menu-2-list-B-es",
-      "flex-layout.col#sub-menu-2-list-C-insumos-es"
+      "flex-layout.col#sub-menu-2-list-C-es"
     ]
   },
   // Categoria A
@@ -712,22 +712,35 @@
   // Categoria C
   "flex-layout.col#sub-menu-2-list-C-es": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
     },
     "children": [
+      "menu-item#sub-menu-2-list-1C-es",
       "menu#sub-menu-2-list-1C-es"
     ]
   },
+  "menu-item#sub-menu-2-list-1C-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Insumos",
+        "text": "Insumos",
+        "href": "/insumos"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
   "menu#sub-menu-2-list-1C-es": {
     "props": {
-      "categoryId": "1",
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "sortSubcategories": "name",
       "orientation": "vertical",
       "blockClass": "sub-menu-header"
-    }
+    },
+    "children": [
+      "menu-item#insumo-palitos-es",
+      "menu-item#insumo-embalajes-es",
+      "menu-item#insumo-fluidos-es"
+    ]
   },
   // Categoria D
   "flex-layout.col#sub-menu-2-list-D-es": {
@@ -763,27 +776,6 @@
       "src": "https://via.placeholder.com/300x320",
       "maxWidth": 300,
       "blockClass": "image-submenu"
-    }
-  },
-  // Categoria C - Insumos (movido do nível principal)
-  "flex-layout.col#sub-menu-2-list-C-insumos-es": {
-    "props": {
-      "width": "100%",
-      "preventVerticalStretch": true,
-      "verticalAlign": "top"
-    },
-    "children": [
-      "menu-item#sub-menu-2-list-1C-insumos-es"
-    ]
-  },
-  "menu-item#sub-menu-2-list-1C-insumos-es": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Insumos",
-        "text": "Insumos",
-        "href": "/insumos"
-      },
-      "blockClass": "sub-menu-header-title"
     }
   },
   // Menu row 3
@@ -1111,6 +1103,8 @@
     },
     "children": [
       "menu-item#sub-menu-6-list-4-pecas-es",
+      "menu-item#sub-menu-6-list-5-videos-entrenamiento-es",
+      "menu-item#sub-menu-6-list-6-entrenamiento-finamac-es",
       "menu-item#sub-menu-6-list-1-es",
       "menu-item#sub-menu-6-list-2-es",
       "menu-item#sub-menu-6-list-3-es"
@@ -1168,6 +1162,32 @@
       ]
     }
   },
+  "menu-item#sub-menu-6-list-5-videos-entrenamiento-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Videos de Entrenamiento",
+        "text": "Videos de Entrenamiento",
+        "href": "/entrenamiento"
+      },
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-videos-entrenamiento"
+      ]
+    }
+  },
+  "menu-item#sub-menu-6-list-6-entrenamiento-finamac-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Entrenamiento Finamac",
+        "text": "Entrenamiento Finamac",
+        "href": "/entrenamiento-finamac"
+      },
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-entrenamiento-finamac"
+      ]
+    }
+  },
   // Menu row 7 - Insumos
   "vtex.menu@2.x:submenu#desk-header-menu-7-es": {
     "props": {
@@ -1200,39 +1220,62 @@
       "verticalAlign": "top"
     },
     "children": [
-      "menu-item#sub-menu-7-list-1-es",
-      "menu-item#sub-menu-7-list-2-es",
-      "menu-item#sub-menu-7-list-3-es"
+      "menu-item#sub-menu-7-list-1A-es",
+      "menu#sub-menu-7-list-1A-es"
     ]
   },
-  "menu-item#sub-menu-7-list-1-es": {
+  "menu-item#sub-menu-7-list-1A-es": {
     "props": {
       "itemProps": {
-        "tagTitle": "Embalajes",
-        "text": "Embalajes",
-        "href": "/insumos/embalajes"
+        "tagTitle": "Insumos",
+        "text": "Insumos",
+        "href": "/insumos"
       },
       "blockClass": "sub-menu-header-title"
     }
   },
-  "menu-item#sub-menu-7-list-2-es": {
+  "menu#sub-menu-7-list-1A-es": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    },
+    "children": [
+      "menu-item#insumo-embalajes-es",
+      "menu-item#insumo-fluidos-es",
+      "menu-item#insumo-palitos-es"
+    ]
+  },
+  "menu-item#insumo-embalajes-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Bolsas",
+        "text": "Bolsas",
+        "href": "/insumos/embalajes",
+        "categoryId": "52"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#insumo-fluidos-es": {
     "props": {
       "itemProps": {
         "tagTitle": "Fluidos",
         "text": "Fluidos",
-        "href": "/insumos/fluidos"
+        "href": "/insumos/fluidos",
+        "categoryId": "51"
       },
-      "blockClass": "sub-menu-header-title"
+      "blockClass": "sub-menu-header"
     }
   },
-  "menu-item#sub-menu-7-list-3-es": {
+  "menu-item#insumo-palitos-es": {
     "props": {
       "itemProps": {
-        "tagTitle": "Palitos",
-        "text": "Palitos",
-        "href": "/insumos/palitos"
+        "tagTitle": "Palito de Madera",
+        "text": "Palito de Madera",
+        "href": "/insumos/palitos",
+        "categoryId": "50"
       },
-      "blockClass": "sub-menu-header-title"
+      "blockClass": "sub-menu-header"
     }
   },
   // Menu row 9 - Contato
@@ -1277,7 +1320,7 @@
       "itemProps": {
         "tagTitle": "Solicitar Presupuesto",
         "text": "Solicitar Presupuesto",
-        "href": "/solicitar-presupuesto"
+        "href": "/consulte-nuestros-productos"
       },
       "blockClass": "sub-menu-header-title"
     }
@@ -1287,7 +1330,7 @@
       "itemProps": {
         "tagTitle": "Conviértete en Distribuidor o Representante",
         "text": "Conviértete en Distribuidor o Representante",
-        "href": "/convertirse-distribuidor-representante"
+        "href": "/conviertase-en-revendedor-o-representante"
       },
       "blockClass": "sub-menu-header-title"
     }

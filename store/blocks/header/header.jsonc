@@ -34,9 +34,8 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#search-bar-overlay",
       "flex-layout.col#spacer",
-      "flex-layout.col#translationapp",
+      // "flex-layout.col#translationapp",
       "flex-layout.col#login-minicart"
     ]
   },
@@ -45,41 +44,43 @@
       "blockClass": "main-menu-container",
       "fullWidth": true
     },
-    "children": ["condition-layout.binding#menu-switcher"]
+    "children": [
+      "condition-layout.binding#menu-switcher"
+    ]
   },
-
   // ========== MENU MULTI-IDIOMA COM CONDITION LAYOUT ==========
   // Binding IDs da loja Finamac:
   // PT-BR: 33cd2dcc-c319-4da0-82d5-71aa38b19380
   // EN-US: 56fe0518-7750-4e50-ada7-9d9c7e2f41c8
   // ES-ES: ffcec18b-70bf-46a1-ad3b-222efe974d8e
-
   "condition-layout.binding#menu-switcher": {
     "props": {
-      "conditions": [{
-        "subject": "bindingId",
-        "arguments": {
-          "id": "33cd2dcc-c319-4da0-82d5-71aa38b19380"  // PT-BR
+      "conditions": [
+        {
+          "subject": "bindingId",
+          "arguments": {
+            "id": "33cd2dcc-c319-4da0-82d5-71aa38b19380" // PT-BR
+          }
         }
-      }],
+      ],
       "Then": "flex-layout.col#category-header-desk",
       "Else": "condition-layout.binding#menu-en-es"
     }
   },
-
   "condition-layout.binding#menu-en-es": {
     "props": {
-      "conditions": [{
-        "subject": "bindingId",
-        "arguments": {
-          "id": "56fe0518-7750-4e50-ada7-9d9c7e2f41c8"  // EN-US
+      "conditions": [
+        {
+          "subject": "bindingId",
+          "arguments": {
+            "id": "56fe0518-7750-4e50-ada7-9d9c7e2f41c8" // EN-US
+          }
         }
-      }],
+      ],
       "Then": "flex-layout.col#category-header-desk--en",
-      "Else": "flex-layout.col#category-header-desk--es"  // ES-ES fallback
+      "Else": "flex-layout.col#category-header-desk--es" // ES-ES fallback
     }
   },
-
   "flex-layout.col#translationapp": {
     "props": {
       "verticalAlign": "middle",
@@ -99,8 +100,8 @@
   },
   "binding-selector": {
     "props": {
-      // "layout": "dropdown",
-      "layout": "list",
+      "layout": "dropdown",
+      // "layout": "list",
       // list - select
       "display": "combined"
       // "display": "flag"
@@ -145,7 +146,7 @@
       "verticalAlign": "middle",
       "preventVerticalStretch": true,
       "width": {
-        "desktop": "10%",
+        "desktop": "1%",
         "mobile": "grow"
       }
     },
@@ -161,8 +162,10 @@
       "horizontalAlign": "right"
     },
     "children": [
+      "flex-layout.col#search-bar-overlay",
       "flex-layout.col#login",
-      "flex-layout.col#minicart"
+      "binding-selector"
+      // "flex-layout.col#minicart"
     ]
   },
   "flex-layout.col#login": {

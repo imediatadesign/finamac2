@@ -1,0 +1,28 @@
+/* Links de Suporte Técnico nos 3 Idiomas */
+.menuItem--footer-support-link {
+    margin: 0;
+    padding: 0;
+}
+
+.styledLinkContainer--footer-support-link {
+    margin: 0 !important;
+    padding: 5px 0 !important;
+}
+
+.styledLink--footer-support-link {
+    color: #ffffff !important;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.styledLink--footer-support-link:hover {
+    opacity: 0.8;
+}
+
+.styledLinkContent--footer-support-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
