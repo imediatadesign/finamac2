@@ -35,6 +35,14 @@
     "component": "TechnicalSupport"
   },
 
+  "technical-support-brazil": {
+    "component": "TechnicalSupportBrazil"
+  },
+
+  "technical-support-usa": {
+    "component": "TechnicalSupportUSA"
+  },
+
   "conditional-display": {
     "component": "ConditionalDisplay",
     "composition": "children"

@@ -1,5 +1,4 @@
-
-.productNameContainer{
+.productNameContainer {
     text-align: left;
     font-weight: 600;
     padding: .5rem 0px;
@@ -7,46 +6,52 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--product-price),
 :global(.vtex-flex-layout-0-x-flexRowContent--spot-price),
-:global(.vtex-flex-layout-0-x-flexRowContent--product-installments-shelf){
+:global(.vtex-flex-layout-0-x-flexRowContent--product-installments-shelf) {
     justify-content: left;
 }
 
 :global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf),
-:global(.vtex-search-result-3-x-galleryItem--normal) :global(.vtex-product-summary-2-x-container){
+:global(.vtex-search-result-3-x-galleryItem--normal) :global(.vtex-product-summary-2-x-container) {
     box-sizing: border-box;
     padding: 20px;
     background: #fff;
     /* border removida - mantendo apenas shadow */
     border-radius: .2rem;
-    box-shadow: rgba(0,0,0,0.08) 0px 2px 12px 0px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 12px 0px;
     max-width: 350px;
-    @media only screen and (max-width: 600px){
+
+    @media only screen and (max-width: 600px) {
         padding: 10px;
         max-width: 220px;
     }
 }
 
-:global(.vtex-slider-layout-0-x-slide--shelf){
+:global(.vtex-slider-layout-0-x-slide--shelf) {
     justify-content: center;
 }
 
-:global(.vtex-slider-layout-0-x-sliderTrack--shelf){
+:global(.vtex-slider-layout-0-x-sliderTrack--shelf) {
     padding: 20px 0px;
     gap: 30px;
-    @media only screen and (max-width: 600px){
+
+    @media only screen and (max-width: 600px) {
         gap: 10px;
         padding: 10px 0px;
     }
 }
 
 .containerNormal .brandName,
-:global(.vtex-store-components-3-x-heading--cursos-home){
+:global(.vtex-store-components-3-x-heading--cursos-home) {
     font-weight: 600;
     color: var(--secondary);
     font-size: 0.9rem;
 }
 
-.description{
+.productNameContainer .brandName {
+    min-height: 55px;
+}
+
+.description {
     font-size: 0.7rem;
     color: var(--primary);
     display: -webkit-box;
@@ -54,17 +59,18 @@
     -webkit-line-clamp: 2;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: normal; 
-}
-@media only screen and (max-width: 1024px){
-
-.containerNormal .brandName{
-    font-size: 0.7rem;
+    white-space: normal;
 }
 
-.containerNormal .nameContainer{
-    padding-top: 0px;
-}
+@media only screen and (max-width: 1024px) {
+
+    .containerNormal .brandName {
+        font-size: 0.7rem;
+    }
+
+    .containerNormal .nameContainer {
+        padding-top: 0px;
+    }
 
 
 }

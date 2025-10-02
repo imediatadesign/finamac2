@@ -1,21 +1,17 @@
 {
-  "store.custom#technical-support": {
-    "blocks": [
-      "flex-layout.row#technical-support"
-    ]
-  },
+  // ========== BRASIL - Suporte Técnico ==========
 
-  "flex-layout.row#technical-support": {
-    "children": [
-      "technical-support#en"
-    ],
-    "props": {
-      "blockClass": "institucional-technical-support"
-    }
-  },
-  "technical-support#en": {
-    "props": {
-      "language": "en-US"
-    }
-  }
+  "technical-support-brazil#pt": {},
+
+  "technical-support-brazil#en": {},
+
+  "technical-support-brazil#es": {},
+
+  // ========== USA - Suporte Técnico ==========
+
+  "technical-support-usa#pt": {},
+
+  "technical-support-usa#en": {},
+
+  "technical-support-usa#es": {}
 }

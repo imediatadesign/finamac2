@@ -27,8 +27,8 @@
     },
     "children": [
       "flex-layout.col#footer-about--es",
-      "flex-layout.col#footer-institutional--es",
-      "flex-layout.col#footer-services--es",
+      "flex-layout.col#footer-institutional-1--es",
+      "flex-layout.col#footer-institutional-2--es",
       "flex-layout.col#footer-account--es"
     ]
   },
@@ -61,8 +61,8 @@
       "textAlignment": "LEFT"
     }
   },
-  // Coluna 2 - Institucional
-  "flex-layout.col#footer-institutional--es": {
+  // Coluna 2 - Institucional (Parte 1)
+  "flex-layout.col#footer-institutional-1--es": {
     "props": {
       "blockClass": "footer-column",
       "width": {
@@ -71,18 +71,18 @@
       }
     },
     "children": [
-      "rich-text#footer-institutional-title--es",
-      "vtex.menu@2.x:menu#footer-institutional--es"
+      "rich-text#footer-institutional-title-1--es",
+      "vtex.menu@2.x:menu#footer-institutional-1--es"
     ]
   },
-  "rich-text#footer-institutional-title--es": {
+  "rich-text#footer-institutional-title-1--es": {
     "props": {
       "text": "## Institucional",
       "blockClass": "footer-column-title",
       "textAlignment": "LEFT"
     }
   },
-  "vtex.menu@2.x:menu#footer-institutional--es": {
+  "vtex.menu@2.x:menu#footer-institutional-1--es": {
     "props": {
       "orientation": "vertical",
       "blockClass": "footer-menu"
@@ -93,7 +93,36 @@
       "menu-item#footer-technology--es",
       "menu-item#footer-clients--es",
       "menu-item#footer-projects--es",
-      "menu-item#footer-partners--es",
+      "menu-item#footer-partners--es"
+    ]
+  },
+  // Coluna 3 - Institucional (Parte 2)
+  "flex-layout.col#footer-institutional-2--es": {
+    "props": {
+      "blockClass": "footer-column footer-column-no-title",
+      "width": {
+        "desktop": "25%",
+        "mobile": "100%"
+      }
+    },
+    "children": [
+      "rich-text#footer-institutional-title-2--es",
+      "vtex.menu@2.x:menu#footer-institutional-2--es"
+    ]
+  },
+  "rich-text#footer-institutional-title-2--es": {
+    "props": {
+      "text": "",
+      "blockClass": "footer-column-title",
+      "textAlignment": "LEFT"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-institutional-2--es": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-menu"
+    },
+    "children": [
       "menu-item#footer-areas--es",
       "menu-item#footer-units--es",
       "menu-item#footer-events--es",
@@ -228,144 +257,7 @@
       "itemProps": {
         "type": "internal",
         "href": "/defensoria",
-        "text": "Defensoría"
-      },
-      "blockClass": "footer-menu-item"
-    }
-  },
-  // Coluna 3 - Servicios
-  "flex-layout.col#footer-services--es": {
-    "props": {
-      "blockClass": "footer-column",
-      "width": {
-        "desktop": "25%",
-        "mobile": "100%"
-      }
-    },
-    "children": [
-      "rich-text#footer-services-title--es",
-      "vtex.menu@2.x:menu#footer-services--es",
-      "rich-text#footer-policies-title--es",
-      "vtex.menu@2.x:menu#footer-policies--es"
-    ]
-  },
-  "rich-text#footer-services-title--es": {
-    "props": {
-      "text": "## Servicios",
-      "blockClass": "footer-column-title",
-      "textAlignment": "LEFT"
-    }
-  },
-  "vtex.menu@2.x:menu#footer-services--es": {
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "footer-menu"
-    },
-    "children": [
-      "menu-item#footer-courses--es",
-      "menu-item#footer-consulting--es",
-      "menu-item#footer-technical-support--es",
-      "menu-item#footer-training-videos--es",
-      "menu-item#footer-finamac-training--es"
-    ]
-  },
-  "menu-item#footer-courses--es": {
-    "props": {
-      "id": "footer-courses-es",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/cursos",
-        "text": "Cursos"
-      },
-      "blockClass": "footer-menu-item"
-    }
-  },
-  "menu-item#footer-consulting--es": {
-    "props": {
-      "id": "footer-consulting-es",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/consultorias",
-        "text": "Consultorías"
-      },
-      "blockClass": "footer-menu-item"
-    }
-  },
-  "menu-item#footer-technical-support--es": {
-    "props": {
-      "id": "footer-technical-support-es",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/asistencia-tecnica",
-        "text": "Asistencia Técnica"
-      },
-      "blockClass": "footer-menu-item"
-    }
-  },
-  "menu-item#footer-training-videos--es": {
-    "props": {
-      "id": "footer-training-videos-es",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/entrenamiento",
-        "text": "Videos de Entrenamiento"
-      },
-      "blockClass": "footer-menu-item"
-    }
-  },
-  "menu-item#footer-finamac-training--es": {
-    "props": {
-      "id": "footer-finamac-training-es",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/entrenamiento-finamac",
-        "text": "Entrenamiento Finamac"
-      },
-      "blockClass": "footer-menu-item"
-    }
-  },
-  "rich-text#footer-policies-title--es": {
-    "props": {
-      "text": "## Políticas",
-      "blockClass": "footer-column-title",
-      "textAlignment": "LEFT"
-    }
-  },
-  "vtex.menu@2.x:menu#footer-policies--es": {
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "footer-menu"
-    },
-    "children": [
-      "menu-item#footer-privacy-policy--es",
-      "menu-item#footer-cookie-policy--es"
-    ]
-  },
-  "menu-item#footer-privacy-policy--es": {
-    "props": {
-      "id": "footer-privacy-policy-es",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/politica-de-privacidad",
-        "text": "Política de Privacidad"
-      },
-      "blockClass": "footer-menu-item"
-    }
-  },
-  "menu-item#footer-cookie-policy--es": {
-    "props": {
-      "id": "footer-cookie-policy-es",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/politica-de-cookies",
-        "text": "Política de Cookies"
+        "text": "Servicio al Cliente"
       },
       "blockClass": "footer-menu-item"
     }
@@ -448,6 +340,8 @@
     "children": [
       "rich-text#address-brazil-title--es",
       "rich-text#address-brazil-sales--es",
+      "link#whatsapp-brazil--es",
+      "flex-layout.row#spacer-brazil--es",
       "link#address-brazil-support-button--es"
     ]
   },
@@ -460,14 +354,45 @@
   },
   "rich-text#address-brazil-sales--es": {
     "props": {
-      "text": "Avenida Nazaré 1657 - Ipiranga\nZIP: 04263-200 - São Paulo / SP\nTeléfono: +55 11 2135 6500\nWhatsApp: +55 11 98846-5990",
+      "text": "Avenida Nazaré, 1657 - Ipiranga\nZIP: 04263-200 - São Paulo / SP\nTeléfono: +55 11 2135 6500",
       "blockClass": "footer-address-content",
       "textAlignment": "LEFT"
     }
   },
+  "link#whatsapp-brazil--es": {
+    "props": {
+      "href": "https://wa.me/5511988465990",
+      "target": "_blank",
+      "blockClass": "footer-whatsapp-link"
+    },
+    "children": [
+      "flex-layout.row#whatsapp-brazil-content--es"
+    ]
+  },
+  "flex-layout.row#whatsapp-brazil-content--es": {
+    "props": {
+      "blockClass": "whatsapp-link-content",
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "image#whatsapp-icon",
+      "rich-text#whatsapp-brazil-text--es"
+    ]
+  },
+  "rich-text#whatsapp-brazil-text--es": {
+    "props": {
+      "text": "WhatsApp: +55 11 98846-5990",
+      "blockClass": "whatsapp-text"
+    }
+  },
+  "flex-layout.row#spacer-brazil--es": {
+    "props": {
+      "blockClass": "footer-spacer"
+    }
+  },
   "link#address-brazil-support-button--es": {
     "props": {
-      "href": "/asistencia-tecnica-finamac",
+      "href": "/asistencia-tecnica-brasil",
       "label": "BRASIL - Soporte Técnico",
       "blockClass": "footer-support-button"
     }
@@ -484,27 +409,60 @@
     "children": [
       "rich-text#address-usa-title--es",
       "rich-text#address-usa-sales--es",
+      "link#whatsapp-usa--es",
+      "flex-layout.row#spacer-usa--es",
       "link#address-usa-support-button--es"
     ]
   },
   "rich-text#address-usa-title--es": {
     "props": {
-      "text": "### EE.UU. y Otros Países - Ventas",
+      "text": "### EE.UU. y Mundo - Ventas",
       "blockClass": "footer-address-main-title",
       "textAlignment": "LEFT"
     }
   },
   "rich-text#address-usa-sales--es": {
     "props": {
-      "text": "11231 NW 20th Street Unit 130\nZIP: 33172 - Miami / FL\nTeléfono: +1-786-408-0729\nWhatsApp: +1-305-804-8636",
+      "text": "11231 NW 20th Street Unit 130\nZIP: 33172 - Miami / FL\nTeléfono: +1-786-408-0729",
       "blockClass": "footer-address-content",
       "textAlignment": "LEFT"
     }
   },
+  "link#whatsapp-usa--es": {
+    "props": {
+      "href": "https://wa.me/13058048636",
+      "target": "_blank",
+      "blockClass": "footer-whatsapp-link"
+    },
+    "children": [
+      "flex-layout.row#whatsapp-usa-content--es"
+    ]
+  },
+  "flex-layout.row#whatsapp-usa-content--es": {
+    "props": {
+      "blockClass": "whatsapp-link-content",
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "image#whatsapp-icon",
+      "rich-text#whatsapp-usa-text--es"
+    ]
+  },
+  "rich-text#whatsapp-usa-text--es": {
+    "props": {
+      "text": "WhatsApp: +1-305-804-8636",
+      "blockClass": "whatsapp-text"
+    }
+  },
+  "flex-layout.row#spacer-usa--es": {
+    "props": {
+      "blockClass": "footer-spacer"
+    }
+  },
   "link#address-usa-support-button--es": {
     "props": {
-      "href": "/asistencia-tecnica-finamac",
-      "label": "EE.UU. - Soporte Técnico",
+      "href": "/asistencia-tecnica-usa",
+      "label": "EE.UU. y Mundo - Soporte Técnico",
       "blockClass": "footer-support-button"
     }
   }

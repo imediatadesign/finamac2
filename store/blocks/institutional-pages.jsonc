@@ -233,25 +233,41 @@
     ]
   },
 
-  // Páginas de Assistência Técnica
-  "store.custom#assistencia-tecnica-finamac": {
+  // Páginas de Assistência Técnica - BRASIL
+  "store.custom#assistencia-tecnica-brasil": {
     "blocks": [
-        // "rich-text#page-title-assistencia"
-        "technical-support"
+        "technical-support-brazil#pt"
     ]
   },
-  
-  "store.custom#technical-support-finamac": {
+
+  "store.custom#technical-support-brazil": {
     "blocks": [
-        // "rich-text#page-title-assistencia"
-        "technical-support"
+        "technical-support-brazil#en"
     ]
   },
-  
-  "store.custom#asistencia-tecnica-finamac": {
+
+  "store.custom#asistencia-tecnica-brasil": {
     "blocks": [
-        // "rich-text#page-title-assistencia"
-        "technical-support"
+        "technical-support-brazil#es"
+    ]
+  },
+
+  // Páginas de Assistência Técnica - USA
+  "store.custom#assistencia-tecnica-usa": {
+    "blocks": [
+        "technical-support-usa#pt"
+    ]
+  },
+
+  "store.custom#technical-support-usa": {
+    "blocks": [
+        "technical-support-usa#en"
+    ]
+  },
+
+  "store.custom#asistencia-tecnica-usa": {
+    "blocks": [
+        "technical-support-usa#es"
     ]
   },
 

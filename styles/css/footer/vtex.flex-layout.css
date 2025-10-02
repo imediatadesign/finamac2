@@ -184,8 +184,62 @@
     transform: translateY(-2px);
 }
 
+.flexCol--footer-address-unified :global(.vtex-flex-layout-0-x-flexColChild) {
+    padding-bottom: 0 !important;
+}
+
 .flexRowContent--footer-support-languages {
     display: flex;
     gap: 15px;
     margin-top: 10px;
+}
+
+/* WhatsApp Link Content - Inline e Compacto */
+.flexRowContent--whatsapp-link-content {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.flexRow--whatsapp-link-content {
+    display: inline-flex !important;
+    width: auto !important;
+    margin: 0 !important;
+}
+
+/* Forçar filhos do whatsapp a ficarem inline */
+.flexRowContent--whatsapp-link-content :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+    flex: 0 0 auto !important;
+    padding-right: 0 !important;
+}
+
+.flexRowContent--whatsapp-link-content :global(.vtex-flex-layout-0-x-flexColChild) {
+    width: auto !important;
+    flex: 0 0 auto !important;
+}
+
+/* Footer Spacer */
+.flexRow--footer-spacer {
+    height: 20px !important;
+    min-height: 20px !important;
+}
+
+.flexRowContent--footer-spacer {
+    height: 20px !important;
+    min-height: 20px !important;
+}
+
+/* Alinhar coluna sem título com as que têm título */
+.flexCol--footer-column-no-title {
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .flexCol--footer-column-no-title {
+        padding-top: 0;
+    }
 }

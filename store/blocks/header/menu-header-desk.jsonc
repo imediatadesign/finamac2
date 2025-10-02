@@ -408,8 +408,8 @@
   "menu-item#process-desenvolvedoras": {
     "props": {
       "itemProps": {
-        "tagTitle": "Desenvolvedoras",
-        "text": "Desenvolvedoras",
+        "tagTitle": "Incorporadores",
+        "text": "Incorporadores",
         "href": "/maquinas/por-processo-produtivo/desenvolvedoras"
       },
       "blockClass": "sub-menu-header"
@@ -1308,8 +1308,9 @@
     "children": [
       "menu-item#sub-menu-9-list-1",
       "menu-item#sub-menu-9-list-2",
-      "menu-item#sub-menu-9-list-3",
-      "menu-item#sub-menu-9-list-4"
+      "menu-item#sub-menu-9-list-3-title",
+      "menu-item#sub-menu-9-list-3-brasil",
+      "menu-item#sub-menu-9-list-3-usa"
     ]
   },
   "menu-item#sub-menu-9-list-1": {
@@ -1332,24 +1333,33 @@
       "blockClass": "sub-menu-header-title"
     }
   },
-  "menu-item#sub-menu-9-list-3": {
+  "menu-item#sub-menu-9-list-3-title": {
     "props": {
       "itemProps": {
         "tagTitle": "Assistência Técnica",
-        "text": "Assistência Técnica",
-        "href": "/assistencia-tecnica-finamac"
+        "text": "Assistência Técnica"
       },
       "blockClass": "sub-menu-header-title"
     }
   },
-  "menu-item#sub-menu-9-list-4": {
+  "menu-item#sub-menu-9-list-3-brasil": {
     "props": {
       "itemProps": {
-        "tagTitle": "Ouvidoria",
-        "text": "Ouvidoria",
-        "href": "/ouvidoria"
+        "tagTitle": "Brasil",
+        "text": "Brasil",
+        "href": "/assistencia-tecnica-brasil"
       },
-      "blockClass": "sub-menu-header-title"
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#sub-menu-9-list-3-usa": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "EUA e Mundo",
+        "text": "EUA e Mundo",
+        "href": "/assistencia-tecnica-usa"
+      },
+      "blockClass": "sub-menu-header"
     }
   }
 }

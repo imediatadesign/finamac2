@@ -197,16 +197,28 @@
   },
 
 
-  "store.custom#assistencia-tecnica-finamac": {
-    "path": "/assistencia-tecnica-finamac"
+  "store.custom#assistencia-tecnica-brasil": {
+    "path": "/assistencia-tecnica-brasil"
   },
 
-  "store.custom#technical-support-finamac": {
-    "path": "/technical-support-finamac"
+  "store.custom#technical-support-brazil": {
+    "path": "/technical-support-brazil"
   },
 
-  "store.custom#asistencia-tecnica-finamac": {
-    "path": "/asistencia-tecnica-finamac"
+  "store.custom#asistencia-tecnica-brasil": {
+    "path": "/asistencia-tecnica-brasil"
+  },
+
+  "store.custom#assistencia-tecnica-usa": {
+    "path": "/assistencia-tecnica-usa"
+  },
+
+  "store.custom#technical-support-usa": {
+    "path": "/technical-support-usa"
+  },
+
+  "store.custom#asistencia-tecnica-usa": {
+    "path": "/asistencia-tecnica-usa"
   },
 
   "store.custom#politica-de-privacidade": {

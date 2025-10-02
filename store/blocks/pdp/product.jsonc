@@ -186,13 +186,13 @@
       "flex-layout.row#product-installments-pdp",
       "flex-layout.row#pdp-pix-price",
       // "payment-conditions",
-      "flex-layout.row#product-quantity",
+      // "flex-layout.row#product-quantity",
       "flex-layout.row#sku-selector",
       "flex-layout.row#pdp-contato",
       // "flex-layout.row#add-to-cart",
       // "flex-layout.row#buy-now",
-      "flex-layout.row#consulte-produtos-pdp",
-      "flex-layout.row#shipping-simulator"
+      "flex-layout.row#consulte-produtos-pdp"
+      // "flex-layout.row#shipping-simulator"
       // "product-assembly-options"
     ]
   },

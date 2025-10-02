@@ -16,7 +16,7 @@
 /* Technical Support Button */
 .link--footer-support-button {
   display: inline-block !important;
-  margin-top: 25px !important;
+  margin-top: 15px !important;
   padding: 16px 40px !important;
   background: #ffffff !important;
   color: #025da6 !important;
@@ -61,4 +61,19 @@
 .link--footer-support-button:active {
   transform: translateY(-1px) scale(1.02) !important;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* WhatsApp Link */
+.link--footer-whatsapp-link {
+  display: inline-block !important;
+  width: auto !important;
+  margin-top: 5px !important;
+  margin-bottom: 20px !important;
+  padding: 0 !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.link--footer-whatsapp-link:hover {
+  transform: translateX(5px) !important;
 }

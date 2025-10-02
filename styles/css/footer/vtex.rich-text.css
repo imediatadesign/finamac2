@@ -31,8 +31,8 @@
 .paragraph--footer-address-content {
     color: #ffffff !important;
     font-size: 0.95rem;
+    margin: 0 !important;
     line-height: 1.8;
-    margin: 0 0 25px 0;
     font-weight: 400;
 }
 
@@ -58,4 +58,24 @@
     font-weight: 600;
     margin: 25px 0 15px 0;
     text-transform: uppercase;
+}
+
+/* WhatsApp Text */
+.paragraph--whatsapp-text {
+    color: #ffffff !important;
+    font-size: 1.05rem !important;
+    font-weight: 700 !important;
+    margin: 0 !important;
+    line-height: 1.4 !important;
+    letter-spacing: 0.5px !important;
+}
+
+.container--whatsapp-text {
+    margin: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .paragraph--whatsapp-text {
+        font-size: 1.125rem !important;
+    }
 }

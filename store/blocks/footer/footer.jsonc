@@ -111,8 +111,6 @@
     },
     "children": [
         "menu-item#menu-footer-mobile-1",
-        "menu-item#menu-footer-mobile-2",
-        "menu-item#menu-footer-mobile-3",
         "menu-item#menu-footer-mobile-4"
     ]
   },
@@ -155,68 +153,6 @@
                       "menu-item#footer-ombudsman"
               ]
             },
-
-  // 2
-
-  "menu-item#menu-footer-mobile-2": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Serviços",
-        "text":  "Serviços"
-      },
-        "blockClass":"menu-footer-mobile"
-    },
-   "blocks": [
-      "vtex.menu@2.x:submenu.accordion#menu-footer-mobile-2"
-    ]
-  },
-        "vtex.menu@2.x:submenu.accordion#menu-footer-mobile-2": {
-          "children": [
-            "vtex.menu@2.x:menu#menu-footer-mobile-2"
-          ]
-        },
-            "vtex.menu@2.x:menu#menu-footer-mobile-2": {
-              "props": {
-                "orientation": "vertical"
-              },
-              "children": [
-                  "menu-item#footer-courses",
-                  "menu-item#footer-consulting",
-                  "menu-item#footer-technical-support",
-                  "menu-item#footer-training-videos",
-                  "menu-item#footer-finamac-training"
-              ]
-            },
-
-  // 3
-
-  "menu-item#menu-footer-mobile-3": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Políticas",
-        "text":  "Políticas"
-      },
-        "blockClass":"menu-footer-mobile"
-    },
-   "blocks": [
-      "vtex.menu@2.x:submenu.accordion#menu-footer-mobile-3"
-    ]
-  },
-        "vtex.menu@2.x:submenu.accordion#menu-footer-mobile-3": {
-          "children": [
-            "vtex.menu@2.x:menu#menu-footer-mobile-3"
-          ]
-        },
-            "vtex.menu@2.x:menu#menu-footer-mobile-3": {
-              "props": {
-                "orientation": "vertical"
-              },
-              "children": [
-                  "menu-item#footer-privacy-policy",
-                  "menu-item#footer-cookie-policy"
-              ]
-            },
-
 
   // 4
 

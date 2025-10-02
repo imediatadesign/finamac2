@@ -1,0 +1,12 @@
+/* WhatsApp Icon */
+.imageElement--whatsapp-icon {
+  flex-shrink: 0 !important;
+  transition: transform 0.3s ease !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  margin-right: 10px !important;
+}
+
+.link--footer-whatsapp-link:hover .imageElement--whatsapp-icon {
+  transform: scale(1.1) rotate(5deg) !important;
+}

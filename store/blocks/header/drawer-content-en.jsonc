@@ -90,6 +90,9 @@
       "flex-layout.col#sub-menu-2-list-A-en",
       "flex-layout.col#sub-menu-2-list-B-en",
       "menu-item#menusubnivel-sanfone-category-2-insumos-en",
+      "menu-item#insumo-embalagens-en",
+      "menu-item#insumo-fluidos-en",
+      "menu-item#insumo-palitos-en",
       "menu-item#menusubnivel-sanfone-category-2-vertodos-en"
     ]
   },
@@ -400,6 +403,40 @@
         "href": "https://www.natikosb2b.com.br/",
         "type": "external"
       }
+    }
+  },
+  // Subitens de Insumos
+  "menu-item#insumo-embalagens-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Packaging",
+        "text": "Packaging",
+        "href": "/supplies/packaging",
+        "categoryId": "52"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#insumo-fluidos-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Fluids",
+        "text": "Fluids",
+        "href": "/supplies/fluids",
+        "categoryId": "51"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#insumo-palitos-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Wooden Sticks",
+        "text": "Wooden Sticks",
+        "href": "/supplies/sticks",
+        "categoryId": "50"
+      },
+      "blockClass": "sub-menu-header"
     }
   }
 }

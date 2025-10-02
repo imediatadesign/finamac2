@@ -1311,8 +1311,9 @@
     "children": [
       "menu-item#sub-menu-9-list-1-es",
       "menu-item#sub-menu-9-list-2-es",
-      "menu-item#sub-menu-9-list-3-es",
-      "menu-item#sub-menu-9-list-4-es"
+      "menu-item#sub-menu-9-list-3-title-es",
+      "menu-item#sub-menu-9-list-3-brasil-es",
+      "menu-item#sub-menu-9-list-3-usa-es"
     ]
   },
   "menu-item#sub-menu-9-list-1-es": {
@@ -1335,24 +1336,33 @@
       "blockClass": "sub-menu-header-title"
     }
   },
-  "menu-item#sub-menu-9-list-3-es": {
+  "menu-item#sub-menu-9-list-3-title-es": {
     "props": {
       "itemProps": {
         "tagTitle": "Asistencia Técnica",
-        "text": "Asistencia Técnica",
-        "href": "/asistencia-tecnica-finamac"
+        "text": "Asistencia Técnica"
       },
       "blockClass": "sub-menu-header-title"
     }
   },
-  "menu-item#sub-menu-9-list-4-es": {
+  "menu-item#sub-menu-9-list-3-brasil-es": {
     "props": {
       "itemProps": {
-        "tagTitle": "Defensoría del Cliente",
-        "text": "Defensoría del Cliente",
-        "href": "/defensoria"
+        "tagTitle": "Brasil",
+        "text": "Brasil",
+        "href": "/asistencia-tecnica-brasil"
       },
-      "blockClass": "sub-menu-header-title"
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#sub-menu-9-list-3-usa-es": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "EE.UU. y Mundo",
+        "text": "EE.UU. y Mundo",
+        "href": "/asistencia-tecnica-usa"
+      },
+      "blockClass": "sub-menu-header"
     }
   }
 }

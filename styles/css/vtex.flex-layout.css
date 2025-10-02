@@ -143,7 +143,6 @@
   padding: 0;
   position: relative;
   overflow: hidden;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .flexRow--footer-info-container::before {
@@ -171,8 +170,8 @@
 
 /* Navegação Principal do Footer */
 .flexRow--footer-navigation {
-  padding: 45px 0 40px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 15px 0 10px;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.08); */
 }
 
 .flexRowContent--footer-navigation {
@@ -313,12 +312,6 @@
   z-index: 1;
 }
 
-/* Footer Row 2 */
-.flexRow--footer-row-2 {
-  background: rgba(2, 93, 166, 0.05);
-  padding: 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-}
 
 .flexRowContent--footer-row-2 {
   max-width: 1240px;

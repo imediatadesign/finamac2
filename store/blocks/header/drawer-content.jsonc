@@ -92,6 +92,9 @@
       "flex-layout.col#sub-menu-2-list-A",
       "flex-layout.col#sub-menu-2-list-B",
       "menu-item#menusubnivel-sanfone-category-2-insumos",
+      "menu-item#insumo-embalagens",
+      "menu-item#insumo-fluidos",
+      "menu-item#insumo-palitos",
       "menu-item#menusubnivel-sanfone-category-2-vertodos"
     ]
   },
@@ -404,6 +407,40 @@
         "href": "https://www.natikosb2b.com.br/",
         "type": "external"
       }
+    }
+  },
+  // Subitens de Insumos
+  "menu-item#insumo-embalagens": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Bolsas",
+        "text": "Bolsas",
+        "href": "/insumos/embalagens",
+        "categoryId": "52"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#insumo-fluidos": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Fluidos",
+        "text": "Fluidos",
+        "href": "/insumos/fluidos",
+        "categoryId": "51"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#insumo-palitos": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Palito de Madera",
+        "text": "Palito de Madera",
+        "href": "/insumos/palitos",
+        "categoryId": "50"
+      },
+      "blockClass": "sub-menu-header"
     }
   }
 }

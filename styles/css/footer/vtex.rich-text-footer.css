@@ -177,3 +177,23 @@
     font-size: 9px !important;
   }
 }
+
+/* WhatsApp Text Styling */
+:global(.vtex-rich-text-0-x-container--whatsapp-text) {
+  margin: 0 !important;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--whatsapp-text) {
+  color: #ffffff !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+  line-height: 1.4 !important;
+  letter-spacing: 0.5px !important;
+}
+
+@media (max-width: 768px) {
+  :global(.vtex-rich-text-0-x-paragraph--whatsapp-text) {
+    font-size: 1.125rem !important;
+  }
+}
