@@ -166,8 +166,7 @@
   "flex-layout.col#empty-state": {
     "children": [
       "icon-cart#minicart-empty-state",
-      "rich-text#minicart-default-empty-state",
-      "rich-text#minicart-default-empty-state-sub"
+      "condition-layout.binding#minicart-empty-text"
     ],
     "props": {
       "horizontalAlign": "center",
@@ -185,16 +184,90 @@
     }
   },
 
-  "rich-text#minicart-default-empty-state": {
+  // ========== MINICART EMPTY STATE MULTI-IDIOMA ==========
+  "condition-layout.binding#minicart-empty-text": {
+    "props": {
+      "conditions": [{
+        "subject": "bindingId",
+        "arguments": {
+          "id": "33cd2dcc-c319-4da0-82d5-71aa38b19380"  // PT-BR
+        }
+      }],
+      "Then": "flex-layout.col#minicart-empty-pt",
+      "Else": "condition-layout.binding#minicart-empty-en-es"
+    }
+  },
+
+  "condition-layout.binding#minicart-empty-en-es": {
+    "props": {
+      "conditions": [{
+        "subject": "bindingId",
+        "arguments": {
+          "id": "56fe0518-7750-4e50-ada7-9d9c7e2f41c8"  // EN-US
+        }
+      }],
+      "Then": "flex-layout.col#minicart-empty-en",
+      "Else": "flex-layout.col#minicart-empty-es"  // ES-ES fallback
+    }
+  },
+
+  // PT-BR
+  "flex-layout.col#minicart-empty-pt": {
+    "children": [
+      "rich-text#minicart-empty-title-pt",
+      "rich-text#minicart-empty-sub-pt"
+    ]
+  },
+  "rich-text#minicart-empty-title-pt": {
     "props": {
       "blockClass": "minicartEmptyTitle",
       "text": "Desculpe você não\n tem produtos aqui"
     }
   },
-  "rich-text#minicart-default-empty-state-sub": {
+  "rich-text#minicart-empty-sub-pt": {
     "props": {
       "blockClass": "minicartEmptySub",
       "text": "Volte e faça suas compras"
+    }
+  },
+
+  // EN-US
+  "flex-layout.col#minicart-empty-en": {
+    "children": [
+      "rich-text#minicart-empty-title-en",
+      "rich-text#minicart-empty-sub-en"
+    ]
+  },
+  "rich-text#minicart-empty-title-en": {
+    "props": {
+      "blockClass": "minicartEmptyTitle",
+      "text": "Sorry, you don't\n have products here"
+    }
+  },
+  "rich-text#minicart-empty-sub-en": {
+    "props": {
+      "blockClass": "minicartEmptySub",
+      "text": "Go back and shop"
+    }
+  },
+
+  // ES-ES
+  "flex-layout.col#minicart-empty-es": {
+    "children": [
+      "rich-text#minicart-empty-title-es",
+      "rich-text#minicart-empty-sub-es"
+    ]
+  },
+  "rich-text#minicart-empty-title-es": {
+    "props": {
+      "blockClass": "minicartEmptyTitle",
+      "text": "Lo sentimos, no tienes\n productos aquí"
+    }
+  },
+  "rich-text#minicart-empty-sub-es": {
+    "props": {
+      "blockClass": "minicartEmptySub",
+      "text": "Vuelve y haz tus compras"
     }
   }
 }

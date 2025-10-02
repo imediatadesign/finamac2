@@ -7,9 +7,10 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "condition-layout.binding#footer-switcher",
       "flex-layout.row#newsletter",
-      "flex-layout.row#footer-row-2",
-      "condition-layout.binding#footer-switcher"
+      "condition-layout.binding#footer-navigation-switcher",
+      "flex-layout.row#footer-row-2"
     ]
   },
 
@@ -39,6 +40,32 @@
       "Else": "flex-layout.row#footer-info--es"  // ES-ES fallback
     }
   },
+
+  "condition-layout.binding#footer-navigation-switcher": {
+    "props": {
+      "conditions": [{
+        "subject": "bindingId",
+        "arguments": {
+          "id": "33cd2dcc-c319-4da0-82d5-71aa38b19380"  // PT-BR
+        }
+      }],
+      "Then": "flex-layout.col#footer-navigation-wrapper",
+      "Else": "condition-layout.binding#footer-navigation-en-es"
+    }
+  },
+
+  "condition-layout.binding#footer-navigation-en-es": {
+    "props": {
+      "conditions": [{
+        "subject": "bindingId",
+        "arguments": {
+          "id": "56fe0518-7750-4e50-ada7-9d9c7e2f41c8"  // EN-US
+        }
+      }],
+      "Then": "flex-layout.col#footer-navigation-wrapper--en",
+      "Else": "flex-layout.col#footer-navigation-wrapper--es"  // ES-ES fallback
+    }
+  },
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#footer-mobile-main"
@@ -62,7 +89,6 @@
     "children": [
        "flex-layout.col#footer-about",
        "flex-layout.col#accordion-menu-footer",
-       "flex-layout.row#footer-privacy",
        "flex-layout.row#footer-addresses"
    /*   "rich-text#footer-mobile-newsletter-title",
       "newsletter-form#footer-mobile",
@@ -155,9 +181,7 @@
               "children": [
                   "menu-item#footer-courses",
                   "menu-item#footer-consulting",
-                  "menu-item#footer-technical-support",
-                  "menu-item#footer-training-videos",
-                  "menu-item#footer-finamac-training"
+                  "menu-item#footer-technical-support"
               ]
             },
 

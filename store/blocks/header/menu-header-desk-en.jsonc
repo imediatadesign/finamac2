@@ -16,8 +16,8 @@
     "children": [
       "drawer#menu",
       "menu-item#desk-header-menu-1-en",
-      "menu-item#desk-header-menu-6-en",
       "menu-item#desk-header-menu-2-en",
+      "menu-item#desk-header-menu-6-en",
       "menu-item#desk-header-menu-4-en",
       "menu-item#desk-header-menu-5-en",
       "menu-item#desk-header-menu-8-en",
@@ -136,7 +136,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/request-quote",
+        "href": "/consult-our-products",
         "noFollow": false,
         "tagTitle": "Request Quote",
         "text": "Request Quote"
@@ -323,8 +323,8 @@
   "menu-item#process-dosagem-en": {
     "props": {
       "itemProps": {
-        "tagTitle": "Automatic Dosing of Popsicle Molds",
-        "text": "Automatic Dosing of Popsicle Molds",
+        "tagTitle": "Automatic Dosing of Ice Pop Molds",
+        "text": "Automatic Dosing of Ice Pop Molds",
         "href": "/machinery/by-production-process/automatic-dosing-of-popsicle-molds"
       },
       "blockClass": "sub-menu-header"
@@ -640,7 +640,7 @@
     "children": [
       "flex-layout.col#sub-menu-2-list-A-en",
       "flex-layout.col#sub-menu-2-list-B-en",
-      "flex-layout.col#sub-menu-2-list-C-insumos-en"
+      "flex-layout.col#sub-menu-2-list-C-en"
     ]
   },
   // Categoria A
@@ -709,25 +709,38 @@
       "blockClass": "sub-menu-header"
     }
   },
-  // Categoria C
+  // Categoria C - Supplies
   "flex-layout.col#sub-menu-2-list-C-en": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
     },
     "children": [
+      "menu-item#sub-menu-2-list-1C-en",
       "menu#sub-menu-2-list-1C-en"
     ]
   },
+  "menu-item#sub-menu-2-list-1C-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Supplies",
+        "text": "Supplies",
+        "href": "/supplies"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
   "menu#sub-menu-2-list-1C-en": {
     "props": {
-      "categoryId": "1",
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "sortSubcategories": "name",
       "orientation": "vertical",
       "blockClass": "sub-menu-header"
-    }
+    },
+    "children": [
+      "menu-item#insumo-palitos-en",
+      "menu-item#insumo-embalagens-en",
+      "menu-item#insumo-fluidos-en"
+    ]
   },
   // Categoria D
   "flex-layout.col#sub-menu-2-list-D-en": {
@@ -763,27 +776,6 @@
       "src": "https://via.placeholder.com/300x320",
       "maxWidth": 300,
       "blockClass": "image-submenu"
-    }
-  },
-  // Categoria C - Insumos (movido do nível principal)
-  "flex-layout.col#sub-menu-2-list-C-insumos-en": {
-    "props": {
-      "width": "100%",
-      "preventVerticalStretch": true,
-      "verticalAlign": "top"
-    },
-    "children": [
-      "menu-item#sub-menu-2-list-1C-insumos-en"
-    ]
-  },
-  "menu-item#sub-menu-2-list-1C-insumos-en": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Supplies",
-        "text": "Supplies",
-        "href": "/supplies"
-      },
-      "blockClass": "sub-menu-header-title"
     }
   },
   // Menu row 3
@@ -1111,6 +1103,8 @@
     },
     "children": [
       "menu-item#sub-menu-6-list-4-pecas-en",
+      "menu-item#sub-menu-6-list-5-training-videos-en",
+      "menu-item#sub-menu-6-list-6-finamac-training-en",
       "menu-item#sub-menu-6-list-1-en",
       "menu-item#sub-menu-6-list-2-en",
       "menu-item#sub-menu-6-list-3-en"
@@ -1168,6 +1162,32 @@
       ]
     }
   },
+  "menu-item#sub-menu-6-list-5-training-videos-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Training Videos",
+        "text": "Training Videos",
+        "href": "/training"
+      },
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-training-videos"
+      ]
+    }
+  },
+  "menu-item#sub-menu-6-list-6-finamac-training-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Finamac Training",
+        "text": "Finamac Training",
+        "href": "/finamac-training"
+      },
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-finamac-training"
+      ]
+    }
+  },
   // Menu row 7 - Insumos
   "vtex.menu@2.x:submenu#desk-header-menu-7-en": {
     "props": {
@@ -1200,39 +1220,62 @@
       "verticalAlign": "top"
     },
     "children": [
-      "menu-item#sub-menu-7-list-1-en",
-      "menu-item#sub-menu-7-list-2-en",
-      "menu-item#sub-menu-7-list-3-en"
+      "menu-item#sub-menu-7-list-1A-en",
+      "menu#sub-menu-7-list-1A-en"
     ]
   },
-  "menu-item#sub-menu-7-list-1-en": {
+  "menu-item#sub-menu-7-list-1A-en": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Supplies",
+        "text": "Supplies",
+        "href": "/supplies"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
+  "menu#sub-menu-7-list-1A-en": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    },
+    "children": [
+      "menu-item#insumo-embalagens-en",
+      "menu-item#insumo-fluidos-en",
+      "menu-item#insumo-palitos-en"
+    ]
+  },
+  "menu-item#insumo-embalagens-en": {
     "props": {
       "itemProps": {
         "tagTitle": "Packaging",
         "text": "Packaging",
-        "href": "/supplies/packaging"
+        "href": "/supplies/packaging",
+        "categoryId": "52"
       },
-      "blockClass": "sub-menu-header-title"
+      "blockClass": "sub-menu-header"
     }
   },
-  "menu-item#sub-menu-7-list-2-en": {
+  "menu-item#insumo-fluidos-en": {
     "props": {
       "itemProps": {
         "tagTitle": "Fluids",
         "text": "Fluids",
-        "href": "/supplies/fluids"
+        "href": "/supplies/fluids",
+        "categoryId": "51"
       },
-      "blockClass": "sub-menu-header-title"
+      "blockClass": "sub-menu-header"
     }
   },
-  "menu-item#sub-menu-7-list-3-en": {
+  "menu-item#insumo-palitos-en": {
     "props": {
       "itemProps": {
-        "tagTitle": "Sticks",
-        "text": "Sticks",
-        "href": "/supplies/sticks"
+        "tagTitle": "Wooden Sticks",
+        "text": "Wooden Sticks",
+        "href": "/supplies/sticks",
+        "categoryId": "50"
       },
-      "blockClass": "sub-menu-header-title"
+      "blockClass": "sub-menu-header"
     }
   },
   // Menu row 9 - Contato
@@ -1277,7 +1320,7 @@
       "itemProps": {
         "tagTitle": "Request a Quote",
         "text": "Request a Quote",
-        "href": "/request-quote"
+        "href": "/consult-our-products"
       },
       "blockClass": "sub-menu-header-title"
     }
@@ -1287,7 +1330,7 @@
       "itemProps": {
         "tagTitle": "Become a Dealer or Representative",
         "text": "Become a Dealer or Representative",
-        "href": "/become-dealer-representative"
+        "href": "/become-a-reseller-or-representative"
       },
       "blockClass": "sub-menu-header-title"
     }
@@ -1297,7 +1340,7 @@
       "itemProps": {
         "tagTitle": "Technical Assistance",
         "text": "Technical Assistance",
-        "href": "/technical-assistance-finamac"
+        "href": "/technical-support-finamac"
       },
       "blockClass": "sub-menu-header-title"
     }

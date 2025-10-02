@@ -17,11 +17,16 @@
   "flex-layout.col#institucional-Ouvidoria": {
     "children": [
       // "rich-text#ouvidoria-title",
-      "app-form-ouvidoria"
+      "app-form-ouvidoria#pt"
     ],
     "props": {
       "blockClass": "institucional-ouvidoria",
       "width": "100%"
+    }
+  },
+  "app-form-ouvidoria#pt": {
+    "props": {
+      "language": "pt-BR"
     }
   },
 

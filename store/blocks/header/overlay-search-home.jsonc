@@ -1,5 +1,5 @@
 {
-  // Search 
+  // Search
   "flex-layout.row#search-bar": {
     "props": {
       "fullWidth": true,
@@ -21,6 +21,51 @@
       "search-bar"
     ]
   },
+  // Search Bar Header Desktop com Binding
+  "flex-layout.col#search-bar-header-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "width": "grow"
+    },
+    "children": [
+      "condition-layout.binding#search-bar-header"
+    ]
+  },
+  "condition-layout.binding#search-bar-header": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "bindingId",
+          "arguments": {
+            "id": "33cd2dcc-c319-4da0-82d5-71aa38b19380"
+          },
+          "toBe": {
+            "type": "equals"
+          }
+        }
+      ],
+      "Then": "search-bar",
+      "Else": "condition-layout.binding#search-bar-en-es"
+    }
+  },
+  "condition-layout.binding#search-bar-en-es": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "bindingId",
+          "arguments": {
+            "id": "56fe0518-7750-4e50-ada7-9d9c7e2f41c8"
+          },
+          "toBe": {
+            "type": "equals"
+          }
+        }
+      ],
+      "Then": "search-bar#en",
+      "Else": "search-bar#es"
+    }
+  },
   "search-bar": {
     "blocks": [
       "autocomplete-result-list.v2"
@@ -34,7 +79,7 @@
       "containerMode": "container",
       "disableBlurAndTouchEndHandler": true,
       "emptyPlaceholder": "Digite sua busca aqui",
-      "hasIconLeft": false,
+      "hasIconLeft": true,
       "inputType": "text",
       "minSearchTermLength": 3,
       "placeholder": "O que você está procurando?",
@@ -54,7 +99,7 @@
       "containerMode": "container",
       "disableBlurAndTouchEndHandler": true,
       "emptyPlaceholder": "Enter your search here",
-      "hasIconLeft": false,
+      "hasIconLeft": true,
       "inputType": "text",
       "minSearchTermLength": 3,
       "placeholder": "What are you looking for?",
@@ -74,7 +119,7 @@
       "containerMode": "container",
       "disableBlurAndTouchEndHandler": true,
       "emptyPlaceholder": "Ingrese su búsqueda aquí",
-      "hasIconLeft": false,
+      "hasIconLeft": true,
       "inputType": "text",
       "minSearchTermLength": 3,
       "placeholder": "¿Qué estás buscando?",
@@ -85,8 +130,8 @@
   "flex-layout.col#search-bar-overlay": {
     "props": {
       "verticalAlign": "middle",
-      "preventVerticalStretch": true,
-      "width": "auto"
+      "preventVerticalStretch": true
+      // "width": "auto"
     },
     "children": [
       "condition-layout.binding#search-bar"
@@ -94,24 +139,28 @@
   },
   "condition-layout.binding#search-bar": {
     "props": {
-      "conditions": [
-        {
-          "subject": "bindingId",
-          "arguments": { "id": "33cd2dcc-c319-4da0-82d5-71aa38b19380" },
-          "toBe": { "type": "equals" }
-        },
-        {
-          "subject": "bindingId",
-          "arguments": { "id": "1fe4f6bc-dc38-44c6-b840-b330a71693df" },
-          "toBe": { "type": "equals" }
+      "conditions": [{
+        "subject": "bindingId",
+        "arguments": {
+          "id": "33cd2dcc-c319-4da0-82d5-71aa38b19380"  // PT-BR
         }
-      ]
-    },
-    "children": [
-      "overlay-trigger#search-bar",
-      "overlay-trigger#search-bar-en",
-      "overlay-trigger#search-bar-es"
-    ]
+      }],
+      "Then": "overlay-trigger#search-bar",
+      "Else": "condition-layout.binding#search-bar-en-es"
+    }
+  },
+
+  "condition-layout.binding#search-bar-en-es": {
+    "props": {
+      "conditions": [{
+        "subject": "bindingId",
+        "arguments": {
+          "id": "56fe0518-7750-4e50-ada7-9d9c7e2f41c8"  // EN-US
+        }
+      }],
+      "Then": "overlay-trigger#search-bar-en",
+      "Else": "overlay-trigger#search-bar-es"  // ES-ES fallback
+    }
   },
   "overlay-trigger#search-bar": {
     "props": {

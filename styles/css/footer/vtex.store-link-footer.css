@@ -12,3 +12,19 @@
 .link--social-link:last-child {
   margin-right: 0;
 }
+
+/* Footer Menu Links */
+.link--footer-column-link {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  line-height: 1.6;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: block;
+  padding: 4px 0;
+}
+
+.link--footer-column-link:hover {
+  color: #ffffff;
+  padding-left: 5px;
+}

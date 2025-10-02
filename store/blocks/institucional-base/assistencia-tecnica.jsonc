@@ -7,10 +7,15 @@
 
   "flex-layout.row#assistencia-tecnica": {
     "children": [
-      "technical-support"
+      "technical-support#pt"
     ],
     "props": {
       "blockClass": "institucional-assistencia-tecnica"
+    }
+  },
+  "technical-support#pt": {
+    "props": {
+      "language": "pt-BR"
     }
   }
 }

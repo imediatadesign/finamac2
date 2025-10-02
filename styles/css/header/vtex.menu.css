@@ -630,7 +630,7 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--desk-header-submenu) {
     width: 75%;
-    margin: 0 auto;
+    margin: 0;
     display: grid;
     gap: 24px 48px;
     grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
@@ -776,4 +776,13 @@
 
 :global(.vtex-flex-layout-0-x-flexCol--sub-menu-9-list-A) .styledLink--sub-menu-header-title::before {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0a CBkPSJN NCA1SDIwQzIxLjEgNSAyMiA1LjkgMjIgN1YxN0MyMiAxOC4xIDIxLjEgMTkgMjAgMTlINEMyLjkgMTkgMi AxOC4xIDIgMTdWN0MyIDUuOS AyLjkgNSA0IDVaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpbmFsbj0iMS42IiBzdHJva2Ut bGluZWNjYT0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0a CBkPSJNMjIgN0wxMi AxM0wyIDciIHN0cm9rZT0iY3VycmVudEN vbG9yIiBzdHJva2Utd2lkdGg9IjEuNiIgc3Ryb2tlLXdpbmFsbj0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=);
+}
+
+
+:global(.vtex-binding-selector-2-x-buttonText) {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
 }

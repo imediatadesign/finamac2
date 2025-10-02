@@ -4,7 +4,6 @@
       "flex-layout.row#institucional-Defensoria"
     ]
   },
-
   "flex-layout.row#institucional-Defensoria": {
     "children": [
       "flex-layout.col#institucional-Defensoria"
@@ -13,18 +12,21 @@
       "blockClass": "institucional-defensoria"
     }
   },
-
   "flex-layout.col#institucional-Defensoria": {
     "children": [
-      "rich-text#defensoria-title",
-      "app-form-ouvidoria"
+      // "rich-text#defensoria-title",
+      "app-form-ouvidoria#es"
     ],
     "props": {
       "blockClass": "institucional-defensoria",
       "width": "100%"
     }
   },
-
+  "app-form-ouvidoria#es": {
+    "props": {
+      "language": "es-ES"
+    }
+  },
   "rich-text#defensoria-title": {
     "props": {
       "text": "# Defensoría\n\nLa Defensoría de Finamac es un canal de comunicación directo entre usted y nuestra empresa. Aquí puede enviar sugerencias, quejas o elogios que serán tratados con total confidencialidad.",

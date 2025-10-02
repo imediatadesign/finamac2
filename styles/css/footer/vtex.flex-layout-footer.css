@@ -35,14 +35,24 @@
   padding: 0;
 }
 
+/* Wrapper de Navegação do Footer */
+.flexCol--footer-navigation-wrapper {
+  width: 100%;
+  background: linear-gradient(180deg, #1a1a1a 0%, #0a0a0a 100%);
+}
+
 /* Navegação Principal do Footer - Mais Compacta */
 .flexRow--footer-navigation {
   padding: 45px 0 40px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .flexRowContent--footer-navigation {
-  /* display: grid; */
+  display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
   gap: 25px;
   max-width: 100%;

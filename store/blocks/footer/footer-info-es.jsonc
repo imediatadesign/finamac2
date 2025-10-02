@@ -15,9 +15,15 @@
       "blockClass": "footer-info-main"
     },
     "children": [
-      "flex-layout.row#footer-navigation--es",
-      "flex-layout.row#footer-privacy--es",
       "flex-layout.row#footer-addresses--es"
+    ]
+  },
+  "flex-layout.col#footer-navigation-wrapper--es": {
+    "props": {
+      "blockClass": "footer-navigation-wrapper"
+    },
+    "children": [
+      "flex-layout.row#footer-navigation--es"
     ]
   },
   // Seção de Navegação do Footer
@@ -266,9 +272,7 @@
     "children": [
       "menu-item#footer-courses--es",
       "menu-item#footer-consulting--es",
-      "menu-item#footer-technical-support--es",
-      "menu-item#footer-training-videos--es",
-      "menu-item#footer-finamac-training--es"
+      "menu-item#footer-technical-support--es"
     ]
   },
   "menu-item#footer-courses--es": {
@@ -303,30 +307,6 @@
         "type": "internal",
         "href": "/asistencia-tecnica",
         "text": "Asistencia Técnica"
-      },
-      "blockClass": "footer-menu-item"
-    }
-  },
-  "menu-item#footer-training-videos--es": {
-    "props": {
-      "id": "footer-training-videos-es",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/entrenamiento",
-        "text": "Videos de Entrenamiento"
-      },
-      "blockClass": "footer-menu-item"
-    }
-  },
-  "menu-item#footer-finamac-training--es": {
-    "props": {
-      "id": "footer-finamac-training-es",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/entrenamiento-finamac",
-        "text": "Entrenamiento Finamac"
       },
       "blockClass": "footer-menu-item"
     }
@@ -427,40 +407,6 @@
       "blockClass": "footer-menu-item"
     }
   },
-  // Seção de Privacidade
-  "flex-layout.row#footer-privacy--es": {
-    "props": {
-      "blockClass": "footer-privacy",
-      "preserveLayoutOnMobile": true
-    },
-    "children": [
-      "flex-layout.col#footer-privacy-content--es"
-    ]
-  },
-  "flex-layout.col#footer-privacy-content--es": {
-    "props": {
-      "blockClass": "footer-privacy-content",
-      "width": "100%"
-    },
-    "children": [
-      "rich-text#footer-privacy-title--es",
-      "rich-text#footer-privacy-text--es"
-    ]
-  },
-  "rich-text#footer-privacy-title--es": {
-    "props": {
-      "text": "### PRIVACIDAD Y USO DE DATOS",
-      "blockClass": "footer-privacy-title",
-      "textAlignment": "CENTER"
-    }
-  },
-  "rich-text#footer-privacy-text--es": {
-    "props": {
-      "text": "FINAMAC valora la privacidad de sus usuarios y se compromete a utilizar los datos personales proporcionados por los usuarios exclusivamente para el seguimiento de pedidos y actividades de marketing. Al autenticarse en este sitio web, usted acepta el uso de sus datos personales para Seguimiento de Pedidos, Procesamiento de Pedidos y Envío de comunicaciones de marketing y promociones.",
-      "blockClass": "footer-privacy-text",
-      "textAlignment": "CENTER"
-    }
-  },
   // Seção de Endereços
   "flex-layout.row#footer-addresses--es": {
     "props": {
@@ -468,107 +414,79 @@
       "preserveLayoutOnMobile": false
     },
     "children": [
-      "flex-layout.col#address-brazil-sales--es",
-      "flex-layout.col#address-usa-sales--es",
-      "flex-layout.col#address-brazil-support--es",
-      "flex-layout.col#address-usa-support--es"
+      "flex-layout.col#address-brazil-unified--es",
+      "flex-layout.col#address-usa-unified--es"
     ]
   },
-  "flex-layout.col#address-brazil-sales--es": {
+  "flex-layout.col#address-brazil-unified--es": {
     "props": {
-      "blockClass": "footer-address-column",
+      "blockClass": "footer-address-unified",
       "width": {
-        "desktop": "25%",
-        "tablet": "50%",
+        "desktop": "50%",
+        "tablet": "100%",
         "mobile": "100%"
       }
     },
     "children": [
-      "rich-text#address-brazil-sales-title--es",
-      "rich-text#address-brazil-sales-content--es"
+      "rich-text#address-brazil-title--es",
+      "rich-text#address-brazil-sales--es",
+      "rich-text#address-brazil-support-title--es"
     ]
   },
-  "rich-text#address-brazil-sales-title--es": {
+  "rich-text#address-brazil-title--es": {
     "props": {
       "text": "### BRASIL - Ventas",
-      "blockClass": "footer-address-title",
+      "blockClass": "footer-address-main-title",
       "textAlignment": "LEFT"
     }
   },
-  "rich-text#address-brazil-sales-content--es": {
+  "rich-text#address-brazil-sales--es": {
     "props": {
-      "text": "Avenida Nazaré 1657 - Ipiranga\nCEP: 04263-200\nSão Paulo / SP\nTeléfono: +55 11 2135 6500\nCNPJ: 08.262.762/0001-78\nFinamac Engenharia e Industrialização de Equipamentos LTDA",
-      "blockClass": "footer-address-text",
+      "text": "**Avenida Nazaré 1657 - Ipiranga**\n**CEP: 04263-200 - São Paulo / SP**\n**Teléfono: +55 11 2135 6500**\n**[WhatsApp: +55 11 98846-5990](https://api.whatsapp.com/send/?phone=5511988465990)**\n\nCNPJ: 08.262.762/0001-78\nFinamac Engenharia e Industrialização de Equipamentos LTDA",
+      "blockClass": "footer-address-content",
       "textAlignment": "LEFT"
     }
-  },
-  "flex-layout.col#address-usa-sales--es": {
-    "props": {
-      "blockClass": "footer-address-column",
-      "width": {
-        "desktop": "25%",
-        "tablet": "50%",
-        "mobile": "100%"
-      }
-    },
-    "children": [
-      "rich-text#address-usa-sales-title--es",
-      "rich-text#address-usa-sales-content--es"
-    ]
-  },
-  "rich-text#address-usa-sales-title--es": {
-    "props": {
-      "text": "### EE.UU. - Ventas",
-      "blockClass": "footer-address-title",
-      "textAlignment": "LEFT"
-    }
-  },
-  "rich-text#address-usa-sales-content--es": {
-    "props": {
-      "text": "11231 NW 20th Street Unit 130\nZIP: 33172\nMiami / FL\nTeléfono: +1-877-342-7458\nEste número no acepta llamadas desde fuera de Estados Unidos\nTeléfono: +1-786-408-0729\nTeléfono/Whatsapp: +1-305-804-8636",
-      "blockClass": "footer-address-text",
-      "textAlignment": "LEFT"
-    }
-  },
-  "flex-layout.col#address-brazil-support--es": {
-    "props": {
-      "blockClass": "footer-address-column",
-      "width": {
-        "desktop": "25%",
-        "tablet": "50%",
-        "mobile": "100%"
-      }
-    },
-    "children": [
-      "rich-text#address-brazil-support-title--es",
-      "vtex.menu@2.x:menu#support-brazil-links"
-    ]
   },
   "rich-text#address-brazil-support-title--es": {
     "props": {
-      "text": "### BRASIL - Soporte Técnico",
-      "blockClass": "footer-address-title",
+      "text": "**BRASIL - Soporte Técnico**",
+      "blockClass": "footer-support-title",
       "textAlignment": "LEFT"
     }
   },
-  "flex-layout.col#address-usa-support--es": {
+  "flex-layout.col#address-usa-unified--es": {
     "props": {
-      "blockClass": "footer-address-column",
+      "blockClass": "footer-address-unified",
       "width": {
-        "desktop": "25%",
-        "tablet": "50%",
+        "desktop": "50%",
+        "tablet": "100%",
         "mobile": "100%"
       }
     },
     "children": [
-      "rich-text#address-usa-support-title--es",
-      "vtex.menu@2.x:menu#support-usa-links"
+      "rich-text#address-usa-title--es",
+      "rich-text#address-usa-sales--es",
+      "rich-text#address-usa-support-title--es"
     ]
+  },
+  "rich-text#address-usa-title--es": {
+    "props": {
+      "text": "### EE.UU. y Otros Países - Ventas",
+      "blockClass": "footer-address-main-title",
+      "textAlignment": "LEFT"
+    }
+  },
+  "rich-text#address-usa-sales--es": {
+    "props": {
+      "text": "**11231 NW 20th Street Unit 130**\n**ZIP: 33172 - Miami / FL**\n**Teléfono: +1-786-408-0729**\n**[WhatsApp: +1-305-804-8636](https://api.whatsapp.com/send/?phone=13058048636)**",
+      "blockClass": "footer-address-content",
+      "textAlignment": "LEFT"
+    }
   },
   "rich-text#address-usa-support-title--es": {
     "props": {
-      "text": "### EE.UU. - Soporte Técnico",
-      "blockClass": "footer-address-title",
+      "text": "**EE.UU. - Soporte Técnico**",
+      "blockClass": "footer-support-title",
       "textAlignment": "LEFT"
     }
   }

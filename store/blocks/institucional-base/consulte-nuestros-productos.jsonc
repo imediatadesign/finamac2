@@ -20,9 +20,13 @@
   
   "flex-layout.col#consulte-nuestros-productos": {
     "children": [
-      // "rich-text#consulte-nuestros-productos-title",
-      "app-form-leads"
+      "app-form-leads#es"
     ]
+  },
+  "app-form-leads#es": {
+    "props": {
+      "language": "es-ES"
+    }
   },
   
   "rich-text#consulte-nuestros-productos-title": {

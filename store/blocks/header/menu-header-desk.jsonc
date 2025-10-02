@@ -16,8 +16,8 @@
     "children": [
       "drawer#menu",
       "menu-item#desk-header-menu-1",
-      "menu-item#desk-header-menu-6",
       "menu-item#desk-header-menu-2",
+      "menu-item#desk-header-menu-6",
       "menu-item#desk-header-menu-4",
       "menu-item#desk-header-menu-5",
       "menu-item#desk-header-menu-8",
@@ -646,9 +646,7 @@
     "children": [
       "flex-layout.col#sub-menu-2-list-A",
       "flex-layout.col#sub-menu-2-list-B",
-      "flex-layout.col#sub-menu-2-list-C-insumos"
-      /* "flex-layout.col#sub-menu-2-list-C",
-              "flex-layout.col#sub-menu-2-list-D"*/
+      "flex-layout.col#sub-menu-2-list-C"
     ]
   },
   // Categoria A
@@ -717,25 +715,38 @@
       "blockClass": "sub-menu-header"
     }
   },
-  // Categoria C
+  // Categoria C - Insumos
   "flex-layout.col#sub-menu-2-list-C": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "top"
     },
     "children": [
+      "menu-item#sub-menu-2-list-1C",
       "menu#sub-menu-2-list-1C"
     ]
   },
+  "menu-item#sub-menu-2-list-1C": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Insumos",
+        "text": "Insumos",
+        "href": "/insumos"
+      },
+      "blockClass": "sub-menu-header-title"
+    }
+  },
   "menu#sub-menu-2-list-1C": {
     "props": {
-      "categoryId": "1",
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "sortSubcategories": "name",
       "orientation": "vertical",
       "blockClass": "sub-menu-header"
-    }
+    },
+    "children": [
+      "menu-item#insumo-palitos",
+      "menu-item#insumo-embalagens",
+      "menu-item#insumo-fluidos"
+    ]
   },
   // Categoria D
   "flex-layout.col#sub-menu-2-list-D": {
@@ -755,43 +766,6 @@
       "sortSubcategories": "name",
       "orientation": "vertical",
       "blockClass": "sub-menu-header"
-    }
-  },
-  "flex-layout.col#col2-submenu-2": {
-    "children": [
-      "image#image-submenu-2"
-    ],
-    "props": {
-      "horizontalAlign": "center",
-      "width": "30%"
-    }
-  },
-  "image#image-submenu-2": {
-    "props": {
-      "src": "https://via.placeholder.com/300x320",
-      "maxWidth": 300,
-      "blockClass": "image-submenu"
-    }
-  },
-  // Categoria C - Insumos (movido do nível principal)
-  "flex-layout.col#sub-menu-2-list-C-insumos": {
-    "props": {
-      "width": "100%",
-      "preventVerticalStretch": true,
-      "verticalAlign": "top"
-    },
-    "children": [
-      "menu-item#sub-menu-2-list-1C-insumos"
-    ]
-  },
-  "menu-item#sub-menu-2-list-1C-insumos": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Insumos",
-        "text": "Insumos",
-        "href": "/insumos"
-      },
-      "blockClass": "sub-menu-header-title"
     }
   },
   // Menu row 3
@@ -1126,6 +1100,8 @@
     },
     "children": [
       "menu-item#sub-menu-6-list-4-pecas",
+      "menu-item#sub-menu-6-list-5-videos-treinamento",
+      "menu-item#sub-menu-6-list-6-finamac-training",
       "menu-item#sub-menu-6-list-1",
       "menu-item#sub-menu-6-list-2",
       "menu-item#sub-menu-6-list-3"
@@ -1183,6 +1159,32 @@
       ]
     }
   },
+  "menu-item#sub-menu-6-list-5-videos-treinamento": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Vídeos de Treinamento",
+        "text": "Vídeos de Treinamento",
+        "href": "/treinamento"
+      },
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-videos-treinamento"
+      ]
+    }
+  },
+  "menu-item#sub-menu-6-list-6-finamac-training": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Treinamento Finamac",
+        "text": "Treinamento Finamac",
+        "href": "/treinamento-finamac"
+      },
+      "blockClass": [
+        "sub-menu-header-title",
+        "sub-menu-service-finamac-training"
+      ]
+    }
+  },
   // Menu row 7 - Insumos
   "vtex.menu@2.x:submenu#desk-header-menu-7": {
     "props": {
@@ -1215,39 +1217,62 @@
       "verticalAlign": "top"
     },
     "children": [
-      "menu-item#sub-menu-7-list-1",
-      "menu-item#sub-menu-7-list-2",
-      "menu-item#sub-menu-7-list-3"
+      "menu-item#sub-menu-7-list-1A",
+      "menu#sub-menu-7-list-1A"
     ]
   },
-  "menu-item#sub-menu-7-list-1": {
+  "menu-item#sub-menu-7-list-1A": {
     "props": {
       "itemProps": {
-        "tagTitle": "Embalagens",
-        "text": "Embalagens",
-        "href": "/insumos/embalagens"
+        "tagTitle": "Insumos",
+        "text": "Insumos",
+        "href": "/insumos"
       },
       "blockClass": "sub-menu-header-title"
     }
   },
-  "menu-item#sub-menu-7-list-2": {
+  "menu#sub-menu-7-list-1A": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "sub-menu-header"
+    },
+    "children": [
+      "menu-item#insumo-embalagens",
+      "menu-item#insumo-fluidos",
+      "menu-item#insumo-palitos"
+    ]
+  },
+  "menu-item#insumo-embalagens": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Bolsas",
+        "text": "Bolsas",
+        "href": "/insumos/embalagens",
+        "categoryId": "52"
+      },
+      "blockClass": "sub-menu-header"
+    }
+  },
+  "menu-item#insumo-fluidos": {
     "props": {
       "itemProps": {
         "tagTitle": "Fluidos",
         "text": "Fluidos",
-        "href": "/insumos/fluidos"
+        "href": "/insumos/fluidos",
+        "categoryId": "51"
       },
-      "blockClass": "sub-menu-header-title"
+      "blockClass": "sub-menu-header"
     }
   },
-  "menu-item#sub-menu-7-list-3": {
+  "menu-item#insumo-palitos": {
     "props": {
       "itemProps": {
-        "tagTitle": "Palitos",
-        "text": "Palitos",
-        "href": "/insumos/palitos"
+        "tagTitle": "Palito de Madera",
+        "text": "Palito de Madera",
+        "href": "/insumos/palitos",
+        "categoryId": "50"
       },
-      "blockClass": "sub-menu-header-title"
+      "blockClass": "sub-menu-header"
     }
   },
   // Menu row 9 - Contato

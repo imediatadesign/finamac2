@@ -15,9 +15,15 @@
       "blockClass": "footer-info-main"
     },
     "children": [
-      "flex-layout.row#footer-navigation--en",
-      "flex-layout.row#footer-privacy--en",
       "flex-layout.row#footer-addresses--en"
+    ]
+  },
+  "flex-layout.col#footer-navigation-wrapper--en": {
+    "props": {
+      "blockClass": "footer-navigation-wrapper"
+    },
+    "children": [
+      "flex-layout.row#footer-navigation--en"
     ]
   },
   // Seção de Navegação do Footer
@@ -230,7 +236,7 @@
       "itemProps": {
         "type": "internal",
         "href": "/ombudsman",
-        "text": "Ombudsman"
+        "text": "Customer Service"
       },
       "blockClass": "footer-menu-item"
     }
@@ -266,9 +272,7 @@
     "children": [
       "menu-item#footer-courses--en",
       "menu-item#footer-consulting--en",
-      "menu-item#footer-technical-support--en",
-      "menu-item#footer-training-videos--en",
-      "menu-item#footer-finamac-training--en"
+      "menu-item#footer-technical-support--en"
     ]
   },
   "menu-item#footer-courses--en": {
@@ -303,30 +307,6 @@
         "type": "internal",
         "href": "/technical-assistance",
         "text": "Technical Support"
-      },
-      "blockClass": "footer-menu-item"
-    }
-  },
-  "menu-item#footer-training-videos--en": {
-    "props": {
-      "id": "footer-training-videos-en",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/training",
-        "text": "Training Videos"
-      },
-      "blockClass": "footer-menu-item"
-    }
-  },
-  "menu-item#footer-finamac-training--en": {
-    "props": {
-      "id": "footer-finamac-training-en",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/finamac-training",
-        "text": "Finamac Training"
       },
       "blockClass": "footer-menu-item"
     }
@@ -427,40 +407,6 @@
       "blockClass": "footer-menu-item"
     }
   },
-  // Seção de Privacidade
-  "flex-layout.row#footer-privacy--en": {
-    "props": {
-      "blockClass": "footer-privacy",
-      "preserveLayoutOnMobile": true
-    },
-    "children": [
-      "flex-layout.col#footer-privacy-content--en"
-    ]
-  },
-  "flex-layout.col#footer-privacy-content--en": {
-    "props": {
-      "blockClass": "footer-privacy-content",
-      "width": "100%"
-    },
-    "children": [
-      "rich-text#footer-privacy-title--en",
-      "rich-text#footer-privacy-text--en"
-    ]
-  },
-  "rich-text#footer-privacy-title--en": {
-    "props": {
-      "text": "### PRIVACY AND DATA USE",
-      "blockClass": "footer-privacy-title",
-      "textAlignment": "CENTER"
-    }
-  },
-  "rich-text#footer-privacy-text--en": {
-    "props": {
-      "text": "FINAMAC values the privacy of its users and is committed to using personal data provided by users exclusively for order tracking and marketing activities. By authenticating on this website, you agree to the use of your personal data for Order Tracking, Order Processing, and Sending of marketing communications and promotions.",
-      "blockClass": "footer-privacy-text",
-      "textAlignment": "CENTER"
-    }
-  },
   // Seção de Endereços
   "flex-layout.row#footer-addresses--en": {
     "props": {
@@ -468,107 +414,79 @@
       "preserveLayoutOnMobile": false
     },
     "children": [
-      "flex-layout.col#address-brazil-sales--en",
-      "flex-layout.col#address-usa-sales--en",
-      "flex-layout.col#address-brazil-support--en",
-      "flex-layout.col#address-usa-support--en"
+      "flex-layout.col#address-brazil-unified--en",
+      "flex-layout.col#address-usa-unified--en"
     ]
   },
-  "flex-layout.col#address-brazil-sales--en": {
+  "flex-layout.col#address-brazil-unified--en": {
     "props": {
-      "blockClass": "footer-address-column",
+      "blockClass": "footer-address-unified",
       "width": {
-        "desktop": "25%",
-        "tablet": "50%",
+        "desktop": "50%",
+        "tablet": "100%",
         "mobile": "100%"
       }
     },
     "children": [
-      "rich-text#address-brazil-sales-title--en",
-      "rich-text#address-brazil-sales-content--en"
+      "rich-text#address-brazil-title--en",
+      "rich-text#address-brazil-sales--en",
+      "rich-text#address-brazil-support-title--en"
     ]
   },
-  "rich-text#address-brazil-sales-title--en": {
+  "rich-text#address-brazil-title--en": {
     "props": {
       "text": "### BRAZIL - Sales",
-      "blockClass": "footer-address-title",
+      "blockClass": "footer-address-main-title",
       "textAlignment": "LEFT"
     }
   },
-  "rich-text#address-brazil-sales-content--en": {
+  "rich-text#address-brazil-sales--en": {
     "props": {
-      "text": "Avenida Nazaré 1657 - Ipiranga\nZIP: 04263-200\nSão Paulo / SP\nPhone: +55 11 2135 6500\nCNPJ: 08.262.762/0001-78\nFinamac Engenharia e Industrialização de Equipamentos LTDA",
-      "blockClass": "footer-address-text",
+      "text": "**Avenida Nazaré 1657 - Ipiranga**\n**ZIP: 04263-200 - São Paulo / SP**\n**Phone: +55 11 2135 6500**\n**[WhatsApp: +55 11 98846-5990](https://api.whatsapp.com/send/?phone=5511988465990)**\n\nCNPJ: 08.262.762/0001-78\nFinamac Engenharia e Industrialização de Equipamentos LTDA",
+      "blockClass": "footer-address-content",
       "textAlignment": "LEFT"
     }
-  },
-  "flex-layout.col#address-usa-sales--en": {
-    "props": {
-      "blockClass": "footer-address-column",
-      "width": {
-        "desktop": "25%",
-        "tablet": "50%",
-        "mobile": "100%"
-      }
-    },
-    "children": [
-      "rich-text#address-usa-sales-title--en",
-      "rich-text#address-usa-sales-content--en"
-    ]
-  },
-  "rich-text#address-usa-sales-title--en": {
-    "props": {
-      "text": "### USA - Sales",
-      "blockClass": "footer-address-title",
-      "textAlignment": "LEFT"
-    }
-  },
-  "rich-text#address-usa-sales-content--en": {
-    "props": {
-      "text": "11231 NW 20th Street Unit 130\nZIP: 33172\nMiami / FL\nPhone: +1-877-342-7458\nThis number does not accept calls from outside the United States\nPhone: +1-786-408-0729\nPhone/Whatsapp: +1-305-804-8636",
-      "blockClass": "footer-address-text",
-      "textAlignment": "LEFT"
-    }
-  },
-  "flex-layout.col#address-brazil-support--en": {
-    "props": {
-      "blockClass": "footer-address-column",
-      "width": {
-        "desktop": "25%",
-        "tablet": "50%",
-        "mobile": "100%"
-      }
-    },
-    "children": [
-      "rich-text#address-brazil-support-title--en",
-      "vtex.menu@2.x:menu#support-brazil-links"
-    ]
   },
   "rich-text#address-brazil-support-title--en": {
     "props": {
-      "text": "### BRAZIL - Technical Support",
-      "blockClass": "footer-address-title",
+      "text": "**BRAZIL - Technical Support**",
+      "blockClass": "footer-support-title",
       "textAlignment": "LEFT"
     }
   },
-  "flex-layout.col#address-usa-support--en": {
+  "flex-layout.col#address-usa-unified--en": {
     "props": {
-      "blockClass": "footer-address-column",
+      "blockClass": "footer-address-unified",
       "width": {
-        "desktop": "25%",
-        "tablet": "50%",
+        "desktop": "50%",
+        "tablet": "100%",
         "mobile": "100%"
       }
     },
     "children": [
-      "rich-text#address-usa-support-title--en",
-      "vtex.menu@2.x:menu#support-usa-links"
+      "rich-text#address-usa-title--en",
+      "rich-text#address-usa-sales--en",
+      "rich-text#address-usa-support-title--en"
     ]
+  },
+  "rich-text#address-usa-title--en": {
+    "props": {
+      "text": "### USA & Other Countries - Sales",
+      "blockClass": "footer-address-main-title",
+      "textAlignment": "LEFT"
+    }
+  },
+  "rich-text#address-usa-sales--en": {
+    "props": {
+      "text": "**11231 NW 20th Street Unit 130**\n**ZIP: 33172 - Miami / FL**\n**Phone: +1-786-408-0729**\n**[WhatsApp: +1-305-804-8636](https://api.whatsapp.com/send/?phone=13058048636)**",
+      "blockClass": "footer-address-content",
+      "textAlignment": "LEFT"
+    }
   },
   "rich-text#address-usa-support-title--en": {
     "props": {
-      "text": "### USA - Technical Support",
-      "blockClass": "footer-address-title",
+      "text": "**USA - Technical Support**",
+      "blockClass": "footer-support-title",
       "textAlignment": "LEFT"
     }
   }

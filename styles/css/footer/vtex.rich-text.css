@@ -16,3 +16,25 @@
 :global(.vtex-store-newsletter-1-x-newsletterForm--newsletter-ids) :global(.vtex-input__label){
     color: #ffffff;
 }
+
+/* Footer Address Blocks */
+.heading--footer-address-main-title {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.paragraph--footer-address-content {
+    color: #ffffff;
+    font-size: 1.125rem;
+    line-height: 1.8;
+}
+
+.paragraph--footer-support-title {
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}

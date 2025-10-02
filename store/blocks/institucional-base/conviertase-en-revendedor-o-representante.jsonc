@@ -10,25 +10,29 @@
       "flex-layout.col#institucional-Representante-es"
     ],
     "props": {
-      "blockClass": "institucional-representante-es"
+      "blockClass": "institucional-representante"
     }
   },
 
   "flex-layout.col#institucional-Representante-es": {
     "children": [
-      // "rich-text#representante-title-es",
-      "app-form-representante"
+      "app-form-representante#es"
     ],
     "props": {
-      "blockClass": "institucional-representante-es",
+      "blockClass": "institucional-representante",
       "width": "100%"
+    }
+  },
+  "app-form-representante#es": {
+    "props": {
+      "language": "es-ES"
     }
   },
 
   "rich-text#representante-title-es": {
     "props": {
-      "text": "# Conviértase en Revendedor o Representante\n\n¡Forme parte de la red de distribución Finamac! Complete el formulario a continuación y nuestro equipo se pondrá en contacto para discutir las oportunidades de asociación.",
-      "blockClass": "representante-title-es",
+      "text": "# Conviértase en Revendedor o Representante\n\n¡Únase a la red de distribución Finamac! Complete el formulario a continuación y nuestro equipo se pondrá en contacto para discutir las oportunidades de asociación.",
+      "blockClass": "representante-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }

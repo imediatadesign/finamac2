@@ -17,11 +17,16 @@
   "flex-layout.col#institucional-Ombudsman": {
     "children": [
       // "rich-text#ombudsman-title",
-      "app-form-ouvidoria"
+      "app-form-ouvidoria#en"
     ],
     "props": {
       "blockClass": "institucional-ombudsman",
       "width": "100%"
+    }
+  },
+  "app-form-ouvidoria#en": {
+    "props": {
+      "language": "en-US"
     }
   },
 
