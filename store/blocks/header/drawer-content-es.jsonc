@@ -342,7 +342,7 @@
       "itemProps": {
         "tagTitle": "Solicitar Presupuesto",
         "text": "Solicitar Presupuesto",
-        "href": "/solicitar-presupuesto"
+        "href": "/consulte-nuestros-productos"
       },
       "blockClass": [
         "menu-sanfone-category",
@@ -356,7 +356,7 @@
       "itemProps": {
         "tagTitle": "Contacto",
         "text": "Contacto",
-        "href": "/asistencia-tecnica"
+        "href": "#"
       },
       "blockClass": [
         "menu-sanfone-category",

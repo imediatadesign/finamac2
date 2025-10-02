@@ -360,7 +360,7 @@
       "itemProps": {
         "tagTitle": "Contato",
         "text": "Contato",
-        "href": "/assistencia-tecnica"
+        "href": "#"
       },
       "blockClass": [
         "menu-sanfone-category",

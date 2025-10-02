@@ -342,7 +342,7 @@
       "itemProps": {
         "tagTitle": "Request Quote",
         "text": "Request Quote",
-        "href": "/request-quote"
+        "href": "/consult-our-products"
       },
       "blockClass": [
         "menu-sanfone-category",
@@ -356,7 +356,7 @@
       "itemProps": {
         "tagTitle": "Contact",
         "text": "Contact",
-        "href": "/technical-assistance"
+        "href": "#"
       },
       "blockClass": [
         "menu-sanfone-category",
