@@ -1,6 +1,6 @@
 /* News Letter */
 
-.imageElement--newsletter-1{
+.imageElement--newsletter-1 {
     bottom: -32px;
     position: relative;
     max-width: 180px;
@@ -9,57 +9,77 @@
 
 /* Footer */
 
-:global(.vtex-slider-layout-0-x-sliderTrackContainer--footer-socialmedia){
-    margin-top: 20px;
-}
-
-:global(.vtex-slider-layout-0-x-sliderTrack--footer-socialmedia){
-    gap: 25px;
-}
-
-.imageElement--footer-socialmedia{
+.imageElement--footer-socialmedia {
     filter: brightness(0) invert(1) !important;
     opacity: 0.8 !important;
 }
-:global(.vtex-slider-layout-0-x-slideChildrenContainer--footer-socialmedia),
-:global(.vtex-slider-layout-0-x-slide--footer-socialmedia){
-    width: fit-content !important;
-}
 
-:global(.vtex-slider-layout-0-x-imageElement--footer-socialmedia){
-    max-width: 11px;
-    min-width: 11px;
-    max-height: 11px !important;
-}
-
-/* Formas de pagamento e selo */
-
-:global(.vtex-slider-layout-0-x-slideChildrenContainer--footer-row-5-1),
-:global(.vtex-slider-layout-0-x-slideChildrenContainer--footer-row-5-2){
-    width: fit-content !important;
-}
-
-:global(.vtex-store-components-3-x-imageElement--footer-row-5-1){
-    max-width: 22px;
-    opacity: 0.8;
-}
-
-:global(.vtex-slider-layout-0-x-sliderTrackContainer--footer-row-5-1),
-:global(.vtex-slider-layout-0-x-sliderTrackContainer--footer-row-5-2){
-    max-width: 300px;
-}
-
-:global(.vtex-store-components-3-x-imageElement--footer-row-5-2){
-    max-width: 32px;
-    opacity: 0.8;
-}
-
-.imageElement--footer-row-5-1{
+.imageElement--footer-row-5-1 {
     max-width: 40px;
     opacity: 0.8;
 }
 
-.imageElement--footer-row-5-2{
+.imageElement--footer-row-5-2 {
     max-width: 32px;
     opacity: 0.8;
+}
+
+
+
+/* ============================================
+   FOOTER COMPONENTS - Estilo Moderno
+   ============================================ */
+
+/* Social Media Icons - Compacto e Elegante */
+.imageElement--social-icon {
+    filter: brightness(0) invert(1);
+    opacity: 0.7;
+    transition: all 0.25s ease;
+    width: 16px;
+    height: 16px;
+}
+
+/* Footer Logo */
+.logoImage--footer-logo {
+    max-width: 130px;
+    height: auto;
+    opacity: 0.85;
+    transition: opacity 0.25s ease;
+}
+
+.logoImage--footer-logo:hover {
+    opacity: 1;
+}
+
+/* Payment Methods - Minimalista */
+.paymentMethodIcon {
+    max-width: 36px;
+    height: 24px;
+    margin: 0 4px;
+    opacity: 0.6;
+    transition: all 0.25s ease;
+    filter: grayscale(100%) brightness(1.2);
+}
+
+.paymentMethodIcon:hover {
+    opacity: 0.9;
+    filter: grayscale(50%) brightness(1.1);
+    transform: translateY(-1px);
+}
+
+/* Mobile Optimizations - Ultra Compacto */
+@media (max-width: 768px) {
+    .imageElement--social-icon {
+        width: 14px;
+        height: 14px;
+    }
+
+    .logoImage--footer-logo {
+        max-width: 100px;
+    }
+
+    .paymentMethodIcon {
+        max-width: 30px;
+        height: 20px;
+    }
 }

@@ -180,7 +180,7 @@
         ],
         "props": {
           "href": "/lancamentos",
-          "label": "Nossos Lançamentos",
+          "label": "Lançamentos 2026",
           "blockClass": "link-drawer"
         }
       },
@@ -245,7 +245,8 @@
       "preventHorizontalStretch":true
     },
     "children": [
-      "flex-layout.col#link-drawer-1-en"
+      "flex-layout.col#link-drawer-1-en",
+      "flex-layout.col#link-drawer-2-en"
     ]
   },
   "flex-layout.col#link-drawer-1-en": {
@@ -266,6 +267,25 @@
       "label": "TALK TO OUR TEAM",
       "blockClass": "link-drawer",
       "displayMode":"button"
+    }
+  },
+  "flex-layout.col#link-drawer-2-en": {
+    "props": {
+      "blockClass": "link-drawer-2",
+      "width":"100%"
+    },
+    "children": [
+      "link#drawer-link-1-2-en"
+    ]
+  },
+  "link#drawer-link-1-2-en": {
+    "children": [
+      "image#drawer-link-1-2"
+    ],
+    "props": {
+      "href": "/launches",
+      "label": "Launches 2026",
+      "blockClass": "link-drawer"
     }
   },
 
@@ -290,7 +310,8 @@
       "preventHorizontalStretch":true
     },
     "children": [
-      "flex-layout.col#link-drawer-1-es"
+      "flex-layout.col#link-drawer-1-es",
+      "flex-layout.col#link-drawer-2-es"
     ]
   },
   "flex-layout.col#link-drawer-1-es": {
@@ -311,6 +332,25 @@
       "label": "HABLA CON NUESTRO EQUIPO",
       "blockClass": "link-drawer",
       "displayMode":"button"
+    }
+  },
+  "flex-layout.col#link-drawer-2-es": {
+    "props": {
+      "blockClass": "link-drawer-2",
+      "width":"100%"
+    },
+    "children": [
+      "link#drawer-link-1-2-es"
+    ]
+  },
+  "link#drawer-link-1-2-es": {
+    "children": [
+      "image#drawer-link-1-2"
+    ],
+    "props": {
+      "href": "/lanzamientos",
+      "label": "Lanzamientos 2026",
+      "blockClass": "link-drawer"
     }
   }
 

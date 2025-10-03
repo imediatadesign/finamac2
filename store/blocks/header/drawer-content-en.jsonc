@@ -162,9 +162,9 @@
   "menu-item#menu-sanfone-category-4-en": {
     "props": {
       "itemProps": {
-        "tagTitle": "Courses",
-        "text": "Courses",
-        "href": "/courses"
+        "tagTitle": "Accessories",
+        "text": "Accessories",
+        "href": "/accessories"
       },
       "blockClass": [
         "menu-sanfone-category",

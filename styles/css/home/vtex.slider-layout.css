@@ -175,8 +175,8 @@
 
 /* Services Slider Styles */
 .sliderLayoutContainer--services-slider {
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  padding: 4rem 0;
+  background: #efefef;
+  padding: 4rem 0 5rem 0;
   position: relative;
   overflow: hidden;
 }
@@ -189,10 +189,10 @@
   right: 0;
   bottom: 0;
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
-    linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    linear-gradient(rgba(200, 200, 200, 0.2) 1px, transparent 1px),
+    linear-gradient(to right, rgba(200, 200, 200, 0.2) 1px, transparent 1px);
   background-size: 30px 30px;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .sliderTrackContainer--services-slider {
@@ -201,9 +201,14 @@
   z-index: 1;
 }
 
+.sliderTrack--services-slider {
+  gap: 2rem;
+}
+
 .slide--services-slider {
-  padding: 0 1rem;
+  padding: 0;
   height: 100%;
+  margin: 0 1rem;
 }
 
 .slideChildrenContainer--services-slider {
@@ -269,5 +274,83 @@
 
   .sliderTrackContainer--services-slider {
     padding: 0 1rem;
+  }
+}
+
+/* Brands Slider Styles */
+.sliderLayoutContainer--brands-slider {
+  padding: 2rem 0;
+  background: linear-gradient(to bottom, #ffffff, #f8f8f8);
+}
+
+.sliderTrackContainer--brands-slider {
+  padding: 0 2rem;
+}
+
+.slide--brands-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.sliderArrows--brands-slider {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: #025da6;
+  transition: all 0.3s ease;
+  opacity: 0.8;
+}
+
+.sliderArrows--brands-slider:hover {
+  background: #025da6;
+  border-color: #025da6;
+  color: white;
+  opacity: 1;
+}
+
+.sliderLeftArrow--brands-slider {
+  left: 1rem;
+}
+
+.sliderRightArrow--brands-slider {
+  right: 1rem;
+}
+
+.paginationDotsContainer--brands-slider {
+  bottom: -20px;
+}
+
+.paginationDot--brands-slider {
+  background-color: #e0e0e0;
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+  transition: all 0.3s ease;
+}
+
+.paginationDot--brands-slider--isActive {
+  background-color: #025da6;
+  width: 24px;
+  border-radius: 4px;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .sliderTrackContainer--brands-slider {
+    padding: 0 1rem;
+  }
+
+  .slide--brands-slider {
+    padding: 0 0.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sliderLayoutContainer--brands-slider {
+    padding: 1rem 0;
   }
 }

@@ -1,71 +1,58 @@
-.heading,
-:global(.vtex-store-components-3-x-heading){
-    margin: 10px 0px;
+.heading {
+  margin: 10px 0px;
 }
 
-.heading--heading-primary{
-    color: var(--primary) !important;
+.heading--heading-primary {
+  color: var(--primary) !important;
 }
 
-.wrapper--color-primary{
-    color: var(--primary);
+.wrapper--color-primary {
+  color: var(--primary);
 }
 
-.wrapper--color-secondary{
-    color: var(--secondary);
+.wrapper--color-secondary {
+  color: var(--secondary);
 }
 
 
-.wrapper--color-base{
-    color: var(--base);
+.wrapper--color-base {
+  color: var(--base);
 }
 
-.link{
-    color: var(--dark);
+.link {
+  color: var(--dark);
 }
 
-.paragraph--width600{
-    max-width: 600px;
+.paragraph--width600 {
+  max-width: 600px;
 }
 
 @media only screen and (max-width: 600px) {
 
-.paragraph,
-.listItem{
+  .paragraph,
+  .listItem {
     font-size: 0.75rem;
-}
+  }
 
-.headingLevel1,
-:global(.vtex-store-components-3-x-headingLevel1){
+  .headingLevel1 {
     font-size: 1.3rem !important;
-}
+  }
 
-.headingLevel2,
-:global(.vtex-store-components-3-x-headingLevel3){
+  .headingLevel2 {
     font-size: 1.2rem !important;
-}
+  }
 
-.headingLevel3,
-:global(.vtex-store-components-3-x-headingLevel3){
+  .headingLevel3 {
     font-size: 1.1rem !important;
-}
+  }
 
-.headingLevel4,
-:global(.vtex-store-components-3-x-headingLevel4){
+  .headingLevel4 {
     font-size: 1rem !important;
-}
+  }
 
-.headingLevel5,
-:global(.vtex-store-components-3-x-headingLevel5){
+  .headingLevel5 {
     font-size: 0.8rem !important;
-}
-
-
-:global(.vtex-button__label),
-:global(.vtex-store-link-0-x-label){
-    font-size: 0.7rem;
-    padding: 0px 20px;
-}
+  }
 
 }
 
@@ -142,7 +129,7 @@
   margin: 0 auto 60px;
   max-width: 900px;
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .paragraph--financing-eligibility {
@@ -198,30 +185,31 @@
 
 /* Mobile */
 @media (max-width: 768px) {
+
   .paragraph--financing-subtitle,
   .heading--financing-subtitle {
     font-size: 1.8rem;
   }
-  
+
   .paragraph--financing-title,
   .heading--financing-title {
     font-size: 1.1rem;
   }
-  
+
   .wrapper--financing-eligibility {
     padding: 25px;
     margin-bottom: 40px;
   }
-  
+
   .paragraph--financing-eligibility {
     font-size: 0.95rem;
   }
-  
+
   .paragraph--customers-title,
   .heading--customers-title {
     font-size: 1.8rem;
   }
-  
+
   .paragraph--customers-description {
     font-size: 1rem;
   }
@@ -298,20 +286,15 @@
   border-radius: 1px;
 }
 
-.flexCol--footer-column:hover .heading--footer-column-title::after,
-.flexCol--footer-column:hover .paragraph--footer-column-title::after {
-  width: 45px;
-  background: #0073cc;
-}
-
 /* Descrição About - Texto Limpo e Compacto */
 .container--footer-column-description {
   margin: 0 0 15px 0;
 }
 
 .paragraph--footer-column-description {
-  color: rgba(255,255,255,0.65);
+  color: rgba(255, 255, 255, 0.65);
   font-size: 12px;
+  padding-top: 1rem !important;
   line-height: 1.6;
   margin: 0;
   font-weight: 400;
@@ -341,7 +324,7 @@
 }
 
 .paragraph--footer-privacy-text {
-  color: rgba(255,255,255,0.5);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 11px;
   line-height: 1.5;
   margin: 0;
@@ -373,7 +356,7 @@
 }
 
 .paragraph--footer-address-text {
-  color: rgba(255,255,255,0.55);
+  color: rgba(255, 255, 255, 0.55);
   font-size: 10px;
   line-height: 1.6;
   margin: 0;
@@ -396,27 +379,14 @@
   margin: 0 !important;
   opacity: 0.95 !important;
   padding-top: 20px !important;
-  border-top: 1px solid rgba(255,255,255,0.08) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
 }
 
 /* Hover Effects - Sutil */
-.flexCol--footer-column:hover .paragraph--footer-column-title,
-.flexCol--footer-column:hover .heading--footer-column-title {
-  color: #ffffff !important;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-}
-
-.flexCol--footer-address-column:hover .paragraph--footer-address-title,
-.flexCol--footer-address-column:hover .heading--footer-address-title {
-  color: #ffffff !important;
-}
-
-.flexCol--footer-address-column:hover .paragraph--footer-address-text {
-  color: rgba(255,255,255,0.7);
-}
 
 /* Mobile Adjustments - Ainda Mais Compacto */
 @media (max-width: 768px) {
+
   .paragraph--footer-column-title,
   .heading--footer-column-title {
     font-size: 12px !important;

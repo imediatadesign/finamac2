@@ -9,9 +9,10 @@
       "preventHorizontalStretch": false,
       "preserveLayoutOnMobile": false
     },
-    "children": ["info-card#home-main"]
+    "children": [
+      "info-card#home-main"
+    ]
   },
-
   // InfoCard principal
   "info-card#home-main": {
     "props": {
@@ -20,10 +21,7 @@
       "textPosition": "left",
       "imageUrl": "https://finamac.vtexassets.com/assets/vtex/assets-builder/finamac.themefinamac/1.0.43-beta.0/home/infocard-home___1d5184e75890b2629c878bd33b22a0da.webp",
       "headline": "Presente em mais de 110 países.",
-      "subhead": "**Maior Exportadora de Máquinas Para Sorvete, Açaí, Gelato e Picolé**\n\nA FinamacTM é sinônimo de qualidade, tradição e comprometimento no ramo de equipamentos para sorvetes, sendo a única empresa do ramo na América Latina a ter um setor próprio de engenharia.\n\nHá mais de 30 anos vem desenvolvendo uma série de inovações tecnológicas que já beneficiaram diversos produtores de sorvete ao redor do mundo.",
-      "callToActionText": "Saiba mais",
-      "callToActionUrl": "/maquinas",
-      "callToActionMode": "button",
+      "subhead": "Maior Exportadora de Máquinas Para Sorvete, Açaí, Gelato e Picolé \n\nA FinamacTM é sinônimo de qualidade, tradição e comprometimento no ramo de equipamentos para sorvetes, sendo a única empresa do ramo na América Latina a ter um setor próprio de engenharia.\n\nHá mais de 30 anos vem desenvolvendo uma série de inovações tecnológicas que já beneficiaram diversos produtores de sorvete ao redor do mundo.",
       "blockClass": "info-card-home",
       "textAlignment": "left"
     }

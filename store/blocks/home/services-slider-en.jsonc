@@ -44,7 +44,7 @@
   },
   "link#service-machines--en": {
     "props": {
-      "href": "/machines",
+      "href": "/machinery/by-final-product",
       "blockClass": "service-link",
       "label": " "
     },
@@ -128,7 +128,7 @@
       "textPosition": "CENTER"
     }
   },
-  // Courses
+  // Accessories
   "flex-layout.col#service-courses--en": {
     "props": {
       "blockClass": "service-item",
@@ -142,7 +142,7 @@
   },
   "link#service-courses--en": {
     "props": {
-      "href": "/courses",
+      "href": "/accessories",
       "blockClass": "service-link",
       "label": " "
     },
@@ -163,7 +163,7 @@
   },
   "rich-text#service-courses-title--en": {
     "props": {
-      "text": "**Courses**",
+      "text": "**Accessories**",
       "blockClass": "service-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -289,7 +289,7 @@
   },
   "link#service-services--en": {
     "props": {
-      "href": "/services",
+      "href": "/treinamento-finamac",
       "blockClass": "service-link",
       "label": " "
     },

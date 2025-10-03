@@ -292,7 +292,7 @@
 @media screen and (max-width: 768px) {
     .flexCol--service-item {
         padding: 2rem 1rem;
-        min-height: 200px;
+        min-height: 160px;
         border-radius: 12px;
     }
 
@@ -305,5 +305,89 @@
         padding: 3px 6px;
         top: 10px;
         right: 10px;
+    }
+}
+
+
+/* Brands Container Styles */
+.flexRow--brands-slider-container {
+    background: linear-gradient(to bottom, #ffffff, #f8f8f8);
+    padding: 3rem 0;
+    padding-bottom: 2rem;
+}
+
+.flexCol--brands-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1rem 0 !important;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .flexRow--brands-slider-container {
+        padding: 2rem 0;
+    }
+}
+
+
+/* InfoCard Flex Layout Styles */
+.flexRow--infocard-home-container {
+    background-color: #f8f8f8;
+}
+
+.flexCol--infocard-description {
+    margin-top: 1rem;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .flexCol--infocard-description {
+        text-align: center;
+    }
+}
+
+
+/* Service Item Styles - Clean e Simples */
+.flexCol--service-item {
+    padding: 2.5rem 1.5rem;
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 94, 166, 0.08);
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.04),
+        0 1px 2px rgba(0, 0, 0, 0.02);
+    height: 100%;
+    min-height: 170px;
+    margin: .75rem !important;
+    position: relative;
+}
+
+/* Coming Soon Items */
+.flexCol--service-coming-soon {
+    opacity: 0.75;
+    cursor: default;
+    background: linear-gradient(145deg, #f5f5f5 0%, #e8e8e8 100%);
+}
+
+.flexCol--service-coming-soon:hover {
+    background: linear-gradient(145deg, #025da6 0%, #003d73 100%) !important;
+    border-color: #025da6;
+    transform: translateY(-8px) scale(1.02);
+    box-shadow:
+        0 12px 32px rgba(2, 93, 166, 0.25),
+        0 4px 12px rgba(2, 93, 166, 0.15);
+    opacity: 1;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .flexCol--service-item {
+        padding: 2rem 1rem;
+        min-height: 200px;
+        border-radius: 12px;
+    }
+
+    .flexCol--service-item:hover {
+        transform: translateY(-6px) scale(1.01);
     }
 }

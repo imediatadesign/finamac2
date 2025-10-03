@@ -113,20 +113,150 @@
   width: 64px;
   height: 64px;
   filter: brightness(0) saturate(100%) invert(30%) sepia(98%) saturate(1404%) hue-rotate(185deg) brightness(94%) contrast(101%);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   margin-bottom: 0.5rem;
-}
-
-.flexCol--service-item:hover .imageElement--service-icon {
-  filter: brightness(0) saturate(100%) invert(100%);
-  transform: scale(1.15) rotate(5deg);
 }
 
 .flexCol--service-coming-soon .imageElement--service-icon {
   opacity: 0.7;
 }
 
+/* Brands Images Styles */
+.imageListContainer--brands-list {
+  margin: 2rem 0;
+}
+
+.imageListImage--brands-list {
+  max-width: 150px;
+  height: auto;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+  object-fit: contain;
+}
+
+.imageListImage--brands-list:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .imageListImage--brands-list {
+    max-width: 120px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .imageListImage--brands-list {
+    max-width: 100px;
+  }
+}
+
+/* InfoCard Home Styles */
+.infoCardContainer--info-card-home {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.infoCardImageContainer--info-card-home {
+  width: 50%;
+}
+
+.infoCardImage--info-card-home {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+
+.infoCardTextContainer--info-card-home {
+  width: 50%;
+  padding: 2rem;
+}
+
+.infoCardHeadline--info-card-home {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+  font-weight: normal;
+}
+
+.infoCardSubhead--info-card-home {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #025da6;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+
+.infoCardCallActionContainer--info-card-home {
+  margin-top: 1.5rem;
+}
+
+.infoCardCallActionText--info-card-home {
+  background-color: #025da6;
+  color: white;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.infoCardCallActionText--info-card-home:hover {
+  background-color: #013d73;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(2, 93, 166, 0.3);
+  color: white;
+  text-decoration: none;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .infoCardContainer--info-card-home {
+    padding: 1rem;
+  }
+
+  .infoCardImageContainer--info-card-home,
+  .infoCardTextContainer--info-card-home {
+    width: 100%;
+  }
+
+  .infoCardTextContainer--info-card-home {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .infoCardSubhead--info-card-home {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .infoCardHeadline--info-card-home {
+    text-align: center;
+  }
+
+  .infoCardCallActionContainer--info-card-home {
+    text-align: center;
+  }
+
+  .infoCardImageContainer--info-card-home {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Service Icon Styles */
+.imageElement--service-icon {
+  filter: brightness(0) saturate(100%) invert(30%) sepia(98%) saturate(1404%) hue-rotate(185deg) brightness(94%) contrast(101%);
+  transition: filter 0.3s ease;
+}
+
+
 .flexCol--service-coming-soon:hover .imageElement--service-icon {
   filter: brightness(0) saturate(100%) invert(30%) sepia(98%) saturate(1404%) hue-rotate(185deg) brightness(94%) contrast(101%);
-  transform: none;
 }

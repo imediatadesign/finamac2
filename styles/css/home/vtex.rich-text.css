@@ -4,6 +4,108 @@
   font-weight: 700;
   margin: 0;
   color: inherit;
+}
+
+.container--service-title .paragraph {
+  margin: 0;
+}
+
+/* Service Subtitle */
+.container--service-subtitle {
+  font-size: 0.875rem;
+  opacity: 0.8;
+  margin: 0;
+  color: inherit;
+}
+
+.container--service-subtitle .paragraph {
+  margin: 0;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .container--service-title {
+    font-size: 1rem;
+  }
+
+  .container--service-subtitle {
+    font-size: 0.75rem;
+  }
+}
+
+/* Brands Title Styles - Mesmo estilo dos demais títulos da home */
+
+.container--brands-main-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #025da6;
+}
+
+.strong--brands-main-title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #025da6;
+  transition: color 0.3s ease;
+}
+
+.container--brands-main-title .paragraph {
+  margin: 0;
+}
+
+/* Brands Subtitle Styles */
+.container--brands-subtitle {
+  margin-bottom: 2rem;
+  font-size: 0.95rem !important;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
+}
+
+.container--brands-subtitle .paragraph {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .container--brands-main-title {
+    font-size: 1rem;
+  }
+
+  .container--brands-subtitle {
+    padding: 0 1rem;
+    font-size: 0.875rem;
+  }
+}
+
+/* InfoCard Rich Text Styles */
+.container--infocard-description-text {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.container--infocard-description-text .paragraph {
+  margin: 0 0 1rem 0;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .container--infocard-description-text {
+    text-align: center;
+  }
+}
+
+/* Service Title */
+.container--service-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0;
+  color: inherit;
   transition: color 0.3s ease;
 }
 
@@ -12,7 +114,7 @@
 }
 
 .flexCol--service-item:hover .container--service-title {
-  color: #005ea6;
+  color: white;
 }
 
 /* Service Subtitle */
@@ -29,14 +131,14 @@
 }
 
 .flexCol--service-item:hover .container--service-subtitle {
-  color: #005ea6;
+  color: white;
   opacity: 0.9;
 }
 
 /* Coming Soon Hover States */
 .flexCol--service-coming-soon:hover .container--service-title,
 .flexCol--service-coming-soon:hover .container--service-subtitle {
-  color: inherit;
+  color: white !important;
 }
 
 /* Mobile Styles */

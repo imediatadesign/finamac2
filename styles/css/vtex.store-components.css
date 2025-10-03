@@ -4,9 +4,6 @@
   }
 }
 
-:global(.vtex-store-link-0-x-link) {
-  text-decoration: none !important;
-}
 
 .imageElement--width100 {
   width: 75% !important;
@@ -18,94 +15,13 @@
 
 /* VIDEO GERAL */
 
-:global(.vtex-store-video-1-x-videoElement) {
-  width: 100%;
-
-  @media only screen and (max-width:600px) {
-    max-height: 190px;
-  }
-}
-
 /* Shelf */
 
-:global(.vtex-product-summary-2-x-element) {
-  height: inherit;
-  justify-content: space-between;
-}
-
-:global(.vtex-store-components-3-x-discountContainer) {
-  width: 100% !important;
-}
 
 
+@media only screen and (max-width: 1024px) {}
 
-
-:global(.vtex-store-components-3-x-discountInsideContainer) {
-  background: var(--secondary);
-  padding: 5px 10px;
-  border-radius: 20px;
-  z-index: 30 !important;
-}
-
-:global(.vtex-product-summary-2-x-hoverEffect) {
-  z-index: 1 !important;
-}
-
-:global(.vtex-product-price-1-x-savings--product-price-savings-shelf) {
-  font-weight: 600;
-  color: var(--secondary);
-  margin-top: 10px;
-  display: block;
-  font-size: 13px;
-}
-
-
-:global(.vtex-breadcrumb-1-x-link),
-:global(.vtex-breadcrumb-1-x-term) {
-  font-size: 0.8rem;
-}
-
-:global(.vtex-breadcrumb-1-x-arrow) {
-  padding: 0px;
-}
-
-
-
-@media only screen and (max-width: 1024px) {
-
-
-  :global(.vtex-store-components-3-x-logoImage) {
-    padding: 0 1rem !important;
-  }
-
-
-
-  .flexRow--home-tab :global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf) :global(.vtex-product-summary-2-x-image),
-  :global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf) :global(.vtex-product-summary-2-x-image),
-  :global(.vtex-search-result-3-x-gallery) :global(.vtex-product-summary-2-x-image) {
-    padding-top: 5px;
-  }
-
-  .flexRow--home-tab :global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf) :global(.vtex-product-summary-2-x-image),
-  .flexRow--home-tab :global(.vtex-search-result-3-x-gallery) :global(.vtex-product-summary-2-x-image):global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf) :global(.vtex-product-summary-2-x-image),
-  :global(.vtex-search-result-3-x-gallery) :global(.vtex-product-summary-2-x-image) {
-    min-height: 140px;
-    max-height: 140px !important;
-  }
-
-}
-
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
-
-  :global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf) :global(.vtex-product-summary-2-x-image),
-  .flexRow--home-tab :global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf) :global(.vtex-product-summary-2-x-image) {
-    min-height: 185px;
-  }
-
-
-
-
-}
+@media only screen and (min-width: 600px) and (max-width: 1024px) {}
 
 
 
@@ -158,16 +74,6 @@
 }
 
 
-:global(.vtex-store-components-3-x-caretIcon) {
-  color: white;
-  background: var(--primary);
-  border-radius: 4rem;
-  padding: 6px;
-  max-width: 10px !important;
-  max-height: 10px !important;
-  height: fit-content !important;
-  width: fit-content !important;
-}
 
 /* Estilo do botão Consulte nos produtos */
 .contactButtonShelf {
@@ -282,10 +188,6 @@
   height: 16px;
 }
 
-.link--social-link:hover .imageElement--social-icon {
-  opacity: 0.95;
-  transform: scale(1.05);
-}
 
 /* Footer Logo */
 .logoImage--footer-logo {
@@ -334,5 +236,87 @@
   .paymentMethodIcon {
     max-width: 30px;
     height: 20px;
+  }
+}
+
+
+/* InfoCard Home - Estilo Premium Simplificado */
+
+.infoCardContainer--info-card-home {
+  background: #f8f9fa !important;
+  border-radius: 16px !important;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+  transition: transform 0.3s ease !important;
+  margin: 2rem auto !important;
+  max-width: 1240px !important;
+  position: relative;
+}
+
+.infoCardContainer--info-card-home:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+.infoCardTextContainer--info-card-home {
+  padding: 2.5rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+
+
+
+.infoCardHeadline--info-card-home {
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+  color: #025da6 !important;
+  line-height: 1.2 !important;
+  margin-bottom: 1rem !important;
+}
+
+.infoCardSubhead--info-card-home {
+  font-size: 1.1rem !important;
+  line-height: 1.7 !important;
+  color: #546e7a !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.infoCardCallActionContainer--info-card-home {
+  display: none !important;
+}
+
+.infoCardImageContainer--info-card-home {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.infoCardImage--info-card-home {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  transition: transform 0.5s ease !important;
+}
+
+.infoCardContainer--info-card-home:hover .infoCardImage--info-card-home {
+  transform: scale(1.05) !important;
+}
+
+@media (max-width: 768px) {
+  .infoCardContainer--info-card-home {
+    margin: 1rem !important;
+  }
+
+  .infoCardTextContainer--info-card-home {
+    padding: 1.5rem !important;
+    text-align: center !important;
+  }
+
+  .infoCardHeadline--info-card-home {
+    font-size: 2rem !important;
+  }
+
+  .infoCardSubhead--info-card-home {
+    font-size: 1rem !important;
   }
 }

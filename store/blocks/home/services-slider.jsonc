@@ -45,7 +45,7 @@
   },
   "link#service-machines": {
     "props": {
-      "href": "/maquinas",
+      "href": "/maquinas/por-produto-final",
       "blockClass": "service-link",
       "label": " "
     },
@@ -330,7 +330,7 @@
   },
   "link#service-services": {
     "props": {
-      "href": "/servicos",
+      "href": "/treinamento-finamac",
       "blockClass": "service-link",
       "label": " "
     },

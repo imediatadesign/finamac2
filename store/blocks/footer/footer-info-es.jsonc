@@ -42,16 +42,18 @@
       }
     },
     "children": [
-      "rich-text#footer-about-title--es",
+      "logo#footer-about-logo--es",
       "rich-text#footer-about-description--es",
       "flex-layout.row#footer-social"
     ]
   },
-  "rich-text#footer-about-title--es": {
+  "logo#footer-about-logo--es": {
     "props": {
-      "text": "## FINAMAC",
-      "blockClass": "footer-column-title",
-      "textAlignment": "LEFT"
+      "title": "Finamac",
+      "href": "/",
+      "url": "https://finamac.vtexassets.com/assets/vtex/assets-builder/finamac.themefinamac/1.1.69-beta.0/header/logo___f72ca9a24f610c94fea7c0bf9787cae5.svg",
+      "blockClass": "footer-logo",
+      "width": 160
     }
   },
   "rich-text#footer-about-description--es": {
@@ -341,7 +343,6 @@
       "rich-text#address-brazil-title--es",
       "rich-text#address-brazil-sales--es",
       "link#whatsapp-brazil--es",
-      "flex-layout.row#spacer-brazil--es",
       "link#address-brazil-support-button--es"
     ]
   },
@@ -354,7 +355,7 @@
   },
   "rich-text#address-brazil-sales--es": {
     "props": {
-      "text": "Avenida Nazaré, 1657 - Ipiranga\nZIP: 04263-200 - São Paulo / SP\nTeléfono: +55 11 2135 6500",
+      "text": "Avenida Nazaré, 1657 - Ipiranga\nCEP: 04263-200 - São Paulo / SP\nTeléfono: +55 11 2135 6500",
       "blockClass": "footer-address-content",
       "textAlignment": "LEFT"
     }
@@ -375,7 +376,6 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "image#whatsapp-icon",
       "rich-text#whatsapp-brazil-text--es"
     ]
   },
@@ -383,11 +383,6 @@
     "props": {
       "text": "WhatsApp: +55 11 98846-5990",
       "blockClass": "whatsapp-text"
-    }
-  },
-  "flex-layout.row#spacer-brazil--es": {
-    "props": {
-      "blockClass": "footer-spacer"
     }
   },
   "link#address-brazil-support-button--es": {
@@ -410,7 +405,6 @@
       "rich-text#address-usa-title--es",
       "rich-text#address-usa-sales--es",
       "link#whatsapp-usa--es",
-      "flex-layout.row#spacer-usa--es",
       "link#address-usa-support-button--es"
     ]
   },
@@ -444,7 +438,6 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "image#whatsapp-icon",
       "rich-text#whatsapp-usa-text--es"
     ]
   },
@@ -452,11 +445,6 @@
     "props": {
       "text": "WhatsApp: +1-305-804-8636",
       "blockClass": "whatsapp-text"
-    }
-  },
-  "flex-layout.row#spacer-usa--es": {
-    "props": {
-      "blockClass": "footer-spacer"
     }
   },
   "link#address-usa-support-button--es": {

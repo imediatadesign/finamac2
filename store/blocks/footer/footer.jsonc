@@ -9,7 +9,6 @@
     "children": [
       "condition-layout.binding#footer-addresses-switcher",
       "flex-layout.row#newsletter",
-      "flex-layout.row#footer-row-2",
       "condition-layout.binding#footer-switcher"
     ]
   },

@@ -1,0 +1,89 @@
+/* Social Links */
+.link--social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  transition: all 0.25s ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.link--social-link:hover {
+  background: rgba(2, 93, 166, 0.15);
+  border-color: rgba(2, 93, 166, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(2, 93, 166, 0.25);
+}
+
+.link--social-link:hover .imageElement--social-icon {
+  opacity: 0.95;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .link--social-link {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* Technical Support Button - Clean & Elegant */
+.link--footer-support-button {
+  display: inline-block !important;
+  margin-top: 15px !important;
+  padding: 12px 32px !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  border-radius: 6px !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  transition: all 0.2s ease !important;
+  letter-spacing: 0.5px !important;
+  text-align: center !important;
+}
+
+.link--footer-support-button:hover {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+.link--footer-support-button:active {
+  transform: translateY(0) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Mobile - Botões full width */
+@media (max-width: 768px) {
+  .link--footer-support-button {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .link--footer-whatsapp-link {
+    display: block !important;
+    width: 100% !important;
+  }
+}
+
+/* WhatsApp Link */
+.link--footer-whatsapp-link {
+  display: inline-block !important;
+  width: auto !important;
+  margin-top: 5px !important;
+  margin-bottom: 20px !important;
+  padding: 0 !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.link--footer-whatsapp-link:hover {
+  transform: translateX(5px) !important;
+}

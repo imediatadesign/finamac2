@@ -44,7 +44,7 @@
   },
   "link#service-machines--es": {
     "props": {
-      "href": "/maquinas",
+      "href": "/maquinaria/por-producto-final",
       "blockClass": "service-link",
       "label": " "
     },
@@ -128,7 +128,7 @@
       "textPosition": "CENTER"
     }
   },
-  // Cursos
+  // Accesorios
   "flex-layout.col#service-courses--es": {
     "props": {
       "blockClass": "service-item",
@@ -142,7 +142,7 @@
   },
   "link#service-courses--es": {
     "props": {
-      "href": "/cursos",
+      "href": "/accesorios",
       "blockClass": "service-link",
       "label": " "
     },
@@ -163,7 +163,7 @@
   },
   "rich-text#service-courses-title--es": {
     "props": {
-      "text": "**Cursos**",
+      "text": "**Accesorios**",
       "blockClass": "service-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -289,7 +289,7 @@
   },
   "link#service-services--es": {
     "props": {
-      "href": "/servicios",
+      "href": "/treinamento-finamac",
       "blockClass": "service-link",
       "label": " "
     },
