@@ -18,7 +18,7 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#stack-mobile",
       "flex-layout.row#rightcol-mobile",
-      "flex-layout.row#pdp-descr-mobile",
+      "condition-layout.binding#product-tabs-switcher",
       "flex-layout.row#pdp-shelf",
       "flex-layout.row#pdp-reviews-row"
     ]
@@ -773,8 +773,7 @@
     "props": {
       "blockClass": "consulte-produtos-pdp",
       "preventVerticalStretch": true,
-      "verticalAlign": "middle",
-      "marginTop": 3
+      "verticalAlign": "middle"
     },
     "children": [
       "link#consulte-produtos-pdp"
@@ -863,12 +862,12 @@
       "blockClass": "pdp-tags"
     }
   },
-  // Stack 
+  // Stack
   "flex-layout.col#stack": {
     "children": [
       "stack-layout",
       "product-api-info",
-      "flex-layout.row#pdp-descr"
+      "condition-layout.binding#product-tabs-switcher"
     ],
     "props": {
       "blockClass": "stack",
@@ -882,7 +881,7 @@
     "children": [
       "stack-layout",
       "product-api-info",
-      "flex-layout.row#pdp-descr"
+      "condition-layout.binding#product-tabs-switcher"
     ],
     "props": {
       "blockClass": "stack",

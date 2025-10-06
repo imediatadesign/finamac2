@@ -320,3 +320,9 @@
     font-size: 1rem !important;
   }
 }
+
+
+.caretIcon {
+  transform: scale(.5) !important;
+  color: #014a8f !important;
+}

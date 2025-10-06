@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 16px 24px;
+  padding: 8px 18px;
   background-color: #25D366;
   color: white;
   border: none;
@@ -19,7 +19,7 @@
   letter-spacing: 0.5px;
   text-decoration: none;
   text-align: center;
-  gap: 8px;
+  gap: 3px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 

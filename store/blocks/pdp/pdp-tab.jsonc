@@ -94,7 +94,6 @@
             "tab-content#pdp-descr"
           ],
           "props": {
-            "blockClass": "home",
             "defaultActiveTabId": "pdp-tab-1"
           }
         },
@@ -108,7 +107,7 @@
                     "tab-list.item#pdp-tab-1": {
                       "props": {
                         "tabId": "pdp-tab-1",
-                        "label": " ",
+                        "label": "Descrição",
                         "defaultActiveTab": true
                       }
                     },
@@ -116,7 +115,7 @@
                     "tab-list.item#pdp-tab-2": {
                       "props": {
                         "tabId": "pdp-tab-2",
-                        "label": " "
+                        "label": "Especificações Técnicas"
                       }
                     },
 
@@ -159,10 +158,9 @@
                     "product-description#pdp-tab-1":{
                         "props":{
                             "showTitle":false,
-                            "collapseContent":false
-                            //"title":"Descrição"
+                            "collapseContent":true
                         }
-                        },
+                    },
                 
 
         // 2

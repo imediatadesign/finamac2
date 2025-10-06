@@ -92,5 +92,21 @@
 
   "consultorias-especializadas": {
     "component": "ConsultoriasEspecializadas"
+  },
+
+  "product-tabs": {
+    "component": "ProductTabs"
+  },
+
+  "product-tabs-pt": {
+    "component": "ProductTabsPT"
+  },
+
+  "product-tabs-en": {
+    "component": "ProductTabsEN"
+  },
+
+  "product-tabs-es": {
+    "component": "ProductTabsES"
   }
 }

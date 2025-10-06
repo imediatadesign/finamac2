@@ -1,0 +1,52 @@
+{
+  // ========== PRODUCT TABS MULTI-IDIOMA COM CONDITION LAYOUT ==========
+
+  "condition-layout.binding#product-tabs-switcher": {
+    "props": {
+      "conditions": [{
+        "subject": "bindingId",
+        "arguments": {
+          "id": "33cd2dcc-c319-4da0-82d5-71aa38b19380"  // PT-BR
+        }
+      }],
+      "Then": "flex-layout.row#product-tabs-pt",
+      "Else": "condition-layout.binding#product-tabs-en-es"
+    }
+  },
+
+  "condition-layout.binding#product-tabs-en-es": {
+    "props": {
+      "conditions": [{
+        "subject": "bindingId",
+        "arguments": {
+          "id": "56fe0518-7750-4e50-ada7-9d9c7e2f41c8"  // EN-US
+        }
+      }],
+      "Then": "flex-layout.row#product-tabs-en",
+      "Else": "flex-layout.row#product-tabs-es"  // ES-ES fallback
+    }
+  },
+
+  // ========== BLOCOS POR IDIOMA ==========
+
+  "flex-layout.row#product-tabs-pt": {
+    "props": {
+      "blockClass": "product-tabs-wrapper-pt"
+    },
+    "children": ["product-tabs-pt"]
+  },
+
+  "flex-layout.row#product-tabs-en": {
+    "props": {
+      "blockClass": "product-tabs-wrapper-en"
+    },
+    "children": ["product-tabs-en"]
+  },
+
+  "flex-layout.row#product-tabs-es": {
+    "props": {
+      "blockClass": "product-tabs-wrapper-es"
+    },
+    "children": ["product-tabs-es"]
+  }
+}
